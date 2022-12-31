@@ -1,0 +1,6 @@
+framework module Pods_EGChainable_Tests {
+  umbrella header "Pods-EGChainable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

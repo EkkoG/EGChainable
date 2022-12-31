@@ -1,0 +1,22 @@
+{
+  "name": "EGChainable",
+  "version": "0.1.0",
+  "summary": "A short description of EGChainable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3138493/EGChainable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "3138493": "beijiu572@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/3138493/EGChainable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "EGChainable/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module EGChainable {
+  umbrella header "EGChainable-umbrella.h"
+
+  export *
+  module * { export * }
+}

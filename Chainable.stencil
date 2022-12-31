@@ -1,0 +1,46 @@
+{% macro newlineIfNotLast isLast %}
+{% if not isLast %}
+
+{% endif %}
+{% endmacro %}
+
+
+{% for type in types.implementing.ChainableFlag|class %}
+// sourcery:file:{{ type.name }}+Chainable.swift
+import UIKit
+
+
+public extension ChainableObject where Base: {{ type.name }} {
+    {% for variable in type.allVariables|instance|openSet %}
+    {% set isContains %}{% for parentVariable in type.inherits[type.inheritedTypes[0]].allVariables|instance|openSet %}{% if parentVariable.name == variable.name %}true{% endif %}{% endfor %}{% endset %}
+    {% if not isContains == "true" %}
+    {{variable.attributes.available[0]}}
+    @discardableResult
+    func {{ variable.name }}(_ newValue: {{ variable.typeName }}) -> Self {
+        base.{{ variable.name }} = newValue
+        return self
+    }
+    {% call newlineIfNotLast forloop.last %}
+    {% endif %}
+    {% endfor %}
+
+    // Methods
+
+    {% for method in type.allMethods|instance %}
+    {% set isContains %}{% for parentMethod in type.inherits[type.inheritedTypes[0]].allMethods|instance %}{% if parentMethod.name == method.name %}true{% endif %}{% endfor %}{% endset %}
+    {% if not isContains == "true" %}
+    {% if method.actualReturnTypeName.name == "Void" %}
+    {% map method.parameters into result1 %}{%if maploop.item.argumentLabel %}{{maploop.item.argumentLabel}}: {{maploop.item.name}}{% else %}{{maploop.item.name}}{% endif %}{%ifnot maploop.last %},{% endif %}{% endmap %} 
+    {{method.attributes.available[0]}}
+    @discardableResult
+    func {{ method.name }} -> Self {
+        base.{{ method.callName }}({% for p in result1 %} {{ p }} {% endfor %})
+        return self
+    }
+    {% call newlineIfNotLast forloop.last %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+}
+// sourcery:end
+{% endfor %}
