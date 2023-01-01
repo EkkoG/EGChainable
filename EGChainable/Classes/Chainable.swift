@@ -25,4 +25,9 @@ public struct ChainableObject<Base> {
     init(_ base: Base) {
         self.base = base
     }
+
+    public func apply(_ closure: (Base) -> Void) -> Base {
+        closure(base)
+        return base
+    }
 }

@@ -7,47 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0527E35D734B449BF35B174A79FFCEB5 /* Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46BB61694E5CCA18F15093897F6B8A /* Chainable.swift */; };
-		0BBD0C7902A948163295E48317AA1CC4 /* UIStackView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A622A127EAEFD89011D17C547489B82 /* UIStackView+Chainable.swift */; };
-		18CF7DE17577DDD67140503F359EAC7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1F8025930B510E6156600574A2A5722E /* UIImageView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9051DA822C8F97A1CB12472D2289EE /* UIImageView+Chainable.swift */; };
-		1FC7444D92F521F217B0D0F6A28C0D29 /* UICollectionView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED3D5F24BB5A7BF81ED4347FE704F4 /* UICollectionView+Chainable.swift */; };
+		0D84F8E74752C9D1C74E4047D5A5F7FA /* UIStackView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50C6C32B036D9A30E6F02BC82DB98A /* UIStackView+Chainable.swift */; };
+		1C86C35CC4218F21D497C2E5A07E5FDA /* UIView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE86C00A778521C8DC53E75D0CBDE7D8 /* UIView+Chainable.swift */; };
+		1CE8D62161A6AF00A2241939417F02C3 /* EGChainable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E34CA4797DD08D9AED6A267687FBA /* EGChainable-dummy.m */; };
 		25324280EA4B3385827EB958C0B8658F /* Pods-EGChainable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF630622D30954E92E9774D9B60E96 /* Pods-EGChainable_Tests-dummy.m */; };
-		29534B5B1E2907F246A0499041231729 /* UIProgressView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1BC679CDB18C57B0759CBE1FB5207F /* UIProgressView+Chainable.swift */; };
 		2C2329BE33A5D48EB7522A9BF851426A /* Pods-EGChainable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5EFE10C5E80623DC06E7E3C4D5E99 /* Pods-EGChainable_Example-dummy.m */; };
-		32E8F60C10CF9CA2FD91977D556E3ECB /* UILabel+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520931E16A1B5F29637F44DC4197A47 /* UILabel+Chainable.swift */; };
-		3688A322D25B39E0D5B227D10E08C333 /* EGChainable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EF723994A552E3F905BBED242ABEAB /* EGChainable-dummy.m */; };
-		3CA5D0DA5F187A337521AEA6D615AF05 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90A3A66CCAC93C5DDE22167385A424 /* ReplaceMe.swift */; };
-		40315C7753235098D48B67F2516FB6A7 /* UITableView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0803C76C9C9EBE5AA40052A04C780A36 /* UITableView+Chainable.swift */; };
-		4F8F6221598AFD3D7296758CF5F43FBE /* UIScrollView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC198B86244C942EB15B96E3F11FFBDE /* UIScrollView+Chainable.swift */; };
-		53A2BD55DDE577B73B4573D355DBA290 /* UIButton+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE67956CA67E6C40E387BC7EBF50AD2 /* UIButton+Chainable.swift */; };
-		5D95FBF487E09F9023E182F29C8DB224 /* UIView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F31F23E46D8D883B655EFD486E013 /* UIView+Chainable.swift */; };
-		61EEA0ECBF350EB8814876AD8E9DF973 /* UISearchBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED994F41C33D44B39C820D1481C4810 /* UISearchBar+Chainable.swift */; };
-		6C63A31C59E892615E51531CFC06CC8F /* UIStepper+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F5639653C2DFE8A7C30A5B257565E /* UIStepper+Chainable.swift */; };
-		6C66D59BC32B33E5782DE36E0137A928 /* UIDatePicker+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146832D82365F1E35E4115EF4CDCD94B /* UIDatePicker+Chainable.swift */; };
+		3EA9DCF389F6B7D62F21A31DE579001D /* UIImageView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1065C7149A7B5D86C1A3052BC9DF8DA /* UIImageView+Chainable.swift */; };
+		4071D833D8F4228C3CB12DDE9A058EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		464A5552C46BB3903D445D2E2B767F41 /* UIScrollView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E863BECD594D268E2FFC03C6BE2025A /* UIScrollView+Chainable.swift */; };
+		543CB603E660339D310480684095881B /* UIStepper+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E461F796020734389D4BC3071BE108E /* UIStepper+Chainable.swift */; };
+		55200F95E7443B3EEF73F9CA2C6F1A41 /* UILabel+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B4768C1B95900B096C70E3E056621 /* UILabel+Chainable.swift */; };
 		6E6AD87250B0F93D4849EB198648EA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		704FF32FB68D8379779CC02432B45996 /* UIToolbar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1303ECF938334BF39CBE26D0F0702159 /* UIToolbar+Chainable.swift */; };
-		7075EE68D565C090F04BF7514CA1D4B1 /* UISwitch+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDCC23FA6407400E1D52D74917EABDF /* UISwitch+Chainable.swift */; };
-		75046A75EA61558639BADBFCB573E896 /* EGChainable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 829288CBB3EC72FB1547435C0E8B74C2 /* EGChainable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88C751A9F6B9F5EB2AF595CFCDD4F676 /* UIControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AFE2505D128F08A2D125B6E3E85974 /* UIControl+Chainable.swift */; };
-		952A1025B57A4C96BB6CD68055855A26 /* UITabBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9ACE46B9B166493EFEBEE1C039BD74 /* UITabBar+Chainable.swift */; };
+		7B50C47EE8D0DABCFA2C7F2AD1131917 /* UISlider+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29AB6D019954A38A4CADAD27BF0806D /* UISlider+Chainable.swift */; };
+		7CC00C0C46FEAAC2C1FA07E40780CB07 /* UISwitch+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDCD476151272CC1BAE7A40A027B53 /* UISwitch+Chainable.swift */; };
+		80B25BBE0B0DA6C030322DEB399EF079 /* UITextView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55707789EBBC76DEF88430A586CEBDA6 /* UITextView+Chainable.swift */; };
+		82D476FF79BCBE4D17EEE06D24847181 /* UIToolbar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF2DD7067A9FEFD753E40247C99EE5 /* UIToolbar+Chainable.swift */; };
+		8872C5A516B72D3D7FEA3FEB1D2EAD81 /* UIProgressView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C508492EAD326DC9C10EBB0A223447 /* UIProgressView+Chainable.swift */; };
+		8BA538B4F311088C4CF6242108A4F993 /* Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610C789951E2ECDB7E23502FBE40B99 /* Chainable.swift */; };
+		973FA1A04BD0EEAE2B80C0DE0D42E563 /* UISearchBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D336B978198E0E08779E5EB6CE1BF35 /* UISearchBar+Chainable.swift */; };
+		9B01CA87275C9FEB347A19E49720DB81 /* UICollectionView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE0539FA2774231AF067354AAE9BD31 /* UICollectionView+Chainable.swift */; };
 		A38B1F84F84A7FEC0B9964549783E43D /* Pods-EGChainable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D87855269A1C930320401B2B30E591 /* Pods-EGChainable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B79A736576CA29AB5D52128239E82512 /* UISlider+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EF3004527F51A4014CDEDFC8ABCE1A /* UISlider+Chainable.swift */; };
+		A9AC34602378009AC331D5CF7682DEE6 /* UITabBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580921427CAB267A2DAADBCEB4C76544 /* UITabBar+Chainable.swift */; };
+		C47A427C3CE04F576B61DEBD838AF50A /* UIButton+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A0380EEA71E7023B7E72C501549F2 /* UIButton+Chainable.swift */; };
 		CC90F098826FDF7F2CBE58E3DE9E77D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F2D9596B517E2292748CBE4FADA5C1E7 /* UIActivityIndicatorView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59938144B35A7D90C78372BB313BA0C3 /* UIActivityIndicatorView+Chainable.swift */; };
+		D71B3074A7C75F2708E8ECF4DCB042A0 /* UIControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F0DB492B89AC53404500125B5E7F45 /* UIControl+Chainable.swift */; };
+		DF17D709E8889D4108478727521868AD /* EGChainable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3C7E0D4FEFA229EDD4F6A2FABB731B /* EGChainable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E334C41C54B9BFFA269E51C36D14BF33 /* UIActivityIndicatorView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9BAC612CA4EB38B2FD3D48CC883DCE /* UIActivityIndicatorView+Chainable.swift */; };
+		EA6F2F2893B9D4F1B97682726EB3773E /* UITableView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891182357A5C3886B96B44F725A04732 /* UITableView+Chainable.swift */; };
 		F72891D2E8EA86DB9371F9054A292C29 /* Pods-EGChainable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60889E5402A426C64BE695194569F83D /* Pods-EGChainable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F936FF5E3C6673ABF3ACDBEAD35D58B3 /* UITextView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1671FEEB46EF421787B769C28A7B49C /* UITextView+Chainable.swift */; };
+		FAE25AD4F38049AE217114F5F44A6F85 /* UIDatePicker+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A4C892E13F11B88C467478C783A45 /* UIDatePicker+Chainable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48B84CAFDC41AD9A33E024BD92BEF0D2 /* PBXContainerItemProxy */ = {
+		20F2FB082CA82635589076337514601C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A04E9491708E9BDE68AFC3AA95859871;
 			remoteInfo = "Pods-EGChainable_Example";
 		};
-		85E68E2F1CB0A1BC40FAC6BC085A4C31 /* PBXContainerItemProxy */ = {
+		E9BC40AD05E4FB389A98D7F9B10EEDB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -57,67 +56,66 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03ED3D5F24BB5A7BF81ED4347FE704F4 /* UICollectionView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Chainable.swift"; sourceTree = "<group>"; };
+		03F0DB492B89AC53404500125B5E7F45 /* UIControl+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+Chainable.swift"; sourceTree = "<group>"; };
 		04E04828EE51733141B19559E3297831 /* Pods-EGChainable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EGChainable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0803C76C9C9EBE5AA40052A04C780A36 /* UITableView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+Chainable.swift"; sourceTree = "<group>"; };
+		04EDCD476151272CC1BAE7A40A027B53 /* UISwitch+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISwitch+Chainable.swift"; sourceTree = "<group>"; };
 		0BCBA484349379DB8E553A4EBF5DF928 /* Pods-EGChainable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EGChainable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1303ECF938334BF39CBE26D0F0702159 /* UIToolbar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Chainable.swift"; sourceTree = "<group>"; };
-		146832D82365F1E35E4115EF4CDCD94B /* UIDatePicker+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDatePicker+Chainable.swift"; sourceTree = "<group>"; };
-		17EF3004527F51A4014CDEDFC8ABCE1A /* UISlider+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISlider+Chainable.swift"; sourceTree = "<group>"; };
 		1BA305403DEA534603E6EE742654D9BB /* Pods-EGChainable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EGChainable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1C1BC679CDB18C57B0759CBE1FB5207F /* UIProgressView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Chainable.swift"; sourceTree = "<group>"; };
-		1F3F5639653C2DFE8A7C30A5B257565E /* UIStepper+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStepper+Chainable.swift"; sourceTree = "<group>"; };
-		2A9051DA822C8F97A1CB12472D2289EE /* UIImageView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+Chainable.swift"; sourceTree = "<group>"; };
+		2D336B978198E0E08779E5EB6CE1BF35 /* UISearchBar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Chainable.swift"; sourceTree = "<group>"; };
+		2F9E33687F294C3EF833DB9AD352DE47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3B3C7E0D4FEFA229EDD4F6A2FABB731B /* EGChainable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGChainable-umbrella.h"; sourceTree = "<group>"; };
 		3DF5EFE10C5E80623DC06E7E3C4D5E99 /* Pods-EGChainable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EGChainable_Example-dummy.m"; sourceTree = "<group>"; };
+		3E863BECD594D268E2FFC03C6BE2025A /* UIScrollView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Chainable.swift"; sourceTree = "<group>"; };
 		40222854EF95FE8D118D225D8BFF7CF5 /* Pods-EGChainable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EGChainable_Tests.modulemap"; sourceTree = "<group>"; };
-		4BDCC23FA6407400E1D52D74917EABDF /* UISwitch+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISwitch+Chainable.swift"; sourceTree = "<group>"; };
-		4E90A3A66CCAC93C5DDE22167385A424 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EGChainable/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		55E9AC7EBB2A72E8757E042288757B9B /* EGChainable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EGChainable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4610C789951E2ECDB7E23502FBE40B99 /* Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chainable.swift; path = EGChainable/Classes/Chainable.swift; sourceTree = "<group>"; };
+		4E461F796020734389D4BC3071BE108E /* UIStepper+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStepper+Chainable.swift"; sourceTree = "<group>"; };
+		527A0380EEA71E7023B7E72C501549F2 /* UIButton+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Chainable.swift"; sourceTree = "<group>"; };
+		55707789EBBC76DEF88430A586CEBDA6 /* UITextView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Chainable.swift"; sourceTree = "<group>"; };
 		56D1A52305C91E7A3E290A2CAF11F7A1 /* Pods-EGChainable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EGChainable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		59938144B35A7D90C78372BB313BA0C3 /* UIActivityIndicatorView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Chainable.swift"; sourceTree = "<group>"; };
+		580921427CAB267A2DAADBCEB4C76544 /* UITabBar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+Chainable.swift"; sourceTree = "<group>"; };
+		5D50C6C32B036D9A30E6F02BC82DB98A /* UIStackView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+Chainable.swift"; sourceTree = "<group>"; };
+		5E9BAC612CA4EB38B2FD3D48CC883DCE /* UIActivityIndicatorView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Chainable.swift"; sourceTree = "<group>"; };
 		60889E5402A426C64BE695194569F83D /* Pods-EGChainable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EGChainable_Example-umbrella.h"; sourceTree = "<group>"; };
-		6323F04F21631465AE0AE262B3384BC1 /* EGChainable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EGChainable.modulemap; sourceTree = "<group>"; };
-		6B31FBE7C6B61BC8D3BEEF08AFAD0440 /* EGChainable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EGChainable-Info.plist"; sourceTree = "<group>"; };
 		6BCF630622D30954E92E9774D9B60E96 /* Pods-EGChainable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EGChainable_Tests-dummy.m"; sourceTree = "<group>"; };
-		6E9ACE46B9B166493EFEBEE1C039BD74 /* UITabBar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+Chainable.swift"; sourceTree = "<group>"; };
 		718F8B6C02E6A78ACD1A567073D333F7 /* Pods-EGChainable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EGChainable_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76BF2DD7067A9FEFD753E40247C99EE5 /* UIToolbar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Chainable.swift"; sourceTree = "<group>"; };
 		7902DDB751A63A041A57F9F2845E99DD /* Pods-EGChainable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EGChainable_Example.modulemap"; sourceTree = "<group>"; };
-		7A622A127EAEFD89011D17C547489B82 /* UIStackView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+Chainable.swift"; sourceTree = "<group>"; };
 		7C32F4EF64C86D1C72BDCCD5269DD4A6 /* EGChainable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EGChainable; path = EGChainable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ED994F41C33D44B39C820D1481C4810 /* UISearchBar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Chainable.swift"; sourceTree = "<group>"; };
-		829288CBB3EC72FB1547435C0E8B74C2 /* EGChainable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGChainable-umbrella.h"; sourceTree = "<group>"; };
-		8BBD68F56B17C711C1BD95CA2E59F1A2 /* EGChainable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGChainable.release.xcconfig; sourceTree = "<group>"; };
+		7D6E34CA4797DD08D9AED6A267687FBA /* EGChainable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EGChainable-dummy.m"; sourceTree = "<group>"; };
+		891182357A5C3886B96B44F725A04732 /* UITableView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+Chainable.swift"; sourceTree = "<group>"; };
+		8F320975F8EB85461C3DD9720BF7D152 /* EGChainable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EGChainable.modulemap; sourceTree = "<group>"; };
+		9182456D8596E0A673A78AC6772E74B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		934878FEF3DDD259CBA46D9285FBBDE2 /* Pods-EGChainable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EGChainable_Example-Info.plist"; sourceTree = "<group>"; };
+		968A4C892E13F11B88C467478C783A45 /* UIDatePicker+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDatePicker+Chainable.swift"; sourceTree = "<group>"; };
 		9BE4C7279AFC8A64A1EF636000AA6CAC /* Pods-EGChainable_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EGChainable_Example"; path = Pods_EGChainable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A520931E16A1B5F29637F44DC4197A47 /* UILabel+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Chainable.swift"; sourceTree = "<group>"; };
-		A5EF723994A552E3F905BBED242ABEAB /* EGChainable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EGChainable-dummy.m"; sourceTree = "<group>"; };
 		A9D0BBB83C275C321D801FCFB3D35C59 /* Pods-EGChainable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EGChainable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ABC71D980F3E46A5DCD575657B17349F /* Pods-EGChainable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EGChainable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AE86C00A778521C8DC53E75D0CBDE7D8 /* UIView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Chainable.swift"; sourceTree = "<group>"; };
 		AEAB075692EBF0A02E7474C78AAE2F1F /* Pods-EGChainable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EGChainable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEEA4F45BBF139907211E42840690018 /* EGChainable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGChainable.release.xcconfig; sourceTree = "<group>"; };
 		B1307094AC61C1404CFF5D20A17393BB /* Pods-EGChainable_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EGChainable_Tests"; path = Pods_EGChainable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D87855269A1C930320401B2B30E591 /* Pods-EGChainable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EGChainable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B43A687A5E76F0E8757CB9895787D108 /* Pods-EGChainable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EGChainable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B7AFE2505D128F08A2D125B6E3E85974 /* UIControl+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+Chainable.swift"; sourceTree = "<group>"; };
-		CD022D9E64A870E180E19704ED2DB0FD /* EGChainable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGChainable-prefix.pch"; sourceTree = "<group>"; };
-		CF46BB61694E5CCA18F15093897F6B8A /* Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Chainable.swift; sourceTree = "<group>"; };
-		DA1F31F23E46D8D883B655EFD486E013 /* UIView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Chainable.swift"; sourceTree = "<group>"; };
-		DAB5A6D82E81FE715AB2508E955819C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E1671FEEB46EF421787B769C28A7B49C /* UITextView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Chainable.swift"; sourceTree = "<group>"; };
-		EEB7B9D30174681EF9CA781180BA73D8 /* EGChainable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGChainable.debug.xcconfig; sourceTree = "<group>"; };
+		D05B4768C1B95900B096C70E3E056621 /* UILabel+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Chainable.swift"; sourceTree = "<group>"; };
+		DF4B9610FC138C2DE1C24084C9555F50 /* EGChainable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EGChainable-Info.plist"; sourceTree = "<group>"; };
+		E1882AEC542D50149258931F6A8AC321 /* EGChainable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EGChainable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E29AB6D019954A38A4CADAD27BF0806D /* UISlider+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISlider+Chainable.swift"; sourceTree = "<group>"; };
+		F1065C7149A7B5D86C1A3052BC9DF8DA /* UIImageView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+Chainable.swift"; sourceTree = "<group>"; };
+		F25D89C9321B1364C418B4C5D526E24C /* EGChainable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGChainable.debug.xcconfig; sourceTree = "<group>"; };
+		F3FEBFC27C3C9F08202B1085A4A56507 /* EGChainable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGChainable-prefix.pch"; sourceTree = "<group>"; };
+		F5C508492EAD326DC9C10EBB0A223447 /* UIProgressView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Chainable.swift"; sourceTree = "<group>"; };
 		FA58BCBA20150C42F958E2879C698139 /* Pods-EGChainable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EGChainable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FC198B86244C942EB15B96E3F11FFBDE /* UIScrollView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Chainable.swift"; sourceTree = "<group>"; };
-		FE7A827134CBBA66D0B01A238D9BDA92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FEE67956CA67E6C40E387BC7EBF50AD2 /* UIButton+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Chainable.swift"; sourceTree = "<group>"; };
+		FCE0539FA2774231AF067354AAE9BD31 /* UICollectionView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Chainable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		752CA1BD0C4008629BCAB0A3872C7F80 /* Frameworks */ = {
+		11D89DFDB9164DA8778647E103D43993 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CF7DE17577DDD67140503F359EAC7B /* Foundation.framework in Frameworks */,
+				4071D833D8F4228C3CB12DDE9A058EB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,16 +138,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D0AC45EF20D614706005E001EA617D4 /* Support Files */ = {
+		3D327B54EE5220DF55E40115901CD4EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6323F04F21631465AE0AE262B3384BC1 /* EGChainable.modulemap */,
-				A5EF723994A552E3F905BBED242ABEAB /* EGChainable-dummy.m */,
-				6B31FBE7C6B61BC8D3BEEF08AFAD0440 /* EGChainable-Info.plist */,
-				CD022D9E64A870E180E19704ED2DB0FD /* EGChainable-prefix.pch */,
-				829288CBB3EC72FB1547435C0E8B74C2 /* EGChainable-umbrella.h */,
-				EEB7B9D30174681EF9CA781180BA73D8 /* EGChainable.debug.xcconfig */,
-				8BBD68F56B17C711C1BD95CA2E59F1A2 /* EGChainable.release.xcconfig */,
+				8F320975F8EB85461C3DD9720BF7D152 /* EGChainable.modulemap */,
+				7D6E34CA4797DD08D9AED6A267687FBA /* EGChainable-dummy.m */,
+				DF4B9610FC138C2DE1C24084C9555F50 /* EGChainable-Info.plist */,
+				F3FEBFC27C3C9F08202B1085A4A56507 /* EGChainable-prefix.pch */,
+				3B3C7E0D4FEFA229EDD4F6A2FABB731B /* EGChainable-umbrella.h */,
+				F25D89C9321B1364C418B4C5D526E24C /* EGChainable.debug.xcconfig */,
+				AEEA4F45BBF139907211E42840690018 /* EGChainable.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EGChainable";
@@ -172,33 +170,6 @@
 			path = "Target Support Files/Pods-EGChainable_Example";
 			sourceTree = "<group>";
 		};
-		552EB268FF132C4F4389AFAC5EB65108 /* Generated */ = {
-			isa = PBXGroup;
-			children = (
-				59938144B35A7D90C78372BB313BA0C3 /* UIActivityIndicatorView+Chainable.swift */,
-				FEE67956CA67E6C40E387BC7EBF50AD2 /* UIButton+Chainable.swift */,
-				03ED3D5F24BB5A7BF81ED4347FE704F4 /* UICollectionView+Chainable.swift */,
-				B7AFE2505D128F08A2D125B6E3E85974 /* UIControl+Chainable.swift */,
-				146832D82365F1E35E4115EF4CDCD94B /* UIDatePicker+Chainable.swift */,
-				2A9051DA822C8F97A1CB12472D2289EE /* UIImageView+Chainable.swift */,
-				A520931E16A1B5F29637F44DC4197A47 /* UILabel+Chainable.swift */,
-				1C1BC679CDB18C57B0759CBE1FB5207F /* UIProgressView+Chainable.swift */,
-				FC198B86244C942EB15B96E3F11FFBDE /* UIScrollView+Chainable.swift */,
-				7ED994F41C33D44B39C820D1481C4810 /* UISearchBar+Chainable.swift */,
-				17EF3004527F51A4014CDEDFC8ABCE1A /* UISlider+Chainable.swift */,
-				7A622A127EAEFD89011D17C547489B82 /* UIStackView+Chainable.swift */,
-				1F3F5639653C2DFE8A7C30A5B257565E /* UIStepper+Chainable.swift */,
-				4BDCC23FA6407400E1D52D74917EABDF /* UISwitch+Chainable.swift */,
-				6E9ACE46B9B166493EFEBEE1C039BD74 /* UITabBar+Chainable.swift */,
-				0803C76C9C9EBE5AA40052A04C780A36 /* UITableView+Chainable.swift */,
-				E1671FEEB46EF421787B769C28A7B49C /* UITextView+Chainable.swift */,
-				1303ECF938334BF39CBE26D0F0702159 /* UIToolbar+Chainable.swift */,
-				DA1F31F23E46D8D883B655EFD486E013 /* UIView+Chainable.swift */,
-			);
-			name = Generated;
-			path = Generated;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,14 +178,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		65AEC69FE0FBA522A8231CA6E3F53180 /* Chainable */ = {
+		5EDD510190705531CE84FBD3F5020AF6 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				CF46BB61694E5CCA18F15093897F6B8A /* Chainable.swift */,
-				552EB268FF132C4F4389AFAC5EB65108 /* Generated */,
+				5E9BAC612CA4EB38B2FD3D48CC883DCE /* UIActivityIndicatorView+Chainable.swift */,
+				527A0380EEA71E7023B7E72C501549F2 /* UIButton+Chainable.swift */,
+				FCE0539FA2774231AF067354AAE9BD31 /* UICollectionView+Chainable.swift */,
+				03F0DB492B89AC53404500125B5E7F45 /* UIControl+Chainable.swift */,
+				968A4C892E13F11B88C467478C783A45 /* UIDatePicker+Chainable.swift */,
+				F1065C7149A7B5D86C1A3052BC9DF8DA /* UIImageView+Chainable.swift */,
+				D05B4768C1B95900B096C70E3E056621 /* UILabel+Chainable.swift */,
+				F5C508492EAD326DC9C10EBB0A223447 /* UIProgressView+Chainable.swift */,
+				3E863BECD594D268E2FFC03C6BE2025A /* UIScrollView+Chainable.swift */,
+				2D336B978198E0E08779E5EB6CE1BF35 /* UISearchBar+Chainable.swift */,
+				E29AB6D019954A38A4CADAD27BF0806D /* UISlider+Chainable.swift */,
+				5D50C6C32B036D9A30E6F02BC82DB98A /* UIStackView+Chainable.swift */,
+				4E461F796020734389D4BC3071BE108E /* UIStepper+Chainable.swift */,
+				04EDCD476151272CC1BAE7A40A027B53 /* UISwitch+Chainable.swift */,
+				580921427CAB267A2DAADBCEB4C76544 /* UITabBar+Chainable.swift */,
+				891182357A5C3886B96B44F725A04732 /* UITableView+Chainable.swift */,
+				55707789EBBC76DEF88430A586CEBDA6 /* UITextView+Chainable.swift */,
+				76BF2DD7067A9FEFD753E40247C99EE5 /* UIToolbar+Chainable.swift */,
+				AE86C00A778521C8DC53E75D0CBDE7D8 /* UIView+Chainable.swift */,
 			);
-			name = Chainable;
-			path = EGChainable/Classes/Chainable;
+			name = Generated;
+			path = EGChainable/Classes/Generated;
+			sourceTree = "<group>";
+		};
+		74AD6BE027F0379D04B9B974B7D55041 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E1882AEC542D50149258931F6A8AC321 /* EGChainable.podspec */,
+				9182456D8596E0A673A78AC6772E74B4 /* LICENSE */,
+				2F9E33687F294C3EF833DB9AD352DE47 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		883996552E06D297C4CE1769AAAF400C /* Products */ = {
@@ -227,34 +225,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BEC9CBA8652D2723891A957A2C03CFD /* EGChainable */ = {
-			isa = PBXGroup;
-			children = (
-				4E90A3A66CCAC93C5DDE22167385A424 /* ReplaceMe.swift */,
-				65AEC69FE0FBA522A8231CA6E3F53180 /* Chainable */,
-				B7E7CC01621BE4B89946B7883D51C1A7 /* Pod */,
-				1D0AC45EF20D614706005E001EA617D4 /* Support Files */,
-			);
-			name = EGChainable;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		9AA7BC9B1AA9260AE57D51D114749275 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8BEC9CBA8652D2723891A957A2C03CFD /* EGChainable */,
+				E5F57523EF63557F8DF9EFA253FFC1CB /* EGChainable */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B7E7CC01621BE4B89946B7883D51C1A7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				55E9AC7EBB2A72E8757E042288757B9B /* EGChainable.podspec */,
-				DAB5A6D82E81FE715AB2508E955819C1 /* LICENSE */,
-				FE7A827134CBBA66D0B01A238D9BDA92 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C81C40204D04C239CDEC5B31EAB8587A /* Targets Support Files */ = {
@@ -285,6 +261,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E5F57523EF63557F8DF9EFA253FFC1CB /* EGChainable */ = {
+			isa = PBXGroup;
+			children = (
+				4610C789951E2ECDB7E23502FBE40B99 /* Chainable.swift */,
+				5EDD510190705531CE84FBD3F5020AF6 /* Generated */,
+				74AD6BE027F0379D04B9B974B7D55041 /* Pod */,
+				3D327B54EE5220DF55E40115901CD4EA /* Support Files */,
+			);
+			name = EGChainable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		EB7C0EAD97B5F1D2601D7C13D39F19D6 /* Pods-EGChainable_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,19 +292,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		065464544FE7FC34A46BB19E28C92696 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF17D709E8889D4108478727521868AD /* EGChainable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A3435E7A5301D54FB10B79D3A8B7613 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F72891D2E8EA86DB9371F9054A292C29 /* Pods-EGChainable_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		41E617E6D00C904444717A9F36996866 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75046A75EA61558639BADBFCB573E896 /* EGChainable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,12 +321,12 @@
 /* Begin PBXNativeTarget section */
 		14C66C0A0EF4BB503EC6B6F3C5AD9C32 /* EGChainable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5C3DDB8315A1A182704006E7E78CEBE /* Build configuration list for PBXNativeTarget "EGChainable" */;
+			buildConfigurationList = A5D78424ABFA690288B801D05F9558FB /* Build configuration list for PBXNativeTarget "EGChainable" */;
 			buildPhases = (
-				41E617E6D00C904444717A9F36996866 /* Headers */,
-				5E6B2B4261CBC3A852CFF84D24A2A8DD /* Sources */,
-				752CA1BD0C4008629BCAB0A3872C7F80 /* Frameworks */,
-				1A0CF6D9E027ABDACA4829747019139C /* Resources */,
+				065464544FE7FC34A46BB19E28C92696 /* Headers */,
+				09B0356E077A867BE6DBC2EC412466DF /* Sources */,
+				11D89DFDB9164DA8778647E103D43993 /* Frameworks */,
+				FF52D960627A68BDF84502D36CB5A3C3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -361,7 +349,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AA14DFD65FF243A28D36F4F03F8B0580 /* PBXTargetDependency */,
+				C7FD288796EE7BAC82290F762E5E24BE /* PBXTargetDependency */,
 			);
 			name = "Pods-EGChainable_Example";
 			productName = Pods_EGChainable_Example;
@@ -380,7 +368,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8C230AB3688C58765F54D6D9B66B7AA4 /* PBXTargetDependency */,
+				80A6C36A14E05483287BD91903501B67 /* PBXTargetDependency */,
 			);
 			name = "Pods-EGChainable_Tests";
 			productName = Pods_EGChainable_Tests;
@@ -424,14 +412,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A0CF6D9E027ABDACA4829747019139C /* Resources */ = {
+		D393630BD81C0965006FDA7AC7FEFF1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D393630BD81C0965006FDA7AC7FEFF1A /* Resources */ = {
+		FF52D960627A68BDF84502D36CB5A3C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,32 +429,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E6B2B4261CBC3A852CFF84D24A2A8DD /* Sources */ = {
+		09B0356E077A867BE6DBC2EC412466DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0527E35D734B449BF35B174A79FFCEB5 /* Chainable.swift in Sources */,
-				3688A322D25B39E0D5B227D10E08C333 /* EGChainable-dummy.m in Sources */,
-				3CA5D0DA5F187A337521AEA6D615AF05 /* ReplaceMe.swift in Sources */,
-				F2D9596B517E2292748CBE4FADA5C1E7 /* UIActivityIndicatorView+Chainable.swift in Sources */,
-				53A2BD55DDE577B73B4573D355DBA290 /* UIButton+Chainable.swift in Sources */,
-				1FC7444D92F521F217B0D0F6A28C0D29 /* UICollectionView+Chainable.swift in Sources */,
-				88C751A9F6B9F5EB2AF595CFCDD4F676 /* UIControl+Chainable.swift in Sources */,
-				6C66D59BC32B33E5782DE36E0137A928 /* UIDatePicker+Chainable.swift in Sources */,
-				1F8025930B510E6156600574A2A5722E /* UIImageView+Chainable.swift in Sources */,
-				32E8F60C10CF9CA2FD91977D556E3ECB /* UILabel+Chainable.swift in Sources */,
-				29534B5B1E2907F246A0499041231729 /* UIProgressView+Chainable.swift in Sources */,
-				4F8F6221598AFD3D7296758CF5F43FBE /* UIScrollView+Chainable.swift in Sources */,
-				61EEA0ECBF350EB8814876AD8E9DF973 /* UISearchBar+Chainable.swift in Sources */,
-				B79A736576CA29AB5D52128239E82512 /* UISlider+Chainable.swift in Sources */,
-				0BBD0C7902A948163295E48317AA1CC4 /* UIStackView+Chainable.swift in Sources */,
-				6C63A31C59E892615E51531CFC06CC8F /* UIStepper+Chainable.swift in Sources */,
-				7075EE68D565C090F04BF7514CA1D4B1 /* UISwitch+Chainable.swift in Sources */,
-				952A1025B57A4C96BB6CD68055855A26 /* UITabBar+Chainable.swift in Sources */,
-				40315C7753235098D48B67F2516FB6A7 /* UITableView+Chainable.swift in Sources */,
-				F936FF5E3C6673ABF3ACDBEAD35D58B3 /* UITextView+Chainable.swift in Sources */,
-				704FF32FB68D8379779CC02432B45996 /* UIToolbar+Chainable.swift in Sources */,
-				5D95FBF487E09F9023E182F29C8DB224 /* UIView+Chainable.swift in Sources */,
+				8BA538B4F311088C4CF6242108A4F993 /* Chainable.swift in Sources */,
+				1CE8D62161A6AF00A2241939417F02C3 /* EGChainable-dummy.m in Sources */,
+				E334C41C54B9BFFA269E51C36D14BF33 /* UIActivityIndicatorView+Chainable.swift in Sources */,
+				C47A427C3CE04F576B61DEBD838AF50A /* UIButton+Chainable.swift in Sources */,
+				9B01CA87275C9FEB347A19E49720DB81 /* UICollectionView+Chainable.swift in Sources */,
+				D71B3074A7C75F2708E8ECF4DCB042A0 /* UIControl+Chainable.swift in Sources */,
+				FAE25AD4F38049AE217114F5F44A6F85 /* UIDatePicker+Chainable.swift in Sources */,
+				3EA9DCF389F6B7D62F21A31DE579001D /* UIImageView+Chainable.swift in Sources */,
+				55200F95E7443B3EEF73F9CA2C6F1A41 /* UILabel+Chainable.swift in Sources */,
+				8872C5A516B72D3D7FEA3FEB1D2EAD81 /* UIProgressView+Chainable.swift in Sources */,
+				464A5552C46BB3903D445D2E2B767F41 /* UIScrollView+Chainable.swift in Sources */,
+				973FA1A04BD0EEAE2B80C0DE0D42E563 /* UISearchBar+Chainable.swift in Sources */,
+				7B50C47EE8D0DABCFA2C7F2AD1131917 /* UISlider+Chainable.swift in Sources */,
+				0D84F8E74752C9D1C74E4047D5A5F7FA /* UIStackView+Chainable.swift in Sources */,
+				543CB603E660339D310480684095881B /* UIStepper+Chainable.swift in Sources */,
+				7CC00C0C46FEAAC2C1FA07E40780CB07 /* UISwitch+Chainable.swift in Sources */,
+				A9AC34602378009AC331D5CF7682DEE6 /* UITabBar+Chainable.swift in Sources */,
+				EA6F2F2893B9D4F1B97682726EB3773E /* UITableView+Chainable.swift in Sources */,
+				80B25BBE0B0DA6C030322DEB399EF079 /* UITextView+Chainable.swift in Sources */,
+				82D476FF79BCBE4D17EEE06D24847181 /* UIToolbar+Chainable.swift in Sources */,
+				1C86C35CC4218F21D497C2E5A07E5FDA /* UIView+Chainable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,17 +476,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8C230AB3688C58765F54D6D9B66B7AA4 /* PBXTargetDependency */ = {
+		80A6C36A14E05483287BD91903501B67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EGChainable_Example";
 			target = A04E9491708E9BDE68AFC3AA95859871 /* Pods-EGChainable_Example */;
-			targetProxy = 48B84CAFDC41AD9A33E024BD92BEF0D2 /* PBXContainerItemProxy */;
+			targetProxy = 20F2FB082CA82635589076337514601C /* PBXContainerItemProxy */;
 		};
-		AA14DFD65FF243A28D36F4F03F8B0580 /* PBXTargetDependency */ = {
+		C7FD288796EE7BAC82290F762E5E24BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EGChainable;
 			target = 14C66C0A0EF4BB503EC6B6F3C5AD9C32 /* EGChainable */;
-			targetProxy = 85E68E2F1CB0A1BC40FAC6BC085A4C31 /* PBXContainerItemProxy */;
+			targetProxy = E9BC40AD05E4FB389A98D7F9B10EEDB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -538,9 +525,9 @@
 			};
 			name = Release;
 		};
-		64AF5FF91B9217FEB7017643B273081B /* Debug */ = {
+		4310E8D52BE59C6819AFB1BEB11B19E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEB7B9D30174681EF9CA781180BA73D8 /* EGChainable.debug.xcconfig */;
+			baseConfigurationReference = F25D89C9321B1364C418B4C5D526E24C /* EGChainable.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -797,9 +784,9 @@
 			};
 			name = Release;
 		};
-		F299CB46BD5991AA566CF4E2E6E729DA /* Release */ = {
+		FB621AD48D15C07884A6D8815F8AEBEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BBD68F56B17C711C1BD95CA2E59F1A2 /* EGChainable.release.xcconfig */;
+			baseConfigurationReference = AEEA4F45BBF139907211E42840690018 /* EGChainable.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -859,11 +846,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5C3DDB8315A1A182704006E7E78CEBE /* Build configuration list for PBXNativeTarget "EGChainable" */ = {
+		A5D78424ABFA690288B801D05F9558FB /* Build configuration list for PBXNativeTarget "EGChainable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64AF5FF91B9217FEB7017643B273081B /* Debug */,
-				F299CB46BD5991AA566CF4E2E6E729DA /* Release */,
+				4310E8D52BE59C6819AFB1BEB11B19E6 /* Debug */,
+				FB621AD48D15C07884A6D8815F8AEBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
