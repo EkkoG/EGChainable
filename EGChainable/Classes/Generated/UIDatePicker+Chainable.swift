@@ -1,10 +1,12 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
+@available(iOS 2.0, *)
 extension UIDatePicker: Chainable {
     public typealias ChainableObjectCompatible = UIDatePicker
 }
 
+@available(iOS 2.0, *)
 public extension ChainableObject where Base: UIDatePicker {
     @discardableResult
     func datePickerMode(_ newValue: UIDatePicker.Mode) -> Self {

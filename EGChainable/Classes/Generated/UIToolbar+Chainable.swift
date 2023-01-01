@@ -1,10 +1,12 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
+@available(iOS 2.0, *)
 extension UIToolbar: Chainable {
     public typealias ChainableObjectCompatible = UIToolbar
 }
 
+@available(iOS 2.0, *)
 public extension ChainableObject where Base: UIToolbar {
     @discardableResult
     func barStyle(_ newValue: UIBarStyle) -> Self {

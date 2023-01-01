@@ -1,10 +1,12 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
+@available(iOS 2.0, *)
 extension UIProgressView: Chainable {
     public typealias ChainableObjectCompatible = UIProgressView
 }
 
+@available(iOS 2.0, *)
 public extension ChainableObject where Base: UIProgressView {
     @discardableResult
     func progressViewStyle(_ newValue: UIProgressView.Style) -> Self {

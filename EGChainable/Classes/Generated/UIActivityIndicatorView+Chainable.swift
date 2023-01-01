@@ -1,10 +1,12 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
+@available(iOS 2.0, *)
 extension UIActivityIndicatorView: Chainable {
     public typealias ChainableObjectCompatible = UIActivityIndicatorView
 }
 
+@available(iOS 2.0, *)
 public extension ChainableObject where Base: UIActivityIndicatorView {
     @discardableResult
     func style(_ newValue: UIActivityIndicatorView.Style) -> Self {

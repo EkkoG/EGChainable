@@ -1,10 +1,12 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
+@available(iOS 6.0, *)
 extension UICollectionView: Chainable {
     public typealias ChainableObjectCompatible = UICollectionView
 }
 
+@available(iOS 6.0, *)
 public extension ChainableObject where Base: UICollectionView {
     @discardableResult
     func collectionViewLayout(_ newValue: UICollectionViewLayout) -> Self {

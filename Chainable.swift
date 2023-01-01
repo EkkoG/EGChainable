@@ -36,3 +36,9 @@ extension UIKit.UIPageControl: ChainableFlag {}
 extension UIKit.UIActivityIndicatorView: ChainableFlag {}
 extension UIKit.UIProgressView: ChainableFlag {}
 extension UIKit.UISearchBar: ChainableFlag {}
+extension UIKit.UISearchTextField: ChainableFlag {}
+extension UIKit.UIColorWell: ChainableFlag {}
+extension UIKit.UISegmentedControl: ChainableFlag {}
+extension UIKit.UISearchToken: ChainableFlag {}
+extension UIKit.UIBarItem: ChainableFlag {}
+extension UIKit.UIBarButtonItem: ChainableFlag {}

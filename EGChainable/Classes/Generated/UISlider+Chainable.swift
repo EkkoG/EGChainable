@@ -1,10 +1,12 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
+@available(iOS 2.0, *)
 extension UISlider: Chainable {
     public typealias ChainableObjectCompatible = UISlider
 }
 
+@available(iOS 2.0, *)
 public extension ChainableObject where Base: UISlider {
     @discardableResult
     func value(_ newValue: Float) -> Self {

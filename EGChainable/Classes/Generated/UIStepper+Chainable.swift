@@ -1,10 +1,12 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
+@available(iOS 5.0, *)
 extension UIStepper: Chainable {
     public typealias ChainableObjectCompatible = UIStepper
 }
 
+@available(iOS 5.0, *)
 public extension ChainableObject where Base: UIStepper {
     @discardableResult
     func isContinuous(_ newValue: Bool) -> Self {

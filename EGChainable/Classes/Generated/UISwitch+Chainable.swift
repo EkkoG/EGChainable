@@ -1,10 +1,12 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
+@available(iOS 2.0, *)
 extension UISwitch: Chainable {
     public typealias ChainableObjectCompatible = UISwitch
 }
 
+@available(iOS 2.0, *)
 public extension ChainableObject where Base: UISwitch {
     @available(iOS 5.0, *)
     @discardableResult
