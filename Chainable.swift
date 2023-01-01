@@ -242,3 +242,4 @@ extension UIKit.UIWebView: ChainableFlag {}
 extension UIKit.UIWindow: ChainableFlag {}
 extension UIKit.UIWindowScene: ChainableFlag {}
 extension UIKit.UISearchToken: ChainableFlag {}
+// extension WebKit.WKWebView: ChainableFlag {}

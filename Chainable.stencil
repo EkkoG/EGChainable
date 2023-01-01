@@ -7,7 +7,7 @@
 
 {% for type in types.implementing.ChainableFlag|class %}
 // sourcery:file:{{ type.name }}+Chainable.swift
-import UIKit
+import {{argument.framework}}
 {{type.attributes.available[0]}}
 extension {{type.name}}: Chainable {
     public typealias ChainableObjectCompatible = {{ type.name }}
