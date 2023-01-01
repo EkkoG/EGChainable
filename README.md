@@ -13,6 +13,17 @@ The generated code is under `Classes/Generated`.
 
 To generate code, run script generator.sh on a Mac.
 
+## Usage
+
+```swift
+let label = UILabel()
+label.C.text("ahhhh").textColor(.black).backgroundColor(.red)
+```
+
+All open or public var is support, all `Void` return method is support.
+
+For all supported method, you can visit <https://github.com/EkkoG/EGChainable/tree/main/EGChainable/Classes/Generated>
+
 ## Installation
 
 EGChainable is available through [CocoaPods](https://cocoapods.org). To install
