@@ -37,8 +37,8 @@ public extension ChainableObject where Base: {{ type.name }} {
     {% map method.parameters into result1 %}{%if maploop.item.argumentLabel %}{{maploop.item.argumentLabel}}: {{maploop.item.name}}{% else %}{{maploop.item.name}}{% endif %}{%ifnot maploop.last %},{% endif %}{% endmap %} 
     {{method.attributes.available[0]}}
     @discardableResult
-    func {{ method.name }} -> Self {
-        base.{{ method.callName }}({% for p in result1 %} {{ p }} {% endfor %})
+    func {{ method.name }}{% if method.throws %} throws {% endif %} -> Self {
+        {% if method.throws %}try {% endif %}base.{{ method.callName }}({% for p in result1 %} {{ p }} {% endfor %})
         return self
     }
     {% call newlineIfNotLast forloop.last %}

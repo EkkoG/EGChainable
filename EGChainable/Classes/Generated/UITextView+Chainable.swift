@@ -141,4 +141,122 @@ public extension ChainableObject where Base: UITextView {
         return self
     }
 
+    @discardableResult
+    func insertText(_ text: String) -> Self {
+        base.insertText( text )
+        return self
+    }
+
+    @discardableResult
+    func deleteBackward() -> Self {
+        base.deleteBackward()
+        return self
+    }
+
+    @available(iOS 3.2, *)
+    @discardableResult
+    func replace(_ range: UITextRange, withText text: String) -> Self {
+        base.replace( range,  withText: text )
+        return self
+    }
+
+    @discardableResult
+    func setMarkedText(_ markedText: String?, selectedRange: NSRange) -> Self {
+        base.setMarkedText( markedText,  selectedRange: selectedRange )
+        return self
+    }
+
+    @discardableResult
+    func unmarkText() -> Self {
+        base.unmarkText()
+        return self
+    }
+
+    @available(iOS 6.0, *)
+    @discardableResult
+    func setBaseWritingDirection(_ writingDirection: NSWritingDirection, for range: UITextRange) -> Self {
+        base.setBaseWritingDirection( writingDirection,  for: range )
+        return self
+    }
+
+    @available(iOS 5.1, *)
+    @discardableResult
+    func insertDictationResult(_ dictationResult: [UIDictationPhrase]) -> Self {
+        base.insertDictationResult( dictationResult )
+        return self
+    }
+
+    @discardableResult
+    func dictationRecordingDidEnd() -> Self {
+        base.dictationRecordingDidEnd()
+        return self
+    }
+
+    @discardableResult
+    func dictationRecognitionFailed() -> Self {
+        base.dictationRecognitionFailed()
+        return self
+    }
+
+    @discardableResult
+    func removeDictationResultPlaceholder(_ placeholder: Any, willInsertResult: Bool) -> Self {
+        base.removeDictationResultPlaceholder( placeholder,  willInsertResult: willInsertResult )
+        return self
+    }
+
+    @discardableResult
+    func insertText(_ text: String, alternatives: [String], style: UITextAlternativeStyle) -> Self {
+        base.insertText( text,  alternatives: alternatives,  style: style )
+        return self
+    }
+
+    @available(iOS 3.2, *)
+    @discardableResult
+    func setAttributedMarkedText(_ markedText: NSAttributedString?, selectedRange: NSRange) -> Self {
+        base.setAttributedMarkedText( markedText,  selectedRange: selectedRange )
+        return self
+    }
+
+    @available(iOS 13.0, *)
+    @discardableResult
+    func remove(_ textPlaceholder: UITextPlaceholder) -> Self {
+        base.remove( textPlaceholder )
+        return self
+    }
+
+    @available(iOS 9.0, *)
+    @discardableResult
+    func beginFloatingCursor(at point: CGPoint) -> Self {
+        base.beginFloatingCursor( at: point )
+        return self
+    }
+
+    @available(iOS 9.0, *)
+    @discardableResult
+    func updateFloatingCursor(at point: CGPoint) -> Self {
+        base.updateFloatingCursor( at: point )
+        return self
+    }
+
+    @available(iOS 9.0, *)
+    @discardableResult
+    func endFloatingCursor() -> Self {
+        base.endFloatingCursor()
+        return self
+    }
+
+    @available(iOS 16.0, *)
+    @discardableResult
+    func willPresentEditMenu(animator: UIEditMenuInteractionAnimating) -> Self {
+        base.willPresentEditMenu( animator: animator )
+        return self
+    }
+
+    @available(iOS 16.0, *)
+    @discardableResult
+    func willDismissEditMenu(animator: UIEditMenuInteractionAnimating) -> Self {
+        base.willDismissEditMenu( animator: animator )
+        return self
+    }
+
 }

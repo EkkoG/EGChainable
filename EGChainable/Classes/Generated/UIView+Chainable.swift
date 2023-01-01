@@ -251,7 +251,21 @@ public extension ChainableObject where Base: UIView {
         return self
     }
 
+    @available(iOS 11.0, *)
+    @discardableResult
+    func interactions(_ newValue: [UIInteraction]) -> Self {
+        base.interactions = newValue
+        return self
+    }
+
     // Methods
+
+    @available(iOS 8.0, *)
+    @discardableResult
+    func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) -> Self {
+        base.traitCollectionDidChange( previousTraitCollection )
+        return self
+    }
 
     @discardableResult
     func sizeToFit() -> Self {
@@ -512,4 +526,23 @@ public extension ChainableObject where Base: UIView {
         return self
     }
 
+    @available(iOS 11.0, *)
+    @discardableResult
+    func addInteraction(_ interaction: UIInteraction) -> Self {
+        base.addInteraction( interaction )
+        return self
+    }
+
+    @available(iOS 11.0, *)
+    @discardableResult
+    func removeInteraction(_ interaction: UIInteraction) -> Self {
+        base.removeInteraction( interaction )
+        return self
+    }
+
+    @discardableResult
+    func draw(_ rect: CGRect, for formatter: UIViewPrintFormatter) -> Self {
+        base.draw( rect,  for: formatter )
+        return self
+    }
 }
