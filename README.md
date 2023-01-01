@@ -33,6 +33,10 @@ it, simply add the following line to your Podfile:
 pod 'EGChainable'
 ```
 
+## Thanks
+
+This project is heavy inspired by <https://github.com/Ernest0-Production/DeclarativeLayoutKit>, thanks for your good idea.
+
 ## Author
 
 EkkoG, beijiu572@gmail.com
