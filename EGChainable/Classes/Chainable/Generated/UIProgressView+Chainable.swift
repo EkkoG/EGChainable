@@ -1,7 +1,9 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
-
+extension UIProgressView: Chainable {
+    public typealias ChainableObjectCompatible = UIProgressView
+}
 
 public extension ChainableObject where Base: UIProgressView {
     @discardableResult

@@ -1,7 +1,9 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
-
+extension UIActivityIndicatorView: Chainable {
+    public typealias ChainableObjectCompatible = UIActivityIndicatorView
+}
 
 public extension ChainableObject where Base: UIActivityIndicatorView {
     @discardableResult

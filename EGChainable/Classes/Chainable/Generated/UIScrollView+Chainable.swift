@@ -1,7 +1,9 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
-
+extension UIScrollView: Chainable {
+    public typealias ChainableObjectCompatible = UIScrollView
+}
 
 public extension ChainableObject where Base: UIScrollView {
     @discardableResult

@@ -9,8 +9,8 @@
 import Foundation
 
 public protocol Chainable {
-    associatedtype StyleCompatible
-    var C: ChainableObject<StyleCompatible> { get }
+    associatedtype ChainableObjectCompatible
+    var C: ChainableObject<ChainableObjectCompatible> { get }
 }
 
 extension Chainable {

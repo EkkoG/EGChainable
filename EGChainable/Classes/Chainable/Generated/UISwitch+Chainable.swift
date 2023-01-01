@@ -1,7 +1,9 @@
 // Generated using Sourcery 1.6.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 import UIKit
-
+extension UISwitch: Chainable {
+    public typealias ChainableObjectCompatible = UISwitch
+}
 
 public extension ChainableObject where Base: UISwitch {
     @available(iOS 5.0, *)

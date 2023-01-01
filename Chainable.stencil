@@ -8,7 +8,9 @@
 {% for type in types.implementing.ChainableFlag|class %}
 // sourcery:file:{{ type.name }}+Chainable.swift
 import UIKit
-
+extension {{type.name}}: Chainable {
+    public typealias ChainableObjectCompatible = {{ type.name }}
+}
 
 public extension ChainableObject where Base: {{ type.name }} {
     {% for variable in type.allVariables|instance|openSet %}
