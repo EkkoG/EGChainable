@@ -17,9 +17,10 @@ key.toolchains:
 " > temp.yml
 }
 
+rm -rf /tmp/Chainable/Intermediates
 mkdir -p /tmp/Chainable/Intermediates
 
-grep "extension [A-Za-z0-9. ]*:[ ]*Chainable" ./Chainable.swift | sed -e "s/extension //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
+grep "extension [A-Za-z0-9. ]*:[ ]*ChainableFlag" ./Chainable.swift | sed -e "s/extension //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
 echo $class
 create_yml $class
 sanitized_class_name=`echo $class | sed "s/.*\.//"`
@@ -37,7 +38,7 @@ done
 cp Chainable.stencil /tmp/Chainable
 cp Chainable.swift /tmp/Chainable
 
-rm -f ./EGChainable/Classes/Chainable/Generated/*
+rm -f ./EGChainable/Classes/Generated/*
 if [ ! -z "$1" -a "$1" == "-w" ]; then
   sourcery --sources /tmp/Chainable/ --templates ./Chainable.stencil --output ./EGChainable/Classes/Generated/ --verbose --wath
 else
