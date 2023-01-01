@@ -13,8 +13,6 @@ The generated code is under `Classes/Generated`.
 
 To generate code, run script generator.sh on a Mac.
 
-## Requirements
-
 ## Installation
 
 EGChainable is available through [CocoaPods](https://cocoapods.org). To install
