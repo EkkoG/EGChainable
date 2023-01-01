@@ -39,9 +39,9 @@ cp Chainable.swift /tmp/Chainable
 
 rm -f ./EGChainable/Classes/Chainable/Generated/*
 if [ ! -z "$1" -a "$1" == "-w" ]; then
-  sourcery --sources /tmp/Chainable/ --templates ./Chainable.stencil --output ./EGChainable/Classes/Chainable/Generated/ --verbose --wath
+  sourcery --sources /tmp/Chainable/ --templates ./Chainable.stencil --output ./EGChainable/Classes/Generated/ --verbose --wath
 else
-  sourcery --sources /tmp/Chainable/ --templates ./Chainable.stencil --output ./EGChainable/Classes/Chainable/Generated/ --verbose
+  sourcery --sources /tmp/Chainable/ --templates ./Chainable.stencil --output ./EGChainable/Classes/Generated/ --verbose
   # rm -rf /tmp/Chainable/Intermediates
 fi
 
