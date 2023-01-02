@@ -1,5 +1,5 @@
 PODS:
-  - EGChainable (0.1.2)
+  - EGChainable (0.1.3)
 
 DEPENDENCIES:
   - EGChainable (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EGChainable: 9dd5a0768b70349494ef54d9b33a93c2095cab91
+  EGChainable: b4467129ad3d194715cd65eb511d9db68913b872
 
 PODFILE CHECKSUM: 32773211a8faa5911c9cd67f366f5e7e42ac1d66
 

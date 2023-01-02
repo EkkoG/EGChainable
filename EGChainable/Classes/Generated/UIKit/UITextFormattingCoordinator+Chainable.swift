@@ -21,16 +21,4 @@ public extension ChainableObject where Base: UITextFormattingCoordinator {
         base.setSelectedAttributes(attributes, isMultiple: flag)
         return self
     }
-
-    @discardableResult
-    func fontPickerViewControllerDidCancel(_ viewController: UIFontPickerViewController) -> Self {
-        base.fontPickerViewControllerDidCancel(viewController)
-        return self
-    }
-
-    @discardableResult
-    func fontPickerViewControllerDidPickFont(_ viewController: UIFontPickerViewController) -> Self {
-        base.fontPickerViewControllerDidPickFont(viewController)
-        return self
-    }
 }
