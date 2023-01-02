@@ -7,7 +7,7 @@
 
 protocol ChainableFlag {}
 
-extension UIKit.NSMutableAttributedString: ChainableFlag {}
+extension Foundation.NSAttributedString: ChainableFlag {}
 extension UIKit.NSDiffableDataSourceSectionSnapshot: ChainableFlag {}
 extension UIKit.NSFileProviderExtension: ChainableFlag {}
 extension UIKit.NSLayoutConstraint: ChainableFlag {}
@@ -31,7 +31,6 @@ extension UIKit.UIActivityItemsConfiguration: ChainableFlag {}
 extension UIKit.UIActivityItemsConfigurationReading: ChainableFlag {}
 extension UIKit.UIActivityViewController: ChainableFlag {}
 extension UIKit.UIAlertController: ChainableFlag {}
-extension UIKit.UIAlertView: ChainableFlag {}
 extension UIKit.UIAppearance: ChainableFlag {}
 extension UIKit.UIApplication: ChainableFlag {}
 extension UIKit.UIAttachmentBehavior: ChainableFlag {}
@@ -114,7 +113,6 @@ extension UIKit.UIPointerInteraction: ChainableFlag {}
 extension UIKit.UIPointerRegion: ChainableFlag {}
 extension UIKit.UIPointerStyle: ChainableFlag {}
 extension UIKit.UIPopoverBackgroundView: ChainableFlag {}
-extension UIKit.UIPopoverController: ChainableFlag {}
 extension UIKit.UIPopoverPresentationController: ChainableFlag {}
 extension UIKit.UIPopoverPresentationControllerSourceItem: ChainableFlag {}
 extension UIKit.UIPresentationController: ChainableFlag {}
@@ -138,7 +136,6 @@ extension UIKit.UIScreenshotService: ChainableFlag {}
 extension UIKit.UIScrollView: ChainableFlag {}
 extension UIKit.UISearchBar: ChainableFlag {}
 extension UIKit.UISearchController: ChainableFlag {}
-extension UIKit.UISearchDisplayController: ChainableFlag {}
 extension UIKit.UISearchSuggestion: ChainableFlag {}
 extension UIKit.UISearchTextField: ChainableFlag {}
 extension UIKit.UISegmentedControl: ChainableFlag {}
