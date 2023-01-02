@@ -189,4 +189,11 @@ extension UIKit.UIWindow: ChainableFlag {}
 extension UIKit.UIWindowScene: ChainableFlag {}
 extension UIKit.UISearchToken: ChainableFlag {}
 extension WebKit.WKWebView: ChainableFlag {}
+extension Foundation.NSData: ChainableFlag {}
+extension Foundation.NSArray: ChainableFlag {}
+extension Foundation.NSDictionary: ChainableFlag {}
+extension QuartzCore.CALayer: ChainableFlag {}
+extension UIKit.UICollectionViewFlowLayout: ChainableFlag {}
+extension WebKit.WKWebViewConfiguration: ChainableFlag {}
+extension AVFoundation.AVPlayer: ChainableFlag {}
 // extension MapKit.MKMapView: ChainableFlag {}

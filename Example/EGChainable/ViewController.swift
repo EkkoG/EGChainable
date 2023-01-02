@@ -9,7 +9,6 @@
 import UIKit
 import EGChainable
 import WebKit
-import MapKit
 
 class ViewController: UIViewController {
 
@@ -23,8 +22,6 @@ class ViewController: UIViewController {
 
         let mk = WKWebView()
         mk.chainable.stopLoading()
-
-        let mp = MKMapView()
     }
 
     override func didReceiveMemoryWarning() {
