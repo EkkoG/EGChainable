@@ -9,6 +9,6 @@ git add .
 git commit -m "Bump version to $VERSION"
 git push origin main
 
-gh release create $VERSION --title $VERSION --notes "Release $VERSION" --target main
+gh release create $VERSION --title $VERSION --notes "Release $VERSION" --target main --generate-notes
 
 pod trunk push EGChainable.podspec --allow-warnings
