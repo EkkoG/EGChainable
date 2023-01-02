@@ -20,7 +20,7 @@ public extension ChainableObject where Base: UIImpactFeedbackGenerator {
     @available(iOS 13.0, *)
     @discardableResult
     func impactOccurred(intensity: CGFloat) -> Self {
-        base.impactOccurred( intensity: intensity )
+        base.impactOccurred(intensity: intensity)
         return self
     }
 

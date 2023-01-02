@@ -24,7 +24,7 @@ public extension ChainableObject where Base: NSTextLayoutFragment {
 
     @discardableResult
     func draw(at point: CGPoint, in context: CGContext) -> Self {
-        base.draw( at: point,  in: context )
+        base.draw(at: point, in: context)
         return self
     }
 

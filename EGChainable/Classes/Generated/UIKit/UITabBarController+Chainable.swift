@@ -42,42 +42,42 @@ public extension ChainableObject where Base: UITabBarController {
 
     @discardableResult
     func setViewControllers(_ viewControllers: [UIViewController]?, animated: Bool) -> Self {
-        base.setViewControllers( viewControllers,  animated: animated )
+        base.setViewControllers(viewControllers, animated: animated)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) -> Self {
-        base.tabBar( tabBar,  didSelect: item )
+        base.tabBar(tabBar, didSelect: item)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func tabBar(_ tabBar: UITabBar, willBeginCustomizing items: [UITabBarItem]) -> Self {
-        base.tabBar( tabBar,  willBeginCustomizing: items )
+        base.tabBar(tabBar, willBeginCustomizing: items)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func tabBar(_ tabBar: UITabBar, didBeginCustomizing items: [UITabBarItem]) -> Self {
-        base.tabBar( tabBar,  didBeginCustomizing: items )
+        base.tabBar(tabBar, didBeginCustomizing: items)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func tabBar(_ tabBar: UITabBar, willEndCustomizing items: [UITabBarItem], changed: Bool) -> Self {
-        base.tabBar( tabBar,  willEndCustomizing: items,  changed: changed )
+        base.tabBar(tabBar, willEndCustomizing: items, changed: changed)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func tabBar(_ tabBar: UITabBar, didEndCustomizing items: [UITabBarItem], changed: Bool) -> Self {
-        base.tabBar( tabBar,  didEndCustomizing: items,  changed: changed )
+        base.tabBar(tabBar, didEndCustomizing: items, changed: changed)
         return self
     }
 }

@@ -38,13 +38,13 @@ public extension ChainableObject where Base: UIAlertController {
 
     @discardableResult
     func addAction(_ action: UIAlertAction) -> Self {
-        base.addAction( action )
+        base.addAction(action)
         return self
     }
 
     @discardableResult
     func addTextField(configurationHandler: ((UITextField) -> Void)? = nil) -> Self {
-        base.addTextField( configurationHandler: configurationHandler )
+        base.addTextField(configurationHandler: configurationHandler)
         return self
     }
 }

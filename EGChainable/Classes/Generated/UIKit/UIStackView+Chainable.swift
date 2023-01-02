@@ -55,26 +55,26 @@ public extension ChainableObject where Base: UIStackView {
 
     @discardableResult
     func addArrangedSubview(_ view: UIView) -> Self {
-        base.addArrangedSubview( view )
+        base.addArrangedSubview(view)
         return self
     }
 
     @discardableResult
     func removeArrangedSubview(_ view: UIView) -> Self {
-        base.removeArrangedSubview( view )
+        base.removeArrangedSubview(view)
         return self
     }
 
     @discardableResult
     func insertArrangedSubview(_ view: UIView, at stackIndex: Int) -> Self {
-        base.insertArrangedSubview( view,  at: stackIndex )
+        base.insertArrangedSubview(view, at: stackIndex)
         return self
     }
 
     @available(iOS 11.0, *)
     @discardableResult
     func setCustomSpacing(_ spacing: CGFloat, after arrangedSubview: UIView) -> Self {
-        base.setCustomSpacing( spacing,  after: arrangedSubview )
+        base.setCustomSpacing(spacing, after: arrangedSubview)
         return self
     }
 

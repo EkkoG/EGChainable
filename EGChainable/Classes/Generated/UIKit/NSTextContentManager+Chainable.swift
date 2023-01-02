@@ -36,19 +36,19 @@ public extension ChainableObject where Base: NSTextContentManager {
 
     @discardableResult
     func addTextLayoutManager(_ textLayoutManager: NSTextLayoutManager) -> Self {
-        base.addTextLayoutManager( textLayoutManager )
+        base.addTextLayoutManager(textLayoutManager)
         return self
     }
 
     @discardableResult
     func removeTextLayoutManager(_ textLayoutManager: NSTextLayoutManager) -> Self {
-        base.removeTextLayoutManager( textLayoutManager )
+        base.removeTextLayoutManager(textLayoutManager)
         return self
     }
 
     @discardableResult
     func synchronizeTextLayoutManagers(_ completionHandler: ((Error?) -> Void)? = nil) -> Self {
-        base.synchronizeTextLayoutManagers( completionHandler )
+        base.synchronizeTextLayoutManagers(completionHandler)
         return self
     }
 
@@ -60,25 +60,25 @@ public extension ChainableObject where Base: NSTextContentManager {
 
     @discardableResult
     func performEditingTransaction(_ transaction: () -> Void) -> Self {
-        base.performEditingTransaction( transaction )
+        base.performEditingTransaction(transaction)
         return self
     }
 
     @discardableResult
     func recordEditAction(in originalTextRange: NSTextRange, newTextRange: NSTextRange) -> Self {
-        base.recordEditAction( in: originalTextRange,  newTextRange: newTextRange )
+        base.recordEditAction(in: originalTextRange, newTextRange: newTextRange)
         return self
     }
 
     @discardableResult
     func replaceContents(in range: NSTextRange, with textElements: [NSTextElement]?) -> Self {
-        base.replaceContents( in: range,  with: textElements )
+        base.replaceContents(in: range, with: textElements)
         return self
     }
 
     @discardableResult
     func synchronizeToBackingStore(_ completionHandler: ((Error?) -> Void)? = nil) -> Self {
-        base.synchronizeToBackingStore( completionHandler )
+        base.synchronizeToBackingStore(completionHandler)
         return self
     }
 

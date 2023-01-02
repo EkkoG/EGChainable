@@ -43,37 +43,37 @@ public extension ChainableObject where Base: UIInputViewController {
     @available(iOS 10.0, *)
     @discardableResult
     func handleInputModeList(from view: UIView, with event: UIEvent) -> Self {
-        base.handleInputModeList( from: view,  with: event )
+        base.handleInputModeList(from: view, with: event)
         return self
     }
 
     @discardableResult
     func requestSupplementaryLexicon(completion completionHandler: @escaping (UILexicon) -> Void) -> Self {
-        base.requestSupplementaryLexicon( completion: completionHandler )
+        base.requestSupplementaryLexicon(completion: completionHandler)
         return self
     }
 
     @discardableResult
     func selectionWillChange(_ textInput: UITextInput?) -> Self {
-        base.selectionWillChange( textInput )
+        base.selectionWillChange(textInput)
         return self
     }
 
     @discardableResult
     func selectionDidChange(_ textInput: UITextInput?) -> Self {
-        base.selectionDidChange( textInput )
+        base.selectionDidChange(textInput)
         return self
     }
 
     @discardableResult
     func textWillChange(_ textInput: UITextInput?) -> Self {
-        base.textWillChange( textInput )
+        base.textWillChange(textInput)
         return self
     }
 
     @discardableResult
     func textDidChange(_ textInput: UITextInput?) -> Self {
-        base.textDidChange( textInput )
+        base.textDidChange(textInput)
         return self
     }
 }

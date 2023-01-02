@@ -19,13 +19,13 @@ public extension ChainableObject where Base: NSTextContentStorage {
 
     @discardableResult
     func processEditing(for textStorage: NSTextStorage, edited editMask: NSTextStorage.EditActions, range newCharRange: NSRange, changeInLength delta: Int, invalidatedRange invalidatedCharRange: NSRange) -> Self {
-        base.processEditing( for: textStorage,  edited: editMask,  range: newCharRange,  changeInLength: delta,  invalidatedRange: invalidatedCharRange )
+        base.processEditing(for: textStorage, edited: editMask, range: newCharRange, changeInLength: delta, invalidatedRange: invalidatedCharRange)
         return self
     }
 
     @discardableResult
     func performEditingTransaction(for textStorage: NSTextStorage, using transaction: () -> Void) -> Self {
-        base.performEditingTransaction( for: textStorage,  using: transaction )
+        base.performEditingTransaction(for: textStorage, using: transaction)
         return self
     }
 }

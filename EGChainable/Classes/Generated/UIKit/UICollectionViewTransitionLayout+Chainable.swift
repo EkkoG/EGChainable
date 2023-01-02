@@ -18,7 +18,7 @@ public extension ChainableObject where Base: UICollectionViewTransitionLayout {
 
     @discardableResult
     func updateValue(_ value: CGFloat, forAnimatedKey key: String) -> Self {
-        base.updateValue( value,  forAnimatedKey: key )
+        base.updateValue(value, forAnimatedKey: key)
         return self
     }
 

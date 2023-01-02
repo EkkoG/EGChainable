@@ -73,13 +73,13 @@ public extension ChainableObject where Base: UICalendarView {
 
     @discardableResult
     func setVisibleDateComponents(_ dateComponents: DateComponents, animated: Bool) -> Self {
-        base.setVisibleDateComponents( dateComponents,  animated: animated )
+        base.setVisibleDateComponents(dateComponents, animated: animated)
         return self
     }
 
     @discardableResult
     func reloadDecorations(forDateComponents dates: [DateComponents], animated: Bool) -> Self {
-        base.reloadDecorations( forDateComponents: dates,  animated: animated )
+        base.reloadDecorations(forDateComponents: dates, animated: animated)
         return self
     }
 

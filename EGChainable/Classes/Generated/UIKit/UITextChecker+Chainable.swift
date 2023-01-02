@@ -18,7 +18,7 @@ public extension ChainableObject where Base: UITextChecker {
 
     @discardableResult
     func ignoreWord(_ wordToIgnore: String) -> Self {
-        base.ignoreWord( wordToIgnore )
+        base.ignoreWord(wordToIgnore)
         return self
     }
 }

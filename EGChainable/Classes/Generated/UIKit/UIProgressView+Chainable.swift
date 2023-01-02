@@ -67,7 +67,7 @@ public extension ChainableObject where Base: UIProgressView {
     @available(iOS 5.0, *)
     @discardableResult
     func setProgress(_ progress: Float, animated: Bool) -> Self {
-        base.setProgress( progress,  animated: animated )
+        base.setProgress(progress, animated: animated)
         return self
     }
 

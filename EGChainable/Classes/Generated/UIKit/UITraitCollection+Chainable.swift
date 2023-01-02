@@ -14,7 +14,7 @@ public extension ChainableObject where Base: UITraitCollection {
     @available(iOS 13.0, *)
     @discardableResult
     func performAsCurrent(_ actions: () -> Void) -> Self {
-        base.performAsCurrent( actions )
+        base.performAsCurrent(actions)
         return self
     }
 

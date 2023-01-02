@@ -13,7 +13,7 @@ public extension ChainableObject where Base: NSTextLineFragment {
 
     @discardableResult
     func draw(at point: CGPoint, in context: CGContext) -> Self {
-        base.draw( at: point,  in: context )
+        base.draw(at: point, in: context)
         return self
     }
 

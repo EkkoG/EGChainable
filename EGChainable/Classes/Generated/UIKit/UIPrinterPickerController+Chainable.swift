@@ -18,7 +18,7 @@ public extension ChainableObject where Base: UIPrinterPickerController {
 
     @discardableResult
     func dismiss(animated: Bool) -> Self {
-        base.dismiss( animated: animated )
+        base.dismiss(animated: animated)
         return self
     }
 }

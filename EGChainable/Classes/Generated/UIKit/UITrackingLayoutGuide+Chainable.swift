@@ -13,13 +13,13 @@ public extension ChainableObject where Base: UITrackingLayoutGuide {
 
     @discardableResult
     func setConstraints(_ trackingConstraints: [NSLayoutConstraint], activeWhenNearEdge edge: NSDirectionalRectEdge) -> Self {
-        base.setConstraints( trackingConstraints,  activeWhenNearEdge: edge )
+        base.setConstraints(trackingConstraints, activeWhenNearEdge: edge)
         return self
     }
 
     @discardableResult
     func setConstraints(_ trackingConstraints: [NSLayoutConstraint], activeWhenAwayFrom edge: NSDirectionalRectEdge) -> Self {
-        base.setConstraints( trackingConstraints,  activeWhenAwayFrom: edge )
+        base.setConstraints(trackingConstraints, activeWhenAwayFrom: edge)
         return self
     }
 

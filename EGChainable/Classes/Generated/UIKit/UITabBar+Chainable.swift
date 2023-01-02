@@ -128,13 +128,13 @@ public extension ChainableObject where Base: UITabBar {
 
     @discardableResult
     func setItems(_ items: [UITabBarItem]?, animated: Bool) -> Self {
-        base.setItems( items,  animated: animated )
+        base.setItems(items, animated: animated)
         return self
     }
 
     @discardableResult
     func beginCustomizingItems(_ items: [UITabBarItem]) -> Self {
-        base.beginCustomizingItems( items )
+        base.beginCustomizingItems(items)
         return self
     }
 

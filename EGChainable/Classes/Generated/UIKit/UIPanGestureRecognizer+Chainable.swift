@@ -32,7 +32,7 @@ public extension ChainableObject where Base: UIPanGestureRecognizer {
 
     @discardableResult
     func setTranslation(_ translation: CGPoint, in view: UIView?) -> Self {
-        base.setTranslation( translation,  in: view )
+        base.setTranslation(translation, in: view)
         return self
     }
 

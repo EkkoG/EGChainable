@@ -208,13 +208,13 @@ public extension ChainableObject where Base: UIScrollView {
 
     @discardableResult
     func setContentOffset(_ contentOffset: CGPoint, animated: Bool) -> Self {
-        base.setContentOffset( contentOffset,  animated: animated )
+        base.setContentOffset(contentOffset, animated: animated)
         return self
     }
 
     @discardableResult
     func scrollRectToVisible(_ rect: CGRect, animated: Bool) -> Self {
-        base.scrollRectToVisible( rect,  animated: animated )
+        base.scrollRectToVisible(rect, animated: animated)
         return self
     }
 
@@ -227,14 +227,14 @@ public extension ChainableObject where Base: UIScrollView {
     @available(iOS 3.0, *)
     @discardableResult
     func setZoomScale(_ scale: CGFloat, animated: Bool) -> Self {
-        base.setZoomScale( scale,  animated: animated )
+        base.setZoomScale(scale, animated: animated)
         return self
     }
 
     @available(iOS 3.0, *)
     @discardableResult
     func zoom(to rect: CGRect, animated: Bool) -> Self {
-        base.zoom( to: rect,  animated: animated )
+        base.zoom(to: rect, animated: animated)
         return self
     }
 

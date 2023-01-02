@@ -54,7 +54,7 @@ public extension ChainableObject where Base: UIAlertView {
 
     @discardableResult
     func dismiss(withClickedButtonIndex buttonIndex: Int, animated: Bool) -> Self {
-        base.dismiss( withClickedButtonIndex: buttonIndex,  animated: animated )
+        base.dismiss(withClickedButtonIndex: buttonIndex, animated: animated)
         return self
     }
 

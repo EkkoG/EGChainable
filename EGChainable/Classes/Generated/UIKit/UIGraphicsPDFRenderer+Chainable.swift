@@ -13,7 +13,7 @@ public extension ChainableObject where Base: UIGraphicsPDFRenderer {
 
     @discardableResult
     func writePDF(to url: URL, withActions actions: (UIGraphicsPDFRendererContext) -> Void) throws  -> Self {
-        try base.writePDF( to: url,  withActions: actions )
+        try base.writePDF(to: url, withActions: actions)
         return self
     }
 

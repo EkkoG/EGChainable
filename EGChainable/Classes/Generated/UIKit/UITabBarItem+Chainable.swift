@@ -55,7 +55,7 @@ public extension ChainableObject where Base: UITabBarItem {
     @available(iOS 10.0, *)
     @discardableResult
     func setBadgeTextAttributes(_ textAttributes: [NSAttributedString.Key : Any]?, for state: UIControl.State) -> Self {
-        base.setBadgeTextAttributes( textAttributes,  for: state )
+        base.setBadgeTextAttributes(textAttributes, for: state)
         return self
     }
 

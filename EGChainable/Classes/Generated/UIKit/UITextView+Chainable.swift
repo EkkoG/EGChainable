@@ -137,13 +137,13 @@ public extension ChainableObject where Base: UITextView {
 
     @discardableResult
     func scrollRangeToVisible(_ range: NSRange) -> Self {
-        base.scrollRangeToVisible( range )
+        base.scrollRangeToVisible(range)
         return self
     }
 
     @discardableResult
     func insertText(_ text: String) -> Self {
-        base.insertText( text )
+        base.insertText(text)
         return self
     }
 
@@ -156,13 +156,13 @@ public extension ChainableObject where Base: UITextView {
     @available(iOS 3.2, *)
     @discardableResult
     func replace(_ range: UITextRange, withText text: String) -> Self {
-        base.replace( range,  withText: text )
+        base.replace(range, withText: text)
         return self
     }
 
     @discardableResult
     func setMarkedText(_ markedText: String?, selectedRange: NSRange) -> Self {
-        base.setMarkedText( markedText,  selectedRange: selectedRange )
+        base.setMarkedText(markedText, selectedRange: selectedRange)
         return self
     }
 
@@ -175,14 +175,14 @@ public extension ChainableObject where Base: UITextView {
     @available(iOS 6.0, *)
     @discardableResult
     func setBaseWritingDirection(_ writingDirection: NSWritingDirection, for range: UITextRange) -> Self {
-        base.setBaseWritingDirection( writingDirection,  for: range )
+        base.setBaseWritingDirection(writingDirection, for: range)
         return self
     }
 
     @available(iOS 5.1, *)
     @discardableResult
     func insertDictationResult(_ dictationResult: [UIDictationPhrase]) -> Self {
-        base.insertDictationResult( dictationResult )
+        base.insertDictationResult(dictationResult)
         return self
     }
 
@@ -200,41 +200,41 @@ public extension ChainableObject where Base: UITextView {
 
     @discardableResult
     func removeDictationResultPlaceholder(_ placeholder: Any, willInsertResult: Bool) -> Self {
-        base.removeDictationResultPlaceholder( placeholder,  willInsertResult: willInsertResult )
+        base.removeDictationResultPlaceholder(placeholder, willInsertResult: willInsertResult)
         return self
     }
 
     @discardableResult
     func insertText(_ text: String, alternatives: [String], style: UITextAlternativeStyle) -> Self {
-        base.insertText( text,  alternatives: alternatives,  style: style )
+        base.insertText(text, alternatives: alternatives, style: style)
         return self
     }
 
     @available(iOS 3.2, *)
     @discardableResult
     func setAttributedMarkedText(_ markedText: NSAttributedString?, selectedRange: NSRange) -> Self {
-        base.setAttributedMarkedText( markedText,  selectedRange: selectedRange )
+        base.setAttributedMarkedText(markedText, selectedRange: selectedRange)
         return self
     }
 
     @available(iOS 13.0, *)
     @discardableResult
     func remove(_ textPlaceholder: UITextPlaceholder) -> Self {
-        base.remove( textPlaceholder )
+        base.remove(textPlaceholder)
         return self
     }
 
     @available(iOS 9.0, *)
     @discardableResult
     func beginFloatingCursor(at point: CGPoint) -> Self {
-        base.beginFloatingCursor( at: point )
+        base.beginFloatingCursor(at: point)
         return self
     }
 
     @available(iOS 9.0, *)
     @discardableResult
     func updateFloatingCursor(at point: CGPoint) -> Self {
-        base.updateFloatingCursor( at: point )
+        base.updateFloatingCursor(at: point)
         return self
     }
 
@@ -248,14 +248,14 @@ public extension ChainableObject where Base: UITextView {
     @available(iOS 16.0, *)
     @discardableResult
     func willPresentEditMenu(animator: UIEditMenuInteractionAnimating) -> Self {
-        base.willPresentEditMenu( animator: animator )
+        base.willPresentEditMenu(animator: animator)
         return self
     }
 
     @available(iOS 16.0, *)
     @discardableResult
     func willDismissEditMenu(animator: UIEditMenuInteractionAnimating) -> Self {
-        base.willDismissEditMenu( animator: animator )
+        base.willDismissEditMenu(animator: animator)
         return self
     }
 

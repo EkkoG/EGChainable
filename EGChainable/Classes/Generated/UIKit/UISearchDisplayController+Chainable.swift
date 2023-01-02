@@ -48,7 +48,7 @@ public extension ChainableObject where Base: UISearchDisplayController {
 
     @discardableResult
     func setActive(_ visible: Bool, animated: Bool) -> Self {
-        base.setActive( visible,  animated: animated )
+        base.setActive(visible, animated: animated)
         return self
     }
 }

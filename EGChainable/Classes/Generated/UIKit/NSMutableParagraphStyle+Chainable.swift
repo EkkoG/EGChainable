@@ -133,21 +133,21 @@ public extension ChainableObject where Base: NSMutableParagraphStyle {
     @available(iOS 9.0, *)
     @discardableResult
     func addTabStop(_ anObject: NSTextTab) -> Self {
-        base.addTabStop( anObject )
+        base.addTabStop(anObject)
         return self
     }
 
     @available(iOS 9.0, *)
     @discardableResult
     func removeTabStop(_ anObject: NSTextTab) -> Self {
-        base.removeTabStop( anObject )
+        base.removeTabStop(anObject)
         return self
     }
 
     @available(iOS 9.0, *)
     @discardableResult
     func setParagraphStyle(_ obj: NSParagraphStyle) -> Self {
-        base.setParagraphStyle( obj )
+        base.setParagraphStyle(obj)
         return self
     }
 }

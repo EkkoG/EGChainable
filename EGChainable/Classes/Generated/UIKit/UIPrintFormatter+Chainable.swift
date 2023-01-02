@@ -49,7 +49,7 @@ public extension ChainableObject where Base: UIPrintFormatter {
 
     @discardableResult
     func draw(in rect: CGRect, forPageAt pageIndex: Int) -> Self {
-        base.draw( in: rect,  forPageAt: pageIndex )
+        base.draw(in: rect, forPageAt: pageIndex)
         return self
     }
 }

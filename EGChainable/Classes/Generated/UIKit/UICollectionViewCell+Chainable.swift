@@ -59,14 +59,14 @@ public extension ChainableObject where Base: UICollectionViewCell {
     @available(iOS 11.0, *)
     @discardableResult
     func dragStateDidChange(_ dragState: UICollectionViewCell.DragState) -> Self {
-        base.dragStateDidChange( dragState )
+        base.dragStateDidChange(dragState)
         return self
     }
 
     @available(iOS 14.0, tvOS 14.0, *)
     @discardableResult
     func updateConfiguration(using state: UICellConfigurationState) -> Self {
-        base.updateConfiguration( using: state )
+        base.updateConfiguration(using: state)
         return self
     }
 }

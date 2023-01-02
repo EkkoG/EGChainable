@@ -13,7 +13,7 @@ public extension ChainableObject where Base: UIActivity {
 
     @discardableResult
     func prepare(withActivityItems activityItems: [Any]) -> Self {
-        base.prepare( withActivityItems: activityItems )
+        base.prepare(withActivityItems: activityItems)
         return self
     }
 
@@ -25,7 +25,7 @@ public extension ChainableObject where Base: UIActivity {
 
     @discardableResult
     func activityDidFinish(_ completed: Bool) -> Self {
-        base.activityDidFinish( completed )
+        base.activityDidFinish(completed)
         return self
     }
 }

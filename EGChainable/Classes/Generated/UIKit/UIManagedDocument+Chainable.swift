@@ -24,19 +24,19 @@ public extension ChainableObject where Base: UIManagedDocument {
 
     @discardableResult
     func configurePersistentStoreCoordinator(for storeURL: URL, ofType fileType: String, modelConfiguration configuration: String?, storeOptions: [AnyHashable : Any]? = nil) throws  -> Self {
-        try base.configurePersistentStoreCoordinator( for: storeURL,  ofType: fileType,  modelConfiguration: configuration,  storeOptions: storeOptions )
+        try base.configurePersistentStoreCoordinator(for: storeURL, ofType: fileType, modelConfiguration: configuration, storeOptions: storeOptions)
         return self
     }
 
     @discardableResult
     func readAdditionalContent(from absoluteURL: URL) throws  -> Self {
-        try base.readAdditionalContent( from: absoluteURL )
+        try base.readAdditionalContent(from: absoluteURL)
         return self
     }
 
     @discardableResult
     func writeAdditionalContent(_ content: Any, to absoluteURL: URL, originalContentsURL absoluteOriginalContentsURL: URL?) throws  -> Self {
-        try base.writeAdditionalContent( content,  to: absoluteURL,  originalContentsURL: absoluteOriginalContentsURL )
+        try base.writeAdditionalContent(content, to: absoluteURL, originalContentsURL: absoluteOriginalContentsURL)
         return self
     }
 }

@@ -215,33 +215,33 @@ public extension ChainableObject where Base: UINavigationItem {
 
     @discardableResult
     func setHidesBackButton(_ hidesBackButton: Bool, animated: Bool) -> Self {
-        base.setHidesBackButton( hidesBackButton,  animated: animated )
+        base.setHidesBackButton(hidesBackButton, animated: animated)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setLeftBarButtonItems(_ items: [UIBarButtonItem]?, animated: Bool) -> Self {
-        base.setLeftBarButtonItems( items,  animated: animated )
+        base.setLeftBarButtonItems(items, animated: animated)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setRightBarButtonItems(_ items: [UIBarButtonItem]?, animated: Bool) -> Self {
-        base.setRightBarButtonItems( items,  animated: animated )
+        base.setRightBarButtonItems(items, animated: animated)
         return self
     }
 
     @discardableResult
     func setLeftBarButton(_ item: UIBarButtonItem?, animated: Bool) -> Self {
-        base.setLeftBarButton( item,  animated: animated )
+        base.setLeftBarButton(item, animated: animated)
         return self
     }
 
     @discardableResult
     func setRightBarButton(_ item: UIBarButtonItem?, animated: Bool) -> Self {
-        base.setRightBarButton( item,  animated: animated )
+        base.setRightBarButton(item, animated: animated)
         return self
     }
 }

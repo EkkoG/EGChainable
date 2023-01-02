@@ -18,13 +18,13 @@ public extension ChainableObject where Base: UIPasteConfiguration {
 
     @discardableResult
     func addAcceptableTypeIdentifiers(_ acceptableTypeIdentifiers: [String]) -> Self {
-        base.addAcceptableTypeIdentifiers( acceptableTypeIdentifiers )
+        base.addAcceptableTypeIdentifiers(acceptableTypeIdentifiers)
         return self
     }
 
     @discardableResult
     func addTypeIdentifiers(forAccepting aClass: NSItemProviderReading.Type) -> Self {
-        base.addTypeIdentifiers( forAccepting: aClass )
+        base.addTypeIdentifiers(forAccepting: aClass)
         return self
     }
 

@@ -13,7 +13,7 @@ public extension ChainableObject where Base: UITextDragPreviewRenderer {
 
     @discardableResult
     func adjust(firstLineRect: UnsafeMutablePointer<CGRect>, bodyRect: UnsafeMutablePointer<CGRect>, lastLineRect: UnsafeMutablePointer<CGRect>, textOrigin origin: CGPoint) -> Self {
-        base.adjust( firstLineRect: firstLineRect,  bodyRect: bodyRect,  lastLineRect: lastLineRect,  textOrigin: origin )
+        base.adjust(firstLineRect: firstLineRect, bodyRect: bodyRect, lastLineRect: lastLineRect, textOrigin: origin)
         return self
     }
 }

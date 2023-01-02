@@ -76,25 +76,25 @@ public extension ChainableObject where Base: UISlider {
 
     @discardableResult
     func setValue(_ value: Float, animated: Bool) -> Self {
-        base.setValue( value,  animated: animated )
+        base.setValue(value, animated: animated)
         return self
     }
 
     @discardableResult
     func setThumbImage(_ image: UIImage?, for state: UIControl.State) -> Self {
-        base.setThumbImage( image,  for: state )
+        base.setThumbImage(image, for: state)
         return self
     }
 
     @discardableResult
     func setMinimumTrackImage(_ image: UIImage?, for state: UIControl.State) -> Self {
-        base.setMinimumTrackImage( image,  for: state )
+        base.setMinimumTrackImage(image, for: state)
         return self
     }
 
     @discardableResult
     func setMaximumTrackImage(_ image: UIImage?, for state: UIControl.State) -> Self {
-        base.setMaximumTrackImage( image,  for: state )
+        base.setMaximumTrackImage(image, for: state)
         return self
     }
 

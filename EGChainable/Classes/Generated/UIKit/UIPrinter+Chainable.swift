@@ -13,7 +13,7 @@ public extension ChainableObject where Base: UIPrinter {
 
     @discardableResult
     func contactPrinter(_ completionHandler: ((Bool) -> Void)? = nil) -> Self {
-        base.contactPrinter( completionHandler )
+        base.contactPrinter(completionHandler)
         return self
     }
 

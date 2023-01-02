@@ -44,25 +44,25 @@ public extension ChainableObject where Base: UIViewPropertyAnimator {
 
     @discardableResult
     func addAnimations(_ animation: @escaping () -> Void, delayFactor: CGFloat) -> Self {
-        base.addAnimations( animation,  delayFactor: delayFactor )
+        base.addAnimations(animation, delayFactor: delayFactor)
         return self
     }
 
     @discardableResult
     func addAnimations(_ animation: @escaping () -> Void) -> Self {
-        base.addAnimations( animation )
+        base.addAnimations(animation)
         return self
     }
 
     @discardableResult
     func addCompletion(_ completion: @escaping (UIViewAnimatingPosition) -> Void) -> Self {
-        base.addCompletion( completion )
+        base.addCompletion(completion)
         return self
     }
 
     @discardableResult
     func continueAnimation(withTimingParameters parameters: UITimingCurveProvider?, durationFactor: CGFloat) -> Self {
-        base.continueAnimation( withTimingParameters: parameters,  durationFactor: durationFactor )
+        base.continueAnimation(withTimingParameters: parameters, durationFactor: durationFactor)
         return self
     }
 
@@ -74,7 +74,7 @@ public extension ChainableObject where Base: UIViewPropertyAnimator {
 
     @discardableResult
     func startAnimation(afterDelay delay: TimeInterval) -> Self {
-        base.startAnimation( afterDelay: delay )
+        base.startAnimation(afterDelay: delay)
         return self
     }
 
@@ -86,14 +86,14 @@ public extension ChainableObject where Base: UIViewPropertyAnimator {
 
     @discardableResult
     func stopAnimation(_ withoutFinishing: Bool) -> Self {
-        base.stopAnimation( withoutFinishing )
+        base.stopAnimation(withoutFinishing)
         return self
     }
 
     @available(iOS 10.0, *)
     @discardableResult
     func finishAnimation(at finalPosition: UIViewAnimatingPosition) -> Self {
-        base.finishAnimation( at: finalPosition )
+        base.finishAnimation(at: finalPosition)
         return self
     }
 }

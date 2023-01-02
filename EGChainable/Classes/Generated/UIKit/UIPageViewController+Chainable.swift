@@ -30,7 +30,7 @@ public extension ChainableObject where Base: UIPageViewController {
 
     @discardableResult
     func setViewControllers(_ viewControllers: [UIViewController]?, direction: UIPageViewController.NavigationDirection, animated: Bool, completion: ((Bool) -> Void)? = nil) -> Self {
-        base.setViewControllers( viewControllers,  direction: direction,  animated: animated,  completion: completion )
+        base.setViewControllers(viewControllers, direction: direction, animated: animated, completion: completion)
         return self
     }
 }

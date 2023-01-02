@@ -128,34 +128,34 @@ public extension ChainableObject where Base: UINavigationBar {
 
     @discardableResult
     func pushItem(_ item: UINavigationItem, animated: Bool) -> Self {
-        base.pushItem( item,  animated: animated )
+        base.pushItem(item, animated: animated)
         return self
     }
 
     @discardableResult
     func setItems(_ items: [UINavigationItem]?, animated: Bool) -> Self {
-        base.setItems( items,  animated: animated )
+        base.setItems(items, animated: animated)
         return self
     }
 
     @available(iOS 7.0, *)
     @discardableResult
     func setBackgroundImage(_ backgroundImage: UIImage?, for barPosition: UIBarPosition, barMetrics: UIBarMetrics) -> Self {
-        base.setBackgroundImage( backgroundImage,  for: barPosition,  barMetrics: barMetrics )
+        base.setBackgroundImage(backgroundImage, for: barPosition, barMetrics: barMetrics)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setBackgroundImage(_ backgroundImage: UIImage?, for barMetrics: UIBarMetrics) -> Self {
-        base.setBackgroundImage( backgroundImage,  for: barMetrics )
+        base.setBackgroundImage(backgroundImage, for: barMetrics)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setTitleVerticalPositionAdjustment(_ adjustment: CGFloat, for barMetrics: UIBarMetrics) -> Self {
-        base.setTitleVerticalPositionAdjustment( adjustment,  for: barMetrics )
+        base.setTitleVerticalPositionAdjustment(adjustment, for: barMetrics)
         return self
     }
 

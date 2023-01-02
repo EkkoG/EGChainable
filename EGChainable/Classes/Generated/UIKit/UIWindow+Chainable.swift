@@ -76,7 +76,7 @@ public extension ChainableObject where Base: UIWindow {
 
     @discardableResult
     func sendEvent(_ event: UIEvent) -> Self {
-        base.sendEvent( event )
+        base.sendEvent(event)
         return self
     }
 

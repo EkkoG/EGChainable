@@ -61,7 +61,7 @@ public extension ChainableObject where Base: UISwitch {
 
     @discardableResult
     func setOn(_ on: Bool, animated: Bool) -> Self {
-        base.setOn( on,  animated: animated )
+        base.setOn(on, animated: animated)
         return self
     }
 

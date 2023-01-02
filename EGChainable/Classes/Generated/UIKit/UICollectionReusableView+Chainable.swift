@@ -25,19 +25,19 @@ public extension ChainableObject where Base: UICollectionReusableView {
 
     @discardableResult
     func apply(_ layoutAttributes: UICollectionViewLayoutAttributes) -> Self {
-        base.apply( layoutAttributes )
+        base.apply(layoutAttributes)
         return self
     }
 
     @discardableResult
     func willTransition(from oldLayout: UICollectionViewLayout, to newLayout: UICollectionViewLayout) -> Self {
-        base.willTransition( from: oldLayout,  to: newLayout )
+        base.willTransition(from: oldLayout, to: newLayout)
         return self
     }
 
     @discardableResult
     func didTransition(from oldLayout: UICollectionViewLayout, to newLayout: UICollectionViewLayout) -> Self {
-        base.didTransition( from: oldLayout,  to: newLayout )
+        base.didTransition(from: oldLayout, to: newLayout)
         return self
     }
 

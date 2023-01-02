@@ -43,19 +43,19 @@ public extension ChainableObject where Base: UISearchTextField {
 
     @discardableResult
     func insertToken(_ token: UISearchToken, at tokenIndex: Int) -> Self {
-        base.insertToken( token,  at: tokenIndex )
+        base.insertToken(token, at: tokenIndex)
         return self
     }
 
     @discardableResult
     func removeToken(at tokenIndex: Int) -> Self {
-        base.removeToken( at: tokenIndex )
+        base.removeToken(at: tokenIndex)
         return self
     }
 
     @discardableResult
     func replaceTextualPortion(of textRange: UITextRange, with token: UISearchToken, at tokenIndex: Int) -> Self {
-        base.replaceTextualPortion( of: textRange,  with: token,  at: tokenIndex )
+        base.replaceTextualPortion(of: textRange, with: token, at: tokenIndex)
         return self
     }
 }

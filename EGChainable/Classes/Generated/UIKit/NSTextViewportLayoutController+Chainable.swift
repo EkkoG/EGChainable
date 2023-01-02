@@ -24,7 +24,7 @@ public extension ChainableObject where Base: NSTextViewportLayoutController {
 
     @discardableResult
     func adjustViewport(byVerticalOffset verticalOffset: CGFloat) -> Self {
-        base.adjustViewport( byVerticalOffset: verticalOffset )
+        base.adjustViewport(byVerticalOffset: verticalOffset)
         return self
     }
 }

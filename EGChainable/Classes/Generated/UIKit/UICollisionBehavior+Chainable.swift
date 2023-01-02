@@ -30,37 +30,37 @@ public extension ChainableObject where Base: UICollisionBehavior {
 
     @discardableResult
     func addItem(_ item: UIDynamicItem) -> Self {
-        base.addItem( item )
+        base.addItem(item)
         return self
     }
 
     @discardableResult
     func removeItem(_ item: UIDynamicItem) -> Self {
-        base.removeItem( item )
+        base.removeItem(item)
         return self
     }
 
     @discardableResult
     func setTranslatesReferenceBoundsIntoBoundary(with insets: UIEdgeInsets) -> Self {
-        base.setTranslatesReferenceBoundsIntoBoundary( with: insets )
+        base.setTranslatesReferenceBoundsIntoBoundary(with: insets)
         return self
     }
 
     @discardableResult
     func addBoundary(withIdentifier identifier: NSCopying, for bezierPath: UIBezierPath) -> Self {
-        base.addBoundary( withIdentifier: identifier,  for: bezierPath )
+        base.addBoundary(withIdentifier: identifier, for: bezierPath)
         return self
     }
 
     @discardableResult
     func addBoundary(withIdentifier identifier: NSCopying, from p1: CGPoint, to p2: CGPoint) -> Self {
-        base.addBoundary( withIdentifier: identifier,  from: p1,  to: p2 )
+        base.addBoundary(withIdentifier: identifier, from: p1, to: p2)
         return self
     }
 
     @discardableResult
     func removeBoundary(withIdentifier identifier: NSCopying) -> Self {
-        base.removeBoundary( withIdentifier: identifier )
+        base.removeBoundary(withIdentifier: identifier)
         return self
     }
 

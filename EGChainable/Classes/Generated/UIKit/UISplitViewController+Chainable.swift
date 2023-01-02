@@ -130,35 +130,35 @@ public extension ChainableObject where Base: UISplitViewController {
     @available(iOS 14.0, *)
     @discardableResult
     func setViewController(_ vc: UIViewController?, for column: UISplitViewController.Column) -> Self {
-        base.setViewController( vc,  for: column )
+        base.setViewController(vc, for: column)
         return self
     }
 
     @available(iOS 14.0, *)
     @discardableResult
     func hide(_ column: UISplitViewController.Column) -> Self {
-        base.hide( column )
+        base.hide(column)
         return self
     }
 
     @available(iOS 14.0, *)
     @discardableResult
     func show(_ column: UISplitViewController.Column) -> Self {
-        base.show( column )
+        base.show(column)
         return self
     }
 
     @available(iOS 8.0, *)
     @discardableResult
     func show(_ vc: UIViewController, sender: Any?) -> Self {
-        base.show( vc,  sender: sender )
+        base.show(vc, sender: sender)
         return self
     }
 
     @available(iOS 8.0, *)
     @discardableResult
     func showDetailViewController(_ vc: UIViewController, sender: Any?) -> Self {
-        base.showDetailViewController( vc,  sender: sender )
+        base.showDetailViewController(vc, sender: sender)
         return self
     }
 }

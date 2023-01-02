@@ -36,25 +36,25 @@ public extension ChainableObject where Base: UIPushBehavior {
 
     @discardableResult
     func addItem(_ item: UIDynamicItem) -> Self {
-        base.addItem( item )
+        base.addItem(item)
         return self
     }
 
     @discardableResult
     func removeItem(_ item: UIDynamicItem) -> Self {
-        base.removeItem( item )
+        base.removeItem(item)
         return self
     }
 
     @discardableResult
     func setTargetOffsetFromCenter(_ o: UIOffset, for item: UIDynamicItem) -> Self {
-        base.setTargetOffsetFromCenter( o,  for: item )
+        base.setTargetOffsetFromCenter(o, for: item)
         return self
     }
 
     @discardableResult
     func setAngle(_ angle: CGFloat, magnitude: CGFloat) -> Self {
-        base.setAngle( angle,  magnitude: magnitude )
+        base.setAngle(angle, magnitude: magnitude)
         return self
     }
 }

@@ -13,7 +13,7 @@ public extension ChainableObject where Base: UINotificationFeedbackGenerator {
 
     @discardableResult
     func notificationOccurred(_ notificationType: UINotificationFeedbackGenerator.FeedbackType) -> Self {
-        base.notificationOccurred( notificationType )
+        base.notificationOccurred(notificationType)
         return self
     }
 

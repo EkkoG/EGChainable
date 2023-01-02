@@ -85,14 +85,14 @@ public extension ChainableObject where Base: WKWebView {
 
     @discardableResult
     func evaluateJavaScript(_ javaScriptString: String, completionHandler: ((Any?, Error?) -> Void)? = nil) -> Self {
-        base.evaluateJavaScript( javaScriptString,  completionHandler: completionHandler )
+        base.evaluateJavaScript(javaScriptString, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 15.0, *)
     @discardableResult
     func closeAllMediaPresentations(completionHandler: (() -> Void)? = nil) -> Self {
-        base.closeAllMediaPresentations( completionHandler: completionHandler )
+        base.closeAllMediaPresentations(completionHandler: completionHandler)
         return self
     }
 
@@ -106,7 +106,7 @@ public extension ChainableObject where Base: WKWebView {
     @available(iOS 15.0, *)
     @discardableResult
     func pauseAllMediaPlayback(completionHandler: (() -> Void)? = nil) -> Self {
-        base.pauseAllMediaPlayback( completionHandler: completionHandler )
+        base.pauseAllMediaPlayback(completionHandler: completionHandler)
         return self
     }
 
@@ -120,112 +120,112 @@ public extension ChainableObject where Base: WKWebView {
     @available(iOS 15.0, *)
     @discardableResult
     func setAllMediaPlaybackSuspended(_ suspended: Bool, completionHandler: (() -> Void)? = nil) -> Self {
-        base.setAllMediaPlaybackSuspended( suspended,  completionHandler: completionHandler )
+        base.setAllMediaPlaybackSuspended(suspended, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 15.0, *)
     @discardableResult
     func setAllMediaPlaybackSuspended(_ suspended: Bool) -> Self {
-        base.setAllMediaPlaybackSuspended( suspended )
+        base.setAllMediaPlaybackSuspended(suspended)
         return self
     }
 
     @available(iOS 15.0, *)
     @discardableResult
     func requestMediaPlaybackState(completionHandler: @escaping (WKMediaPlaybackState) -> Void) -> Self {
-        base.requestMediaPlaybackState( completionHandler: completionHandler )
+        base.requestMediaPlaybackState(completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 15.0, *)
     @discardableResult
     func setCameraCaptureState(_ state: WKMediaCaptureState, completionHandler: (() -> Void)? = nil) -> Self {
-        base.setCameraCaptureState( state,  completionHandler: completionHandler )
+        base.setCameraCaptureState(state, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 15.0, *)
     @discardableResult
     func setCameraCaptureState(_ state: WKMediaCaptureState) -> Self {
-        base.setCameraCaptureState( state )
+        base.setCameraCaptureState(state)
         return self
     }
 
     @available(iOS 15.0, *)
     @discardableResult
     func setMicrophoneCaptureState(_ state: WKMediaCaptureState, completionHandler: (() -> Void)? = nil) -> Self {
-        base.setMicrophoneCaptureState( state,  completionHandler: completionHandler )
+        base.setMicrophoneCaptureState(state, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 15.0, *)
     @discardableResult
     func setMicrophoneCaptureState(_ state: WKMediaCaptureState) -> Self {
-        base.setMicrophoneCaptureState( state )
+        base.setMicrophoneCaptureState(state)
         return self
     }
 
     @available(iOS 11.0, *)
     @discardableResult
     func takeSnapshot(with snapshotConfiguration: WKSnapshotConfiguration?, completionHandler: @escaping (UIImage?, Error?) -> Void) -> Self {
-        base.takeSnapshot( with: snapshotConfiguration,  completionHandler: completionHandler )
+        base.takeSnapshot(with: snapshotConfiguration, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 14.5, *)
     @discardableResult
     func startDownload(using request: URLRequest, completionHandler: @escaping (WKDownload) -> Void) -> Self {
-        base.startDownload( using: request,  completionHandler: completionHandler )
+        base.startDownload(using: request, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 14.5, *)
     @discardableResult
     func resumeDownload(fromResumeData resumeData: Data, completionHandler: @escaping (WKDownload) -> Void) -> Self {
-        base.resumeDownload( fromResumeData: resumeData,  completionHandler: completionHandler )
+        base.resumeDownload(fromResumeData: resumeData, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 15.5, *)
     @discardableResult
     func setMinimumViewportInset(_ minimumViewportInset: UIEdgeInsets, maximumViewportInset: UIEdgeInsets) -> Self {
-        base.setMinimumViewportInset( minimumViewportInset,  maximumViewportInset: maximumViewportInset )
+        base.setMinimumViewportInset(minimumViewportInset, maximumViewportInset: maximumViewportInset)
         return self
     }
 
     @available(iOS 14.0, macOS 11.0, *)
     @discardableResult
     func callAsyncJavaScript(_ functionBody: String, arguments: [String : Any] = [:], in frame: WKFrameInfo? = nil, in contentWorld: WKContentWorld, completionHandler: ((Result<Any, Error>) -> Void)? = nil) -> Self {
-        base.callAsyncJavaScript( functionBody,  arguments: arguments,  in: frame,  in: contentWorld,  completionHandler: completionHandler )
+        base.callAsyncJavaScript(functionBody, arguments: arguments, in: frame, in: contentWorld, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 14.0, macOS 11.0, *)
     @discardableResult
     func createPDF(configuration: WKPDFConfiguration = .init(), completionHandler: @escaping (Result<Data, Error>) -> Void) -> Self {
-        base.createPDF( configuration: configuration,  completionHandler: completionHandler )
+        base.createPDF(configuration: configuration, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 14.0, macOS 11.0, *)
     @discardableResult
     func createWebArchiveData(completionHandler: @escaping (Result<Data, Error>) -> Void) -> Self {
-        base.createWebArchiveData( completionHandler: completionHandler )
+        base.createWebArchiveData(completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 14.0, macOS 11.0, *)
     @discardableResult
     func evaluateJavaScript(_ javaScript: String, in frame: WKFrameInfo? = nil, in contentWorld: WKContentWorld, completionHandler: ((Result<Any, Error>) -> Void)? = nil) -> Self {
-        base.evaluateJavaScript( javaScript,  in: frame,  in: contentWorld,  completionHandler: completionHandler )
+        base.evaluateJavaScript(javaScript, in: frame, in: contentWorld, completionHandler: completionHandler)
         return self
     }
 
     @available(iOS 14.0, macOS 11.0, *)
     @discardableResult
     func find(_ string: String, configuration: WKFindConfiguration = .init(), completionHandler: @escaping (WKFindResult) -> Void) -> Self {
-        base.find( string,  configuration: configuration,  completionHandler: completionHandler )
+        base.find(string, configuration: configuration, completionHandler: completionHandler)
         return self
     }
 

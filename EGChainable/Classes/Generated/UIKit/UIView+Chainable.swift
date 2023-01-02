@@ -256,7 +256,7 @@ public extension ChainableObject where Base: UIView {
     @available(iOS 8.0, *)
     @discardableResult
     func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) -> Self {
-        base.traitCollectionDidChange( previousTraitCollection )
+        base.traitCollectionDidChange(previousTraitCollection)
         return self
     }
 
@@ -274,61 +274,61 @@ public extension ChainableObject where Base: UIView {
 
     @discardableResult
     func insertSubview(_ view: UIView, at index: Int) -> Self {
-        base.insertSubview( view,  at: index )
+        base.insertSubview(view, at: index)
         return self
     }
 
     @discardableResult
     func exchangeSubview(at index1: Int, withSubviewAt index2: Int) -> Self {
-        base.exchangeSubview( at: index1,  withSubviewAt: index2 )
+        base.exchangeSubview(at: index1, withSubviewAt: index2)
         return self
     }
 
     @discardableResult
     func addSubview(_ view: UIView) -> Self {
-        base.addSubview( view )
+        base.addSubview(view)
         return self
     }
 
     @discardableResult
     func insertSubview(_ view: UIView, belowSubview siblingSubview: UIView) -> Self {
-        base.insertSubview( view,  belowSubview: siblingSubview )
+        base.insertSubview(view, belowSubview: siblingSubview)
         return self
     }
 
     @discardableResult
     func insertSubview(_ view: UIView, aboveSubview siblingSubview: UIView) -> Self {
-        base.insertSubview( view,  aboveSubview: siblingSubview )
+        base.insertSubview(view, aboveSubview: siblingSubview)
         return self
     }
 
     @discardableResult
     func bringSubviewToFront(_ view: UIView) -> Self {
-        base.bringSubviewToFront( view )
+        base.bringSubviewToFront(view)
         return self
     }
 
     @discardableResult
     func sendSubviewToBack(_ view: UIView) -> Self {
-        base.sendSubviewToBack( view )
+        base.sendSubviewToBack(view)
         return self
     }
 
     @discardableResult
     func didAddSubview(_ subview: UIView) -> Self {
-        base.didAddSubview( subview )
+        base.didAddSubview(subview)
         return self
     }
 
     @discardableResult
     func willRemoveSubview(_ subview: UIView) -> Self {
-        base.willRemoveSubview( subview )
+        base.willRemoveSubview(subview)
         return self
     }
 
     @discardableResult
     func willMove(toSuperview newSuperview: UIView?) -> Self {
-        base.willMove( toSuperview: newSuperview )
+        base.willMove(toSuperview: newSuperview)
         return self
     }
 
@@ -340,7 +340,7 @@ public extension ChainableObject where Base: UIView {
 
     @discardableResult
     func willMove(toWindow newWindow: UIWindow?) -> Self {
-        base.willMove( toWindow: newWindow )
+        base.willMove(toWindow: newWindow)
         return self
     }
 
@@ -384,7 +384,7 @@ public extension ChainableObject where Base: UIView {
 
     @discardableResult
     func draw(_ rect: CGRect) -> Self {
-        base.draw( rect )
+        base.draw(rect)
         return self
     }
 
@@ -396,7 +396,7 @@ public extension ChainableObject where Base: UIView {
 
     @discardableResult
     func setNeedsDisplay(_ rect: CGRect) -> Self {
-        base.setNeedsDisplay( rect )
+        base.setNeedsDisplay(rect)
         return self
     }
 
@@ -410,56 +410,56 @@ public extension ChainableObject where Base: UIView {
     @available(iOS 3.2, *)
     @discardableResult
     func addGestureRecognizer(_ gestureRecognizer: UIGestureRecognizer) -> Self {
-        base.addGestureRecognizer( gestureRecognizer )
+        base.addGestureRecognizer(gestureRecognizer)
         return self
     }
 
     @available(iOS 3.2, *)
     @discardableResult
     func removeGestureRecognizer(_ gestureRecognizer: UIGestureRecognizer) -> Self {
-        base.removeGestureRecognizer( gestureRecognizer )
+        base.removeGestureRecognizer(gestureRecognizer)
         return self
     }
 
     @available(iOS 7.0, *)
     @discardableResult
     func addMotionEffect(_ effect: UIMotionEffect) -> Self {
-        base.addMotionEffect( effect )
+        base.addMotionEffect(effect)
         return self
     }
 
     @available(iOS 7.0, *)
     @discardableResult
     func removeMotionEffect(_ effect: UIMotionEffect) -> Self {
-        base.removeMotionEffect( effect )
+        base.removeMotionEffect(effect)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func addConstraint(_ constraint: NSLayoutConstraint) -> Self {
-        base.addConstraint( constraint )
+        base.addConstraint(constraint)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func addConstraints(_ constraints: [NSLayoutConstraint]) -> Self {
-        base.addConstraints( constraints )
+        base.addConstraints(constraints)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func removeConstraint(_ constraint: NSLayoutConstraint) -> Self {
-        base.removeConstraint( constraint )
+        base.removeConstraint(constraint)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func removeConstraints(_ constraints: [NSLayoutConstraint]) -> Self {
-        base.removeConstraints( constraints )
+        base.removeConstraints(constraints)
         return self
     }
 
@@ -487,14 +487,14 @@ public extension ChainableObject where Base: UIView {
     @available(iOS 9.0, *)
     @discardableResult
     func addLayoutGuide(_ layoutGuide: UILayoutGuide) -> Self {
-        base.addLayoutGuide( layoutGuide )
+        base.addLayoutGuide(layoutGuide)
         return self
     }
 
     @available(iOS 9.0, *)
     @discardableResult
     func removeLayoutGuide(_ layoutGuide: UILayoutGuide) -> Self {
-        base.removeLayoutGuide( layoutGuide )
+        base.removeLayoutGuide(layoutGuide)
         return self
     }
 
@@ -508,20 +508,20 @@ public extension ChainableObject where Base: UIView {
     @available(iOS 6.0, *)
     @discardableResult
     func encodeRestorableState(with coder: NSCoder) -> Self {
-        base.encodeRestorableState( with: coder )
+        base.encodeRestorableState(with: coder)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func decodeRestorableState(with coder: NSCoder) -> Self {
-        base.decodeRestorableState( with: coder )
+        base.decodeRestorableState(with: coder)
         return self
     }
 
     @discardableResult
     func draw(_ rect: CGRect, for formatter: UIViewPrintFormatter) -> Self {
-        base.draw( rect,  for: formatter )
+        base.draw(rect, for: formatter)
         return self
     }
 }

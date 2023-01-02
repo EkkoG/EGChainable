@@ -152,63 +152,63 @@ public extension ChainableObject where Base: UISearchBar {
     @available(iOS 3.0, *)
     @discardableResult
     func setShowsCancelButton(_ showsCancelButton: Bool, animated: Bool) -> Self {
-        base.setShowsCancelButton( showsCancelButton,  animated: animated )
+        base.setShowsCancelButton(showsCancelButton, animated: animated)
         return self
     }
 
     @available(iOS 13.0, *)
     @discardableResult
     func setShowsScope(_ show: Bool, animated animate: Bool) -> Self {
-        base.setShowsScope( show,  animated: animate )
+        base.setShowsScope(show, animated: animate)
         return self
     }
 
     @available(iOS 7.0, *)
     @discardableResult
     func setBackgroundImage(_ backgroundImage: UIImage?, for barPosition: UIBarPosition, barMetrics: UIBarMetrics) -> Self {
-        base.setBackgroundImage( backgroundImage,  for: barPosition,  barMetrics: barMetrics )
+        base.setBackgroundImage(backgroundImage, for: barPosition, barMetrics: barMetrics)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setSearchFieldBackgroundImage(_ backgroundImage: UIImage?, for state: UIControl.State) -> Self {
-        base.setSearchFieldBackgroundImage( backgroundImage,  for: state )
+        base.setSearchFieldBackgroundImage(backgroundImage, for: state)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setImage(_ iconImage: UIImage?, for icon: UISearchBar.Icon, state: UIControl.State) -> Self {
-        base.setImage( iconImage,  for: icon,  state: state )
+        base.setImage(iconImage, for: icon, state: state)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setScopeBarButtonBackgroundImage(_ backgroundImage: UIImage?, for state: UIControl.State) -> Self {
-        base.setScopeBarButtonBackgroundImage( backgroundImage,  for: state )
+        base.setScopeBarButtonBackgroundImage(backgroundImage, for: state)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setScopeBarButtonDividerImage(_ dividerImage: UIImage?, forLeftSegmentState leftState: UIControl.State, rightSegmentState rightState: UIControl.State) -> Self {
-        base.setScopeBarButtonDividerImage( dividerImage,  forLeftSegmentState: leftState,  rightSegmentState: rightState )
+        base.setScopeBarButtonDividerImage(dividerImage, forLeftSegmentState: leftState, rightSegmentState: rightState)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setScopeBarButtonTitleTextAttributes(_ attributes: [NSAttributedString.Key : Any]?, for state: UIControl.State) -> Self {
-        base.setScopeBarButtonTitleTextAttributes( attributes,  for: state )
+        base.setScopeBarButtonTitleTextAttributes(attributes, for: state)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setPositionAdjustment(_ adjustment: UIOffset, for icon: UISearchBar.Icon) -> Self {
-        base.setPositionAdjustment( adjustment,  for: icon )
+        base.setPositionAdjustment(adjustment, for: icon)
         return self
     }
 

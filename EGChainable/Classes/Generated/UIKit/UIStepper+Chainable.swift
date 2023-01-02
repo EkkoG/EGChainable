@@ -56,28 +56,28 @@ public extension ChainableObject where Base: UIStepper {
     @available(iOS 6.0, *)
     @discardableResult
     func setBackgroundImage(_ image: UIImage?, for state: UIControl.State) -> Self {
-        base.setBackgroundImage( image,  for: state )
+        base.setBackgroundImage(image, for: state)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func setDividerImage(_ image: UIImage?, forLeftSegmentState leftState: UIControl.State, rightSegmentState rightState: UIControl.State) -> Self {
-        base.setDividerImage( image,  forLeftSegmentState: leftState,  rightSegmentState: rightState )
+        base.setDividerImage(image, forLeftSegmentState: leftState, rightSegmentState: rightState)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func setIncrementImage(_ image: UIImage?, for state: UIControl.State) -> Self {
-        base.setIncrementImage( image,  for: state )
+        base.setIncrementImage(image, for: state)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func setDecrementImage(_ image: UIImage?, for state: UIControl.State) -> Self {
-        base.setDecrementImage( image,  for: state )
+        base.setDecrementImage(image, for: state)
         return self
     }
 

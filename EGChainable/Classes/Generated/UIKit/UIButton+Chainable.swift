@@ -82,45 +82,45 @@ public extension ChainableObject where Base: UIButton {
 
     @discardableResult
     func setTitle(_ title: String?, for state: UIControl.State) -> Self {
-        base.setTitle( title,  for: state )
+        base.setTitle(title, for: state)
         return self
     }
 
     @discardableResult
     func setTitleColor(_ color: UIColor?, for state: UIControl.State) -> Self {
-        base.setTitleColor( color,  for: state )
+        base.setTitleColor(color, for: state)
         return self
     }
 
     @discardableResult
     func setTitleShadowColor(_ color: UIColor?, for state: UIControl.State) -> Self {
-        base.setTitleShadowColor( color,  for: state )
+        base.setTitleShadowColor(color, for: state)
         return self
     }
 
     @discardableResult
     func setImage(_ image: UIImage?, for state: UIControl.State) -> Self {
-        base.setImage( image,  for: state )
+        base.setImage(image, for: state)
         return self
     }
 
     @discardableResult
     func setBackgroundImage(_ image: UIImage?, for state: UIControl.State) -> Self {
-        base.setBackgroundImage( image,  for: state )
+        base.setBackgroundImage(image, for: state)
         return self
     }
 
     @available(iOS 13.0, *)
     @discardableResult
     func setPreferredSymbolConfiguration(_ configuration: UIImage.SymbolConfiguration?, forImageIn state: UIControl.State) -> Self {
-        base.setPreferredSymbolConfiguration( configuration,  forImageIn: state )
+        base.setPreferredSymbolConfiguration(configuration, forImageIn: state)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func setAttributedTitle(_ title: NSAttributedString?, for state: UIControl.State) -> Self {
-        base.setAttributedTitle( title,  for: state )
+        base.setAttributedTitle(title, for: state)
         return self
     }
 

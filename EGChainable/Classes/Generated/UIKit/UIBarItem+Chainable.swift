@@ -71,7 +71,7 @@ public extension ChainableObject where Base: UIBarItem {
     @available(iOS 5.0, *)
     @discardableResult
     func setTitleTextAttributes(_ attributes: [NSAttributedString.Key : Any]?, for state: UIControl.State) -> Self {
-        base.setTitleTextAttributes( attributes,  for: state )
+        base.setTitleTextAttributes(attributes, for: state)
         return self
     }
 

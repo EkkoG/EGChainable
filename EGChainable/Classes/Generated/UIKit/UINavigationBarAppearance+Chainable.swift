@@ -49,7 +49,7 @@ public extension ChainableObject where Base: UINavigationBarAppearance {
 
     @discardableResult
     func setBackIndicatorImage(_ backIndicatorImage: UIImage?, transitionMaskImage backIndicatorTransitionMaskImage: UIImage?) -> Self {
-        base.setBackIndicatorImage( backIndicatorImage,  transitionMaskImage: backIndicatorTransitionMaskImage )
+        base.setBackIndicatorImage(backIndicatorImage, transitionMaskImage: backIndicatorTransitionMaskImage)
         return self
     }
 

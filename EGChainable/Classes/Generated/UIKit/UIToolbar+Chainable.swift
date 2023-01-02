@@ -80,21 +80,21 @@ public extension ChainableObject where Base: UIToolbar {
 
     @discardableResult
     func setItems(_ items: [UIBarButtonItem]?, animated: Bool) -> Self {
-        base.setItems( items,  animated: animated )
+        base.setItems(items, animated: animated)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setBackgroundImage(_ backgroundImage: UIImage?, forToolbarPosition topOrBottom: UIBarPosition, barMetrics: UIBarMetrics) -> Self {
-        base.setBackgroundImage( backgroundImage,  forToolbarPosition: topOrBottom,  barMetrics: barMetrics )
+        base.setBackgroundImage(backgroundImage, forToolbarPosition: topOrBottom, barMetrics: barMetrics)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func setShadowImage(_ shadowImage: UIImage?, forToolbarPosition topOrBottom: UIBarPosition) -> Self {
-        base.setShadowImage( shadowImage,  forToolbarPosition: topOrBottom )
+        base.setShadowImage(shadowImage, forToolbarPosition: topOrBottom)
         return self
     }
 

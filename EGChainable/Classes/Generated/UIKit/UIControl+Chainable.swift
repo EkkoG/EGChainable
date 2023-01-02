@@ -70,86 +70,86 @@ public extension ChainableObject where Base: UIControl {
 
     @discardableResult
     func endTracking(_ touch: UITouch?, with event: UIEvent?) -> Self {
-        base.endTracking( touch,  with: event )
+        base.endTracking(touch, with: event)
         return self
     }
 
     @discardableResult
     func cancelTracking(with event: UIEvent?) -> Self {
-        base.cancelTracking( with: event )
+        base.cancelTracking(with: event)
         return self
     }
 
     @discardableResult
     func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControl.Event) -> Self {
-        base.addTarget( target,  action: action,  for: controlEvents )
+        base.addTarget(target, action: action, for: controlEvents)
         return self
     }
 
     @discardableResult
     func removeTarget(_ target: Any?, action: Selector?, for controlEvents: UIControl.Event) -> Self {
-        base.removeTarget( target,  action: action,  for: controlEvents )
+        base.removeTarget(target, action: action, for: controlEvents)
         return self
     }
 
     @available(iOS 14.0, *)
     @discardableResult
     func addAction(_ action: UIAction, for controlEvents: UIControl.Event) -> Self {
-        base.addAction( action,  for: controlEvents )
+        base.addAction(action, for: controlEvents)
         return self
     }
 
     @available(iOS 14.0, *)
     @discardableResult
     func removeAction(_ action: UIAction, for controlEvents: UIControl.Event) -> Self {
-        base.removeAction( action,  for: controlEvents )
+        base.removeAction(action, for: controlEvents)
         return self
     }
 
     @available(iOS 14.0, *)
     @discardableResult
     func removeAction(identifiedBy actionIdentifier: UIAction.Identifier, for controlEvents: UIControl.Event) -> Self {
-        base.removeAction( identifiedBy: actionIdentifier,  for: controlEvents )
+        base.removeAction(identifiedBy: actionIdentifier, for: controlEvents)
         return self
     }
 
     @discardableResult
     func sendAction(_ action: Selector, to target: Any?, for event: UIEvent?) -> Self {
-        base.sendAction( action,  to: target,  for: event )
+        base.sendAction(action, to: target, for: event)
         return self
     }
 
     @available(iOS 14.0, *)
     @discardableResult
     func sendAction(_ action: UIAction) -> Self {
-        base.sendAction( action )
+        base.sendAction(action)
         return self
     }
 
     @discardableResult
     func sendActions(for controlEvents: UIControl.Event) -> Self {
-        base.sendActions( for: controlEvents )
+        base.sendActions(for: controlEvents)
         return self
     }
 
     @available(iOS 14.0, tvOS 14.0, *)
     @discardableResult
     func enumerateEventHandlers(_ iterator: (UIAction?, (Any?, Selector)?, UIControl.Event, inout Bool) -> Void) -> Self {
-        base.enumerateEventHandlers( iterator )
+        base.enumerateEventHandlers(iterator)
         return self
     }
 
     @available(iOS 14.0, *)
     @discardableResult
     func contextMenuInteraction(_ interaction: UIContextMenuInteraction, willDisplayMenuFor configuration: UIContextMenuConfiguration, animator: UIContextMenuInteractionAnimating?) -> Self {
-        base.contextMenuInteraction( interaction,  willDisplayMenuFor: configuration,  animator: animator )
+        base.contextMenuInteraction(interaction, willDisplayMenuFor: configuration, animator: animator)
         return self
     }
 
     @available(iOS 14.0, *)
     @discardableResult
     func contextMenuInteraction(_ interaction: UIContextMenuInteraction, willEndFor configuration: UIContextMenuConfiguration, animator: UIContextMenuInteractionAnimating?) -> Self {
-        base.contextMenuInteraction( interaction,  willEndFor: configuration,  animator: animator )
+        base.contextMenuInteraction(interaction, willEndFor: configuration, animator: animator)
         return self
     }
 }

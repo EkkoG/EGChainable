@@ -81,7 +81,7 @@ public extension ChainableObject where Base: UIDatePicker {
 
     @discardableResult
     func setDate(_ date: Date, animated: Bool) -> Self {
-        base.setDate( date,  animated: animated )
+        base.setDate(date, animated: animated)
         return self
     }
 

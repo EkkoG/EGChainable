@@ -70,19 +70,19 @@ public extension ChainableObject where Base: UIGestureRecognizer {
 
     @discardableResult
     func addTarget(_ target: Any, action: Selector) -> Self {
-        base.addTarget( target,  action: action )
+        base.addTarget(target, action: action)
         return self
     }
 
     @discardableResult
     func removeTarget(_ target: Any?, action: Selector?) -> Self {
-        base.removeTarget( target,  action: action )
+        base.removeTarget(target, action: action)
         return self
     }
 
     @discardableResult
     func require(toFail otherGestureRecognizer: UIGestureRecognizer) -> Self {
-        base.require( toFail: otherGestureRecognizer )
+        base.require(toFail: otherGestureRecognizer)
         return self
     }
 

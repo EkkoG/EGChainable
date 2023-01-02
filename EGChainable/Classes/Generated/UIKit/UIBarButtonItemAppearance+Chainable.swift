@@ -13,7 +13,7 @@ public extension ChainableObject where Base: UIBarButtonItemAppearance {
 
     @discardableResult
     func configureWithDefault(for style: UIBarButtonItem.Style) -> Self {
-        base.configureWithDefault( for: style )
+        base.configureWithDefault(for: style)
         return self
     }
 }

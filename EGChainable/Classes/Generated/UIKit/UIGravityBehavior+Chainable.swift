@@ -30,19 +30,19 @@ public extension ChainableObject where Base: UIGravityBehavior {
 
     @discardableResult
     func addItem(_ item: UIDynamicItem) -> Self {
-        base.addItem( item )
+        base.addItem(item)
         return self
     }
 
     @discardableResult
     func removeItem(_ item: UIDynamicItem) -> Self {
-        base.removeItem( item )
+        base.removeItem(item)
         return self
     }
 
     @discardableResult
     func setAngle(_ angle: CGFloat, magnitude: CGFloat) -> Self {
-        base.setAngle( angle,  magnitude: magnitude )
+        base.setAngle(angle, magnitude: magnitude)
         return self
     }
 }

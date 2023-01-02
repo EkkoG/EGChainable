@@ -37,7 +37,7 @@ public extension ChainableObject where Base: UIScene {
 
     @discardableResult
     func open(_ url: URL, options: UIScene.OpenExternalURLOptions?, completionHandler completion: ((Bool) -> Void)? = nil) -> Self {
-        base.open( url,  options: options,  completionHandler: completion )
+        base.open(url, options: options, completionHandler: completion)
         return self
     }
 

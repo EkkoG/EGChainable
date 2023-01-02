@@ -25,19 +25,19 @@ public extension ChainableObject where Base: NSTextStorage {
 
     @discardableResult
     func addLayoutManager(_ aLayoutManager: NSLayoutManager) -> Self {
-        base.addLayoutManager( aLayoutManager )
+        base.addLayoutManager(aLayoutManager)
         return self
     }
 
     @discardableResult
     func removeLayoutManager(_ aLayoutManager: NSLayoutManager) -> Self {
-        base.removeLayoutManager( aLayoutManager )
+        base.removeLayoutManager(aLayoutManager)
         return self
     }
 
     @discardableResult
     func edited(_ editedMask: NSTextStorage.EditActions, range editedRange: NSRange, changeInLength delta: Int) -> Self {
-        base.edited( editedMask,  range: editedRange,  changeInLength: delta )
+        base.edited(editedMask, range: editedRange, changeInLength: delta)
         return self
     }
 
@@ -49,13 +49,13 @@ public extension ChainableObject where Base: NSTextStorage {
 
     @discardableResult
     func invalidateAttributes(in range: NSRange) -> Self {
-        base.invalidateAttributes( in: range )
+        base.invalidateAttributes(in: range)
         return self
     }
 
     @discardableResult
     func ensureAttributesAreFixed(in range: NSRange) -> Self {
-        base.ensureAttributesAreFixed( in: range )
+        base.ensureAttributesAreFixed(in: range)
         return self
     }
 }

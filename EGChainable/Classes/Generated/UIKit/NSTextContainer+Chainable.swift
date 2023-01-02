@@ -65,7 +65,7 @@ public extension ChainableObject where Base: NSTextContainer {
     @available(iOS 9.0, *)
     @discardableResult
     func replaceLayoutManager(_ newLayoutManager: NSLayoutManager) -> Self {
-        base.replaceLayoutManager( newLayoutManager )
+        base.replaceLayoutManager(newLayoutManager)
         return self
     }
 

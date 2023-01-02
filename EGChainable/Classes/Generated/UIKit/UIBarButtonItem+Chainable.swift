@@ -106,49 +106,49 @@ public extension ChainableObject where Base: UIBarButtonItem {
     @available(iOS 5.0, *)
     @discardableResult
     func setBackgroundImage(_ backgroundImage: UIImage?, for state: UIControl.State, barMetrics: UIBarMetrics) -> Self {
-        base.setBackgroundImage( backgroundImage,  for: state,  barMetrics: barMetrics )
+        base.setBackgroundImage(backgroundImage, for: state, barMetrics: barMetrics)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func setBackgroundImage(_ backgroundImage: UIImage?, for state: UIControl.State, style: UIBarButtonItem.Style, barMetrics: UIBarMetrics) -> Self {
-        base.setBackgroundImage( backgroundImage,  for: state,  style: style,  barMetrics: barMetrics )
+        base.setBackgroundImage(backgroundImage, for: state, style: style, barMetrics: barMetrics)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setBackgroundVerticalPositionAdjustment(_ adjustment: CGFloat, for barMetrics: UIBarMetrics) -> Self {
-        base.setBackgroundVerticalPositionAdjustment( adjustment,  for: barMetrics )
+        base.setBackgroundVerticalPositionAdjustment(adjustment, for: barMetrics)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setTitlePositionAdjustment(_ adjustment: UIOffset, for barMetrics: UIBarMetrics) -> Self {
-        base.setTitlePositionAdjustment( adjustment,  for: barMetrics )
+        base.setTitlePositionAdjustment(adjustment, for: barMetrics)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setBackButtonBackgroundImage(_ backgroundImage: UIImage?, for state: UIControl.State, barMetrics: UIBarMetrics) -> Self {
-        base.setBackButtonBackgroundImage( backgroundImage,  for: state,  barMetrics: barMetrics )
+        base.setBackButtonBackgroundImage(backgroundImage, for: state, barMetrics: barMetrics)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setBackButtonTitlePositionAdjustment(_ adjustment: UIOffset, for barMetrics: UIBarMetrics) -> Self {
-        base.setBackButtonTitlePositionAdjustment( adjustment,  for: barMetrics )
+        base.setBackButtonTitlePositionAdjustment(adjustment, for: barMetrics)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func setBackButtonBackgroundVerticalPositionAdjustment(_ adjustment: CGFloat, for barMetrics: UIBarMetrics) -> Self {
-        base.setBackButtonBackgroundVerticalPositionAdjustment( adjustment,  for: barMetrics )
+        base.setBackButtonBackgroundVerticalPositionAdjustment(adjustment, for: barMetrics)
         return self
     }
 

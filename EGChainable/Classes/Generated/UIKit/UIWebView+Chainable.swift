@@ -113,19 +113,19 @@ public extension ChainableObject where Base: UIWebView {
 
     @discardableResult
     func loadRequest(_ request: URLRequest) -> Self {
-        base.loadRequest( request )
+        base.loadRequest(request)
         return self
     }
 
     @discardableResult
     func loadHTMLString(_ string: String, baseURL: URL?) -> Self {
-        base.loadHTMLString( string,  baseURL: baseURL )
+        base.loadHTMLString(string, baseURL: baseURL)
         return self
     }
 
     @discardableResult
     func load(_ data: Data, mimeType MIMEType: String, textEncodingName: String, baseURL: URL) -> Self {
-        base.load( data,  mimeType: MIMEType,  textEncodingName: textEncodingName,  baseURL: baseURL )
+        base.load(data, mimeType: MIMEType, textEncodingName: textEncodingName, baseURL: baseURL)
         return self
     }
 
@@ -156,84 +156,84 @@ public extension ChainableObject where Base: UIWebView {
     @available(iOS 2.0, *)
     @discardableResult
     func scrollViewDidScroll(_ scrollView: UIScrollView) -> Self {
-        base.scrollViewDidScroll( scrollView )
+        base.scrollViewDidScroll(scrollView)
         return self
     }
 
     @available(iOS 3.2, *)
     @discardableResult
     func scrollViewDidZoom(_ scrollView: UIScrollView) -> Self {
-        base.scrollViewDidZoom( scrollView )
+        base.scrollViewDidZoom(scrollView)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) -> Self {
-        base.scrollViewWillBeginDragging( scrollView )
+        base.scrollViewWillBeginDragging(scrollView)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) -> Self {
-        base.scrollViewWillEndDragging( scrollView,  withVelocity: velocity,  targetContentOffset: targetContentOffset )
+        base.scrollViewWillEndDragging(scrollView, withVelocity: velocity, targetContentOffset: targetContentOffset)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) -> Self {
-        base.scrollViewDidEndDragging( scrollView,  willDecelerate: decelerate )
+        base.scrollViewDidEndDragging(scrollView, willDecelerate: decelerate)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) -> Self {
-        base.scrollViewWillBeginDecelerating( scrollView )
+        base.scrollViewWillBeginDecelerating(scrollView)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) -> Self {
-        base.scrollViewDidEndDecelerating( scrollView )
+        base.scrollViewDidEndDecelerating(scrollView)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) -> Self {
-        base.scrollViewDidEndScrollingAnimation( scrollView )
+        base.scrollViewDidEndScrollingAnimation(scrollView)
         return self
     }
 
     @available(iOS 3.2, *)
     @discardableResult
     func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) -> Self {
-        base.scrollViewWillBeginZooming( scrollView,  with: view )
+        base.scrollViewWillBeginZooming(scrollView, with: view)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func scrollViewDidEndZooming(_ scrollView: UIScrollView, with view: UIView?, atScale scale: CGFloat) -> Self {
-        base.scrollViewDidEndZooming( scrollView,  with: view,  atScale: scale )
+        base.scrollViewDidEndZooming(scrollView, with: view, atScale: scale)
         return self
     }
 
     @available(iOS 2.0, *)
     @discardableResult
     func scrollViewDidScrollToTop(_ scrollView: UIScrollView) -> Self {
-        base.scrollViewDidScrollToTop( scrollView )
+        base.scrollViewDidScrollToTop(scrollView)
         return self
     }
 
     @available(iOS 11.0, *)
     @discardableResult
     func scrollViewDidChangeAdjustedContentInset(_ scrollView: UIScrollView) -> Self {
-        base.scrollViewDidChangeAdjustedContentInset( scrollView )
+        base.scrollViewDidChangeAdjustedContentInset(scrollView)
         return self
     }
 

@@ -55,31 +55,31 @@ public extension ChainableObject where Base: UIPopoverController {
 
     @discardableResult
     func setContentView(_ viewController: UIViewController, animated: Bool) -> Self {
-        base.setContentView( viewController,  animated: animated )
+        base.setContentView(viewController, animated: animated)
         return self
     }
 
     @discardableResult
     func setContentSize(_ size: CGSize, animated: Bool) -> Self {
-        base.setContentSize( size,  animated: animated )
+        base.setContentSize(size, animated: animated)
         return self
     }
 
     @discardableResult
     func present(from rect: CGRect, in view: UIView, permittedArrowDirections arrowDirections: UIPopoverArrowDirection, animated: Bool) -> Self {
-        base.present( from: rect,  in: view,  permittedArrowDirections: arrowDirections,  animated: animated )
+        base.present(from: rect, in: view, permittedArrowDirections: arrowDirections, animated: animated)
         return self
     }
 
     @discardableResult
     func present(from item: UIBarButtonItem, permittedArrowDirections arrowDirections: UIPopoverArrowDirection, animated: Bool) -> Self {
-        base.present( from: item,  permittedArrowDirections: arrowDirections,  animated: animated )
+        base.present(from: item, permittedArrowDirections: arrowDirections, animated: animated)
         return self
     }
 
     @discardableResult
     func dismiss(animated: Bool) -> Self {
-        base.dismiss( animated: animated )
+        base.dismiss(animated: animated)
         return self
     }
 }

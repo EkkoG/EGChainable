@@ -138,7 +138,7 @@ public extension ChainableObject where Base: UILabel {
 
     @discardableResult
     func drawText(in rect: CGRect) -> Self {
-        base.drawText( in: rect )
+        base.drawText(in: rect)
         return self
     }
 

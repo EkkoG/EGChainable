@@ -65,34 +65,34 @@ public extension ChainableObject where Base: UINavigationController {
 
     @discardableResult
     func pushViewController(_ viewController: UIViewController, animated: Bool) -> Self {
-        base.pushViewController( viewController,  animated: animated )
+        base.pushViewController(viewController, animated: animated)
         return self
     }
 
     @available(iOS 3.0, *)
     @discardableResult
     func setViewControllers(_ viewControllers: [UIViewController], animated: Bool) -> Self {
-        base.setViewControllers( viewControllers,  animated: animated )
+        base.setViewControllers(viewControllers, animated: animated)
         return self
     }
 
     @discardableResult
     func setNavigationBarHidden(_ hidden: Bool, animated: Bool) -> Self {
-        base.setNavigationBarHidden( hidden,  animated: animated )
+        base.setNavigationBarHidden(hidden, animated: animated)
         return self
     }
 
     @available(iOS 3.0, *)
     @discardableResult
     func setToolbarHidden(_ hidden: Bool, animated: Bool) -> Self {
-        base.setToolbarHidden( hidden,  animated: animated )
+        base.setToolbarHidden(hidden, animated: animated)
         return self
     }
 
     @available(iOS 8.0, *)
     @discardableResult
     func show(_ vc: UIViewController, sender: Any?) -> Self {
-        base.show( vc,  sender: sender )
+        base.show(vc, sender: sender)
         return self
     }
 }

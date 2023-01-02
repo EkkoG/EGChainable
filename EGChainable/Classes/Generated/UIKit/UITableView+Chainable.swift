@@ -268,20 +268,20 @@ public extension ChainableObject where Base: UITableView {
 
     @discardableResult
     func scrollToRow(at indexPath: IndexPath, at scrollPosition: UITableView.ScrollPosition, animated: Bool) -> Self {
-        base.scrollToRow( at: indexPath,  at: scrollPosition,  animated: animated )
+        base.scrollToRow(at: indexPath, at: scrollPosition, animated: animated)
         return self
     }
 
     @discardableResult
     func scrollToNearestSelectedRow(at scrollPosition: UITableView.ScrollPosition, animated: Bool) -> Self {
-        base.scrollToNearestSelectedRow( at: scrollPosition,  animated: animated )
+        base.scrollToNearestSelectedRow(at: scrollPosition, animated: animated)
         return self
     }
 
     @available(iOS 11.0, *)
     @discardableResult
     func performBatchUpdates(_ updates: (() -> Void)?, completion: ((Bool) -> Void)? = nil) -> Self {
-        base.performBatchUpdates( updates,  completion: completion )
+        base.performBatchUpdates(updates, completion: completion)
         return self
     }
 
@@ -299,60 +299,60 @@ public extension ChainableObject where Base: UITableView {
 
     @discardableResult
     func insertSections(_ sections: IndexSet, with animation: UITableView.RowAnimation) -> Self {
-        base.insertSections( sections,  with: animation )
+        base.insertSections(sections, with: animation)
         return self
     }
 
     @discardableResult
     func deleteSections(_ sections: IndexSet, with animation: UITableView.RowAnimation) -> Self {
-        base.deleteSections( sections,  with: animation )
+        base.deleteSections(sections, with: animation)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func moveSection(_ section: Int, toSection newSection: Int) -> Self {
-        base.moveSection( section,  toSection: newSection )
+        base.moveSection(section, toSection: newSection)
         return self
     }
 
     @available(iOS 3.0, *)
     @discardableResult
     func reloadSections(_ sections: IndexSet, with animation: UITableView.RowAnimation) -> Self {
-        base.reloadSections( sections,  with: animation )
+        base.reloadSections(sections, with: animation)
         return self
     }
 
     @discardableResult
     func insertRows(at indexPaths: [IndexPath], with animation: UITableView.RowAnimation) -> Self {
-        base.insertRows( at: indexPaths,  with: animation )
+        base.insertRows(at: indexPaths, with: animation)
         return self
     }
 
     @discardableResult
     func deleteRows(at indexPaths: [IndexPath], with animation: UITableView.RowAnimation) -> Self {
-        base.deleteRows( at: indexPaths,  with: animation )
+        base.deleteRows(at: indexPaths, with: animation)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func moveRow(at indexPath: IndexPath, to newIndexPath: IndexPath) -> Self {
-        base.moveRow( at: indexPath,  to: newIndexPath )
+        base.moveRow(at: indexPath, to: newIndexPath)
         return self
     }
 
     @available(iOS 3.0, *)
     @discardableResult
     func reloadRows(at indexPaths: [IndexPath], with animation: UITableView.RowAnimation) -> Self {
-        base.reloadRows( at: indexPaths,  with: animation )
+        base.reloadRows(at: indexPaths, with: animation)
         return self
     }
 
     @available(iOS 15.0, *)
     @discardableResult
     func reconfigureRows(at indexPaths: [IndexPath]) -> Self {
-        base.reconfigureRows( at: indexPaths )
+        base.reconfigureRows(at: indexPaths)
         return self
     }
 
@@ -371,47 +371,47 @@ public extension ChainableObject where Base: UITableView {
 
     @discardableResult
     func setEditing(_ editing: Bool, animated: Bool) -> Self {
-        base.setEditing( editing,  animated: animated )
+        base.setEditing(editing, animated: animated)
         return self
     }
 
     @discardableResult
     func selectRow(at indexPath: IndexPath?, animated: Bool, scrollPosition: UITableView.ScrollPosition) -> Self {
-        base.selectRow( at: indexPath,  animated: animated,  scrollPosition: scrollPosition )
+        base.selectRow(at: indexPath, animated: animated, scrollPosition: scrollPosition)
         return self
     }
 
     @discardableResult
     func deselectRow(at indexPath: IndexPath, animated: Bool) -> Self {
-        base.deselectRow( at: indexPath,  animated: animated )
+        base.deselectRow(at: indexPath, animated: animated)
         return self
     }
 
     @available(iOS 5.0, *)
     @discardableResult
     func register(_ nib: UINib?, forCellReuseIdentifier identifier: String) -> Self {
-        base.register( nib,  forCellReuseIdentifier: identifier )
+        base.register(nib, forCellReuseIdentifier: identifier)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func register(_ cellClass: AnyClass?, forCellReuseIdentifier identifier: String) -> Self {
-        base.register( cellClass,  forCellReuseIdentifier: identifier )
+        base.register(cellClass, forCellReuseIdentifier: identifier)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func register(_ nib: UINib?, forHeaderFooterViewReuseIdentifier identifier: String) -> Self {
-        base.register( nib,  forHeaderFooterViewReuseIdentifier: identifier )
+        base.register(nib, forHeaderFooterViewReuseIdentifier: identifier)
         return self
     }
 
     @available(iOS 6.0, *)
     @discardableResult
     func register(_ aClass: AnyClass?, forHeaderFooterViewReuseIdentifier identifier: String) -> Self {
-        base.register( aClass,  forHeaderFooterViewReuseIdentifier: identifier )
+        base.register(aClass, forHeaderFooterViewReuseIdentifier: identifier)
         return self
     }
 

@@ -30,43 +30,43 @@ public extension ChainableObject where Base: UIPrintPageRenderer {
 
     @discardableResult
     func addPrintFormatter(_ formatter: UIPrintFormatter, startingAtPageAt pageIndex: Int) -> Self {
-        base.addPrintFormatter( formatter,  startingAtPageAt: pageIndex )
+        base.addPrintFormatter(formatter, startingAtPageAt: pageIndex)
         return self
     }
 
     @discardableResult
     func prepare(forDrawingPages range: NSRange) -> Self {
-        base.prepare( forDrawingPages: range )
+        base.prepare(forDrawingPages: range)
         return self
     }
 
     @discardableResult
     func drawPage(at pageIndex: Int, in printableRect: CGRect) -> Self {
-        base.drawPage( at: pageIndex,  in: printableRect )
+        base.drawPage(at: pageIndex, in: printableRect)
         return self
     }
 
     @discardableResult
     func drawPrintFormatter(_ printFormatter: UIPrintFormatter, forPageAt pageIndex: Int) -> Self {
-        base.drawPrintFormatter( printFormatter,  forPageAt: pageIndex )
+        base.drawPrintFormatter(printFormatter, forPageAt: pageIndex)
         return self
     }
 
     @discardableResult
     func drawHeaderForPage(at pageIndex: Int, in headerRect: CGRect) -> Self {
-        base.drawHeaderForPage( at: pageIndex,  in: headerRect )
+        base.drawHeaderForPage(at: pageIndex, in: headerRect)
         return self
     }
 
     @discardableResult
     func drawContentForPage(at pageIndex: Int, in contentRect: CGRect) -> Self {
-        base.drawContentForPage( at: pageIndex,  in: contentRect )
+        base.drawContentForPage(at: pageIndex, in: contentRect)
         return self
     }
 
     @discardableResult
     func drawFooterForPage(at pageIndex: Int, in footerRect: CGRect) -> Self {
-        base.drawFooterForPage( at: pageIndex,  in: footerRect )
+        base.drawFooterForPage(at: pageIndex, in: footerRect)
         return self
     }
 }

@@ -68,7 +68,7 @@ public extension ChainableObject where Base: UISheetPresentationController {
 
     @discardableResult
     func animateChanges(_ changes: () -> Void) -> Self {
-        base.animateChanges( changes )
+        base.animateChanges(changes)
         return self
     }
 

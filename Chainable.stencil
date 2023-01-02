@@ -43,7 +43,7 @@ public extension ChainableObject where Base: {{ type.name }} {
     {{definedInType.attributes.available}}
     @discardableResult
     func {{ method.name }}{% if method.throws %} throws {% endif %} -> Self {
-        {% if method.throws %}try {% endif %}base.{{ method.callName }}({% for p in result1 %} {{ p }} {% endfor %})
+        {% if method.throws %}try {% endif %}base.{{ method.callName }}({% for p in result1 %}{{ p }}{% if not forloop.last %} {% endif %}{% endfor %})
         return self
     }
     {% call newlineIfNotLast forloop.last %}
