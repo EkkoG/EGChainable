@@ -21,16 +21,4 @@ public extension ChainableObject where Base: UIPointerInteraction {
         base.invalidate()
         return self
     }
-
-    @discardableResult
-    func willMove(to view: UIView?) -> Self {
-        base.willMove( to: view )
-        return self
-    }
-
-    @discardableResult
-    func didMove(to view: UIView?) -> Self {
-        base.didMove( to: view )
-        return self
-    }
 }

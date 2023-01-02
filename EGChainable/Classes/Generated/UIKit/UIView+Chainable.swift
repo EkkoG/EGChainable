@@ -251,13 +251,6 @@ public extension ChainableObject where Base: UIView {
         return self
     }
 
-    @available(iOS 11.0, *)
-    @discardableResult
-    func interactions(_ newValue: [UIInteraction]) -> Self {
-        base.interactions = newValue
-        return self
-    }
-
     // Methods
 
     @available(iOS 8.0, *)
@@ -523,20 +516,6 @@ public extension ChainableObject where Base: UIView {
     @discardableResult
     func decodeRestorableState(with coder: NSCoder) -> Self {
         base.decodeRestorableState( with: coder )
-        return self
-    }
-
-    @available(iOS 11.0, *)
-    @discardableResult
-    func addInteraction(_ interaction: UIInteraction) -> Self {
-        base.addInteraction( interaction )
-        return self
-    }
-
-    @available(iOS 11.0, *)
-    @discardableResult
-    func removeInteraction(_ interaction: UIInteraction) -> Self {
-        base.removeInteraction( interaction )
         return self
     }
 

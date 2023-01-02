@@ -102,7 +102,6 @@ extension UIKit.UIImpactFeedbackGenerator: ChainableFlag {}
 extension UIKit.UIIndirectScribbleInteraction: ChainableFlag {}
 extension UIKit.UIInputView: ChainableFlag {}
 extension UIKit.UIInputViewController: ChainableFlag {}
-extension UIKit.UIInteraction: ChainableFlag {}
 extension UIKit.UIKey: ChainableFlag {}
 extension UIKit.UIKeyboardLayoutGuide: ChainableFlag {}
 extension UIKit.UIKeyCommand: ChainableFlag {}
@@ -242,4 +241,4 @@ extension UIKit.UIWebView: ChainableFlag {}
 extension UIKit.UIWindow: ChainableFlag {}
 extension UIKit.UIWindowScene: ChainableFlag {}
 extension UIKit.UISearchToken: ChainableFlag {}
-// extension WebKit.WKWebView: ChainableFlag {}
+extension WebKit.WKWebView: ChainableFlag {}
