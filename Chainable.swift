@@ -58,6 +58,8 @@ extension Foundation.NSData: CommonChainable {}
 extension Foundation.NSArray: CommonChainable {}
 extension Foundation.NSDictionary: CommonChainable {}
 extension QuartzCore.CALayer: CommonChainable {}
+extension QuartzCore.CAShapeLayer: CommonChainable {}
+extension QuartzCore.CAGradientLayer: CommonChainable {}
 extension WebKit.WKWebView: CommonChainable {}
 extension WebKit.WKWebViewConfiguration: CommonChainable {}
 

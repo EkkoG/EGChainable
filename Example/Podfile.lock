@@ -1,8 +1,12 @@
 PODS:
-  - EGChainable (0.1.5):
-    - EGChainable/Common (= 0.1.5)
-  - EGChainable/Common (0.1.5)
-  - EGChainable/Other (0.1.5)
+  - EGChainable (0.1.7):
+    - EGChainable/Common (= 0.1.7)
+    - EGChainable/Core (= 0.1.7)
+  - EGChainable/Common (0.1.7):
+    - EGChainable/Core
+  - EGChainable/Core (0.1.7)
+  - EGChainable/Other (0.1.7):
+    - EGChainable/Core
 
 DEPENDENCIES:
   - EGChainable (from `../`)
@@ -13,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EGChainable: 5c069a72753f562d669f3890bc4f4a686273c4b8
+  EGChainable: 68120baf4df35e7b49141327a8f9dd9c6a849bc4
 
 PODFILE CHECKSUM: 6174a5b08bf90052736707ca9a2a2387deb237d3
 
