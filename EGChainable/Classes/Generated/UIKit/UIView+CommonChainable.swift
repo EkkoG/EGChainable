@@ -253,13 +253,6 @@ public extension ChainableObject where Base: UIView {
 
     // Methods
 
-    @available(iOS 8.0, *)
-    @discardableResult
-    func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) -> Self {
-        base.traitCollectionDidChange(previousTraitCollection)
-        return self
-    }
-
     @discardableResult
     func sizeToFit() -> Self {
         base.sizeToFit()
@@ -519,9 +512,4 @@ public extension ChainableObject where Base: UIView {
         return self
     }
 
-    @discardableResult
-    func draw(_ rect: CGRect, for formatter: UIViewPrintFormatter) -> Self {
-        base.draw(rect, for: formatter)
-        return self
-    }
 }

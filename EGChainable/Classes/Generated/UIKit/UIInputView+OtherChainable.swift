@@ -15,13 +15,6 @@ public extension ChainableObject where Base: UIInputView {
         return self
     }
 
-    @discardableResult
-    func bounds(_ newValue: CGRect) -> Self {
-        base.bounds = newValue
-        return self
-    }
-
-
     // Methods
 
 }

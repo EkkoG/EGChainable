@@ -62,13 +62,6 @@ public extension ChainableObject where Base: UICalendarView {
         return self
     }
 
-    @discardableResult
-    func bounds(_ newValue: CGRect) -> Self {
-        base.bounds = newValue
-        return self
-    }
-
-
     // Methods
 
     @discardableResult
@@ -82,5 +75,4 @@ public extension ChainableObject where Base: UICalendarView {
         base.reloadDecorations(forDateComponents: dates, animated: animated)
         return self
     }
-
 }

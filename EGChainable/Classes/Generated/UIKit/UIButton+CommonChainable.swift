@@ -57,12 +57,6 @@ public extension ChainableObject where Base: UIButton {
         return self
     }
 
-    @available(iOS 15.0, *)
-    @discardableResult
-    func preferredBehavioralStyle(_ newValue: UIBehavioralStyle) -> Self {
-        base.preferredBehavioralStyle = newValue
-        return self
-    }
 
     // Methods
 

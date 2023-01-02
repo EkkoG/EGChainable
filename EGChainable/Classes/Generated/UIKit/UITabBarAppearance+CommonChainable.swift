@@ -56,7 +56,6 @@ public extension ChainableObject where Base: UITabBarAppearance {
         return self
     }
 
-
     // Methods
 
 }

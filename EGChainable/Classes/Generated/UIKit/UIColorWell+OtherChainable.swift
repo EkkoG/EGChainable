@@ -26,7 +26,6 @@ public extension ChainableObject where Base: UIColorWell {
         return self
     }
 
-
     // Methods
 
 }

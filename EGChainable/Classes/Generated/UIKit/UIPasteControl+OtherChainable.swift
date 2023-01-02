@@ -14,7 +14,6 @@ public extension ChainableObject where Base: UIPasteControl {
         return self
     }
 
-
     // Methods
 
 }

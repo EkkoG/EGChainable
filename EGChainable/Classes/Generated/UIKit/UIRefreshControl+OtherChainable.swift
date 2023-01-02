@@ -9,11 +9,16 @@ extension UIRefreshControl: Chainable {
 @available(iOS 6.0, *)
 public extension ChainableObject where Base: UIRefreshControl {
     @discardableResult
+    func tintColor(_ newValue: UIColor!) -> Self {
+        base.tintColor = newValue
+        return self
+    }
+
+    @discardableResult
     func attributedTitle(_ newValue: NSAttributedString?) -> Self {
         base.attributedTitle = newValue
         return self
     }
-
 
     // Methods
 
@@ -30,5 +35,4 @@ public extension ChainableObject where Base: UIRefreshControl {
         base.endRefreshing()
         return self
     }
-
 }

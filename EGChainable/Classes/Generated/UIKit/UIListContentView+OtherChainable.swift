@@ -8,12 +8,6 @@ extension UIListContentView: Chainable {
 
 @available(iOS 14.0, *)
 public extension ChainableObject where Base: UIListContentView {
-    @discardableResult
-    func bounds(_ newValue: CGRect) -> Self {
-        base.bounds = newValue
-        return self
-    }
-
 
     // Methods
 
