@@ -17,12 +17,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let label = UILabel()
-        label.C.text("ahhhh").textColor(.black).backgroundColor(.red)
+        label.chainable.text("ahhhh").textColor(.black).backgroundColor(.red)
         self.view.addSubview(label)
         label.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
 
         let mk = WKWebView()
-        mk.C.stopLoading()
+        mk.chainable.stopLoading()
 
         let mp = MKMapView()
     }

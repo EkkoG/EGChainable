@@ -10,11 +10,11 @@ import Foundation
 
 public protocol Chainable {
     associatedtype ChainableObjectCompatible
-    var C: ChainableObject<ChainableObjectCompatible> { get }
+    var chainable: ChainableObject<ChainableObjectCompatible> { get }
 }
 
 extension Chainable {
-    public var C: ChainableObject<Self> {
+    public var chainable: ChainableObject<Self> {
         return ChainableObject(self)
     }
 }
