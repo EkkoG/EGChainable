@@ -17,7 +17,7 @@ To generate code, run script generator.sh on a Mac with Xcode installed.
 
 ```swift
 let label = UILabel()
-label.C.text("ahhhh").textColor(.black).backgroundColor(.red)
+label.chainable.text("ahhhh").textColor(.black).backgroundColor(.red)
 ```
 
 For class appear at <https://github.com/EkkoG/EGChainable/blob/main/Chainable.swift>, all open or public var is support, all `Void` return method is support.
