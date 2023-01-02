@@ -1,6 +1,5 @@
 # EGChainable
 
-[![CI Status](https://img.shields.io/travis/3138493/EGChainable.svg?style=flat)](https://travis-ci.org/3138493/EGChainable)
 [![Version](https://img.shields.io/cocoapods/v/EGChainable.svg?style=flat)](https://cocoapods.org/pods/EGChainable)
 [![License](https://img.shields.io/cocoapods/l/EGChainable.svg?style=flat)](https://cocoapods.org/pods/EGChainable)
 [![Platform](https://img.shields.io/cocoapods/p/EGChainable.svg?style=flat)](https://cocoapods.org/pods/EGChainable)
