@@ -23,9 +23,9 @@ let label = UILabel()
 label.chainable.text("ahhhh").textColor(.black).backgroundColor(.red)
 ```
 
-For class appear at <https://github.com/EkkoG/EGChainable/blob/main/Chainable.swift>, all open or public var is support, all `Void` return method is support.
+For class appear at [Chainable.swift](https://github.com/EkkoG/EGChainable/blob/main/Chainable.swift), all open or public var is support, all `Void` return method is support.
 
-For all supported method, you can visit <https://github.com/EkkoG/EGChainable/tree/main/EGChainable/Classes/Generated>
+For all supported method, you can visit [EGChainable/Classes/Generated](https://github.com/EkkoG/EGChainable/tree/main/EGChainable/Classes/Generated)
 
 ## Installation
 
