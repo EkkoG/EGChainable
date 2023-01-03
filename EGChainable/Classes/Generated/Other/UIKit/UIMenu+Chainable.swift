@@ -8,12 +8,14 @@ extension UIMenu: Chainable {
 
 @available(iOS 13.0, *)
 public extension ChainableObject where Base: UIMenu {
+    #if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func preferredElementSize(_ newValue: UIMenu.ElementSize) -> Self {
         base.preferredElementSize = newValue
         return self
     }
+    #endif
 
 
     // Methods

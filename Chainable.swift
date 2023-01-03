@@ -79,7 +79,6 @@ extension UIKit.NSTextElement: Other {}
 extension UIKit.NSTextLayoutFragment: Other {}
 extension UIKit.NSTextLayoutManager: Other {}
 extension UIKit.NSTextLineFragment: Other {}
-extension UIKit.NSTextList: Other {}
 extension UIKit.NSTextSelection: Other {}
 extension UIKit.NSTextSelectionNavigation: Other {}
 extension UIKit.NSTextStorage: Other {}

@@ -119,12 +119,14 @@ public extension ChainableObject where Base: UITextView {
         return self
     }
 
+    #if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func isFindInteractionEnabled(_ newValue: Bool) -> Self {
         base.isFindInteractionEnabled = newValue
         return self
     }
+    #endif
 
     @available(iOS 15.0, *)
     @discardableResult

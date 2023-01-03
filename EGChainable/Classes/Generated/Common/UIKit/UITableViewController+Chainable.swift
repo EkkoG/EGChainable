@@ -205,12 +205,14 @@ public extension ChainableObject where Base: UITableViewController {
         return self
     }
 
+    #if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func tableView(_ tableView: UITableView, performPrimaryActionForRowAt indexPath: IndexPath) -> Self {
         base.tableView(tableView, performPrimaryActionForRowAt: indexPath)
         return self
     }
+    #endif
 
     @available(iOS 2.0, *)
     @discardableResult

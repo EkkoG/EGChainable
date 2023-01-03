@@ -62,12 +62,14 @@ public extension ChainableObject where Base: UICollectionView {
         return self
     }
 
+    #if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func selfSizingInvalidation(_ newValue: UICollectionView.SelfSizingInvalidation) -> Self {
         base.selfSizingInvalidation = newValue
         return self
     }
+    #endif
 
     @discardableResult
     func backgroundView(_ newValue: UIView?) -> Self {

@@ -12,6 +12,10 @@ The generated code is under `EGChainable/Classes/Generated`.
 
 To generate code, run script generator.sh on a Mac with Xcode installed.
 
+## Requirement
+
+- Xcode 13.2.1 and above
+
 ## Usage
 
 ```swift

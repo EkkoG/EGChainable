@@ -32,12 +32,14 @@ public extension ChainableObject where Base: UISearchTextField {
         return self
     }
 
+    #if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func searchSuggestions(_ newValue: [UISearchSuggestion]?) -> Self {
         base.searchSuggestions = newValue
         return self
     }
+    #endif
 
     // Methods
 

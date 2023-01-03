@@ -40,12 +40,14 @@ public extension ChainableObject where Base: UINavigationBar {
         return self
     }
 
+    #if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func preferredBehavioralStyle(_ newValue: UIBehavioralStyle) -> Self {
         base.preferredBehavioralStyle = newValue
         return self
     }
+    #endif
 
     @discardableResult
     func tintColor(_ newValue: UIColor!) -> Self {

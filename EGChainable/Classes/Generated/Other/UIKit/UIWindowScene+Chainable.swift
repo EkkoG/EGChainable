@@ -18,11 +18,13 @@ public extension ChainableObject where Base: UIWindowScene {
 
     // Methods
 
+    #if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func requestGeometryUpdate(_ geometryPreferences: UIWindowScene.GeometryPreferences, errorHandler: ((Error) -> Void)? = nil) -> Self {
         base.requestGeometryUpdate(geometryPreferences, errorHandler: errorHandler)
         return self
     }
+    #endif
 
 }
