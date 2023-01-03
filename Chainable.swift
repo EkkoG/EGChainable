@@ -5,7 +5,11 @@
 //  Created by Ernest0N on 20.09.2020.
 //
 
+// This protocol use to filter out all classes that can be chained
 protocol NeedChainable {}
+// This two protocol only use to filter out the common used classes
+protocol Common {}
+protocol Other {}
 
 extension UIKit.UIButton: Common {}
 extension UIKit.UIImage: Common {}
