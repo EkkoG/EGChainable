@@ -1,3 +1,6 @@
+
+#!/bin/bash -e
+
 # get versiom from podspec
 OLD_VERSION=`grep -m 1 -Eo "[0-9]+\.[0-9]+\.[0-9]+" $1.podspec`
 if [ -z $2 ] || [ $2 = "minor" ]; then
