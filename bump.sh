@@ -21,6 +21,10 @@ elif [ $2 = "major" ]; then
     VERSION=`echo $VERSION | awk -F. '{$NF = 0;} 1' | sed 's/ /./g'`
     sed -i '' "s/$OLD_VERSION/$VERSION/g" $1.podspec
 fi
+
+if [ -f "Example/Podfile" ]; then
+    pod install --project-directory=Example
+fi
 git add .
 git commit -m "Bump version to $VERSION"
 git push origin main
