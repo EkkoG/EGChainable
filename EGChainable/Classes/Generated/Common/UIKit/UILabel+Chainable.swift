@@ -107,6 +107,7 @@ public extension ChainableObject where Base: UILabel {
         return self
     }
 
+    @available(iOS 14.0, *)
     @discardableResult
     func lineBreakStrategy(_ newValue: NSParagraphStyle.LineBreakStrategy) -> Self {
         base.lineBreakStrategy = newValue
