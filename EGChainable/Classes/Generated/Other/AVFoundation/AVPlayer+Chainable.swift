@@ -14,14 +14,14 @@ public extension ChainableObject where Base: AVPlayer {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func defaultRate(_ newValue: Float) -> Self {
         base.defaultRate = newValue
         return self
     }
-    #endif
+#endif
 
     @discardableResult
     func actionAtItemEnd(_ newValue: AVPlayer.ActionAtItemEnd) -> Self {

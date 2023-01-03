@@ -8,32 +8,32 @@ extension UIContextMenuConfiguration: Chainable {
 
 @available(iOS 13.0, *)
 public extension ChainableObject where Base: UIContextMenuConfiguration {
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func secondaryItemIdentifiers(_ newValue: Set<AnyHashable>) -> Self {
         base.secondaryItemIdentifiers = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func badgeCount(_ newValue: Int) -> Self {
         base.badgeCount = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func preferredMenuElementOrder(_ newValue: UIContextMenuConfiguration.ElementOrder) -> Self {
         base.preferredMenuElementOrder = newValue
         return self
     }
-    #endif
+#endif
 
     // Methods
 

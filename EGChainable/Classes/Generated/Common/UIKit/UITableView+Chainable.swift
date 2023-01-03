@@ -109,14 +109,14 @@ public extension ChainableObject where Base: UITableView {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func selfSizingInvalidation(_ newValue: UITableView.SelfSizingInvalidation) -> Self {
         base.selfSizingInvalidation = newValue
         return self
     }
-    #endif
+#endif
 
     @available(iOS 3.2, *)
     @discardableResult

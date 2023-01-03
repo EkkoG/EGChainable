@@ -28,14 +28,14 @@ public extension ChainableObject where Base: UIActivityViewController {
         return self
     }
 
-    #if compiler(>=5.6)
+#if compiler(>=5.6)
     @available(iOS 15.4, *)
     @discardableResult
     func allowsProminentActivity(_ newValue: Bool) -> Self {
         base.allowsProminentActivity = newValue
         return self
     }
-    #endif
+#endif
 
     // Methods
 

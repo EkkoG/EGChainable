@@ -58,14 +58,14 @@ public extension ChainableObject where Base: UIBarButtonItem {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func preferredMenuElementOrder(_ newValue: UIContextMenuConfiguration.ElementOrder) -> Self {
         base.preferredMenuElementOrder = newValue
         return self
     }
-    #endif
+#endif
 
     @available(iOS 15.0, *)
     @discardableResult
@@ -81,23 +81,23 @@ public extension ChainableObject where Base: UIBarButtonItem {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func isHidden(_ newValue: Bool) -> Self {
         base.isHidden = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func menuRepresentation(_ newValue: UIMenuElement?) -> Self {
         base.menuRepresentation = newValue
         return self
     }
-    #endif
+#endif
 
     @available(iOS 5.0, *)
     @discardableResult

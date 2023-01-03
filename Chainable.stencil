@@ -4,11 +4,24 @@
 {% endif %}
 {% endmacro %}
 
+{% macro condition var str version %}
+{% if var.attributes.available[0].arguments[0] and var.attributes.available[0].arguments[0]|contains:str %}
+#if compiler(>={{version}})
+{% endif %}
+{% endmacro %}
+
+{% macro conditionend var str version %}
+{% if var.attributes.available[0].arguments[0] and var.attributes.available[0].arguments[0]|contains:str %}
+#endif
+{% endif %}
+{% endmacro %}
+
 {% macro main type %}
 // sourcery:file:{{ type.name }}+Chainable.swift
-{% if type.attributes.available[0] and type.attributes.available[0].arguments[0] and type.attributes.available[0].arguments[0]|contains:"iOS 16" %}
-#if compiler(>=5.7)
-{% endif %}
+{% call condition type "iOS 16" "5.7" %}
+{% call condition type "iOS 15.5" "5.6.1" %}
+{% call condition type "iOS 15.4" "5.6" %}
+{% call condition type "iOS 15.2" "5.5.2" %}
 import {{argument.framework}}
 {{type.attributes.available[0]}}
 extension {{type.name}}: Chainable {
@@ -20,36 +33,20 @@ public extension ChainableObject where Base: {{ type.name }} {
     {% for variable in type.allVariables|instance|openSet %}
     {% set isContains %}{% for parentVariable in type.inherits[type.inheritedTypes[0]].allVariables|instance|openSet %}{% if parentVariable.name == variable.name %}true{% endif %}{% endfor %}{% endset %}
     {% if not isContains == "true" %}
-    {% if variable.attributes.available[0].arguments[0] and variable.attributes.available[0].arguments[0]|contains:"iOS 16" %}
-    #if compiler(>=5.7)
-    {% endif %}
-    {% if variable.attributes.available[0].arguments[0] and variable.attributes.available[0].arguments[0]|contains:"iOS 15.5" %}
-    #if compiler(>=5.6.1)
-    {% endif %}
-    {% if variable.attributes.available[0].arguments[0] and variable.attributes.available[0].arguments[0]|contains:"iOS 15.4" %}
-    #if compiler(>=5.6)
-    {% endif %}
-    {% if variable.attributes.available[0].arguments[0] and variable.attributes.available[0].arguments[0]|contains:"iOS 15.2" %}
-    #if compiler(>=5.5.2)
-    {% endif %}
+    {% call condition variable "iOS 16" "5.7" %}
+    {% call condition variable "iOS 15.5" "5.6.1" %}
+    {% call condition variable "iOS 15.4" "5.6" %}
+    {% call condition variable "iOS 15.2" "5.5.2" %}
     {{variable.attributes.available[0]}}
     @discardableResult
     func {{ variable.name }}(_ newValue: {{ variable.typeName }}) -> Self {
         base.{{ variable.name }} = newValue
         return self
     }
-    {% if variable.attributes.available[0].arguments[0] and variable.attributes.available[0].arguments[0]|contains:"iOS 16" %}
-    #endif
-    {% endif %}
-    {% if variable.attributes.available[0].arguments[0] and variable.attributes.available[0].arguments[0]|contains:"iOS 15.5" %}
-    #endif
-    {% endif %}
-    {% if variable.attributes.available[0].arguments[0] and variable.attributes.available[0].arguments[0]|contains:"iOS 15.4" %}
-    #endif
-    {% endif %}
-    {% if variable.attributes.available[0].arguments[0] and variable.attributes.available[0].arguments[0]|contains:"iOS 15.2" %}
-    #endif
-    {% endif %}
+    {% call conditionend variable "iOS 16" "5.7" %}
+    {% call conditionend variable "iOS 15.5" "5.6.1" %}
+    {% call conditionend variable "iOS 15.4" "5.6" %}
+    {% call conditionend variable "iOS 15.2" "5.5.2" %}
     {% call newlineIfNotLast forloop.last %}
     {% endif %}
     {% endfor %}
@@ -62,18 +59,10 @@ public extension ChainableObject where Base: {{ type.name }} {
     {% if method.actualReturnTypeName.name == "Void" %}
     {% map method.parameters into result1 %}{%if maploop.item.argumentLabel %}{{maploop.item.argumentLabel}}: {{maploop.item.name}}{% else %}{{maploop.item.name}}{% endif %}{%ifnot maploop.last %},{% endif %}{% endmap %} 
     {% if method.attributes.available[0] %}
-    {% if method.attributes.available[0].arguments[0] and method.attributes.available[0].arguments[0]|contains:"iOS 16" %}
-    #if compiler(>=5.7)
-    {% endif %}
-    {% if method.attributes.available[0].arguments[0] and method.attributes.available[0].arguments[0]|contains:"iOS 15.5" %}
-    #if compiler(>=5.6.1)
-    {% endif %}
-    {% if method.attributes.available[0].arguments[0] and method.attributes.available[0].arguments[0]|contains:"iOS 15.4" %}
-    #if compiler(>=5.6)
-    {% endif %}
-    {% if method.attributes.available[0].arguments[0] and method.attributes.available[0].arguments[0]|contains:"iOS 15.2" %}
-    #if compiler(>=5.5.2)
-    {% endif %}
+    {% call condition method "iOS 16" "5.7" %}
+    {% call condition method "iOS 15.5" "5.6.1" %}
+    {% call condition method "iOS 15.4" "5.6" %}
+    {% call condition method "iOS 15.2" "5.5.2" %}
     {{method.attributes.available[0]}}
     {% elif method.definedInType.isExtension %}
     {{ method.definedInType.attributes.available[0]}}
@@ -84,26 +73,19 @@ public extension ChainableObject where Base: {{ type.name }} {
         {% if method.throws %}try {% endif %}base.{{ method.callName }}({% for p in result1 %}{{ p }}{% if not forloop.last %} {% endif %}{% endfor %})
         return self
     }
-    {% if method.attributes.available[0].arguments[0] and method.attributes.available[0].arguments[0]|contains:"iOS 16" %}
-    #endif
-    {% endif %}
-    {% if method.attributes.available[0].arguments[0] and method.attributes.available[0].arguments[0]|contains:"iOS 15.5" %}
-    #endif
-    {% endif %}
-    {% if method.attributes.available[0].arguments[0] and method.attributes.available[0].arguments[0]|contains:"iOS 15.4" %}
-    #endif
-    {% endif %}
-    {% if method.attributes.available[0].arguments[0] and method.attributes.available[0].arguments[0]|contains:"iOS 15.2" %}
-    #endif
-    {% endif %}
+    {% call conditionend method "iOS 16" "5.7" %}
+    {% call conditionend method "iOS 15.5" "5.6.1" %}
+    {% call conditionend method "iOS 15.4" "5.6" %}
+    {% call conditionend method "iOS 15.2" "5.5.2" %}
     {% call newlineIfNotLast forloop.last %}
     {% endif %}
     {% endif %}
     {% endfor %}
 }
-{% if type.attributes.available[0] and type.attributes.available[0].arguments[0] and type.attributes.available[0].arguments[0]|contains:"iOS 16" %}
-#endif
-{% endif %}
+{% call conditionend type "iOS 16" "5.7" %}
+{% call conditionend type "iOS 15.5" "5.6.1" %}
+{% call conditionend type "iOS 15.4" "5.6" %}
+{% call conditionend type "iOS 15.2" "5.5.2" %}
 // sourcery:end
 {% endmacro %}
 

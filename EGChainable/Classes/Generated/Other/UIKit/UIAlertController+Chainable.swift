@@ -27,14 +27,14 @@ public extension ChainableObject where Base: UIAlertController {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func severity(_ newValue: UIAlertControllerSeverity) -> Self {
         base.severity = newValue
         return self
     }
-    #endif
+#endif
 
     // Methods
 

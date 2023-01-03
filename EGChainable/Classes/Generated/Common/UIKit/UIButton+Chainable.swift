@@ -43,14 +43,14 @@ public extension ChainableObject where Base: UIButton {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func preferredMenuElementOrder(_ newValue: UIContextMenuConfiguration.ElementOrder) -> Self {
         base.preferredMenuElementOrder = newValue
         return self
     }
-    #endif
+#endif
 
     @available(iOS 15.0, *)
     @discardableResult

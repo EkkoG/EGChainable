@@ -80,14 +80,14 @@ public extension ChainableObject where Base: UIView {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func anchorPoint(_ newValue: CGPoint) -> Self {
         base.anchorPoint = newValue
         return self
     }
-    #endif
+#endif
 
     @discardableResult
     func isMultipleTouchEnabled(_ newValue: Bool) -> Self {

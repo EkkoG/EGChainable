@@ -68,14 +68,14 @@ public extension ChainableObject where Base: WKWebView {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func isFindInteractionEnabled(_ newValue: Bool) -> Self {
         base.isFindInteractionEnabled = newValue
         return self
     }
-    #endif
+#endif
 
     // Methods
 
@@ -189,14 +189,14 @@ public extension ChainableObject where Base: WKWebView {
         return self
     }
 
-    #if compiler(>=5.6.1)
+#if compiler(>=5.6.1)
     @available(iOS 15.5, *)
     @discardableResult
     func setMinimumViewportInset(_ minimumViewportInset: UIEdgeInsets, maximumViewportInset: UIEdgeInsets) -> Self {
         base.setMinimumViewportInset(minimumViewportInset, maximumViewportInset: maximumViewportInset)
         return self
     }
-    #endif
+#endif
 
     @available(iOS 14.0, macOS 11.0, *)
     @discardableResult

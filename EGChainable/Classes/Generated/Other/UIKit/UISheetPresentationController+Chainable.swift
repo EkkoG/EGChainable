@@ -59,14 +59,14 @@ public extension ChainableObject where Base: UISheetPresentationController {
 
     // Methods
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func invalidateDetents() -> Self {
         base.invalidateDetents()
         return self
     }
-    #endif
+#endif
 
     @discardableResult
     func animateChanges(_ changes: () -> Void) -> Self {

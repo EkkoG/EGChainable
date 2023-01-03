@@ -20,32 +20,32 @@ public extension ChainableObject where Base: UIBarButtonItemGroup {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func alwaysAvailable(_ newValue: Bool) -> Self {
         base.alwaysAvailable = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func menuRepresentation(_ newValue: UIMenuElement?) -> Self {
         base.menuRepresentation = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func isHidden(_ newValue: Bool) -> Self {
         base.isHidden = newValue
         return self
     }
-    #endif
+#endif
 
     // Methods
 

@@ -33,14 +33,14 @@ public extension ChainableObject where Base: UIPopoverPresentationController {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func sourceItem(_ newValue: UIPopoverPresentationControllerSourceItem?) -> Self {
         base.sourceItem = newValue
         return self
     }
-    #endif
+#endif
 
     @available(iOS, introduced: 8.0, deprecated: 100000)
     @discardableResult

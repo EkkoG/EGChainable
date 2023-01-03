@@ -52,32 +52,32 @@ public extension ChainableObject where Base: UINavigationItem {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func backAction(_ newValue: UIAction?) -> Self {
         base.backAction = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func titleMenuProvider(_ newValue: (([UIMenuElement]) -> UIMenu?)?) -> Self {
         base.titleMenuProvider = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func documentProperties(_ newValue: UIDocumentProperties?) -> Self {
         base.documentProperties = newValue
         return self
     }
-    #endif
+#endif
 
     @available(iOS 5.0, *)
     @discardableResult
@@ -112,59 +112,59 @@ public extension ChainableObject where Base: UINavigationItem {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func customizationIdentifier(_ newValue: String?) -> Self {
         base.customizationIdentifier = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func leadingItemGroups(_ newValue: [UIBarButtonItemGroup]) -> Self {
         base.leadingItemGroups = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func centerItemGroups(_ newValue: [UIBarButtonItemGroup]) -> Self {
         base.centerItemGroups = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func trailingItemGroups(_ newValue: [UIBarButtonItemGroup]) -> Self {
         base.trailingItemGroups = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func pinnedTrailingGroup(_ newValue: UIBarButtonItemGroup?) -> Self {
         base.pinnedTrailingGroup = newValue
         return self
     }
-    #endif
+#endif
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func additionalOverflowItems(_ newValue: UIDeferredMenuElement?) -> Self {
         base.additionalOverflowItems = newValue
         return self
     }
-    #endif
+#endif
 
     @available(iOS 11.0, *)
     @discardableResult
@@ -173,14 +173,14 @@ public extension ChainableObject where Base: UINavigationItem {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func style(_ newValue: UINavigationItem.ItemStyle) -> Self {
         base.style = newValue
         return self
     }
-    #endif
+#endif
 
     @available(iOS 11.0, *)
     @discardableResult
@@ -196,14 +196,14 @@ public extension ChainableObject where Base: UINavigationItem {
         return self
     }
 
-    #if compiler(>=5.7)
+#if compiler(>=5.7)
     @available(iOS 16.0, *)
     @discardableResult
     func preferredSearchBarPlacement(_ newValue: UINavigationItem.SearchBarPlacement) -> Self {
         base.preferredSearchBarPlacement = newValue
         return self
     }
-    #endif
+#endif
 
     @available(iOS 13.0, *)
     @discardableResult
