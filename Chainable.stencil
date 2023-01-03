@@ -4,8 +4,8 @@
 {% endif %}
 {% endmacro %}
 
-{% macro main type protocol %}
-// sourcery:file:{{ type.name }}+{{protocol}}.swift
+{% macro main type %}
+// sourcery:file:{{ type.name }}+Chainable.swift
 import {{argument.framework}}
 {{type.attributes.available[0]}}
 extension {{type.name}}: Chainable {
@@ -54,10 +54,6 @@ public extension ChainableObject where Base: {{ type.name }} {
 {% endmacro %}
 
 
-{% for type in types.implementing.CommonChainable|class %}
-{% call main type "CommonChainable" %}
-{% endfor %}
-
-{% for type in types.implementing.OtherChainable|class %}
-{% call main type "OtherChainable" %}
+{% for type in types.implementing.NeedChainable|class %}
+{% call main type %}
 {% endfor %}

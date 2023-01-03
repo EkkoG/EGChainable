@@ -38,15 +38,15 @@ get_class() {
   perl -pe 's/\\n/\n/g' |
   sed -e 's/\\\/\\\//\/\//g' -e 's/\\\/\*/\/\*/' -e 's/\*\\\//\*\//' -e 's/^"//' -e 's/"$//' > /tmp/Chainable/Intermediates/$protocol/$framework/${sanitized_class_name}.swift
 
-  echo "extension ${sanitized_class_name}: ${protocol} {}" >> /tmp/Chainable/Intermediates/${protocol}/$framework/${sanitized_class_name}.swift
+  echo "extension ${sanitized_class_name}: NeedChainable {}" >> /tmp/Chainable/Intermediates/${protocol}/$framework/${sanitized_class_name}.swift
 }
 
-grep "extension [A-Za-z0-9. ]*:[ ]*CommonChainable" ./Chainable.swift | sed -e "s/extension //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
-get_class $class CommonChainable
+grep "extension [A-Za-z0-9. ]*:[ ]*Common" ./Chainable.swift | sed -e "s/extension //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
+get_class $class Common
 done
 
-grep "extension [A-Za-z0-9. ]*:[ ]*OtherChainable" ./Chainable.swift | sed -e "s/extension //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
-get_class $class OtherChainable
+grep "extension [A-Za-z0-9. ]*:[ ]*Other" ./Chainable.swift | sed -e "s/extension //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
+get_class $class Other
 done
 
 rm -rf ./EGChainable/Classes/Generated/*
@@ -62,9 +62,9 @@ for protocol in `ls /tmp/Chainable/Intermediates/`; do
     cp Chainable.stencil /tmp/Chainable/Intermediates/$protocol/$framework
     cp Chainable.swift /tmp/Chainable//Intermediates/$protocol/$framework
     if [ ! -z "$1" -a "$1" == "-w" ]; then
-      sourcery --sources /tmp/Chainable/Intermediates/$protocol/${framework}/ --templates ./Chainable.stencil --output "./EGChainable/Classes/Generated/$framework/" --args framework=$framework  --verbose --wath
+      sourcery --sources /tmp/Chainable/Intermediates/$protocol/${framework}/ --templates ./Chainable.stencil --output "./EGChainable/Classes/Generated/$protocol/$framework/" --args framework=$framework  --verbose --wath
     else
-      sourcery --sources /tmp/Chainable/Intermediates/$protocol/${framework}/ --templates ./Chainable.stencil --output "./EGChainable/Classes/Generated/$framework/" --args framework=$framework  --verbose
+      sourcery --sources /tmp/Chainable/Intermediates/$protocol/${framework}/ --templates ./Chainable.stencil --output "./EGChainable/Classes/Generated/$protocol/$framework/" --args framework=$framework  --verbose
       # rm -rf /tmp/Chainable/Intermediates
     fi
   done

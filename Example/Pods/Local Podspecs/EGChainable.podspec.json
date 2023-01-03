@@ -30,7 +30,7 @@
     },
     {
       "name": "Common",
-      "source_files": "EGChainable/Classes/**/*CommonChainable.swift",
+      "source_files": "EGChainable/Classes/Generated/Common/**/*.swift",
       "dependencies": {
         "EGChainable/Core": [
 
@@ -39,7 +39,7 @@
     },
     {
       "name": "Other",
-      "source_files": "EGChainable/Classes/**/*OtherChainable.swift",
+      "source_files": "EGChainable/Classes/Generated/Other/**/*.swift",
       "dependencies": {
         "EGChainable/Core": [
 
