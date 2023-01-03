@@ -53,27 +53,4 @@ public extension ChainableObject where Base: UIInputViewController {
         return self
     }
 
-    @discardableResult
-    func selectionWillChange(_ textInput: UITextInput?) -> Self {
-        base.selectionWillChange(textInput)
-        return self
-    }
-
-    @discardableResult
-    func selectionDidChange(_ textInput: UITextInput?) -> Self {
-        base.selectionDidChange(textInput)
-        return self
-    }
-
-    @discardableResult
-    func textWillChange(_ textInput: UITextInput?) -> Self {
-        base.textWillChange(textInput)
-        return self
-    }
-
-    @discardableResult
-    func textDidChange(_ textInput: UITextInput?) -> Self {
-        base.textDidChange(textInput)
-        return self
-    }
 }

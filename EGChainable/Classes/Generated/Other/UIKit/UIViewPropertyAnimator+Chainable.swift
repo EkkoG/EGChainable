@@ -65,35 +65,4 @@ public extension ChainableObject where Base: UIViewPropertyAnimator {
         base.continueAnimation(withTimingParameters: parameters, durationFactor: durationFactor)
         return self
     }
-
-    @discardableResult
-    func startAnimation() -> Self {
-        base.startAnimation()
-        return self
-    }
-
-    @discardableResult
-    func startAnimation(afterDelay delay: TimeInterval) -> Self {
-        base.startAnimation(afterDelay: delay)
-        return self
-    }
-
-    @discardableResult
-    func pauseAnimation() -> Self {
-        base.pauseAnimation()
-        return self
-    }
-
-    @discardableResult
-    func stopAnimation(_ withoutFinishing: Bool) -> Self {
-        base.stopAnimation(withoutFinishing)
-        return self
-    }
-
-    @available(iOS 10.0, *)
-    @discardableResult
-    func finishAnimation(at finalPosition: UIViewAnimatingPosition) -> Self {
-        base.finishAnimation(at: finalPosition)
-        return self
-    }
 }

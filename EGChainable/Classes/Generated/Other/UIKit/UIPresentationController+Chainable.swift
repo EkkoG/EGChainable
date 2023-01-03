@@ -57,11 +57,4 @@ public extension ChainableObject where Base: UIPresentationController {
         base.dismissalTransitionDidEnd(completed)
         return self
     }
-
-    @available(iOS 8.0, *)
-    @discardableResult
-    func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) -> Self {
-        base.traitCollectionDidChange(previousTraitCollection)
-        return self
-    }
 }
