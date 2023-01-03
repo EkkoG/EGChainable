@@ -30,4 +30,8 @@ public struct ChainableObject<Base> {
         closure(base)
         return base
     }
+    
+    public func asBase() -> Base {
+        return base
+    }
 }
