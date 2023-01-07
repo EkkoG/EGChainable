@@ -49,12 +49,6 @@ public extension ChainableObject where Base: UINavigationBar {
     }
 #endif
 
-    @discardableResult
-    func tintColor(_ newValue: UIColor!) -> Self {
-        base.tintColor = newValue
-        return self
-    }
-
     @available(iOS 7.0, *)
     @discardableResult
     func barTintColor(_ newValue: UIColor?) -> Self {
@@ -124,6 +118,13 @@ public extension ChainableObject where Base: UINavigationBar {
         base.compactScrollEdgeAppearance = newValue
         return self
     }
+
+    @discardableResult
+    func bounds(_ newValue: CGRect) -> Self {
+        base.bounds = newValue
+        return self
+    }
+
 
     // Methods
 

@@ -49,6 +49,7 @@ public extension ChainableObject where Base: UITabBarItem {
         return self
     }
 
+
     // Methods
 
     @available(iOS 10.0, *)

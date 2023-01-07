@@ -4,7 +4,7 @@ platform :ios, '10.0'
 
 target 'EGChainable_Example' do
   pod 'EGChainable', :path => '../'
-  pod 'EGChainable/Other', :path => '../'
+  pod 'EGChainable/UIMenu', :path => '../'
 
   target 'EGChainable_Tests' do
     inherit! :search_paths

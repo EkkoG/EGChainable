@@ -1,24 +1,141 @@
 PODS:
   - EGChainable (0.2.2):
-    - EGChainable/Common (= 0.2.2)
+    - EGChainable/AVPlayer (= 0.2.2)
+    - EGChainable/CAGradientLayer (= 0.2.2)
+    - EGChainable/CALayer (= 0.2.2)
+    - EGChainable/CAShapeLayer (= 0.2.2)
     - EGChainable/Core (= 0.2.2)
-  - EGChainable/Common (0.2.2):
+    - EGChainable/NSAttributedString (= 0.2.2)
+    - EGChainable/UIBezierPath (= 0.2.2)
+    - EGChainable/UIButton (= 0.2.2)
+    - EGChainable/UICollectionView (= 0.2.2)
+    - EGChainable/UICollectionViewFlowLayout (= 0.2.2)
+    - EGChainable/UICollectionViewLayout (= 0.2.2)
+    - EGChainable/UIControl (= 0.2.2)
+    - EGChainable/UIDatePicker (= 0.2.2)
+    - EGChainable/UIGestureRecognizer (= 0.2.2)
+    - EGChainable/UIImageView (= 0.2.2)
+    - EGChainable/UILabel (= 0.2.2)
+    - EGChainable/UILongPressGestureRecognizer (= 0.2.2)
+    - EGChainable/UIPanGestureRecognizer (= 0.2.2)
+    - EGChainable/UIPinchGestureRecognizer (= 0.2.2)
+    - EGChainable/UIProgressView (= 0.2.2)
+    - EGChainable/UIRotationGestureRecognizer (= 0.2.2)
+    - EGChainable/UIScrollView (= 0.2.2)
+    - EGChainable/UISearchBar (= 0.2.2)
+    - EGChainable/UISegmentedControl (= 0.2.2)
+    - EGChainable/UISlider (= 0.2.2)
+    - EGChainable/UIStackView (= 0.2.2)
+    - EGChainable/UIStepper (= 0.2.2)
+    - EGChainable/UISwipeActionsConfiguration (= 0.2.2)
+    - EGChainable/UISwipeGestureRecognizer (= 0.2.2)
+    - EGChainable/UISwitch (= 0.2.2)
+    - EGChainable/UITabBar (= 0.2.2)
+    - EGChainable/UITabBarAppearance (= 0.2.2)
+    - EGChainable/UITabBarController (= 0.2.2)
+    - EGChainable/UITabBarItem (= 0.2.2)
+    - EGChainable/UITableView (= 0.2.2)
+    - EGChainable/UITapGestureRecognizer (= 0.2.2)
+    - EGChainable/UITextView (= 0.2.2)
+    - EGChainable/UIToolbar (= 0.2.2)
+    - EGChainable/UIView (= 0.2.2)
+    - EGChainable/WKWebView (= 0.2.2)
+    - EGChainable/WKWebViewConfiguration (= 0.2.2)
+  - EGChainable/AVPlayer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/CAGradientLayer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/CALayer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/CAShapeLayer (0.2.2):
     - EGChainable/Core
   - EGChainable/Core (0.2.2)
-  - EGChainable/Other (0.2.2):
+  - EGChainable/NSAttributedString (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIBezierPath (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIButton (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UICollectionView (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UICollectionViewFlowLayout (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UICollectionViewLayout (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIControl (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIDatePicker (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIGestureRecognizer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIImageView (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UILabel (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UILongPressGestureRecognizer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIMenu (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIPanGestureRecognizer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIPinchGestureRecognizer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIProgressView (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIRotationGestureRecognizer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIScrollView (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UISearchBar (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UISegmentedControl (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UISlider (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIStackView (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIStepper (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UISwipeActionsConfiguration (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UISwipeGestureRecognizer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UISwitch (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UITabBar (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UITabBarAppearance (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UITabBarController (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UITabBarItem (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UITableView (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UITapGestureRecognizer (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UITextView (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIToolbar (0.2.2):
+    - EGChainable/Core
+  - EGChainable/UIView (0.2.2):
+    - EGChainable/Core
+  - EGChainable/WKWebView (0.2.2):
+    - EGChainable/Core
+  - EGChainable/WKWebViewConfiguration (0.2.2):
     - EGChainable/Core
 
 DEPENDENCIES:
   - EGChainable (from `../`)
-  - EGChainable/Other (from `../`)
+  - EGChainable/UIMenu (from `../`)
 
 EXTERNAL SOURCES:
   EGChainable:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EGChainable: 05dd17128306d28fdc31f9a6d470a297e070079a
+  EGChainable: 3432a4e9459a39cd05f25329aa98819b660a2e5a
 
-PODFILE CHECKSUM: 6174a5b08bf90052736707ca9a2a2387deb237d3
+PODFILE CHECKSUM: c768ab9ddf6a3dcf04f4612b1f9dfcca933569e2
 
 COCOAPODS: 1.11.3

@@ -29,8 +29,8 @@
 
 {% macro main type %}
 // sourcery:file:{{ type.name }}+Chainable.swift
-{% call compiler_condition type %}
 import {{argument.framework}}
+{% call compiler_condition type %}
 {{type.attributes.available[0]}}
 extension {{type.name}}: Chainable {
     public typealias ChainableObjectCompatible = {{ type.name }}

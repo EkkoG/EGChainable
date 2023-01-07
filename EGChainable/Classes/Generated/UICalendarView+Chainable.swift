@@ -1,7 +1,7 @@
 // Generated using Sourcery 1.8.2 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
-#if compiler(>=5.7)
 import UIKit
+#if compiler(>=5.7)
 @available(iOS 16.0, *)
 extension UICalendarView: Chainable {
     public typealias ChainableObjectCompatible = UICalendarView
@@ -63,6 +63,13 @@ public extension ChainableObject where Base: UICalendarView {
         return self
     }
 
+    @discardableResult
+    func bounds(_ newValue: CGRect) -> Self {
+        base.bounds = newValue
+        return self
+    }
+
+
     // Methods
 
     @discardableResult
@@ -76,5 +83,6 @@ public extension ChainableObject where Base: UICalendarView {
         base.reloadDecorations(forDateComponents: dates, animated: animated)
         return self
     }
+
 }
 #endif
