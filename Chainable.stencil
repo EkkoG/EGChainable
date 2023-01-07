@@ -57,8 +57,7 @@ public extension ChainableObject where Base: {{ type.name }} {
 
     {% for method in type.allMethods|instance %}
     {% set isContains %}{% for parentMethod in type.inherits[type.inheritedTypes[0]].allMethods|instance %}{% if parentMethod.name == method.name %}true{% endif %}{% endfor %}{% endset %}
-    {% if not isContains == "true" %}
-    {% if method.actualReturnTypeName.name == "Void" %}
+    {% if not isContains == "true" and method.actualReturnTypeName.name == "Void" and not method.isAsync %}
     {% map method.parameters into result1 %}{%if maploop.item.argumentLabel %}{{maploop.item.argumentLabel}}: {{maploop.item.name}}{% else %}{{maploop.item.name}}{% endif %}{%ifnot maploop.last %},{% endif %}{% endmap %} 
     {% if method.attributes.available[0] %}
     {% call compiler_condition method %}
@@ -74,7 +73,6 @@ public extension ChainableObject where Base: {{ type.name }} {
     }
     {% call compiler_condition_end method %}
     {% call newlineIfNotLast forloop.last %}
-    {% endif %}
     {% endif %}
     {% endfor %}
 }

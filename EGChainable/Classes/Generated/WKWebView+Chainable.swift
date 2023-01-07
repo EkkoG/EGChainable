@@ -100,13 +100,6 @@ public extension ChainableObject where Base: WKWebView {
 
     @available(iOS 15.0, *)
     @discardableResult
-    func closeAllMediaPresentations() -> Self {
-        base.closeAllMediaPresentations()
-        return self
-    }
-
-    @available(iOS 15.0, *)
-    @discardableResult
     func pauseAllMediaPlayback(completionHandler: (() -> Void)? = nil) -> Self {
         base.pauseAllMediaPlayback(completionHandler: completionHandler)
         return self
@@ -114,22 +107,8 @@ public extension ChainableObject where Base: WKWebView {
 
     @available(iOS 15.0, *)
     @discardableResult
-    func pauseAllMediaPlayback() -> Self {
-        base.pauseAllMediaPlayback()
-        return self
-    }
-
-    @available(iOS 15.0, *)
-    @discardableResult
     func setAllMediaPlaybackSuspended(_ suspended: Bool, completionHandler: (() -> Void)? = nil) -> Self {
         base.setAllMediaPlaybackSuspended(suspended, completionHandler: completionHandler)
-        return self
-    }
-
-    @available(iOS 15.0, *)
-    @discardableResult
-    func setAllMediaPlaybackSuspended(_ suspended: Bool) -> Self {
-        base.setAllMediaPlaybackSuspended(suspended)
         return self
     }
 
@@ -149,22 +128,8 @@ public extension ChainableObject where Base: WKWebView {
 
     @available(iOS 15.0, *)
     @discardableResult
-    func setCameraCaptureState(_ state: WKMediaCaptureState) -> Self {
-        base.setCameraCaptureState(state)
-        return self
-    }
-
-    @available(iOS 15.0, *)
-    @discardableResult
     func setMicrophoneCaptureState(_ state: WKMediaCaptureState, completionHandler: (() -> Void)? = nil) -> Self {
         base.setMicrophoneCaptureState(state, completionHandler: completionHandler)
-        return self
-    }
-
-    @available(iOS 15.0, *)
-    @discardableResult
-    func setMicrophoneCaptureState(_ state: WKMediaCaptureState) -> Self {
-        base.setMicrophoneCaptureState(state)
         return self
     }
 

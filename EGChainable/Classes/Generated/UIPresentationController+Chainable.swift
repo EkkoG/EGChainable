@@ -57,32 +57,4 @@ public extension ChainableObject where Base: UIPresentationController {
         base.dismissalTransitionDidEnd(completed)
         return self
     }
-
-    @available(iOS 8.0, *)
-    @discardableResult
-    func preferredContentSizeDidChange(forChildContentContainer container: UIContentContainer) -> Self {
-        base.preferredContentSizeDidChange(forChildContentContainer: container)
-        return self
-    }
-
-    @available(iOS 8.0, *)
-    @discardableResult
-    func systemLayoutFittingSizeDidChange(forChildContentContainer container: UIContentContainer) -> Self {
-        base.systemLayoutFittingSizeDidChange(forChildContentContainer: container)
-        return self
-    }
-
-    @available(iOS 8.0, *)
-    @discardableResult
-    func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) -> Self {
-        base.viewWillTransition(to: size, with: coordinator)
-        return self
-    }
-
-    @available(iOS 8.0, *)
-    @discardableResult
-    func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) -> Self {
-        base.willTransition(to: newCollection, with: coordinator)
-        return self
-    }
 }

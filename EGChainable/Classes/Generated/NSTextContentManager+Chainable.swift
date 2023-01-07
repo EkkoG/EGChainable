@@ -53,12 +53,6 @@ public extension ChainableObject where Base: NSTextContentManager {
     }
 
     @discardableResult
-    func synchronizeTextLayoutManagers() throws  -> Self {
-        try base.synchronizeTextLayoutManagers()
-        return self
-    }
-
-    @discardableResult
     func performEditingTransaction(_ transaction: () -> Void) -> Self {
         base.performEditingTransaction(transaction)
         return self
@@ -79,12 +73,6 @@ public extension ChainableObject where Base: NSTextContentManager {
     @discardableResult
     func synchronizeToBackingStore(_ completionHandler: ((Error?) -> Void)? = nil) -> Self {
         base.synchronizeToBackingStore(completionHandler)
-        return self
-    }
-
-    @discardableResult
-    func synchronizeToBackingStore() throws  -> Self {
-        try base.synchronizeToBackingStore()
         return self
     }
 
