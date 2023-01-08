@@ -35,26 +35,38 @@ get_class() {
   echo /tmp/Chainable/Intermediates/$framework/$sanitized_class_name.swift
 }
 
-rm -rf "/tmp/Chainable/Intermediates/"
+get_module() {
+  if [ -f "/tmp/Chainable/Intermediates/$1/$1.swift" ]; then
+    return
+  fi
+  get_class $1
+  grep "import [A-Za-z0-9. ]*" /tmp/Chainable/Intermediates/$1/$1.swift | sed -e "s/import //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
+    if [[ "$class" =~ $1 ]]; then
+      get_class $class
+    fi
+  done
+}
 
-grep "extension [A-Za-z0-9. ]*:[ ]*NeedChainable" ./Chainable.swift | sed -e "s/extension //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
-file=$(get_class $class)
-echo $file
-class_name=`echo $class | sed "s/.*\.//"`
-echo "extension $class_name: NeedChainable {}" >> "$file"
-done
+# rm -rf "/tmp/Chainable/Intermediates/"
+# grep "extension [A-Za-z0-9. ]*:[ ]*NeedChainable" ./Chainable.swift | sed -e "s/extension //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
+#   file=$(get_class $class)
+#   echo $file
+#   class_name=`echo $class | sed "s/.*\.//"`
+#   echo "extension $class_name: NeedChainable {}" >> "$file"
+# done
 
 rm -rf ./EGChainable/Classes/Generated/*
 
 for framework in `ls /tmp/Chainable/Intermediates`; do
   echo "framework: $framework"
+  cp Chainable.swift /tmp/Chainable/Intermediates/$framework
 
-  cp Chainable.swift /tmp/Chainable//Intermediates/$framework
   if [ ! -z "$1" -a "$1" == "-w" ]; then
-    sourcery --sources /tmp/Chainable/Intermediates/$framework/ --templates ./Chainable.stencil --output "./EGChainable/Classes/Generated/" --args framework=$framework  --verbose --wath
+    sourcery --sources /tmp/Chainable/Intermediates/$framework --templates ./Chainable.stencil --output "./EGChainable/Classes/Generated/" --args framework=$framework  --verbose --wath
   else
-    sourcery --sources /tmp/Chainable/Intermediates/$framework/ --templates ./Chainable.stencil --output "./EGChainable/Classes/Generated/" --args framework=$framework  --verbose
+    sourcery --sources /tmp/Chainable/Intermediates/$framework --templates ./Chainable.stencil --output "./EGChainable/Classes/Generated/" --args framework=$framework  --verbose
   fi
+
 done
 
 rm temp.yml
