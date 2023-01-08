@@ -19,11 +19,8 @@ key.toolchains:
 
 get_class() {
   class=$1
-  protocol=$2
-  echo $class
   create_yml $class
   sanitized_class_name=`echo $class | sed "s/.*\.//"`
-  echo "Found $class"
   framework=`echo $class | sed "s/\..*//"`
 
   if [ ! -d "/tmp/Chainable/Intermediates/$framework" ]; then
@@ -35,15 +32,16 @@ get_class() {
   cut -c 22- |
   perl -pe 's/\\n/\n/g' |
   sed -e 's/\\\/\\\//\/\//g' -e 's/\\\/\*/\/\*/' -e 's/\*\\\//\*\//' -e 's/^"//' -e 's/"$//' > /tmp/Chainable/Intermediates/$framework/$sanitized_class_name.swift
-
-  echo "protocol NeedChainable {}" >> /tmp/Chainable/Intermediates/$framework/$sanitized_class_name.swift
-  echo "extension $sanitized_class_name: NeedChainable {}" >> /tmp/Chainable/Intermediates/$framework/$sanitized_class_name.swift
+  echo /tmp/Chainable/Intermediates/$framework/$sanitized_class_name.swift
 }
 
 rm -rf "/tmp/Chainable/Intermediates/"
 
 grep "extension [A-Za-z0-9. ]*:[ ]*NeedChainable" ./Chainable.swift | sed -e "s/extension //g" -e "s/ //g" -e "s/:.*//g" | while read -r class ; do
-get_class $class Common
+file=$(get_class $class)
+echo $file
+class_name=`echo $class | sed "s/.*\.//"`
+echo "extension $class_name: NeedChainable {}" >> "$file"
 done
 
 rm -rf ./EGChainable/Classes/Generated/*
@@ -51,7 +49,6 @@ rm -rf ./EGChainable/Classes/Generated/*
 for framework in `ls /tmp/Chainable/Intermediates`; do
   echo "framework: $framework"
 
-  cp Chainable.stencil /tmp/Chainable/Intermediates/$framework
   cp Chainable.swift /tmp/Chainable//Intermediates/$framework
   if [ ! -z "$1" -a "$1" == "-w" ]; then
     sourcery --sources /tmp/Chainable/Intermediates/$framework/ --templates ./Chainable.stencil --output "./EGChainable/Classes/Generated/" --args framework=$framework  --verbose --wath
