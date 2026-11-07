@@ -24,13 +24,6 @@ public extension UIScene {
         return self
     }
 
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `pasteConfiguration`(_ value: UIPasteConfiguration?) -> Self {
-        self.pasteConfiguration = value
-        return self
-    }
-
     @available(iOS, introduced: 15.0)
     @discardableResult
     func `subtitle`(_ value: String) -> Self {

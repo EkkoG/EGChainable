@@ -3,20 +3,6 @@ import UIKit
 
 @available(iOS, introduced: 13.0)
 public extension UISearchTextField {
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `adjustsFontForContentSizeCategory`(_ value: Bool) -> Self {
-        self.adjustsFontForContentSizeCategory = value
-        return self
-    }
-
-    @available(iOS, introduced: 18.0)
-    @discardableResult
-    func `allowedWritingToolsResultOptions`(_ value: UIWritingToolsResultOptions) -> Self {
-        self.allowedWritingToolsResultOptions = value
-        return self
-    }
-
     @available(iOS, introduced: 13.0)
     @discardableResult
     func `allowsCopyingTokens`(_ value: Bool) -> Self {
@@ -31,190 +17,10 @@ public extension UISearchTextField {
         return self
     }
 
-    @available(iOS, introduced: 26.0)
-    @discardableResult
-    func `allowsNumberPadPopover`(_ value: Bool) -> Self {
-        self.allowsNumberPadPopover = value
-        return self
-    }
-
-    @discardableResult
-    func `autocapitalizationType`(_ value: UITextAutocapitalizationType) -> Self {
-        self.autocapitalizationType = value
-        return self
-    }
-
-    @discardableResult
-    func `autocorrectionType`(_ value: UITextAutocorrectionType) -> Self {
-        self.autocorrectionType = value
-        return self
-    }
-
-    @available(iOS, introduced: 18.4)
-    @discardableResult
-    func `conversationContext`(_ value: UIConversationContext?) -> Self {
-        self.conversationContext = value
-        return self
-    }
-
-    @discardableResult
-    func `enablesReturnKeyAutomatically`(_ value: Bool) -> Self {
-        self.enablesReturnKeyAutomatically = value
-        return self
-    }
-
-    @available(iOS, introduced: 17.0)
-    @discardableResult
-    func `inlinePredictionType`(_ value: UITextInlinePredictionType) -> Self {
-        self.inlinePredictionType = value
-        return self
-    }
-
-    @discardableResult
-    func `inputDelegate`(_ value: (any UITextInputDelegate)?) -> Self {
-        self.inputDelegate = value
-        return self
-    }
-
-    @discardableResult
-    func `isSecureTextEntry`(_ value: Bool) -> Self {
-        self.isSecureTextEntry = value
-        return self
-    }
-
-    @discardableResult
-    func `keyboardAppearance`(_ value: UIKeyboardAppearance) -> Self {
-        self.keyboardAppearance = value
-        return self
-    }
-
-    @discardableResult
-    func `keyboardType`(_ value: UIKeyboardType) -> Self {
-        self.keyboardType = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `markedTextStyle`(_ value: [NSAttributedString.Key : Any]?) -> Self {
-        self.markedTextStyle = value
-        return self
-    }
-
-    @available(iOS, introduced: 18.0)
-    @discardableResult
-    func `mathExpressionCompletionType`(_ value: UITextMathExpressionCompletionType) -> Self {
-        self.mathExpressionCompletionType = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `passwordRules`(_ value: UITextInputPasswordRules?) -> Self {
-        self.passwordRules = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `pasteDelegate`(_ value: (any UITextPasteDelegate)?) -> Self {
-        self.pasteDelegate = value
-        return self
-    }
-
-    @discardableResult
-    func `returnKeyType`(_ value: UIReturnKeyType) -> Self {
-        self.returnKeyType = value
-        return self
-    }
-
     @available(iOS, introduced: 16.0)
     @discardableResult
     func `searchSuggestions`(_ value: [any UISearchSuggestion]?) -> Self {
         self.searchSuggestions = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `selectedTextRange`(_ value: UITextRange?) -> Self {
-        self.selectedTextRange = value
-        return self
-    }
-
-    @discardableResult
-    func `selectionAffinity`(_ value: UITextStorageDirection) -> Self {
-        self.selectionAffinity = value
-        return self
-    }
-
-    @available(iOS, introduced: 17.0)
-    @discardableResult
-    func `sizingRule`(_ value: UILetterformAwareSizingRule) -> Self {
-        self.sizingRule = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `smartDashesType`(_ value: UITextSmartDashesType) -> Self {
-        self.smartDashesType = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `smartInsertDeleteType`(_ value: UITextSmartInsertDeleteType) -> Self {
-        self.smartInsertDeleteType = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `smartQuotesType`(_ value: UITextSmartQuotesType) -> Self {
-        self.smartQuotesType = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `spellCheckingType`(_ value: UITextSpellCheckingType) -> Self {
-        self.spellCheckingType = value
-        return self
-    }
-
-    @available(iOS, introduced: 18.0)
-    @discardableResult
-    func `supportsAdaptiveImageGlyph`(_ value: Bool) -> Self {
-        self.supportsAdaptiveImageGlyph = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `textContentType`(_ value: UITextContentType?) -> Self {
-        self.textContentType = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `textDragDelegate`(_ value: (any UITextDragDelegate)?) -> Self {
-        self.textDragDelegate = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `textDragOptions`(_ value: UITextDragOptions) -> Self {
-        self.textDragOptions = value
-        return self
-    }
-
-    @available(iOS, introduced: 13.0.0)
-    @discardableResult
-    func `textDropDelegate`(_ value: (any UITextDropDelegate)?) -> Self {
-        self.textDropDelegate = value
         return self
     }
 
@@ -229,13 +35,6 @@ public extension UISearchTextField {
     @discardableResult
     func `tokens`(_ value: [UISearchToken]) -> Self {
         self.tokens = value
-        return self
-    }
-
-    @available(iOS, introduced: 18.0)
-    @discardableResult
-    func `writingToolsBehavior`(_ value: UIWritingToolsBehavior) -> Self {
-        self.writingToolsBehavior = value
         return self
     }
 

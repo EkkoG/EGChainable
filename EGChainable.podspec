@@ -132,9 +132,21 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
     ss.frameworks = 'UIKit'
   end
 
+  s.subspec 'UIActionSheet' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIActionSheet+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
+  end
+
   s.subspec 'UIActivity' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIActivity+Chainable.swift'
     ss.frameworks = 'UIKit'
+  end
+
+  s.subspec 'UIActivityIndicatorView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIActivityIndicatorView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
   end
 
   s.subspec 'UIActivityItemsConfiguration' do |ss|
@@ -145,16 +157,31 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIActivityViewController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIActivityViewController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UIAlertController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIAlertController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
+  s.subspec 'UIAlertView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIAlertView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
   end
 
   s.subspec 'UIAttachmentBehavior' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIAttachmentBehavior+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIDynamicBehavior'
+  end
+
+  s.subspec 'UIBackgroundExtensionView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIBackgroundExtensionView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
   end
 
   s.subspec 'UIBandSelectionInteraction' do |ss|
@@ -208,12 +235,31 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UICloudSharingController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UICloudSharingController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
+  s.subspec 'UICollectionReusableView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UICollectionReusableView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
   end
 
   s.subspec 'UICollectionView' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UICollectionView+Chainable.swift'
     ss.frameworks = 'UIKit'
     ss.dependency 'EGChainable/UIScrollView'
+  end
+
+  s.subspec 'UICollectionViewCell' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UICollectionViewCell+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UICollectionReusableView'
+  end
+
+  s.subspec 'UICollectionViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UICollectionViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UICollectionViewFlowLayout' do |ss|
@@ -230,7 +276,7 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UICollectionViewListCell' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UICollectionViewListCell+Chainable.swift'
     ss.frameworks = 'UIKit'
-    ss.dependency 'EGChainable/UIView'
+    ss.dependency 'EGChainable/UICollectionViewCell'
   end
 
   s.subspec 'UICollectionViewTransitionLayout' do |ss|
@@ -242,6 +288,7 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UICollisionBehavior' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UICollisionBehavior+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIDynamicBehavior'
   end
 
   s.subspec 'UIColor' do |ss|
@@ -252,12 +299,19 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIColorPickerViewController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIColorPickerViewController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UIColorWell' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIColorWell+Chainable.swift'
     ss.frameworks = 'UIKit'
     ss.dependency 'EGChainable/UIControl'
+  end
+
+  s.subspec 'UIContentUnavailableView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIContentUnavailableView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
   end
 
   s.subspec 'UIContextMenuConfiguration' do |ss|
@@ -287,6 +341,41 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
     ss.frameworks = 'UIKit'
   end
 
+  s.subspec 'UIDocument' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIDocument+Chainable.swift'
+    ss.frameworks = 'UIKit'
+  end
+
+  s.subspec 'UIDocumentBrowserViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIDocumentBrowserViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
+  s.subspec 'UIDocumentMenuViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIDocumentMenuViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
+  s.subspec 'UIDocumentPickerExtensionViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIDocumentPickerExtensionViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
+  s.subspec 'UIDocumentPickerViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIDocumentPickerViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
+  s.subspec 'UIDocumentViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIDocumentViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
   s.subspec 'UIDragItem' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIDragItem+Chainable.swift'
     ss.frameworks = 'UIKit'
@@ -297,6 +386,17 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
     ss.frameworks = 'UIKit'
   end
 
+  s.subspec 'UIDynamicBehavior' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIDynamicBehavior+Chainable.swift'
+    ss.frameworks = 'UIKit'
+  end
+
+  s.subspec 'UIEventAttributionView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIEventAttributionView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
+  end
+
   s.subspec 'UIFeedbackGenerator' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIFeedbackGenerator+Chainable.swift'
     ss.frameworks = 'UIKit'
@@ -305,6 +405,13 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIFieldBehavior' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIFieldBehavior+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIDynamicBehavior'
+  end
+
+  s.subspec 'UIFontPickerViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIFontPickerViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UIGestureRecognizer' do |ss|
@@ -315,11 +422,29 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIGraphicsPDFRenderer' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIGraphicsPDFRenderer+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIGraphicsRenderer'
+  end
+
+  s.subspec 'UIGraphicsRenderer' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIGraphicsRenderer+Chainable.swift'
+    ss.frameworks = 'UIKit'
   end
 
   s.subspec 'UIGravityBehavior' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIGravityBehavior+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIDynamicBehavior'
+  end
+
+  s.subspec 'UIHoverStyle' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIHoverStyle+Chainable.swift'
+    ss.frameworks = 'UIKit'
+  end
+
+  s.subspec 'UIImagePickerController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIImagePickerController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UINavigationController'
   end
 
   s.subspec 'UIImageView' do |ss|
@@ -343,6 +468,7 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIInputViewController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIInputViewController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UILabel' do |ss|
@@ -356,6 +482,12 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
     ss.frameworks = 'UIKit'
   end
 
+  s.subspec 'UIListContentView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIListContentView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
+  end
+
   s.subspec 'UILongPressGestureRecognizer' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UILongPressGestureRecognizer+Chainable.swift'
     ss.frameworks = 'UIKit'
@@ -365,6 +497,7 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIManagedDocument' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIManagedDocument+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIDocument'
   end
 
   s.subspec 'UIMarkupTextPrintFormatter' do |ss|
@@ -404,6 +537,7 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UINavigationController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UINavigationController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UINavigationItem' do |ss|
@@ -417,9 +551,16 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
     ss.dependency 'EGChainable/UIFeedbackGenerator'
   end
 
+  s.subspec 'UIPageControl' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIPageControl+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIControl'
+  end
+
   s.subspec 'UIPageViewController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIPageViewController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UIPanGestureRecognizer' do |ss|
@@ -442,6 +583,12 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIPencilInteraction' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIPencilInteraction+Chainable.swift'
     ss.frameworks = 'UIKit'
+  end
+
+  s.subspec 'UIPickerView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIPickerView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
   end
 
   s.subspec 'UIPinchGestureRecognizer' do |ss|
@@ -468,6 +615,13 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIPointerStyle' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIPointerStyle+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIHoverStyle'
+  end
+
+  s.subspec 'UIPopoverBackgroundView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIPopoverBackgroundView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
   end
 
   s.subspec 'UIPopoverPresentationController' do |ss|
@@ -520,12 +674,24 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIPushBehavior' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIPushBehavior+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIDynamicBehavior'
+  end
+
+  s.subspec 'UIReferenceLibraryViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIReferenceLibraryViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UIRefreshControl' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIRefreshControl+Chainable.swift'
     ss.frameworks = 'UIKit'
     ss.dependency 'EGChainable/UIControl'
+  end
+
+  s.subspec 'UIResponder' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIResponder+Chainable.swift'
+    ss.frameworks = 'UIKit'
   end
 
   s.subspec 'UIRotationGestureRecognizer' do |ss|
@@ -537,6 +703,7 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIScene' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIScene+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIResponder'
   end
 
   s.subspec 'UISceneSession' do |ss|
@@ -556,10 +723,22 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
     ss.dependency 'EGChainable/UIView'
   end
 
+  s.subspec 'UISearchContainerViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UISearchContainerViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
+  s.subspec 'UISearchController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UISearchController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
   s.subspec 'UISearchTextField' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UISearchTextField+Chainable.swift'
     ss.frameworks = 'UIKit'
-    ss.dependency 'EGChainable/UIControl'
+    ss.dependency 'EGChainable/UITextField'
   end
 
   s.subspec 'UISegmentedControl' do |ss|
@@ -589,15 +768,23 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UISnapBehavior' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UISnapBehavior+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIDynamicBehavior'
   end
 
   s.subspec 'UISplitViewController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UISplitViewController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UIStackView' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIStackView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
+  end
+
+  s.subspec 'UIStandardTextCursorView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIStandardTextCursorView+Chainable.swift'
     ss.frameworks = 'UIKit'
     ss.dependency 'EGChainable/UIView'
   end
@@ -640,6 +827,7 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UITabBarController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UITabBarController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UITabBarItem' do |ss|
@@ -654,15 +842,40 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
     ss.dependency 'EGChainable/UIScrollView'
   end
 
+  s.subspec 'UITableViewCell' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UITableViewCell+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
+  end
+
   s.subspec 'UITableViewController' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UITableViewController+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
+  end
+
+  s.subspec 'UITableViewHeaderFooterView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UITableViewHeaderFooterView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
   end
 
   s.subspec 'UITapGestureRecognizer' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UITapGestureRecognizer+Chainable.swift'
     ss.frameworks = 'UIKit'
     ss.dependency 'EGChainable/UIGestureRecognizer'
+  end
+
+  s.subspec 'UITextField' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UITextField+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIControl'
+  end
+
+  s.subspec 'UITextFormattingViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UITextFormattingViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIViewController'
   end
 
   s.subspec 'UITextView' do |ss|
@@ -703,6 +916,13 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIView' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIView+Chainable.swift'
     ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIResponder'
+  end
+
+  s.subspec 'UIViewController' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIViewController+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIResponder'
   end
 
   s.subspec 'UIViewPrintFormatter' do |ss|
@@ -714,6 +934,12 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
   s.subspec 'UIViewPropertyAnimator' do |ss|
     ss.source_files = 'EGChainable/Classes/Generated/UIViewPropertyAnimator+Chainable.swift'
     ss.frameworks = 'UIKit'
+  end
+
+  s.subspec 'UIVisualEffectView' do |ss|
+    ss.source_files = 'EGChainable/Classes/Generated/UIVisualEffectView+Chainable.swift'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'EGChainable/UIView'
   end
 
   s.subspec 'UIWebView' do |ss|
@@ -745,7 +971,6 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
     ss.frameworks = 'WebKit'
   end
 
-  s.default_subspec = 'UIButton', 'UIImageView', 'UILabel', 'UITableView', 'UITapGestureRecognizer', 'UISwipeActionsConfiguration', 'UISwipeGestureRecognizer', 'UIRotationGestureRecognizer', 'UIPanGestureRecognizer', 'UIPinchGestureRecognizer', 'UIGestureRecognizer', 'UILongPressGestureRecognizer', 'UICollectionView', 'UICollectionViewFlowLayout', 'UICollectionViewLayout', 'UIScrollView', 'UISlider', 'UIStackView', 'UIStepper', 'UISwitch', 'UITextView', 'UIBezierPath', 'UIControl', 'UISegmentedControl', 'UIView', 'UIToolbar', 'UITabBar', 'UITabBarAppearance', 'UITabBarController', 'UITabBarItem', 'UIDatePicker', 'UIProgressView', 'UISearchBar', 'NSAttributedString', 'CALayer', 'CAShapeLayer', 'CAGradientLayer', 'WKWebView', 'WKWebViewConfiguration', 'AVPlayer'
   # s.resource_bundles = {
   #   'EGChainable' => ['EGChainable/Assets/*.png']
   # }

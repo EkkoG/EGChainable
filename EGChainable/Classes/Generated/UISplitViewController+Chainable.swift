@@ -66,13 +66,6 @@ public extension UISplitViewController {
         return self
     }
 
-    @available(iOS, introduced: 11.0)
-    @discardableResult
-    func `pasteConfiguration`(_ value: UIPasteConfiguration?) -> Self {
-        self.pasteConfiguration = value
-        return self
-    }
-
     @available(iOS, introduced: 8.0)
     @discardableResult
     func `preferredDisplayMode`(_ value: UISplitViewController.DisplayMode) -> Self {

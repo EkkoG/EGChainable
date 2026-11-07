@@ -17,13 +17,6 @@ public extension UIAlertController {
         return self
     }
 
-    @available(iOS, introduced: 11.0)
-    @discardableResult
-    func `pasteConfiguration`(_ value: UIPasteConfiguration?) -> Self {
-        self.pasteConfiguration = value
-        return self
-    }
-
     @available(iOS, introduced: 9.0)
     @discardableResult
     func `preferredAction`(_ value: UIAlertAction?) -> Self {
@@ -35,13 +28,6 @@ public extension UIAlertController {
     @discardableResult
     func `severity`(_ value: UIAlertControllerSeverity) -> Self {
         self.severity = value
-        return self
-    }
-
-    @available(iOS, introduced: 8.0)
-    @discardableResult
-    func `title`(_ value: String?) -> Self {
-        self.title = value
         return self
     }
 

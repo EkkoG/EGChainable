@@ -19,3 +19,10 @@ func checkFluentClients() {
         let _: UISearchTextField = UISearchTextField().keyboardType(.default).isSecureTextEntry(true).textContentType(nil)
     }
 }
+
+func checkNewCoverage() {
+    let _: UITextField = UITextField().text("Email").keyboardType(.emailAddress).accessibilityLabel("Email")
+    let _: UIViewController = UIViewController().title("Profile").hidesBottomBarWhenPushed(true)
+    let _: UITableViewCell = UITableViewCell().selectionStyle(.none).accessibilityIdentifier("row")
+    let _: UIPageControl = UIPageControl().numberOfPages(3).currentPage(1)
+}

@@ -19,48 +19,6 @@
     "ios": "10.0"
   },
   "swift_versions": "5.0",
-  "default_subspecs": [
-    "UIButton",
-    "UIImageView",
-    "UILabel",
-    "UITableView",
-    "UITapGestureRecognizer",
-    "UISwipeActionsConfiguration",
-    "UISwipeGestureRecognizer",
-    "UIRotationGestureRecognizer",
-    "UIPanGestureRecognizer",
-    "UIPinchGestureRecognizer",
-    "UIGestureRecognizer",
-    "UILongPressGestureRecognizer",
-    "UICollectionView",
-    "UICollectionViewFlowLayout",
-    "UICollectionViewLayout",
-    "UIScrollView",
-    "UISlider",
-    "UIStackView",
-    "UIStepper",
-    "UISwitch",
-    "UITextView",
-    "UIBezierPath",
-    "UIControl",
-    "UISegmentedControl",
-    "UIView",
-    "UIToolbar",
-    "UITabBar",
-    "UITabBarAppearance",
-    "UITabBarController",
-    "UITabBarItem",
-    "UIDatePicker",
-    "UIProgressView",
-    "UISearchBar",
-    "NSAttributedString",
-    "CALayer",
-    "CAShapeLayer",
-    "CAGradientLayer",
-    "WKWebView",
-    "WKWebViewConfiguration",
-    "AVPlayer"
-  ],
   "subspecs": [
     {
       "name": "AVPlayer",
@@ -176,9 +134,25 @@
       "frameworks": "UIKit"
     },
     {
+      "name": "UIActionSheet",
+      "source_files": "EGChainable/Classes/Generated/UIActionSheet+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
+    },
+    {
       "name": "UIActivity",
       "source_files": "EGChainable/Classes/Generated/UIActivity+Chainable.swift",
       "frameworks": "UIKit"
+    },
+    {
+      "name": "UIActivityIndicatorView",
+      "source_files": "EGChainable/Classes/Generated/UIActivityIndicatorView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
     },
     {
       "name": "UIActivityItemsConfiguration",
@@ -188,17 +162,42 @@
     {
       "name": "UIActivityViewController",
       "source_files": "EGChainable/Classes/Generated/UIActivityViewController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
     },
     {
       "name": "UIAlertController",
       "source_files": "EGChainable/Classes/Generated/UIAlertController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
+      "name": "UIAlertView",
+      "source_files": "EGChainable/Classes/Generated/UIAlertView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
     },
     {
       "name": "UIAttachmentBehavior",
       "source_files": "EGChainable/Classes/Generated/UIAttachmentBehavior+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIDynamicBehavior": []
+      }
+    },
+    {
+      "name": "UIBackgroundExtensionView",
+      "source_files": "EGChainable/Classes/Generated/UIBackgroundExtensionView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
     },
     {
       "name": "UIBandSelectionInteraction",
@@ -257,7 +256,18 @@
     {
       "name": "UICloudSharingController",
       "source_files": "EGChainable/Classes/Generated/UICloudSharingController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
+      "name": "UICollectionReusableView",
+      "source_files": "EGChainable/Classes/Generated/UICollectionReusableView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
     },
     {
       "name": "UICollectionView",
@@ -265,6 +275,22 @@
       "frameworks": "UIKit",
       "dependencies": {
         "EGChainable/UIScrollView": []
+      }
+    },
+    {
+      "name": "UICollectionViewCell",
+      "source_files": "EGChainable/Classes/Generated/UICollectionViewCell+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UICollectionReusableView": []
+      }
+    },
+    {
+      "name": "UICollectionViewController",
+      "source_files": "EGChainable/Classes/Generated/UICollectionViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
       }
     },
     {
@@ -285,7 +311,7 @@
       "source_files": "EGChainable/Classes/Generated/UICollectionViewListCell+Chainable.swift",
       "frameworks": "UIKit",
       "dependencies": {
-        "EGChainable/UIView": []
+        "EGChainable/UICollectionViewCell": []
       }
     },
     {
@@ -299,7 +325,10 @@
     {
       "name": "UICollisionBehavior",
       "source_files": "EGChainable/Classes/Generated/UICollisionBehavior+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIDynamicBehavior": []
+      }
     },
     {
       "name": "UIColor",
@@ -309,7 +338,10 @@
     {
       "name": "UIColorPickerViewController",
       "source_files": "EGChainable/Classes/Generated/UIColorPickerViewController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
     },
     {
       "name": "UIColorWell",
@@ -317,6 +349,14 @@
       "frameworks": "UIKit",
       "dependencies": {
         "EGChainable/UIControl": []
+      }
+    },
+    {
+      "name": "UIContentUnavailableView",
+      "source_files": "EGChainable/Classes/Generated/UIContentUnavailableView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
       }
     },
     {
@@ -351,6 +391,51 @@
       "frameworks": "UIKit"
     },
     {
+      "name": "UIDocument",
+      "source_files": "EGChainable/Classes/Generated/UIDocument+Chainable.swift",
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "UIDocumentBrowserViewController",
+      "source_files": "EGChainable/Classes/Generated/UIDocumentBrowserViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
+      "name": "UIDocumentMenuViewController",
+      "source_files": "EGChainable/Classes/Generated/UIDocumentMenuViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
+      "name": "UIDocumentPickerExtensionViewController",
+      "source_files": "EGChainable/Classes/Generated/UIDocumentPickerExtensionViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
+      "name": "UIDocumentPickerViewController",
+      "source_files": "EGChainable/Classes/Generated/UIDocumentPickerViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
+      "name": "UIDocumentViewController",
+      "source_files": "EGChainable/Classes/Generated/UIDocumentViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
       "name": "UIDragItem",
       "source_files": "EGChainable/Classes/Generated/UIDragItem+Chainable.swift",
       "frameworks": "UIKit"
@@ -361,6 +446,19 @@
       "frameworks": "UIKit"
     },
     {
+      "name": "UIDynamicBehavior",
+      "source_files": "EGChainable/Classes/Generated/UIDynamicBehavior+Chainable.swift",
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "UIEventAttributionView",
+      "source_files": "EGChainable/Classes/Generated/UIEventAttributionView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
+    },
+    {
       "name": "UIFeedbackGenerator",
       "source_files": "EGChainable/Classes/Generated/UIFeedbackGenerator+Chainable.swift",
       "frameworks": "UIKit"
@@ -368,7 +466,18 @@
     {
       "name": "UIFieldBehavior",
       "source_files": "EGChainable/Classes/Generated/UIFieldBehavior+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIDynamicBehavior": []
+      }
+    },
+    {
+      "name": "UIFontPickerViewController",
+      "source_files": "EGChainable/Classes/Generated/UIFontPickerViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
     },
     {
       "name": "UIGestureRecognizer",
@@ -378,12 +487,36 @@
     {
       "name": "UIGraphicsPDFRenderer",
       "source_files": "EGChainable/Classes/Generated/UIGraphicsPDFRenderer+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIGraphicsRenderer": []
+      }
+    },
+    {
+      "name": "UIGraphicsRenderer",
+      "source_files": "EGChainable/Classes/Generated/UIGraphicsRenderer+Chainable.swift",
       "frameworks": "UIKit"
     },
     {
       "name": "UIGravityBehavior",
       "source_files": "EGChainable/Classes/Generated/UIGravityBehavior+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIDynamicBehavior": []
+      }
+    },
+    {
+      "name": "UIHoverStyle",
+      "source_files": "EGChainable/Classes/Generated/UIHoverStyle+Chainable.swift",
       "frameworks": "UIKit"
+    },
+    {
+      "name": "UIImagePickerController",
+      "source_files": "EGChainable/Classes/Generated/UIImagePickerController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UINavigationController": []
+      }
     },
     {
       "name": "UIImageView",
@@ -412,7 +545,10 @@
     {
       "name": "UIInputViewController",
       "source_files": "EGChainable/Classes/Generated/UIInputViewController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
     },
     {
       "name": "UILabel",
@@ -428,6 +564,14 @@
       "frameworks": "UIKit"
     },
     {
+      "name": "UIListContentView",
+      "source_files": "EGChainable/Classes/Generated/UIListContentView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
+    },
+    {
       "name": "UILongPressGestureRecognizer",
       "source_files": "EGChainable/Classes/Generated/UILongPressGestureRecognizer+Chainable.swift",
       "frameworks": "UIKit",
@@ -438,7 +582,10 @@
     {
       "name": "UIManagedDocument",
       "source_files": "EGChainable/Classes/Generated/UIManagedDocument+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIDocument": []
+      }
     },
     {
       "name": "UIMarkupTextPrintFormatter",
@@ -485,7 +632,10 @@
     {
       "name": "UINavigationController",
       "source_files": "EGChainable/Classes/Generated/UINavigationController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
     },
     {
       "name": "UINavigationItem",
@@ -501,9 +651,20 @@
       }
     },
     {
+      "name": "UIPageControl",
+      "source_files": "EGChainable/Classes/Generated/UIPageControl+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIControl": []
+      }
+    },
+    {
       "name": "UIPageViewController",
       "source_files": "EGChainable/Classes/Generated/UIPageViewController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
     },
     {
       "name": "UIPanGestureRecognizer",
@@ -532,6 +693,14 @@
       "frameworks": "UIKit"
     },
     {
+      "name": "UIPickerView",
+      "source_files": "EGChainable/Classes/Generated/UIPickerView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
+    },
+    {
       "name": "UIPinchGestureRecognizer",
       "source_files": "EGChainable/Classes/Generated/UIPinchGestureRecognizer+Chainable.swift",
       "frameworks": "UIKit",
@@ -557,7 +726,18 @@
     {
       "name": "UIPointerStyle",
       "source_files": "EGChainable/Classes/Generated/UIPointerStyle+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIHoverStyle": []
+      }
+    },
+    {
+      "name": "UIPopoverBackgroundView",
+      "source_files": "EGChainable/Classes/Generated/UIPopoverBackgroundView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
     },
     {
       "name": "UIPopoverPresentationController",
@@ -613,7 +793,18 @@
     {
       "name": "UIPushBehavior",
       "source_files": "EGChainable/Classes/Generated/UIPushBehavior+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIDynamicBehavior": []
+      }
+    },
+    {
+      "name": "UIReferenceLibraryViewController",
+      "source_files": "EGChainable/Classes/Generated/UIReferenceLibraryViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
     },
     {
       "name": "UIRefreshControl",
@@ -622,6 +813,11 @@
       "dependencies": {
         "EGChainable/UIControl": []
       }
+    },
+    {
+      "name": "UIResponder",
+      "source_files": "EGChainable/Classes/Generated/UIResponder+Chainable.swift",
+      "frameworks": "UIKit"
     },
     {
       "name": "UIRotationGestureRecognizer",
@@ -634,7 +830,10 @@
     {
       "name": "UIScene",
       "source_files": "EGChainable/Classes/Generated/UIScene+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIResponder": []
+      }
     },
     {
       "name": "UISceneSession",
@@ -658,11 +857,27 @@
       }
     },
     {
+      "name": "UISearchContainerViewController",
+      "source_files": "EGChainable/Classes/Generated/UISearchContainerViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
+      "name": "UISearchController",
+      "source_files": "EGChainable/Classes/Generated/UISearchController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
       "name": "UISearchTextField",
       "source_files": "EGChainable/Classes/Generated/UISearchTextField+Chainable.swift",
       "frameworks": "UIKit",
       "dependencies": {
-        "EGChainable/UIControl": []
+        "EGChainable/UITextField": []
       }
     },
     {
@@ -700,16 +915,30 @@
     {
       "name": "UISnapBehavior",
       "source_files": "EGChainable/Classes/Generated/UISnapBehavior+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIDynamicBehavior": []
+      }
     },
     {
       "name": "UISplitViewController",
       "source_files": "EGChainable/Classes/Generated/UISplitViewController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
     },
     {
       "name": "UIStackView",
       "source_files": "EGChainable/Classes/Generated/UIStackView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
+    },
+    {
+      "name": "UIStandardTextCursorView",
+      "source_files": "EGChainable/Classes/Generated/UIStandardTextCursorView+Chainable.swift",
       "frameworks": "UIKit",
       "dependencies": {
         "EGChainable/UIView": []
@@ -763,7 +992,10 @@
     {
       "name": "UITabBarController",
       "source_files": "EGChainable/Classes/Generated/UITabBarController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
     },
     {
       "name": "UITabBarItem",
@@ -782,9 +1014,28 @@
       }
     },
     {
+      "name": "UITableViewCell",
+      "source_files": "EGChainable/Classes/Generated/UITableViewCell+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
+    },
+    {
       "name": "UITableViewController",
       "source_files": "EGChainable/Classes/Generated/UITableViewController+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
+      }
+    },
+    {
+      "name": "UITableViewHeaderFooterView",
+      "source_files": "EGChainable/Classes/Generated/UITableViewHeaderFooterView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
     },
     {
       "name": "UITapGestureRecognizer",
@@ -792,6 +1043,22 @@
       "frameworks": "UIKit",
       "dependencies": {
         "EGChainable/UIGestureRecognizer": []
+      }
+    },
+    {
+      "name": "UITextField",
+      "source_files": "EGChainable/Classes/Generated/UITextField+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIControl": []
+      }
+    },
+    {
+      "name": "UITextFormattingViewController",
+      "source_files": "EGChainable/Classes/Generated/UITextFormattingViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIViewController": []
       }
     },
     {
@@ -842,7 +1109,18 @@
     {
       "name": "UIView",
       "source_files": "EGChainable/Classes/Generated/UIView+Chainable.swift",
-      "frameworks": "UIKit"
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIResponder": []
+      }
+    },
+    {
+      "name": "UIViewController",
+      "source_files": "EGChainable/Classes/Generated/UIViewController+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIResponder": []
+      }
     },
     {
       "name": "UIViewPrintFormatter",
@@ -856,6 +1134,14 @@
       "name": "UIViewPropertyAnimator",
       "source_files": "EGChainable/Classes/Generated/UIViewPropertyAnimator+Chainable.swift",
       "frameworks": "UIKit"
+    },
+    {
+      "name": "UIVisualEffectView",
+      "source_files": "EGChainable/Classes/Generated/UIVisualEffectView+Chainable.swift",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "EGChainable/UIView": []
+      }
     },
     {
       "name": "UIWebView",

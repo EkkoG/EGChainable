@@ -17,13 +17,6 @@ public extension UIColorPickerViewController {
         return self
     }
 
-    @available(iOS, introduced: 14.0.0)
-    @discardableResult
-    func `pasteConfiguration`(_ value: UIPasteConfiguration?) -> Self {
-        self.pasteConfiguration = value
-        return self
-    }
-
     @available(iOS, introduced: 14.0)
     @discardableResult
     func `selectedColor`(_ value: UIColor) -> Self {

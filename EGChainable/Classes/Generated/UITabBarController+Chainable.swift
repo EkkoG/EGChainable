@@ -52,13 +52,6 @@ public extension UITabBarController {
         return self
     }
 
-    @available(iOS, introduced: 11.0)
-    @discardableResult
-    func `pasteConfiguration`(_ value: UIPasteConfiguration?) -> Self {
-        self.pasteConfiguration = value
-        return self
-    }
-
     @available(iOS, introduced: 2.0)
     @discardableResult
     func `selectedIndex`(_ value: Int) -> Self {
