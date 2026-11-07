@@ -13,4 +13,9 @@ func checkFluentClients() {
     let _: CAShapeLayer = CAShapeLayer().opacity(0.5).fillColor(nil)
     let _: WKWebView = WKWebView().isOpaque(false).navigationDelegate(nil)
     let _: AVPlayer = AVPlayer().isMuted(true).rate(1)
+    let _: UISearchBar = UISearchBar().keyboardType(.emailAddress).autocapitalizationType(.none)
+    let _: UITextView = UITextView().returnKeyType(.done).selectedTextRange(nil)
+    if #available(iOS 13.0, *) {
+        let _: UISearchTextField = UISearchTextField().keyboardType(.default).isSecureTextEntry(true).textContentType(nil)
+    }
 }

@@ -250,6 +250,10 @@
       "reason": "read-only"
     },
     {
+      "member": "NSAttributedString.writableTypeIdentifiersForItemProvider",
+      "reason": "read-only"
+    },
+    {
       "member": "NSLayoutConstraint.firstAnchor",
       "reason": "read-only"
     },
@@ -398,6 +402,10 @@
       "reason": "read-only"
     },
     {
+      "member": "NSTextStorage.writableTypeIdentifiersForItemProvider",
+      "reason": "read-only"
+    },
+    {
       "member": "NSTextViewportLayoutController.textLayoutManager",
       "reason": "read-only"
     },
@@ -426,6 +434,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIActivityItemsConfiguration.applicationActivitiesForActivityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
       "member": "UIActivityItemsConfiguration.itemProvidersForActivityItemsConfiguration",
       "reason": "read-only"
     },
@@ -434,7 +446,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UIActivityViewController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UIActivityViewController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivityViewController.objectRestorationClass",
       "reason": "read-only"
     },
     {
@@ -450,6 +470,14 @@
       "reason": "read-only"
     },
     {
+      "member": "UIActivityViewController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivityViewController.restorationParent",
+      "reason": "read-only"
+    },
+    {
       "member": "UIActivityViewController.traitCollection",
       "reason": "read-only"
     },
@@ -462,7 +490,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UIAlertController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UIAlertController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.objectRestorationClass",
       "reason": "read-only"
     },
     {
@@ -478,7 +514,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UIAlertController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
       "member": "UIAlertController.preferredStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -586,6 +630,14 @@
       "reason": "inherited from UIControl"
     },
     {
+      "member": "UIButton.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIButton.coordinateSpace",
       "reason": "read-only"
     },
@@ -618,7 +670,23 @@
       "reason": "read-only"
     },
     {
+      "member": "UIButton.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIButton.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -635,6 +703,10 @@
     },
     {
       "member": "UIButton.isHovered",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -659,6 +731,10 @@
     },
     {
       "member": "UIButton.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -710,7 +786,27 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UICalendarView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UICalendarView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -718,7 +814,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UICalendarView.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UICalendarView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -746,6 +850,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UICalendarView.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
       "member": "UICalendarView.scalesLargeContentImage",
       "reason": "read-only"
     },
@@ -766,7 +874,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UICloudSharingController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UICloudSharingController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICloudSharingController.objectRestorationClass",
       "reason": "read-only"
     },
     {
@@ -779,6 +895,14 @@
     },
     {
       "member": "UICloudSharingController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICloudSharingController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICloudSharingController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -810,6 +934,14 @@
       "reason": "inherited from UIScrollView"
     },
     {
+      "member": "UICollectionView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UICollectionView.contentOffset",
       "reason": "inherited from UIScrollView"
     },
@@ -826,7 +958,23 @@
       "reason": "read-only"
     },
     {
+      "member": "UICollectionView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UICollectionView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -851,6 +999,10 @@
     },
     {
       "member": "UICollectionView.indexPathsForVisibleItems",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -879,6 +1031,10 @@
     },
     {
       "member": "UICollectionView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -942,7 +1098,27 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UICollectionViewListCell.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UICollectionViewListCell.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -950,7 +1126,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UICollectionViewListCell.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UICollectionViewListCell.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -975,6 +1159,10 @@
     },
     {
       "member": "UICollectionViewListCell.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -1038,11 +1226,23 @@
       "reason": "read-only"
     },
     {
+      "member": "UIColor.writableTypeIdentifiersForItemProvider",
+      "reason": "read-only"
+    },
+    {
       "member": "UIColorPickerViewController.activityItemsConfiguration",
       "reason": "read-only"
     },
     {
+      "member": "UIColorPickerViewController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UIColorPickerViewController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorPickerViewController.objectRestorationClass",
       "reason": "read-only"
     },
     {
@@ -1055,6 +1255,14 @@
     },
     {
       "member": "UIColorPickerViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorPickerViewController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorPickerViewController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -1082,7 +1290,27 @@
       "reason": "inherited from UIControl"
     },
     {
+      "member": "UIColorWell.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIColorWell.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -1090,7 +1318,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UIColorWell.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UIColorWell.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -1115,6 +1351,10 @@
     },
     {
       "member": "UIColorWell.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -1174,6 +1414,14 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIControl.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIControl.contextMenuInteraction",
       "reason": "read-only"
     },
@@ -1186,7 +1434,23 @@
       "reason": "read-only"
     },
     {
+      "member": "UIControl.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIControl.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -1199,6 +1463,10 @@
     },
     {
       "member": "UIControl.isTracking",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -1223,6 +1491,10 @@
     },
     {
       "member": "UIControl.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -1270,6 +1542,14 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIDatePicker.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIDatePicker.coordinateSpace",
       "reason": "read-only"
     },
@@ -1278,11 +1558,31 @@
       "reason": "read-only"
     },
     {
+      "member": "UIDatePicker.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIDatePicker.focusItemContainer",
       "reason": "read-only"
     },
     {
+      "member": "UIDatePicker.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UIDatePicker.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -1307,6 +1607,10 @@
     },
     {
       "member": "UIDatePicker.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -1438,11 +1742,35 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIImageView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIImageView.coordinateSpace",
       "reason": "read-only"
     },
     {
+      "member": "UIImageView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIImageView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -1455,6 +1783,10 @@
     },
     {
       "member": "UIImageView.isAnimating",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -1483,6 +1815,10 @@
     },
     {
       "member": "UIImageView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -1530,11 +1866,35 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIInputView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIInputView.coordinateSpace",
       "reason": "read-only"
     },
     {
+      "member": "UIInputView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIInputView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -1543,6 +1903,10 @@
     },
     {
       "member": "UIInputView.inputViewStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -1570,6 +1934,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIInputView.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
       "member": "UIInputView.scalesLargeContentImage",
       "reason": "read-only"
     },
@@ -1590,6 +1958,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIInputViewController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UIInputViewController.focusItemContainer",
       "reason": "read-only"
     },
@@ -1602,6 +1974,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIInputViewController.objectRestorationClass",
+      "reason": "read-only"
+    },
+    {
       "member": "UIInputViewController.parentFocusEnvironment",
       "reason": "read-only"
     },
@@ -1611,6 +1987,14 @@
     },
     {
       "member": "UIInputViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -1642,7 +2026,27 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UILabel.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UILabel.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -1650,7 +2054,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UILabel.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UILabel.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -1679,6 +2091,10 @@
     },
     {
       "member": "UILabel.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -1754,6 +2170,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIManagedDocument.observedPresentedItemUbiquityAttributes",
+      "reason": "read-only"
+    },
+    {
       "member": "UIManagedDocument.presentedItemOperationQueue",
       "reason": "read-only"
     },
@@ -1826,6 +2246,14 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UINavigationBar.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UINavigationBar.coordinateSpace",
       "reason": "read-only"
     },
@@ -1834,11 +2262,31 @@
       "reason": "read-only"
     },
     {
+      "member": "UINavigationBar.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UINavigationBar.focusItemContainer",
       "reason": "read-only"
     },
     {
+      "member": "UINavigationBar.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UINavigationBar.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -1863,6 +2311,10 @@
     },
     {
       "member": "UINavigationBar.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -1910,6 +2362,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UINavigationController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UINavigationController.focusItemContainer",
       "reason": "read-only"
     },
@@ -1926,6 +2382,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UINavigationController.objectRestorationClass",
+      "reason": "read-only"
+    },
+    {
       "member": "UINavigationController.parentFocusEnvironment",
       "reason": "read-only"
     },
@@ -1935,6 +2395,14 @@
     },
     {
       "member": "UINavigationController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -1974,6 +2442,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIPageViewController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UIPageViewController.focusItemContainer",
       "reason": "read-only"
     },
@@ -1986,6 +2458,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIPageViewController.objectRestorationClass",
+      "reason": "read-only"
+    },
+    {
       "member": "UIPageViewController.parentFocusEnvironment",
       "reason": "read-only"
     },
@@ -1995,6 +2471,14 @@
     },
     {
       "member": "UIPageViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -2034,6 +2518,14 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIPasteControl.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIPasteControl.configuration",
       "reason": "read-only"
     },
@@ -2042,11 +2534,31 @@
       "reason": "read-only"
     },
     {
+      "member": "UIPasteControl.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIPasteControl.focusItemContainer",
       "reason": "read-only"
     },
     {
+      "member": "UIPasteControl.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UIPasteControl.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -2071,6 +2583,10 @@
     },
     {
       "member": "UIPasteControl.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -2130,6 +2646,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIPopoverPresentationController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UIPopoverPresentationController.focusItemContainer",
       "reason": "read-only"
     },
@@ -2146,6 +2666,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIPopoverPresentationController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
       "member": "UIPopoverPresentationController.traitCollection",
       "reason": "read-only"
     },
@@ -2155,6 +2679,10 @@
     },
     {
       "member": "UIPresentationController.containerView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.focusGroupIdentifier",
       "reason": "read-only"
     },
     {
@@ -2175,6 +2703,10 @@
     },
     {
       "member": "UIPresentationController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -2262,7 +2794,27 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIProgressView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIProgressView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -2270,7 +2822,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UIProgressView.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UIProgressView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -2295,6 +2855,10 @@
     },
     {
       "member": "UIProgressView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -2342,11 +2906,35 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIRefreshControl.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIRefreshControl.coordinateSpace",
       "reason": "read-only"
     },
     {
+      "member": "UIRefreshControl.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIRefreshControl.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -2355,6 +2943,10 @@
     },
     {
       "member": "UIRefreshControl.isRefreshing",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -2379,6 +2971,10 @@
     },
     {
       "member": "UIRefreshControl.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -2470,6 +3066,14 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIScrollView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIScrollView.contentLayoutGuide",
       "reason": "read-only"
     },
@@ -2482,7 +3086,23 @@
       "reason": "read-only"
     },
     {
+      "member": "UIScrollView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIScrollView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -2507,6 +3127,10 @@
     },
     {
       "member": "UIScrollView.isTracking",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -2555,6 +3179,10 @@
     },
     {
       "member": "UIScrollView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -2610,11 +3238,35 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UISearchBar.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UISearchBar.coordinateSpace",
       "reason": "read-only"
     },
     {
+      "member": "UISearchBar.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UISearchBar.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -2623,6 +3275,10 @@
     },
     {
       "member": "UISearchBar.inputAssistantItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -2647,6 +3303,10 @@
     },
     {
       "member": "UISearchBar.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -2698,6 +3358,14 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UISearchTextField.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UISearchTextField.coordinateSpace",
       "reason": "read-only"
     },
@@ -2706,7 +3374,23 @@
       "reason": "read-only"
     },
     {
+      "member": "UISearchTextField.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UISearchTextField.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -2718,11 +3402,23 @@
       "reason": "read-only"
     },
     {
+      "member": "UISearchTextField.insertDictationResultPlaceholder",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.isEditable",
+      "reason": "read-only"
+    },
+    {
       "member": "UISearchTextField.isTextDragActive",
       "reason": "read-only"
     },
     {
       "member": "UISearchTextField.isTextDropActive",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -2754,6 +3450,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UISearchTextField.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
       "member": "UISearchTextField.scalesLargeContentImage",
       "reason": "read-only"
     },
@@ -2767,6 +3467,10 @@
     },
     {
       "member": "UISearchTextField.textDropInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.textInputView",
       "reason": "read-only"
     },
     {
@@ -2784,6 +3488,10 @@
     {
       "member": "UISearchTextField.transform",
       "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISearchTextField.unobscuredContentRect",
+      "reason": "read-only"
     },
     {
       "member": "UISegmentedControl.accessibilityIdentifier",
@@ -2806,7 +3514,27 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UISegmentedControl.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UISegmentedControl.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -2814,7 +3542,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UISegmentedControl.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UISegmentedControl.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -2846,6 +3582,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UISegmentedControl.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
       "member": "UISegmentedControl.scalesLargeContentImage",
       "reason": "read-only"
     },
@@ -2862,6 +3602,10 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UISheetPresentationController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UISheetPresentationController.focusItemContainer",
       "reason": "read-only"
     },
@@ -2875,6 +3619,10 @@
     },
     {
       "member": "UISheetPresentationController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISheetPresentationController.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -2906,6 +3654,14 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UISlider.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UISlider.coordinateSpace",
       "reason": "read-only"
     },
@@ -2922,11 +3678,31 @@
       "reason": "read-only"
     },
     {
+      "member": "UISlider.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UISlider.focusItemContainer",
       "reason": "read-only"
     },
     {
+      "member": "UISlider.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UISlider.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -2951,6 +3727,10 @@
     },
     {
       "member": "UISlider.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -2982,11 +3762,19 @@
       "reason": "read-only"
     },
     {
+      "member": "UISplitViewController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UISplitViewController.focusItemContainer",
       "reason": "read-only"
     },
     {
       "member": "UISplitViewController.isCollapsed",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.objectRestorationClass",
       "reason": "read-only"
     },
     {
@@ -3002,7 +3790,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UISplitViewController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
       "member": "UISplitViewController.primaryColumnWidth",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -3046,7 +3842,27 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIStackView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIStackView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -3054,7 +3870,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UIStackView.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UIStackView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -3079,6 +3903,10 @@
     },
     {
       "member": "UIStackView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -3118,7 +3946,27 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIStepper.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIStepper.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -3126,7 +3974,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UIStepper.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UIStepper.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -3151,6 +4007,10 @@
     },
     {
       "member": "UIStepper.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -3194,7 +4054,27 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UISwitch.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UISwitch.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -3202,7 +4082,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UISwitch.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UISwitch.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -3227,6 +4115,10 @@
     },
     {
       "member": "UISwitch.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -3270,11 +4162,35 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UITabBar.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UITabBar.coordinateSpace",
       "reason": "read-only"
     },
     {
+      "member": "UITabBar.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UITabBar.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -3283,6 +4199,10 @@
     },
     {
       "member": "UITabBar.isCustomizing",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -3307,6 +4227,10 @@
     },
     {
       "member": "UITabBar.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -3338,11 +4262,19 @@
       "reason": "read-only"
     },
     {
+      "member": "UITabBarController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UITabBarController.focusItemContainer",
       "reason": "read-only"
     },
     {
       "member": "UITabBarController.moreNavigationController",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.objectRestorationClass",
       "reason": "read-only"
     },
     {
@@ -3355,6 +4287,14 @@
     },
     {
       "member": "UITabBarController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -3394,6 +4334,14 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UITableView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UITableView.contentOffset",
       "reason": "inherited from UIScrollView"
     },
@@ -3410,7 +4358,23 @@
       "reason": "read-only"
     },
     {
+      "member": "UITableView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UITableView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -3442,6 +4406,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UITableView.isTransparentFocusItem",
+      "reason": "read-only"
+    },
+    {
       "member": "UITableView.largeContentImage",
       "reason": "read-only"
     },
@@ -3467,6 +4435,10 @@
     },
     {
       "member": "UITableView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -3502,7 +4474,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UITableViewController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UITableViewController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableViewController.objectRestorationClass",
       "reason": "read-only"
     },
     {
@@ -3515,6 +4495,14 @@
     },
     {
       "member": "UITableViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableViewController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableViewController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -3546,6 +4534,14 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UITextView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UITextView.contentOffset",
       "reason": "inherited from UIScrollView"
     },
@@ -3566,7 +4562,23 @@
       "reason": "read-only"
     },
     {
+      "member": "UITextView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UITextView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -3578,11 +4590,19 @@
       "reason": "read-only"
     },
     {
+      "member": "UITextView.insertDictationResultPlaceholder",
+      "reason": "read-only"
+    },
+    {
       "member": "UITextView.isTextDragActive",
       "reason": "read-only"
     },
     {
       "member": "UITextView.isTextDropActive",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -3622,11 +4642,11 @@
       "reason": "read-only"
     },
     {
-      "member": "UITextView.scalesLargeContentImage",
+      "member": "UITextView.preferredFocusedView",
       "reason": "read-only"
     },
     {
-      "member": "UITextView.selectedTextRange",
+      "member": "UITextView.scalesLargeContentImage",
       "reason": "read-only"
     },
     {
@@ -3658,6 +4678,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UITextView.textInputView",
+      "reason": "read-only"
+    },
+    {
       "member": "UITextView.textLayoutManager",
       "reason": "read-only"
     },
@@ -3676,6 +4700,10 @@
     {
       "member": "UITextView.transform",
       "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITextView.unobscuredContentRect",
+      "reason": "read-only"
     },
     {
       "member": "UITextView.visibleSize",
@@ -3714,7 +4742,27 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIToolbar.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIToolbar.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.focusGroupPriority",
       "reason": "read-only"
     },
     {
@@ -3722,7 +4770,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UIToolbar.focusItemDeferralMode",
+      "reason": "read-only"
+    },
+    {
       "member": "UIToolbar.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -3750,6 +4806,10 @@
       "reason": "read-only"
     },
     {
+      "member": "UIToolbar.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
       "member": "UIToolbar.scalesLargeContentImage",
       "reason": "read-only"
     },
@@ -3774,7 +4834,15 @@
       "reason": "read-only"
     },
     {
+      "member": "UIVideoEditorController.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
       "member": "UIVideoEditorController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIVideoEditorController.objectRestorationClass",
       "reason": "read-only"
     },
     {
@@ -3791,6 +4859,14 @@
     },
     {
       "member": "UIVideoEditorController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIVideoEditorController.preferredFocusedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIVideoEditorController.restorationParent",
       "reason": "read-only"
     },
     {
@@ -3826,6 +4902,14 @@
       "reason": "read-only"
     },
     {
+      "member": "UIView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIView.constraints",
       "reason": "read-only"
     },
@@ -3843,6 +4927,10 @@
     },
     {
       "member": "UIView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -3867,6 +4955,10 @@
     },
     {
       "member": "UIView.isFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -3903,6 +4995,10 @@
     },
     {
       "member": "UIView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -4002,11 +5098,35 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIWebView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIWebView.coordinateSpace",
       "reason": "read-only"
     },
     {
+      "member": "UIWebView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIWebView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -4015,6 +5135,10 @@
     },
     {
       "member": "UIWebView.isLoading",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -4043,6 +5167,10 @@
     },
     {
       "member": "UIWebView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -4094,11 +5222,35 @@
       "reason": "inherited from UIView"
     },
     {
+      "member": "UIWindow.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "UIWindow.coordinateSpace",
       "reason": "read-only"
     },
     {
+      "member": "UIWindow.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "UIWindow.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -4107,6 +5259,10 @@
     },
     {
       "member": "UIWindow.isKeyWindow",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -4131,6 +5287,10 @@
     },
     {
       "member": "UIWindow.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -4254,6 +5414,14 @@
       "reason": "read-only"
     },
     {
+      "member": "WKWebView.collisionBoundingPath",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.collisionBoundsType",
+      "reason": "read-only"
+    },
+    {
       "member": "WKWebView.configuration",
       "reason": "read-only"
     },
@@ -4270,7 +5438,23 @@
       "reason": "read-only"
     },
     {
+      "member": "WKWebView.focusEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.focusGroupIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.focusGroupPriority",
+      "reason": "read-only"
+    },
+    {
       "member": "WKWebView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.focusItemDeferralMode",
       "reason": "read-only"
     },
     {
@@ -4291,6 +5475,10 @@
     },
     {
       "member": "WKWebView.isLoading",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.isTransparentFocusItem",
       "reason": "read-only"
     },
     {
@@ -4331,6 +5519,10 @@
     },
     {
       "member": "WKWebView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.preferredFocusedView",
       "reason": "read-only"
     },
     {
@@ -5149,17 +6341,30 @@
       "zoomScale"
     ],
     "UISearchBar": [
+      "allowedWritingToolsResultOptions",
+      "allowsNumberPadPopover",
+      "autocapitalizationType",
+      "autocorrectionType",
       "backgroundImage",
       "barStyle",
       "barTintColor",
+      "conversationContext",
       "delegate",
+      "enablesReturnKeyAutomatically",
+      "inlinePredictionType",
       "inputAccessoryView",
       "isEnabled",
       "isLookToDictateEnabled",
       "isSearchResultsButtonSelected",
+      "isSecureTextEntry",
       "isTranslucent",
+      "keyboardAppearance",
+      "keyboardType",
+      "mathExpressionCompletionType",
+      "passwordRules",
       "placeholder",
       "prompt",
+      "returnKeyType",
       "scopeBarBackgroundImage",
       "scopeButtonTitles",
       "searchBarStyle",
@@ -5170,23 +6375,50 @@
       "showsCancelButton",
       "showsScopeBar",
       "showsSearchResultsButton",
-      "text"
+      "smartDashesType",
+      "smartInsertDeleteType",
+      "smartQuotesType",
+      "spellCheckingType",
+      "text",
+      "textContentType",
+      "writingToolsBehavior"
     ],
     "UISearchTextField": [
       "adjustsFontForContentSizeCategory",
+      "allowedWritingToolsResultOptions",
       "allowsCopyingTokens",
       "allowsDeletingTokens",
+      "allowsNumberPadPopover",
+      "autocapitalizationType",
+      "autocorrectionType",
+      "conversationContext",
+      "enablesReturnKeyAutomatically",
+      "inlinePredictionType",
       "inputDelegate",
+      "isSecureTextEntry",
+      "keyboardAppearance",
+      "keyboardType",
       "markedTextStyle",
+      "mathExpressionCompletionType",
+      "passwordRules",
       "pasteDelegate",
+      "returnKeyType",
       "searchSuggestions",
       "selectedTextRange",
+      "selectionAffinity",
       "sizingRule",
+      "smartDashesType",
+      "smartInsertDeleteType",
+      "smartQuotesType",
+      "spellCheckingType",
+      "supportsAdaptiveImageGlyph",
+      "textContentType",
       "textDragDelegate",
       "textDragOptions",
       "textDropDelegate",
       "tokenBackgroundColor",
-      "tokens"
+      "tokens",
+      "writingToolsBehavior"
     ],
     "UISegmentedControl": [
       "apportionsSegmentWidthsByContent",
@@ -5405,29 +6637,49 @@
       "adjustsFontForContentSizeCategory",
       "allowedWritingToolsResultOptions",
       "allowsEditingTextAttributes",
+      "allowsNumberPadPopover",
       "attributedText",
+      "autocapitalizationType",
+      "autocorrectionType",
       "borderStyle",
       "clearsOnInsertion",
+      "conversationContext",
       "dataDetectorTypes",
       "delegate",
+      "enablesReturnKeyAutomatically",
       "font",
+      "inlinePredictionType",
       "inputAccessoryView",
       "inputDelegate",
       "inputView",
       "interactionState",
       "isEditable",
       "isFindInteractionEnabled",
+      "isSecureTextEntry",
       "isSelectable",
+      "keyboardAppearance",
+      "keyboardType",
       "linkTextAttributes",
       "markedTextStyle",
+      "mathExpressionCompletionType",
+      "passwordRules",
       "pasteDelegate",
+      "returnKeyType",
       "selectedRange",
       "selectedRanges",
+      "selectedTextRange",
+      "selectionAffinity",
       "sizingRule",
+      "smartDashesType",
+      "smartInsertDeleteType",
+      "smartQuotesType",
+      "spellCheckingType",
+      "supportsAdaptiveImageGlyph",
       "text",
       "textAlignment",
       "textColor",
       "textContainerInset",
+      "textContentType",
       "textDragDelegate",
       "textDragOptions",
       "textDropDelegate",

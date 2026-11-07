@@ -96,6 +96,10 @@ def property_type(symbol):
     return declaration.split(": ", 1)[1].rsplit(" { ", 1)[0].replace("!", "?")
 
 
+def writable(symbol):
+    return any(fragment["spelling"] == "set" for fragment in symbol["declarationFragments"])
+
+
 def load_symbols(directory):
     symbols, relations = {}, []
     for path in sorted(directory.glob("*.symbols.json")):
@@ -121,7 +125,7 @@ def model(symbols, relations):
     for relation in relations:
         if relation["kind"] == "memberOf" and relation["source"] in symbols:
             members.setdefault(relation["target"], {})[relation["source"]] = symbols[relation["source"]]
-        elif relation["kind"] == "requirementOf" and relation["source"] in symbols:
+        elif relation["kind"] in ("requirementOf", "optionalRequirementOf") and relation["source"] in symbols:
             requirements.setdefault(relation["target"], {})[relation["source"]] = symbols[relation["source"]]
         elif relation["kind"] == "conformsTo":
             conformances.setdefault(relation["source"], set()).add(relation["target"])
@@ -130,6 +134,7 @@ def model(symbols, relations):
         cls = classes[name]
         class_id = cls["identifier"]["precise"]
         own = {s["pathComponents"][-1]: s for s in members.get(class_id, {}).values()}
+        declared = set(own)
         # Some UIKit properties are declared only in an adopted protocol.
         pending = sorted(conformances.get(class_id, []))
         visited = set()
@@ -144,7 +149,13 @@ def model(symbols, relations):
                     continue
                 inherited = copy.deepcopy(requirement)
                 inherited["availability"] = inherited.get("availability", []) + symbols.get(protocol, {}).get("availability", [])
-                own.setdefault(inherited["pathComponents"][-1], inherited)
+                title = inherited["pathComponents"][-1]
+                previous = own.get(title)
+                # A getter-only protocol does not remove another protocol's setter.
+                if previous is None or (title not in declared and writable(inherited) and
+                                        not unavailable(inherited) and not writable(previous) and
+                                        property_type(previous) == property_type(inherited)):
+                    own[title] = inherited
         props[name] = {}
         for member in own.values():
             kind = member["kind"]["identifier"]
@@ -154,7 +165,7 @@ def model(symbols, relations):
             if kind != "swift.property":
                 continue
             reason = None
-            if not any(f["spelling"] == "set" for f in member["declarationFragments"]):
+            if not writable(member):
                 reason = "read-only"
             elif unavailable(cls) or unavailable(member):
                 reason = "unavailable or obsoleted on iOS"

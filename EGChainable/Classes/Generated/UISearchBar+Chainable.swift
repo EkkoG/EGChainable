@@ -3,6 +3,32 @@ import UIKit
 
 @available(iOS, introduced: 2.0)
 public extension UISearchBar {
+    @available(iOS, introduced: 18.0)
+    @discardableResult
+    func `allowedWritingToolsResultOptions`(_ value: UIWritingToolsResultOptions) -> Self {
+        self.allowedWritingToolsResultOptions = value
+        return self
+    }
+
+    @available(iOS, introduced: 26.0)
+    @discardableResult
+    func `allowsNumberPadPopover`(_ value: Bool) -> Self {
+        self.allowsNumberPadPopover = value
+        return self
+    }
+
+    @discardableResult
+    func `autocapitalizationType`(_ value: UITextAutocapitalizationType) -> Self {
+        self.autocapitalizationType = value
+        return self
+    }
+
+    @discardableResult
+    func `autocorrectionType`(_ value: UITextAutocorrectionType) -> Self {
+        self.autocorrectionType = value
+        return self
+    }
+
     @available(iOS, introduced: 5.0)
     @discardableResult
     func `backgroundImage`(_ value: UIImage?) -> Self {
@@ -24,10 +50,30 @@ public extension UISearchBar {
         return self
     }
 
+    @available(iOS, introduced: 18.4)
+    @discardableResult
+    func `conversationContext`(_ value: UIConversationContext?) -> Self {
+        self.conversationContext = value
+        return self
+    }
+
     @available(iOS, introduced: 2.0)
     @discardableResult
     func `delegate`(_ value: (any UISearchBarDelegate)?) -> Self {
         self.delegate = value
+        return self
+    }
+
+    @discardableResult
+    func `enablesReturnKeyAutomatically`(_ value: Bool) -> Self {
+        self.enablesReturnKeyAutomatically = value
+        return self
+    }
+
+    @available(iOS, introduced: 17.0)
+    @discardableResult
+    func `inlinePredictionType`(_ value: UITextInlinePredictionType) -> Self {
+        self.inlinePredictionType = value
         return self
     }
 
@@ -59,10 +105,42 @@ public extension UISearchBar {
         return self
     }
 
+    @discardableResult
+    func `isSecureTextEntry`(_ value: Bool) -> Self {
+        self.isSecureTextEntry = value
+        return self
+    }
+
     @available(iOS, introduced: 3.0)
     @discardableResult
     func `isTranslucent`(_ value: Bool) -> Self {
         self.isTranslucent = value
+        return self
+    }
+
+    @discardableResult
+    func `keyboardAppearance`(_ value: UIKeyboardAppearance) -> Self {
+        self.keyboardAppearance = value
+        return self
+    }
+
+    @discardableResult
+    func `keyboardType`(_ value: UIKeyboardType) -> Self {
+        self.keyboardType = value
+        return self
+    }
+
+    @available(iOS, introduced: 18.0)
+    @discardableResult
+    func `mathExpressionCompletionType`(_ value: UITextMathExpressionCompletionType) -> Self {
+        self.mathExpressionCompletionType = value
+        return self
+    }
+
+    @available(iOS, introduced: 12.0)
+    @discardableResult
+    func `passwordRules`(_ value: UITextInputPasswordRules?) -> Self {
+        self.passwordRules = value
         return self
     }
 
@@ -77,6 +155,12 @@ public extension UISearchBar {
     @discardableResult
     func `prompt`(_ value: String?) -> Self {
         self.prompt = value
+        return self
+    }
+
+    @discardableResult
+    func `returnKeyType`(_ value: UIReturnKeyType) -> Self {
+        self.returnKeyType = value
         return self
     }
 
@@ -150,10 +234,52 @@ public extension UISearchBar {
         return self
     }
 
+    @available(iOS, introduced: 11.0)
+    @discardableResult
+    func `smartDashesType`(_ value: UITextSmartDashesType) -> Self {
+        self.smartDashesType = value
+        return self
+    }
+
+    @available(iOS, introduced: 11.0)
+    @discardableResult
+    func `smartInsertDeleteType`(_ value: UITextSmartInsertDeleteType) -> Self {
+        self.smartInsertDeleteType = value
+        return self
+    }
+
+    @available(iOS, introduced: 11.0)
+    @discardableResult
+    func `smartQuotesType`(_ value: UITextSmartQuotesType) -> Self {
+        self.smartQuotesType = value
+        return self
+    }
+
+    @available(iOS, introduced: 5.0)
+    @discardableResult
+    func `spellCheckingType`(_ value: UITextSpellCheckingType) -> Self {
+        self.spellCheckingType = value
+        return self
+    }
+
     @available(iOS, introduced: 2.0)
     @discardableResult
     func `text`(_ value: String?) -> Self {
         self.text = value
+        return self
+    }
+
+    @available(iOS, introduced: 10.0)
+    @discardableResult
+    func `textContentType`(_ value: UITextContentType?) -> Self {
+        self.textContentType = value
+        return self
+    }
+
+    @available(iOS, introduced: 18.0)
+    @discardableResult
+    func `writingToolsBehavior`(_ value: UIWritingToolsBehavior) -> Self {
+        self.writingToolsBehavior = value
         return self
     }
 
