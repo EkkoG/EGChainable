@@ -1,0 +1,5612 @@
+{
+  "classes": {
+    "AVPlayer": "AVFoundation",
+    "AVQueuePlayer": "AVFoundation",
+    "CAGradientLayer": "QuartzCore",
+    "CALayer": "QuartzCore",
+    "CAShapeLayer": "QuartzCore",
+    "NSAttributedString": "Foundation",
+    "NSLayoutConstraint": "UIKit",
+    "NSLayoutManager": "UIKit",
+    "NSMutableAttributedString": "Foundation",
+    "NSShadow": "UIKit",
+    "NSTextAttachment": "UIKit",
+    "NSTextContainer": "UIKit",
+    "NSTextContentManager": "UIKit",
+    "NSTextContentStorage": "UIKit",
+    "NSTextLayoutManager": "UIKit",
+    "NSTextSelection": "UIKit",
+    "NSTextSelectionNavigation": "UIKit",
+    "NSTextStorage": "UIKit",
+    "NSTextViewportLayoutController": "UIKit",
+    "UIActivity": "UIKit",
+    "UIActivityItemsConfiguration": "UIKit",
+    "UIActivityViewController": "UIKit",
+    "UIAlertController": "UIKit",
+    "UIAttachmentBehavior": "UIKit",
+    "UIBandSelectionInteraction": "UIKit",
+    "UIBarAppearance": "UIKit",
+    "UIBarButtonItem": "UIKit",
+    "UIBarButtonItemAppearance": "UIKit",
+    "UIBarButtonItemGroup": "UIKit",
+    "UIBarItem": "UIKit",
+    "UIBezierPath": "UIKit",
+    "UIButton": "UIKit",
+    "UICalendarView": "UIKit",
+    "UICloudSharingController": "UIKit",
+    "UICollectionView": "UIKit",
+    "UICollectionViewFlowLayout": "UIKit",
+    "UICollectionViewLayout": "UIKit",
+    "UICollectionViewListCell": "UIKit",
+    "UICollectionViewTransitionLayout": "UIKit",
+    "UICollisionBehavior": "UIKit",
+    "UIColor": "UIKit",
+    "UIColorPickerViewController": "UIKit",
+    "UIColorWell": "UIKit",
+    "UIContextMenuConfiguration": "UIKit",
+    "UIContextualAction": "UIKit",
+    "UIControl": "UIKit",
+    "UIDatePicker": "UIKit",
+    "UIDevice": "UIKit",
+    "UIDragItem": "UIKit",
+    "UIDropInteraction": "UIKit",
+    "UIFeedbackGenerator": "UIKit",
+    "UIFieldBehavior": "UIKit",
+    "UIGestureRecognizer": "UIKit",
+    "UIGraphicsPDFRenderer": "UIKit",
+    "UIGravityBehavior": "UIKit",
+    "UIImageView": "UIKit",
+    "UIImpactFeedbackGenerator": "UIKit",
+    "UIInputView": "UIKit",
+    "UIInputViewController": "UIKit",
+    "UILabel": "UIKit",
+    "UILayoutGuide": "UIKit",
+    "UILongPressGestureRecognizer": "UIKit",
+    "UIManagedDocument": "UIKit",
+    "UIMarkupTextPrintFormatter": "UIKit",
+    "UIMenu": "UIKit",
+    "UIMenuElement": "UIKit",
+    "UIMenuSystem": "UIKit",
+    "UINavigationBar": "UIKit",
+    "UINavigationBarAppearance": "UIKit",
+    "UINavigationController": "UIKit",
+    "UINavigationItem": "UIKit",
+    "UINotificationFeedbackGenerator": "UIKit",
+    "UIPageViewController": "UIKit",
+    "UIPanGestureRecognizer": "UIKit",
+    "UIPasteConfiguration": "UIKit",
+    "UIPasteControl": "UIKit",
+    "UIPencilInteraction": "UIKit",
+    "UIPinchGestureRecognizer": "UIKit",
+    "UIPointerAccessory": "UIKit",
+    "UIPointerInteraction": "UIKit",
+    "UIPointerRegion": "UIKit",
+    "UIPointerStyle": "UIKit",
+    "UIPopoverPresentationController": "UIKit",
+    "UIPresentationController": "UIKit",
+    "UIPreviewInteraction": "UIKit",
+    "UIPreviewParameters": "UIKit",
+    "UIPrintFormatter": "UIKit",
+    "UIPrintInfo": "UIKit",
+    "UIPrintPageRenderer": "UIKit",
+    "UIPrinterPickerController": "UIKit",
+    "UIProgressView": "UIKit",
+    "UIPushBehavior": "UIKit",
+    "UIRefreshControl": "UIKit",
+    "UIRotationGestureRecognizer": "UIKit",
+    "UIScene": "UIKit",
+    "UISceneSession": "UIKit",
+    "UIScrollView": "UIKit",
+    "UISearchBar": "UIKit",
+    "UISearchTextField": "UIKit",
+    "UISegmentedControl": "UIKit",
+    "UISheetPresentationController": "UIKit",
+    "UISimpleTextPrintFormatter": "UIKit",
+    "UISlider": "UIKit",
+    "UISnapBehavior": "UIKit",
+    "UISplitViewController": "UIKit",
+    "UIStackView": "UIKit",
+    "UIStepper": "UIKit",
+    "UISwipeActionsConfiguration": "UIKit",
+    "UISwipeGestureRecognizer": "UIKit",
+    "UISwitch": "UIKit",
+    "UITabBar": "UIKit",
+    "UITabBarAppearance": "UIKit",
+    "UITabBarController": "UIKit",
+    "UITabBarItem": "UIKit",
+    "UITableView": "UIKit",
+    "UITableViewController": "UIKit",
+    "UITapGestureRecognizer": "UIKit",
+    "UITextView": "UIKit",
+    "UIToolTipInteraction": "UIKit",
+    "UIToolbar": "UIKit",
+    "UIToolbarAppearance": "UIKit",
+    "UITrackingLayoutGuide": "UIKit",
+    "UIVideoEditorController": "UIKit",
+    "UIView": "UIKit",
+    "UIViewPrintFormatter": "UIKit",
+    "UIViewPropertyAnimator": "UIKit",
+    "UIWebView": "UIKit",
+    "UIWindow": "UIKit",
+    "UIWindowScene": "UIKit",
+    "WKWebView": "WebKit",
+    "WKWebViewConfiguration": "WebKit"
+  },
+  "excludedProperties": [
+    {
+      "member": "AVPlayer.audioOutputSuppressedDueToNonMixableAudioRoute",
+      "reason": "read-only"
+    },
+    {
+      "member": "AVPlayer.currentItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "AVPlayer.error",
+      "reason": "read-only"
+    },
+    {
+      "member": "AVPlayer.isExternalPlaybackActive",
+      "reason": "read-only"
+    },
+    {
+      "member": "AVPlayer.isOutputObscuredDueToInsufficientExternalProtection",
+      "reason": "read-only"
+    },
+    {
+      "member": "AVPlayer.playbackCoordinator",
+      "reason": "read-only"
+    },
+    {
+      "member": "AVPlayer.reasonForWaitingToPlay",
+      "reason": "read-only"
+    },
+    {
+      "member": "AVPlayer.status",
+      "reason": "read-only"
+    },
+    {
+      "member": "AVPlayer.timeControlStatus",
+      "reason": "read-only"
+    },
+    {
+      "member": "CAGradientLayer.autoreverses",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAGradientLayer.beginTime",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAGradientLayer.duration",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAGradientLayer.fillMode",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAGradientLayer.repeatCount",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAGradientLayer.repeatDuration",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAGradientLayer.speed",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAGradientLayer.timeOffset",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CALayer.superlayer",
+      "reason": "read-only"
+    },
+    {
+      "member": "CALayer.visibleRect",
+      "reason": "read-only"
+    },
+    {
+      "member": "CAShapeLayer.autoreverses",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAShapeLayer.beginTime",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAShapeLayer.duration",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAShapeLayer.fillMode",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAShapeLayer.repeatCount",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAShapeLayer.repeatDuration",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAShapeLayer.speed",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "CAShapeLayer.timeOffset",
+      "reason": "inherited from CALayer"
+    },
+    {
+      "member": "NSAttributedString.length",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSAttributedString.string",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutConstraint.firstAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutConstraint.firstAttribute",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutConstraint.firstItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutConstraint.multiplier",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutConstraint.relation",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutConstraint.secondAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutConstraint.secondAttribute",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutConstraint.secondItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutManager.extraLineFragmentRect",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutManager.extraLineFragmentTextContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutManager.extraLineFragmentUsedRect",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutManager.hasNonContiguousLayout",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutManager.numberOfGlyphs",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSLayoutManager.textContainers",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSMutableAttributedString.mutableString",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextAttachment.usesTextAttachmentView",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextContainer.isSimpleRectangularTextContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextContainer.layoutOrientation",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextContainer.textLayoutManager",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextContentManager.documentRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextContentManager.hasEditingTransaction",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextContentManager.textLayoutManagers",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextContentStorage.documentRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextLayoutManager.documentRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextLayoutManager.textContentManager",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextLayoutManager.textViewportLayoutController",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextLayoutManager.usageBoundsForTextContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextSelection.affinity",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextSelection.granularity",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextSelection.isTransient",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextSelection.textRanges",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextSelectionNavigation.textSelectionDataSource",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextStorage.changeInLength",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextStorage.editedMask",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextStorage.editedRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextStorage.fixesAttributesLazily",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextStorage.layoutManagers",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextViewportLayoutController.textLayoutManager",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextViewportLayoutController.viewportBounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "NSTextViewportLayoutController.viewportRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivity.activityImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivity.activityTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivity.activityType",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivity.activityViewController",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivityItemsConfiguration.itemProvidersForActivityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivityViewController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivityViewController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivityViewController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivityViewController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivityViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIActivityViewController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.actions",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.preferredStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.textFields",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAlertController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAttachmentBehavior.attachedBehaviorType",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIAttachmentBehavior.items",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBandSelectionInteraction.initialModifierFlags",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBandSelectionInteraction.selectionRect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBandSelectionInteraction.state",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBandSelectionInteraction.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBarAppearance.idiom",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBarButtonItem.accessibilityIdentifier",
+      "reason": "inherited from UIBarItem"
+    },
+    {
+      "member": "UIBarButtonItem.buttonGroup",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBarButtonItemAppearance.disabled",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBarButtonItemAppearance.focused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBarButtonItemAppearance.highlighted",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBarButtonItemAppearance.normal",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBarButtonItemGroup.isDisplayingRepresentativeItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBezierPath.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBezierPath.currentPoint",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIBezierPath.isEmpty",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.accessibilityIdentifier",
+      "reason": "inherited from UIControl"
+    },
+    {
+      "member": "UIButton.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.behavioralStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.buttonType",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.center",
+      "reason": "inherited from UIControl"
+    },
+    {
+      "member": "UIButton.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.currentAttributedTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.currentBackgroundImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.currentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.currentPreferredSymbolConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.currentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.currentTitleColor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.currentTitleShadowColor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.imageView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.isHeld",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.isHovered",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.pasteConfiguration",
+      "reason": "inherited from UIControl"
+    },
+    {
+      "member": "UIButton.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.subtitleLabel",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.tintColor",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIButton.titleLabel",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIButton.transform",
+      "reason": "inherited from UIControl"
+    },
+    {
+      "member": "UICalendarView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UICalendarView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UICalendarView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UICalendarView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICalendarView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UICloudSharingController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICloudSharingController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICloudSharingController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICloudSharingController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICloudSharingController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICloudSharingController.share",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICloudSharingController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.accessibilityIdentifier",
+      "reason": "inherited from UIScrollView"
+    },
+    {
+      "member": "UICollectionView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.center",
+      "reason": "inherited from UIScrollView"
+    },
+    {
+      "member": "UICollectionView.contentOffset",
+      "reason": "inherited from UIScrollView"
+    },
+    {
+      "member": "UICollectionView.contentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.contextMenuInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.hasActiveDrag",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.hasActiveDrop",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.hasUncommittedUpdates",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.indexPathsForSelectedItems",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.indexPathsForVisibleItems",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.numberOfSections",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.pasteConfiguration",
+      "reason": "inherited from UIScrollView"
+    },
+    {
+      "member": "UICollectionView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.transform",
+      "reason": "inherited from UIScrollView"
+    },
+    {
+      "member": "UICollectionView.visibleCells",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionView.visibleSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewLayout.collectionView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewLayout.collectionViewContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewLayout.developmentLayoutDirection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewLayout.flipsHorizontallyInOppositeLayoutDirection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UICollectionViewListCell.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UICollectionViewListCell.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UICollectionViewListCell.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.separatorLayoutGuide",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewListCell.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UICollectionViewTransitionLayout.currentLayout",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollectionViewTransitionLayout.nextLayout",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollisionBehavior.boundaryIdentifiers",
+      "reason": "read-only"
+    },
+    {
+      "member": "UICollisionBehavior.items",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColor.accessibilityName",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColor.cgColor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColor.ciColor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColor.linearExposure",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColor.prominence",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColor.standardDynamicRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorPickerViewController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorPickerViewController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorPickerViewController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorPickerViewController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorPickerViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorPickerViewController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.accessibilityIdentifier",
+      "reason": "inherited from UIControl"
+    },
+    {
+      "member": "UIColorWell.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.center",
+      "reason": "inherited from UIControl"
+    },
+    {
+      "member": "UIColorWell.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.pasteConfiguration",
+      "reason": "inherited from UIControl"
+    },
+    {
+      "member": "UIColorWell.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIColorWell.transform",
+      "reason": "inherited from UIControl"
+    },
+    {
+      "member": "UIContextMenuConfiguration.identifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIContextualAction.handler",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIContextualAction.style",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIControl.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.allControlEvents",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.allTargets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIControl.contextMenuInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.effectiveContentHorizontalAlignment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.isTouchInside",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.isTracking",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIControl.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.state",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.toolTipInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIControl.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIDatePicker.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIDatePicker.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIDatePicker.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.datePickerStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIDatePicker.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDatePicker.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIDevice.batteryLevel",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.batteryState",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.identifierForVendor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.isGeneratingDeviceOrientationNotifications",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.isMultitaskingSupported",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.localizedModel",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.model",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.name",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.orientation",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.proximityState",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.systemName",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.systemVersion",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDevice.userInterfaceIdiom",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDragItem.itemProvider",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDropInteraction.delegate",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIDropInteraction.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIFeedbackGenerator.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIFieldBehavior.items",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIGestureRecognizer.buttonMask",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIGestureRecognizer.modifierFlags",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIGestureRecognizer.numberOfTouches",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIGestureRecognizer.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIGravityBehavior.items",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIImageView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIImageView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.imageDynamicRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.isAnimating",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.isUserInteractionEnabled",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIImageView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIImageView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.tintColor",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIImageView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIImageView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIImpactFeedbackGenerator.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIInputView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIInputView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.inputViewStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIInputView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIInputViewController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.hasFullAccess",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.needsInputModeSwitchKey",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.textDocumentProxy",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIInputViewController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UILabel.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UILabel.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.isUserInteractionEnabled",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UILabel.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UILabel.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILabel.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UILayoutGuide.bottomAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.centerXAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.centerYAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.hasAmbiguousLayout",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.heightAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.layoutFrame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.leadingAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.leftAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.rightAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.topAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.trailingAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UILayoutGuide.widthAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIManagedDocument.managedObjectContext",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIManagedDocument.managedObjectModel",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIManagedDocument.presentedItemOperationQueue",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIManagedDocument.presentedItemURL",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIManagedDocument.progress",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIMenu.accessibilityIdentifier",
+      "reason": "inherited from UIMenuElement"
+    },
+    {
+      "member": "UIMenu.children",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIMenu.identifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIMenu.options",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIMenu.selectedElements",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIMenuElement.image",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIMenuElement.title",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UINavigationBar.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.backItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.barPosition",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.behavioralStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UINavigationBar.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.currentNSToolbarSection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UINavigationBar.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.tintColor",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UINavigationBar.topItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBar.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UINavigationBarAppearance.backIndicatorImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationBarAppearance.backIndicatorTransitionMaskImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.barHideOnSwipeGestureRecognizer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.barHideOnTapGestureRecognizer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.interactiveContentPopGestureRecognizer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.interactivePopGestureRecognizer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.navigationBar",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.toolbar",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.topViewController",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationController.visibleViewController",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationItem.overflowPresentationSource",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationItem.searchBarPlacement",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINavigationItem.searchBarPlacementBarButtonItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "UINotificationFeedbackGenerator.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.gestureRecognizers",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.navigationOrientation",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.spineLocation",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.transitionStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPageViewController.viewControllers",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIPasteControl.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIPasteControl.configuration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIPasteControl.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPasteControl.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIPencilInteraction.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPinchGestureRecognizer.velocity",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPointerAccessory.position",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPointerAccessory.shape",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPointerInteraction.delegate",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPointerInteraction.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPointerRegion.identifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPointerRegion.rect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPopoverPresentationController.adaptiveSheetPresentationController",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPopoverPresentationController.arrowDirection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPopoverPresentationController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPopoverPresentationController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPopoverPresentationController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPopoverPresentationController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPopoverPresentationController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.adaptivePresentationStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.containerView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.frameOfPresentedViewInContainerView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.presentationStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.presentedView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.presentedViewController",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.presentingViewController",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.shouldPresentInFullscreen",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.shouldRemovePresentersView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPresentationController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPreviewInteraction.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPrintFormatter.pageCount",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPrintFormatter.printPageRenderer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPrintFormatter.requiresMainThread",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPrintInfo.dictionaryRepresentation",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPrintPageRenderer.numberOfPages",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPrintPageRenderer.paperRect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPrintPageRenderer.printableRect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPrinterPickerController.selectedPrinter",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIProgressView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIProgressView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIProgressView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIProgressView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIPushBehavior.items",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIPushBehavior.mode",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIRefreshControl.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIRefreshControl.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.isRefreshing",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIRefreshControl.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.tintColor",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIRefreshControl.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIRefreshControl.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIRotationGestureRecognizer.velocity",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScene.activationState",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScene.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScene.pointerLockState",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScene.session",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScene.systemProtectionManager",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISceneSession.configuration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISceneSession.persistentIdentifier",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISceneSession.role",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISceneSession.scene",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIScrollView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.adjustedContentInset",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.bottomEdgeEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIScrollView.contentLayoutGuide",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.directionalPressGestureRecognizer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.frameLayoutGuide",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.isDecelerating",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.isDragging",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.isScrollAnimating",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.isTracking",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.isZoomAnimating",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.isZoomBouncing",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.isZooming",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.leftEdgeEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.panGestureRecognizer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIScrollView.pinchGestureRecognizer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.rightEdgeEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.topEdgeEffect",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIScrollView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIScrollView.visibleSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISearchBar.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.barPosition",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISearchBar.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.inputAssistantItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISearchBar.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.searchTextField",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.tintColor",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISearchBar.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchBar.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISearchTextField.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISearchTextField.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.beginningOfDocument",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISearchTextField.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.endOfDocument",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.hasText",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.isTextDragActive",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.isTextDropActive",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.markedTextRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISearchTextField.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.textDragInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.textDropInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.textualRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.tokenizer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISearchTextField.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISegmentedControl.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISegmentedControl.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISegmentedControl.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.numberOfSegments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISegmentedControl.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISegmentedControl.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISheetPresentationController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISheetPresentationController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISheetPresentationController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISheetPresentationController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISheetPresentationController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISlider.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.behavioralStyle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISlider.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.currentMaximumTrackImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.currentMinimumTrackImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.currentThumbImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISlider.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISlider.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISplitViewController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.displayMode",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.displayModeButtonItem",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.isCollapsed",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.primaryColumnWidth",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.splitBehavior",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.style",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.supplementaryColumnWidth",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISplitViewController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIStackView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.arrangedSubviews",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIStackView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIStackView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStackView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIStepper.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIStepper.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIStepper.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIStepper.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIStepper.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISwipeActionsConfiguration.actions",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISwitch.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISwitch.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UISwitch.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.style",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UISwitch.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITabBar.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITabBar.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITabBar.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.isCustomizing",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITabBar.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.tintColor",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITabBar.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBar.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITabBarController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.contentLayoutGuide",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.moreNavigationController",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.sidebar",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.tabBar",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITabBarItem.accessibilityIdentifier",
+      "reason": "inherited from UIBarItem"
+    },
+    {
+      "member": "UITableView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITableView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITableView.contentOffset",
+      "reason": "inherited from UIScrollView"
+    },
+    {
+      "member": "UITableView.contentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.contextMenuInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.hasActiveDrag",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.hasActiveDrop",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.hasUncommittedUpdates",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.indexPathForSelectedRow",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.indexPathsForSelectedRows",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.indexPathsForVisibleRows",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.numberOfSections",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITableView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.style",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITableView.visibleCells",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableView.visibleSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableViewController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableViewController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableViewController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableViewController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableViewController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITableViewController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITextView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.beginningOfDocument",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITextView.contentOffset",
+      "reason": "inherited from UIScrollView"
+    },
+    {
+      "member": "UITextView.contentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.endOfDocument",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.findInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.hasText",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.isTextDragActive",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.isTextDropActive",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.isWritingToolsActive",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.layoutManager",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.markedTextRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITextView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.selectedTextRange",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.selectedTextSearchDocument",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.subclassForWritingToolsCoordinator",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.supportsTextReplacement",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.textContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.textDragInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.textDropInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.textLayoutManager",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.textStorage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.tokenizer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UITextView.visibleSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UITextView.writingToolsCoordinator",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolTipInteraction.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIToolbar.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.barPosition",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIToolbar.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIToolbar.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.tintColor",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIToolbar.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIToolbar.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIVideoEditorController.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIVideoEditorController.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIVideoEditorController.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIVideoEditorController.pasteConfiguration",
+      "reason": "inherited from UINavigationController"
+    },
+    {
+      "member": "UIVideoEditorController.preferredContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIVideoEditorController.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIVideoEditorController.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.alignmentRectInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.appliedContentSizeCategoryLimitsDescription",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.bottomAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.centerXAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.centerYAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.constraints",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.effectiveUserInterfaceLayoutDirection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.firstBaselineAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.forFirstBaselineLayout",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.forLastBaselineLayout",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.hasAmbiguousLayout",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.heightAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.intrinsicContentSize",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.isFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.keyboardLayoutGuide",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.lastBaselineAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.layer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.layoutGuides",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.layoutMarginsGuide",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.leadingAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.leftAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.readableContentGuide",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.rightAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.safeAreaInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.safeAreaLayoutGuide",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.subviews",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.superview",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.topAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.trailingAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.widthAnchor",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIView.window",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIViewPrintFormatter.view",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIViewPropertyAnimator.delay",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIViewPropertyAnimator.duration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIViewPropertyAnimator.isRunning",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIViewPropertyAnimator.state",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIViewPropertyAnimator.timingParameters",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIWebView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.canGoBack",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.canGoForward",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIWebView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.isLoading",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.pageCount",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIWebView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.request",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.scrollView",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWebView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIWindow.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIWindow.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.canBecomeKey",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIWindow.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.isKeyWindow",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIWindow.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.safeAreaAspectFitLayoutGuide",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindow.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "UIWindowScene.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.effectiveGeometry",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.focusSystem",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.interfaceOrientation",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.isFullScreen",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.keyWindow",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.pasteConfiguration",
+      "reason": "inherited from UIScene"
+    },
+    {
+      "member": "UIWindowScene.screen",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.screenshotService",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.sizeRestrictions",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.statusBarManager",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.windowingBehaviors",
+      "reason": "read-only"
+    },
+    {
+      "member": "UIWindowScene.windows",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.accessibilityIdentifier",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "WKWebView.activityItemsConfiguration",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.backForwardList",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.bounds",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.cameraCaptureState",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.canBecomeFocused",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.canGoBack",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.canGoForward",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.center",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "WKWebView.certificateChain",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.configuration",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.coordinateSpace",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.estimatedProgress",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.findInteraction",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.focusItemContainer",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.frame",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.fullscreenState",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.hasOnlySecureContent",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.isBlockedByScreenTime",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.isLoading",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.isWritingToolsActive",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.largeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.largeContentImageInsets",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.largeContentTitle",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.maximumViewportInset",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.microphoneCaptureState",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.minimumViewportInset",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.parentFocusEnvironment",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.pasteConfiguration",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "WKWebView.preferredFocusEnvironments",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.scalesLargeContentImage",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.scrollView",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.serverTrust",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.showsLargeContentViewer",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.themeColor",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.title",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.traitCollection",
+      "reason": "read-only"
+    },
+    {
+      "member": "WKWebView.transform",
+      "reason": "inherited from UIView"
+    },
+    {
+      "member": "WKWebView.url",
+      "reason": "read-only"
+    }
+  ],
+  "generatedProperties": {
+    "AVPlayer": [
+      "actionAtItemEnd",
+      "allowsCaptureOfClearKeyVideo",
+      "allowsExternalPlayback",
+      "appliesMediaSelectionCriteriaAutomatically",
+      "audiovisualBackgroundPlaybackPolicy",
+      "automaticallyWaitsToMinimizeStalling",
+      "defaultRate",
+      "externalPlaybackVideoGravity",
+      "isClosedCaptionDisplayEnabled",
+      "isMuted",
+      "masterClock",
+      "networkResourcePriority",
+      "preventsDisplaySleepDuringVideoPlayback",
+      "rate",
+      "sourceClock",
+      "usesExternalPlaybackWhileExternalScreenIsActive",
+      "videoOutput",
+      "volume"
+    ],
+    "AVQueuePlayer": [],
+    "CAGradientLayer": [
+      "colors",
+      "endPoint",
+      "locations",
+      "startPoint",
+      "type"
+    ],
+    "CALayer": [
+      "actions",
+      "allowsEdgeAntialiasing",
+      "allowsGroupOpacity",
+      "anchorPoint",
+      "anchorPointZ",
+      "autoreverses",
+      "backgroundColor",
+      "backgroundFilters",
+      "beginTime",
+      "borderColor",
+      "borderWidth",
+      "bounds",
+      "compositingFilter",
+      "contents",
+      "contentsCenter",
+      "contentsFormat",
+      "contentsGravity",
+      "contentsHeadroom",
+      "contentsRect",
+      "contentsScale",
+      "cornerCurve",
+      "cornerRadius",
+      "delegate",
+      "drawsAsynchronously",
+      "duration",
+      "edgeAntialiasingMask",
+      "fillMode",
+      "filters",
+      "frame",
+      "isDoubleSided",
+      "isGeometryFlipped",
+      "isHidden",
+      "isOpaque",
+      "magnificationFilter",
+      "mask",
+      "maskedCorners",
+      "masksToBounds",
+      "minificationFilter",
+      "minificationFilterBias",
+      "name",
+      "needsDisplayOnBoundsChange",
+      "opacity",
+      "position",
+      "preferredDynamicRange",
+      "rasterizationScale",
+      "repeatCount",
+      "repeatDuration",
+      "shadowColor",
+      "shadowOffset",
+      "shadowOpacity",
+      "shadowPath",
+      "shadowRadius",
+      "shouldRasterize",
+      "speed",
+      "style",
+      "sublayerTransform",
+      "sublayers",
+      "timeOffset",
+      "toneMapMode",
+      "transform",
+      "wantsExtendedDynamicRangeContent",
+      "zPosition"
+    ],
+    "CAShapeLayer": [
+      "fillColor",
+      "fillRule",
+      "lineCap",
+      "lineDashPattern",
+      "lineDashPhase",
+      "lineJoin",
+      "lineWidth",
+      "miterLimit",
+      "path",
+      "strokeColor",
+      "strokeEnd",
+      "strokeStart"
+    ],
+    "NSAttributedString": [],
+    "NSLayoutConstraint": [
+      "constant",
+      "identifier",
+      "isActive",
+      "priority",
+      "shouldBeArchived"
+    ],
+    "NSLayoutManager": [
+      "allowsNonContiguousLayout",
+      "delegate",
+      "hyphenationFactor",
+      "limitsLayoutForSuspiciousContents",
+      "showsControlCharacters",
+      "showsInvisibleCharacters",
+      "textStorage",
+      "usesDefaultHyphenation",
+      "usesFontLeading"
+    ],
+    "NSMutableAttributedString": [],
+    "NSShadow": [
+      "shadowBlurRadius",
+      "shadowColor",
+      "shadowOffset"
+    ],
+    "NSTextAttachment": [
+      "adjustsImageSizeForAccessibilityContentSizeCategory",
+      "allowsTextAttachmentView",
+      "bounds",
+      "contents",
+      "fileType",
+      "fileWrapper",
+      "image",
+      "lineLayoutPadding"
+    ],
+    "NSTextContainer": [
+      "exclusionPaths",
+      "heightTracksTextView",
+      "layoutManager",
+      "lineBreakMode",
+      "lineFragmentPadding",
+      "maximumNumberOfLines",
+      "size",
+      "widthTracksTextView"
+    ],
+    "NSTextContentManager": [
+      "automaticallySynchronizesTextLayoutManagers",
+      "automaticallySynchronizesToBackingStore",
+      "delegate",
+      "primaryTextLayoutManager"
+    ],
+    "NSTextContentStorage": [
+      "attributedString",
+      "delegate",
+      "includesTextListMarkers",
+      "textStorage"
+    ],
+    "NSTextLayoutManager": [
+      "delegate",
+      "layoutQueue",
+      "limitsLayoutForSuspiciousContents",
+      "renderingAttributesValidator",
+      "resolvesNaturalAlignmentWithBaseWritingDirection",
+      "textContainer",
+      "textSelectionNavigation",
+      "textSelections",
+      "usesFontLeading",
+      "usesHyphenation"
+    ],
+    "NSTextSelection": [
+      "anchorPositionOffset",
+      "isLogical",
+      "secondarySelectionLocation",
+      "typingAttributes"
+    ],
+    "NSTextSelectionNavigation": [
+      "allowsNonContiguousRanges",
+      "rotatesCoordinateSystemForLayoutOrientation"
+    ],
+    "NSTextStorage": [
+      "delegate",
+      "textStorageObserver"
+    ],
+    "NSTextViewportLayoutController": [
+      "delegate"
+    ],
+    "UIActivity": [],
+    "UIActivityItemsConfiguration": [
+      "applicationActivitiesProvider",
+      "localObject",
+      "metadataProvider",
+      "perItemMetadataProvider",
+      "previewProvider",
+      "supportedInteractions"
+    ],
+    "UIActivityViewController": [
+      "allowsProminentActivity",
+      "completionHandler",
+      "completionWithItemsHandler",
+      "excludedActivitySectionTypes",
+      "excludedActivityTypes",
+      "pasteConfiguration"
+    ],
+    "UIAlertController": [
+      "isSpringLoaded",
+      "message",
+      "pasteConfiguration",
+      "preferredAction",
+      "severity",
+      "title"
+    ],
+    "UIAttachmentBehavior": [
+      "anchorPoint",
+      "attachmentRange",
+      "damping",
+      "frequency",
+      "frictionTorque",
+      "length"
+    ],
+    "UIBandSelectionInteraction": [
+      "isEnabled",
+      "shouldBeginHandler"
+    ],
+    "UIBarAppearance": [
+      "backgroundColor",
+      "backgroundEffect",
+      "backgroundImage",
+      "backgroundImageContentMode",
+      "shadowColor",
+      "shadowImage"
+    ],
+    "UIBarButtonItem": [
+      "action",
+      "badge",
+      "changesSelectionAsPrimaryAction",
+      "customView",
+      "hidesSharedBackground",
+      "identifier",
+      "isHidden",
+      "isSelected",
+      "isSpringLoaded",
+      "isSymbolAnimationEnabled",
+      "menu",
+      "menuRepresentation",
+      "possibleTitles",
+      "preferredMenuElementOrder",
+      "primaryAction",
+      "sharesBackground",
+      "style",
+      "target",
+      "tintColor",
+      "width"
+    ],
+    "UIBarButtonItemAppearance": [],
+    "UIBarButtonItemGroup": [
+      "alwaysAvailable",
+      "barButtonItems",
+      "isHidden",
+      "menuRepresentation",
+      "representativeItem"
+    ],
+    "UIBarItem": [
+      "accessibilityIdentifier",
+      "image",
+      "imageInsets",
+      "isEnabled",
+      "landscapeImagePhone",
+      "landscapeImagePhoneInsets",
+      "largeContentSizeImage",
+      "largeContentSizeImageInsets",
+      "tag",
+      "title"
+    ],
+    "UIBezierPath": [
+      "cgPath",
+      "flatness",
+      "lineCapStyle",
+      "lineJoinStyle",
+      "lineWidth",
+      "miterLimit",
+      "usesEvenOddFillRule"
+    ],
+    "UIButton": [
+      "adjustsImageSizeForAccessibilityContentSizeCategory",
+      "adjustsImageWhenDisabled",
+      "adjustsImageWhenHighlighted",
+      "automaticallyUpdatesConfiguration",
+      "changesSelectionAsPrimaryAction",
+      "configuration",
+      "configurationUpdateHandler",
+      "contentEdgeInsets",
+      "imageEdgeInsets",
+      "isPointerInteractionEnabled",
+      "isSpringLoaded",
+      "menu",
+      "pointerStyleProvider",
+      "preferredBehavioralStyle",
+      "preferredMenuElementOrder",
+      "reversesTitleShadowWhenHighlighted",
+      "role",
+      "showsTouchWhenHighlighted",
+      "titleEdgeInsets"
+    ],
+    "UICalendarView": [
+      "availableDateRange",
+      "calendar",
+      "delegate",
+      "fontDesign",
+      "locale",
+      "selectionBehavior",
+      "timeZone",
+      "visibleDateComponents",
+      "wantsDateDecorations"
+    ],
+    "UICloudSharingController": [
+      "availablePermissions",
+      "delegate",
+      "pasteConfiguration"
+    ],
+    "UICollectionView": [
+      "allowsFocus",
+      "allowsFocusDuringEditing",
+      "allowsMultipleSelection",
+      "allowsMultipleSelectionDuringEditing",
+      "allowsSelection",
+      "allowsSelectionDuringEditing",
+      "backgroundView",
+      "collectionViewLayout",
+      "dataSource",
+      "delegate",
+      "dragDelegate",
+      "dragInteractionEnabled",
+      "dropDelegate",
+      "isEditing",
+      "isPrefetchingEnabled",
+      "isSpringLoaded",
+      "prefetchDataSource",
+      "remembersLastFocusedIndexPath",
+      "reorderingCadence",
+      "selectionFollowsFocus",
+      "selfSizingInvalidation"
+    ],
+    "UICollectionViewFlowLayout": [
+      "estimatedItemSize",
+      "footerReferenceSize",
+      "headerReferenceSize",
+      "itemSize",
+      "minimumInteritemSpacing",
+      "minimumLineSpacing",
+      "scrollDirection",
+      "sectionFootersPinToVisibleBounds",
+      "sectionHeadersPinToVisibleBounds",
+      "sectionInset",
+      "sectionInsetReference"
+    ],
+    "UICollectionViewLayout": [],
+    "UICollectionViewListCell": [
+      "accessories",
+      "indentationLevel",
+      "indentationWidth",
+      "indentsAccessories"
+    ],
+    "UICollectionViewTransitionLayout": [
+      "transitionProgress"
+    ],
+    "UICollisionBehavior": [
+      "collisionDelegate",
+      "collisionMode",
+      "translatesReferenceBoundsIntoBoundary"
+    ],
+    "UIColor": [],
+    "UIColorPickerViewController": [
+      "delegate",
+      "maximumLinearExposure",
+      "pasteConfiguration",
+      "selectedColor",
+      "supportsAlpha",
+      "supportsEyedropper"
+    ],
+    "UIColorWell": [
+      "maximumLinearExposure",
+      "selectedColor",
+      "supportsAlpha",
+      "supportsEyedropper",
+      "title"
+    ],
+    "UIContextMenuConfiguration": [
+      "badgeCount",
+      "preferredMenuElementOrder",
+      "secondaryItemIdentifiers"
+    ],
+    "UIContextualAction": [
+      "backgroundColor",
+      "image",
+      "title"
+    ],
+    "UIControl": [
+      "contentHorizontalAlignment",
+      "contentVerticalAlignment",
+      "isContextMenuInteractionEnabled",
+      "isEnabled",
+      "isHighlighted",
+      "isSelected",
+      "isSymbolAnimationEnabled",
+      "showsMenuAsPrimaryAction",
+      "toolTip"
+    ],
+    "UIDatePicker": [
+      "calendar",
+      "countDownDuration",
+      "date",
+      "datePickerMode",
+      "locale",
+      "maximumDate",
+      "minimumDate",
+      "minuteInterval",
+      "preferredDatePickerStyle",
+      "roundsToMinuteInterval",
+      "timeZone"
+    ],
+    "UIDevice": [
+      "isBatteryMonitoringEnabled",
+      "isProximityMonitoringEnabled"
+    ],
+    "UIDragItem": [
+      "localObject",
+      "previewProvider"
+    ],
+    "UIDropInteraction": [
+      "allowsSimultaneousDropSessions"
+    ],
+    "UIFeedbackGenerator": [],
+    "UIFieldBehavior": [
+      "animationSpeed",
+      "direction",
+      "falloff",
+      "minimumRadius",
+      "position",
+      "region",
+      "smoothness",
+      "strength"
+    ],
+    "UIGestureRecognizer": [
+      "allowedPressTypes",
+      "allowedTouchTypes",
+      "cancelsTouchesInView",
+      "delaysTouchesBegan",
+      "delaysTouchesEnded",
+      "delegate",
+      "isEnabled",
+      "name",
+      "requiresExclusiveTouchType",
+      "state"
+    ],
+    "UIGraphicsPDFRenderer": [],
+    "UIGravityBehavior": [
+      "angle",
+      "gravityDirection",
+      "magnitude"
+    ],
+    "UIImageView": [
+      "adjustsImageSizeForAccessibilityContentSizeCategory",
+      "animationDuration",
+      "animationImages",
+      "animationRepeatCount",
+      "highlightedAnimationImages",
+      "highlightedImage",
+      "image",
+      "isHighlighted",
+      "preferredImageDynamicRange",
+      "preferredSymbolConfiguration"
+    ],
+    "UIImpactFeedbackGenerator": [],
+    "UIInputView": [
+      "allowsSelfSizing"
+    ],
+    "UIInputViewController": [
+      "hasDictationKey",
+      "inputView",
+      "pasteConfiguration",
+      "primaryLanguage"
+    ],
+    "UILabel": [
+      "adjustsFontForContentSizeCategory",
+      "adjustsFontSizeToFitWidth",
+      "allowsDefaultTighteningForTruncation",
+      "attributedText",
+      "baselineAdjustment",
+      "font",
+      "highlightedTextColor",
+      "isEnabled",
+      "isHighlighted",
+      "lineBreakMode",
+      "lineBreakStrategy",
+      "minimumScaleFactor",
+      "numberOfLines",
+      "preferredMaxLayoutWidth",
+      "preferredVibrancy",
+      "shadowColor",
+      "shadowOffset",
+      "showsExpansionTextWhenTruncated",
+      "sizingRule",
+      "text",
+      "textAlignment",
+      "textColor"
+    ],
+    "UILayoutGuide": [
+      "identifier",
+      "owningView"
+    ],
+    "UILongPressGestureRecognizer": [
+      "allowableMovement",
+      "minimumPressDuration",
+      "numberOfTapsRequired",
+      "numberOfTouchesRequired"
+    ],
+    "UIManagedDocument": [
+      "modelConfiguration",
+      "persistentStoreOptions"
+    ],
+    "UIMarkupTextPrintFormatter": [
+      "markupText"
+    ],
+    "UIMenu": [
+      "displayPreferences",
+      "preferredElementSize"
+    ],
+    "UIMenuElement": [
+      "accessibilityIdentifier",
+      "subtitle"
+    ],
+    "UIMenuSystem": [],
+    "UINavigationBar": [
+      "backIndicatorImage",
+      "backIndicatorTransitionMaskImage",
+      "barStyle",
+      "barTintColor",
+      "compactAppearance",
+      "compactScrollEdgeAppearance",
+      "delegate",
+      "isTranslucent",
+      "items",
+      "largeTitleTextAttributes",
+      "preferredBehavioralStyle",
+      "prefersLargeTitles",
+      "scrollEdgeAppearance",
+      "shadowImage",
+      "standardAppearance",
+      "titleTextAttributes"
+    ],
+    "UINavigationBarAppearance": [
+      "backButtonAppearance",
+      "buttonAppearance",
+      "doneButtonAppearance",
+      "largeSubtitleTextAttributes",
+      "largeTitleTextAttributes",
+      "prominentButtonAppearance",
+      "subtitleTextAttributes",
+      "titlePositionAdjustment",
+      "titleTextAttributes"
+    ],
+    "UINavigationController": [
+      "delegate",
+      "hidesBarsOnSwipe",
+      "hidesBarsOnTap",
+      "hidesBarsWhenKeyboardAppears",
+      "hidesBarsWhenVerticallyCompact",
+      "isNavigationBarHidden",
+      "isToolbarHidden",
+      "pasteConfiguration",
+      "viewControllers"
+    ],
+    "UINavigationItem": [
+      "additionalOverflowItems",
+      "attributedSubtitle",
+      "attributedTitle",
+      "backAction",
+      "backBarButtonItem",
+      "backButtonDisplayMode",
+      "backButtonTitle",
+      "centerItemGroups",
+      "compactAppearance",
+      "compactScrollEdgeAppearance",
+      "customizationIdentifier",
+      "documentProperties",
+      "hidesBackButton",
+      "hidesSearchBarWhenScrolling",
+      "largeAttributedSubtitle",
+      "largeSubtitle",
+      "largeSubtitleView",
+      "largeTitle",
+      "largeTitleDisplayMode",
+      "leadingItemGroups",
+      "leftBarButtonItem",
+      "leftBarButtonItems",
+      "leftItemsSupplementBackButton",
+      "pinnedTrailingGroup",
+      "preferredSearchBarPlacement",
+      "prompt",
+      "renameDelegate",
+      "rightBarButtonItem",
+      "rightBarButtonItems",
+      "scrollEdgeAppearance",
+      "searchBarPlacementAllowsExternalIntegration",
+      "searchBarPlacementAllowsToolbarIntegration",
+      "searchController",
+      "standardAppearance",
+      "style",
+      "subtitle",
+      "subtitleView",
+      "title",
+      "titleMenuProvider",
+      "titleView",
+      "trailingItemGroups"
+    ],
+    "UINotificationFeedbackGenerator": [],
+    "UIPageViewController": [
+      "dataSource",
+      "delegate",
+      "isDoubleSided",
+      "pasteConfiguration"
+    ],
+    "UIPanGestureRecognizer": [
+      "allowedScrollTypesMask",
+      "maximumNumberOfTouches",
+      "minimumNumberOfTouches"
+    ],
+    "UIPasteConfiguration": [
+      "acceptableTypeIdentifiers"
+    ],
+    "UIPasteControl": [
+      "target"
+    ],
+    "UIPencilInteraction": [
+      "delegate",
+      "isEnabled"
+    ],
+    "UIPinchGestureRecognizer": [
+      "scale"
+    ],
+    "UIPointerAccessory": [
+      "orientationMatchesAngle"
+    ],
+    "UIPointerInteraction": [
+      "isEnabled"
+    ],
+    "UIPointerRegion": [
+      "latchingAxes"
+    ],
+    "UIPointerStyle": [
+      "accessories"
+    ],
+    "UIPopoverPresentationController": [
+      "backgroundColor",
+      "barButtonItem",
+      "canOverlapSourceViewRect",
+      "delegate",
+      "passthroughViews",
+      "permittedArrowDirections",
+      "popoverBackgroundViewClass",
+      "popoverLayoutMargins",
+      "sourceItem",
+      "sourceRect",
+      "sourceView"
+    ],
+    "UIPresentationController": [
+      "backgroundEffect",
+      "delegate",
+      "overrideTraitCollection",
+      "traitOverrides"
+    ],
+    "UIPreviewInteraction": [
+      "delegate"
+    ],
+    "UIPreviewParameters": [
+      "backgroundColor",
+      "shadowPath",
+      "visiblePath"
+    ],
+    "UIPrintFormatter": [
+      "contentInsets",
+      "maximumContentHeight",
+      "maximumContentWidth",
+      "perPageContentInsets",
+      "startPage"
+    ],
+    "UIPrintInfo": [
+      "duplex",
+      "jobName",
+      "orientation",
+      "outputType",
+      "printerID"
+    ],
+    "UIPrintPageRenderer": [
+      "footerHeight",
+      "headerHeight",
+      "printFormatters"
+    ],
+    "UIPrinterPickerController": [
+      "delegate"
+    ],
+    "UIProgressView": [
+      "observedProgress",
+      "progress",
+      "progressImage",
+      "progressTintColor",
+      "progressViewStyle",
+      "trackImage",
+      "trackTintColor"
+    ],
+    "UIPushBehavior": [
+      "active",
+      "angle",
+      "magnitude",
+      "pushDirection"
+    ],
+    "UIRefreshControl": [
+      "attributedTitle"
+    ],
+    "UIRotationGestureRecognizer": [
+      "rotation"
+    ],
+    "UIScene": [
+      "activationConditions",
+      "delegate",
+      "destructionConditions",
+      "pasteConfiguration",
+      "subtitle",
+      "title"
+    ],
+    "UISceneSession": [
+      "stateRestorationActivity",
+      "userInfo"
+    ],
+    "UIScrollView": [
+      "allowsKeyboardScrolling",
+      "alwaysBounceHorizontal",
+      "alwaysBounceVertical",
+      "automaticallyAdjustsScrollIndicatorInsets",
+      "bounces",
+      "bouncesHorizontally",
+      "bouncesVertically",
+      "bouncesZoom",
+      "canCancelContentTouches",
+      "contentAlignmentPoint",
+      "contentInset",
+      "contentInsetAdjustmentBehavior",
+      "contentOffset",
+      "contentSize",
+      "decelerationRate",
+      "delaysContentTouches",
+      "delegate",
+      "horizontalScrollIndicatorInsets",
+      "indexDisplayMode",
+      "indicatorStyle",
+      "isDirectionalLockEnabled",
+      "isPagingEnabled",
+      "isScrollEnabled",
+      "keyboardDismissMode",
+      "maximumZoomScale",
+      "minimumZoomScale",
+      "refreshControl",
+      "scrollIndicatorInsets",
+      "scrollsToTop",
+      "showsHorizontalScrollIndicator",
+      "showsVerticalScrollIndicator",
+      "transfersHorizontalScrollingToParent",
+      "transfersVerticalScrollingToParent",
+      "verticalScrollIndicatorInsets",
+      "zoomScale"
+    ],
+    "UISearchBar": [
+      "backgroundImage",
+      "barStyle",
+      "barTintColor",
+      "delegate",
+      "inputAccessoryView",
+      "isEnabled",
+      "isLookToDictateEnabled",
+      "isSearchResultsButtonSelected",
+      "isTranslucent",
+      "placeholder",
+      "prompt",
+      "scopeBarBackgroundImage",
+      "scopeButtonTitles",
+      "searchBarStyle",
+      "searchFieldBackgroundPositionAdjustment",
+      "searchTextPositionAdjustment",
+      "selectedScopeButtonIndex",
+      "showsBookmarkButton",
+      "showsCancelButton",
+      "showsScopeBar",
+      "showsSearchResultsButton",
+      "text"
+    ],
+    "UISearchTextField": [
+      "adjustsFontForContentSizeCategory",
+      "allowsCopyingTokens",
+      "allowsDeletingTokens",
+      "inputDelegate",
+      "markedTextStyle",
+      "pasteDelegate",
+      "searchSuggestions",
+      "selectedTextRange",
+      "sizingRule",
+      "textDragDelegate",
+      "textDragOptions",
+      "textDropDelegate",
+      "tokenBackgroundColor",
+      "tokens"
+    ],
+    "UISegmentedControl": [
+      "apportionsSegmentWidthsByContent",
+      "isMomentary",
+      "isSpringLoaded",
+      "selectedSegmentIndex",
+      "selectedSegmentTintColor"
+    ],
+    "UISheetPresentationController": [
+      "delegate",
+      "detents",
+      "largestUndimmedDetentIdentifier",
+      "preferredCornerRadius",
+      "prefersEdgeAttachedInCompactHeight",
+      "prefersGrabberVisible",
+      "prefersPageSizing",
+      "prefersScrollingExpandsWhenScrolledToEdge",
+      "selectedDetentIdentifier",
+      "sourceView",
+      "widthFollowsPreferredContentSizeWhenEdgeAttached"
+    ],
+    "UISimpleTextPrintFormatter": [
+      "attributedText",
+      "color",
+      "font",
+      "text",
+      "textAlignment"
+    ],
+    "UISlider": [
+      "isContinuous",
+      "maximumTrackTintColor",
+      "maximumValue",
+      "maximumValueImage",
+      "minimumTrackTintColor",
+      "minimumValue",
+      "minimumValueImage",
+      "preferredBehavioralStyle",
+      "sliderStyle",
+      "thumbTintColor",
+      "trackConfiguration",
+      "value"
+    ],
+    "UISnapBehavior": [
+      "damping",
+      "snapPoint"
+    ],
+    "UISplitViewController": [
+      "delegate",
+      "displayModeButtonVisibility",
+      "maximumInspectorColumnWidth",
+      "maximumPrimaryColumnWidth",
+      "maximumSupplementaryColumnWidth",
+      "minimumInspectorColumnWidth",
+      "minimumPrimaryColumnWidth",
+      "minimumSecondaryColumnWidth",
+      "minimumSupplementaryColumnWidth",
+      "pasteConfiguration",
+      "preferredDisplayMode",
+      "preferredInspectorColumnWidth",
+      "preferredInspectorColumnWidthFraction",
+      "preferredPrimaryColumnWidth",
+      "preferredPrimaryColumnWidthFraction",
+      "preferredSecondaryColumnWidth",
+      "preferredSecondaryColumnWidthFraction",
+      "preferredSplitBehavior",
+      "preferredSupplementaryColumnWidth",
+      "preferredSupplementaryColumnWidthFraction",
+      "presentsWithGesture",
+      "primaryBackgroundStyle",
+      "primaryEdge",
+      "showsSecondaryOnlyButton",
+      "viewControllers"
+    ],
+    "UIStackView": [
+      "alignment",
+      "axis",
+      "distribution",
+      "isBaselineRelativeArrangement",
+      "isLayoutMarginsRelativeArrangement",
+      "spacing"
+    ],
+    "UIStepper": [
+      "autorepeat",
+      "isContinuous",
+      "maximumValue",
+      "minimumValue",
+      "stepValue",
+      "value",
+      "wraps"
+    ],
+    "UISwipeActionsConfiguration": [
+      "performsFirstActionWithFullSwipe"
+    ],
+    "UISwipeGestureRecognizer": [
+      "direction",
+      "numberOfTouchesRequired"
+    ],
+    "UISwitch": [
+      "isOn",
+      "offImage",
+      "onImage",
+      "onTintColor",
+      "preferredStyle",
+      "thumbTintColor",
+      "title"
+    ],
+    "UITabBar": [
+      "backgroundImage",
+      "barStyle",
+      "barTintColor",
+      "delegate",
+      "isSpringLoaded",
+      "isTranslucent",
+      "itemPositioning",
+      "itemSpacing",
+      "itemWidth",
+      "items",
+      "scrollEdgeAppearance",
+      "selectedImageTintColor",
+      "selectedItem",
+      "selectionIndicatorImage",
+      "shadowImage",
+      "standardAppearance",
+      "unselectedItemTintColor"
+    ],
+    "UITabBarAppearance": [
+      "compactInlineLayoutAppearance",
+      "inlineLayoutAppearance",
+      "selectionIndicatorImage",
+      "selectionIndicatorTintColor",
+      "stackedItemPositioning",
+      "stackedItemSpacing",
+      "stackedItemWidth",
+      "stackedLayoutAppearance"
+    ],
+    "UITabBarController": [
+      "bottomAccessory",
+      "compactTabIdentifiers",
+      "customizableViewControllers",
+      "customizationIdentifier",
+      "delegate",
+      "isTabBarHidden",
+      "mode",
+      "pasteConfiguration",
+      "selectedIndex",
+      "selectedTab",
+      "selectedViewController",
+      "tabBarMinimizeBehavior",
+      "tabs",
+      "viewControllers"
+    ],
+    "UITabBarItem": [
+      "badgeColor",
+      "badgeValue",
+      "isSpringLoaded",
+      "scrollEdgeAppearance",
+      "selectedImage",
+      "standardAppearance",
+      "titlePositionAdjustment"
+    ],
+    "UITableView": [
+      "allowsFocus",
+      "allowsFocusDuringEditing",
+      "allowsMultipleSelection",
+      "allowsMultipleSelectionDuringEditing",
+      "allowsSelection",
+      "allowsSelectionDuringEditing",
+      "backgroundView",
+      "cellLayoutMarginsFollowReadableWidth",
+      "contentHuggingElements",
+      "dataSource",
+      "delegate",
+      "dragDelegate",
+      "dragInteractionEnabled",
+      "dropDelegate",
+      "estimatedRowHeight",
+      "estimatedSectionFooterHeight",
+      "estimatedSectionHeaderHeight",
+      "fillerRowHeight",
+      "insetsContentViewsToSafeArea",
+      "isEditing",
+      "isPrefetchingEnabled",
+      "isSpringLoaded",
+      "prefetchDataSource",
+      "remembersLastFocusedIndexPath",
+      "rowHeight",
+      "sectionFooterHeight",
+      "sectionHeaderHeight",
+      "sectionHeaderTopPadding",
+      "sectionIndexBackgroundColor",
+      "sectionIndexColor",
+      "sectionIndexMinimumDisplayRowCount",
+      "sectionIndexTrackingBackgroundColor",
+      "selectionFollowsFocus",
+      "selfSizingInvalidation",
+      "separatorColor",
+      "separatorEffect",
+      "separatorInset",
+      "separatorInsetReference",
+      "separatorStyle",
+      "tableFooterView",
+      "tableHeaderView"
+    ],
+    "UITableViewController": [
+      "clearsSelectionOnViewWillAppear",
+      "pasteConfiguration",
+      "refreshControl",
+      "tableView"
+    ],
+    "UITapGestureRecognizer": [
+      "buttonMaskRequired",
+      "numberOfTapsRequired",
+      "numberOfTouchesRequired"
+    ],
+    "UITextView": [
+      "adjustsFontForContentSizeCategory",
+      "allowedWritingToolsResultOptions",
+      "allowsEditingTextAttributes",
+      "attributedText",
+      "borderStyle",
+      "clearsOnInsertion",
+      "dataDetectorTypes",
+      "delegate",
+      "font",
+      "inputAccessoryView",
+      "inputDelegate",
+      "inputView",
+      "interactionState",
+      "isEditable",
+      "isFindInteractionEnabled",
+      "isSelectable",
+      "linkTextAttributes",
+      "markedTextStyle",
+      "pasteDelegate",
+      "selectedRange",
+      "selectedRanges",
+      "sizingRule",
+      "text",
+      "textAlignment",
+      "textColor",
+      "textContainerInset",
+      "textDragDelegate",
+      "textDragOptions",
+      "textDropDelegate",
+      "textFormattingConfiguration",
+      "textHighlightAttributes",
+      "typingAttributes",
+      "usesStandardTextScaling",
+      "writingToolsBehavior"
+    ],
+    "UIToolTipInteraction": [
+      "defaultToolTip",
+      "delegate",
+      "isEnabled"
+    ],
+    "UIToolbar": [
+      "barStyle",
+      "barTintColor",
+      "compactAppearance",
+      "compactScrollEdgeAppearance",
+      "delegate",
+      "isTranslucent",
+      "items",
+      "scrollEdgeAppearance",
+      "standardAppearance"
+    ],
+    "UIToolbarAppearance": [
+      "buttonAppearance",
+      "doneButtonAppearance",
+      "prominentButtonAppearance"
+    ],
+    "UITrackingLayoutGuide": [],
+    "UIVideoEditorController": [
+      "delegate",
+      "videoMaximumDuration",
+      "videoPath",
+      "videoQuality"
+    ],
+    "UIView": [
+      "accessibilityIdentifier",
+      "accessibilityIgnoresInvertColors",
+      "alpha",
+      "anchorPoint",
+      "autoresizesSubviews",
+      "autoresizingMask",
+      "backgroundColor",
+      "bounds",
+      "center",
+      "clearsContextBeforeDrawing",
+      "clipsToBounds",
+      "contentMode",
+      "contentScaleFactor",
+      "cornerConfiguration",
+      "directionalLayoutMargins",
+      "focusEffect",
+      "focusGroupIdentifier",
+      "focusGroupPriority",
+      "frame",
+      "gestureRecognizers",
+      "hoverStyle",
+      "insetsLayoutMarginsFromSafeArea",
+      "interactions",
+      "isExclusiveTouch",
+      "isHidden",
+      "isMultipleTouchEnabled",
+      "isOpaque",
+      "isUserInteractionEnabled",
+      "largeContentImage",
+      "largeContentImageInsets",
+      "largeContentTitle",
+      "layoutMargins",
+      "mask",
+      "maximumContentSizeCategory",
+      "minimumContentSizeCategory",
+      "motionEffects",
+      "overrideUserInterfaceStyle",
+      "pasteConfiguration",
+      "preservesSuperviewLayoutMargins",
+      "restorationIdentifier",
+      "scalesLargeContentImage",
+      "semanticContentAttribute",
+      "showsLargeContentViewer",
+      "tag",
+      "tintAdjustmentMode",
+      "tintColor",
+      "traitOverrides",
+      "transform",
+      "transform3D",
+      "translatesAutoresizingMaskIntoConstraints"
+    ],
+    "UIViewPrintFormatter": [],
+    "UIViewPropertyAnimator": [
+      "flushUpdates",
+      "fractionComplete",
+      "isInterruptible",
+      "isManualHitTestingEnabled",
+      "isReversed",
+      "isUserInteractionEnabled",
+      "pausesOnCompletion",
+      "scrubsLinearly"
+    ],
+    "UIWebView": [
+      "allowsInlineMediaPlayback",
+      "allowsLinkPreview",
+      "allowsPictureInPictureMediaPlayback",
+      "dataDetectorTypes",
+      "delegate",
+      "gapBetweenPages",
+      "keyboardDisplayRequiresUserAction",
+      "mediaPlaybackAllowsAirPlay",
+      "mediaPlaybackRequiresUserAction",
+      "pageLength",
+      "paginationBreakingMode",
+      "paginationMode",
+      "scalesPageToFit",
+      "suppressesIncrementalRendering"
+    ],
+    "UIWindow": [
+      "canResizeToFitContent",
+      "rootViewController",
+      "screen",
+      "windowLevel",
+      "windowScene"
+    ],
+    "UIWindowScene": [
+      "activityItemsConfigurationSource",
+      "traitOverrides"
+    ],
+    "WKWebView": [
+      "allowsBackForwardNavigationGestures",
+      "allowsLinkPreview",
+      "customUserAgent",
+      "interactionState",
+      "isFindInteractionEnabled",
+      "isInspectable",
+      "mediaType",
+      "navigationDelegate",
+      "obscuredContentInsets",
+      "pageZoom",
+      "uiDelegate",
+      "underPageBackgroundColor"
+    ],
+    "WKWebViewConfiguration": [
+      "allowsAirPlayForMediaPlayback",
+      "allowsInlineMediaPlayback",
+      "allowsInlinePredictions",
+      "allowsPictureInPictureMediaPlayback",
+      "applicationNameForUserAgent",
+      "dataDetectorTypes",
+      "defaultWebpagePreferences",
+      "ignoresViewportScaleLimits",
+      "limitsNavigationsToAppBoundDomains",
+      "mediaPlaybackAllowsAirPlay",
+      "mediaPlaybackRequiresUserAction",
+      "mediaTypesRequiringUserActionForPlayback",
+      "preferences",
+      "processPool",
+      "requiresUserActionForMediaPlayback",
+      "selectionGranularity",
+      "showsSystemScreenTimeBlockingView",
+      "supportsAdaptiveImageGlyph",
+      "suppressesIncrementalRendering",
+      "upgradeKnownHostsToHTTPS",
+      "userContentController",
+      "webExtensionController",
+      "websiteDataStore",
+      "writingToolsBehavior"
+    ]
+  },
+  "methodAliases": {
+    "attributedTitle": "setAttributedTitle(_:for:)",
+    "backgroundImage": "setBackgroundImage(_:for:)",
+    "image": "setImage(_:for:)",
+    "title": "setTitle(_:for:)",
+    "titleColor": "setTitleColor(_:for:)"
+  },
+  "toolchain": {
+    "languageMode": "5",
+    "sdk": "26.5",
+    "swift": "Apple Swift version 6.3.2 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)\nTarget: arm64-apple-macosx26.0",
+    "xcode": "Xcode 26.5\nBuild version 17F42"
+  }
+}

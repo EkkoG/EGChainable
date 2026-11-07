@@ -7,72 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06F5D5B5C693F35C542145EF2063AA7A /* EGChainable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1BF5546010886D639B27CE9417DAC1 /* EGChainable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D29CD9D5AD1EFE6E4383454DFCD0C26 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C71B2DD2C05C4569B91A238F5513F7 /* AVFoundation.framework */; };
-		0DD74412DB07F942B5B561433A517BBE /* UIStepper+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E2F7FE8772F4ADFA99C3E2A1D94DA /* UIStepper+Chainable.swift */; };
-		113AECD3D25B184EA0F51F9D18EA0D25 /* UIStackView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE421D5B9B42CC74BF3EDC640A5818D /* UIStackView+Chainable.swift */; };
-		1B4C28FF436A7A4E422554B77D7121AF /* NSAttributedString+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A459C409D02618BD8F2A49054DFAF /* NSAttributedString+Chainable.swift */; };
-		22CD01BC8417FD43EC3320D24BAA4A00 /* UIView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54433B352A615C6515DD24908777CB2D /* UIView+Chainable.swift */; };
-		25324280EA4B3385827EB958C0B8658F /* Pods-EGChainable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF630622D30954E92E9774D9B60E96 /* Pods-EGChainable_Tests-dummy.m */; };
-		2600892C4A939627270D99ADFB4BFC7E /* WKWebViewConfiguration+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524F40F3AEF19200FC560B1DBE61FBC /* WKWebViewConfiguration+Chainable.swift */; };
-		29B264847D63EA191FFCEECF6CC6BD37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DF64FDF6439BF66A2DC23C2B958615 /* UIKit.framework */; };
-		2C2329BE33A5D48EB7522A9BF851426A /* Pods-EGChainable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5EFE10C5E80623DC06E7E3C4D5E99 /* Pods-EGChainable_Example-dummy.m */; };
-		2D98213D22F85C7ACC7C5C25EC8B0B61 /* EGChainable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA662B0DF37917F07C1EEEDC196283A /* EGChainable-dummy.m */; };
-		2E45AFE09FCA956F2EE7787E8B4B2380 /* UILongPressGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A98F5356101100B883E0FB578E8404C /* UILongPressGestureRecognizer+Chainable.swift */; };
-		3278116ABB90518F016E7575C7A2E009 /* UIToolbar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088C0C53C4397F75ACB4BFD658839B /* UIToolbar+Chainable.swift */; };
-		37F6CB9C18926BD08C6FCFEFB6B3672D /* UIRotationGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C594CBFF18058F735055CF42AC412E /* UIRotationGestureRecognizer+Chainable.swift */; };
-		41A618B04C5CE71D031C329279604560 /* AVPlayer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D1B4BB028DCCEC16226673F627B389 /* AVPlayer+Chainable.swift */; };
-		55798C0107A2A676AF029377FFAFA894 /* Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476964CDC881F43B5E142496ABFA3F82 /* Chainable.swift */; };
-		56674E9A7A466BD49587CA5A2B8DF5C1 /* UISearchBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D44D3889167B9A656AF04179DAF411 /* UISearchBar+Chainable.swift */; };
-		684E4AFE7CC6A8495F5EA0B7581CF16A /* UISwipeGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCF541F6173FCC67A15C23308D008B9 /* UISwipeGestureRecognizer+Chainable.swift */; };
-		6B85D0C21FA4EDBA27562408BE4E6FC8 /* UIButton+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7CE9F26E6998468C9C837B61485E2 /* UIButton+Chainable.swift */; };
-		6E6AD87250B0F93D4849EB198648EA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254674B788ABEF8F2D71E453DBD468F2 /* Foundation.framework */; };
-		71087BA52C10E82C78B362DDB54C20B2 /* WKWebView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD22FBDFD6FD435C26080959D378E6F /* WKWebView+Chainable.swift */; };
-		791D7D3CAA0042D8C07494EED8B97463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254674B788ABEF8F2D71E453DBD468F2 /* Foundation.framework */; };
-		7CD4A399D159031760B818E8B4CDEB40 /* UICollectionViewFlowLayout+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E421C0A2BB3461338623D71CE7D02A3 /* UICollectionViewFlowLayout+Chainable.swift */; };
-		7D1FA6F5F9E93368BDA24D0984B5AB99 /* UIMenu+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D4F9691BA1B4CB199A12D137BA1CD6 /* UIMenu+Chainable.swift */; };
-		8646BF6A7448147AE0CE0B0CCDA6A9C7 /* UIBezierPath+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088012AEFDF2DBCF28363E18CE44EC7C /* UIBezierPath+Chainable.swift */; };
-		86B2A271C9C9CA8EC73198BFFA20EE1B /* UITabBarItem+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C6B88CDB92A55BD33D9B93ED02E60 /* UITabBarItem+Chainable.swift */; };
-		903751B0BEF1E4F9E47457B31A507545 /* UITabBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E0CD07E94FFD1DB2D34C808B0BAC63 /* UITabBar+Chainable.swift */; };
-		9095B4BAAAE3CAC3CF43A33AED8E44EF /* UITextView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94A9634062AD94FF91F7249CF3CBC6 /* UITextView+Chainable.swift */; };
-		92A76B2C4CAD149DD89DEEF73AF00F1F /* UISegmentedControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4E02C68C549E9900AE2DA69CF749AF /* UISegmentedControl+Chainable.swift */; };
-		A38B1F84F84A7FEC0B9964549783E43D /* Pods-EGChainable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D87855269A1C930320401B2B30E591 /* Pods-EGChainable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A87315E90290DC9196DC0D1FCA310424 /* UITapGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3449FBABA0BA6D5ADF4AA16EF5F192D1 /* UITapGestureRecognizer+Chainable.swift */; };
-		A8C6CB2F0CDA714A3AB60A55E16E0ABA /* UISwitch+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E0BC27EDE86C9E6964F1A7C37B720 /* UISwitch+Chainable.swift */; };
-		AD30F8AE11A352F59F6787F82187FA03 /* UIProgressView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F6E9E35054828998BA77C989B0A965 /* UIProgressView+Chainable.swift */; };
-		AE5E9985221561FB815B5869F7FC1ADC /* CAShapeLayer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F7527C889A42258DC933952B1F0632 /* CAShapeLayer+Chainable.swift */; };
-		AFBEA6DDCAD139B0966B172CB23CE5E9 /* UIScrollView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EED21E8C24C4167EDA3E79E948EE01 /* UIScrollView+Chainable.swift */; };
-		B05A9864BE214ABCD2A02E9048A31480 /* UITabBarAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCDE4EB69166EAB615D0CB8FBCDE92D /* UITabBarAppearance+Chainable.swift */; };
-		B0D7463A5C287B10A57E81E97C683BB8 /* UIPinchGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5E61575CBE197EB9F52D54A1D9329 /* UIPinchGestureRecognizer+Chainable.swift */; };
-		B3F212DA70D5E211D7D3E3F0E0C65A34 /* UIPanGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FA832FF06A1BF1D267EC71A2ACA42E /* UIPanGestureRecognizer+Chainable.swift */; };
-		BD1F41287A7D8BF5BF5D76C8F5DF9158 /* CALayer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786ED436A5942AF4779E5ACE6668748E /* CALayer+Chainable.swift */; };
-		C17BA5C17E1A8A8190C12CCB9D796DE1 /* UITableView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63210C612794709B6E38C0B2DC9C595A /* UITableView+Chainable.swift */; };
-		C1DCBA0E4717A436387A16C60B21C932 /* UIGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3565CA23E93EAC48E8D700A9C636BCFB /* UIGestureRecognizer+Chainable.swift */; };
-		C408DC03DF69DA93A61F7943A85427B4 /* UILabel+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062BBEC4D071327D1544F523ABB5D29 /* UILabel+Chainable.swift */; };
-		CB65C135AC203EAC50E5F34CF38049E4 /* UICollectionViewLayout+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3917D56C9A2E4E8C791344695A2EECF2 /* UICollectionViewLayout+Chainable.swift */; };
-		CC90F098826FDF7F2CBE58E3DE9E77D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254674B788ABEF8F2D71E453DBD468F2 /* Foundation.framework */; };
-		DB5ABB07AC96A369246B8453AC95AF85 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D3D3E2FE3ABF469AA47B70C4D59450 /* QuartzCore.framework */; };
-		DF01CEC1263AE3FBE9922CB9B4B8FCA5 /* UITabBarController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D2B7FA0ECC352E923E9AC5B947601 /* UITabBarController+Chainable.swift */; };
-		DF44122A4118D5E6C4A4304AE136C7CF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90880EB3FFB6F1849CB7F709B6A8668C /* WebKit.framework */; };
-		E10058E0DE8526E2087C2B685CACB4DF /* UISwipeActionsConfiguration+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACAA643FD67773715683F67AB79C583 /* UISwipeActionsConfiguration+Chainable.swift */; };
-		E6CA9F2BD12C6B28CE6166A5B31A7327 /* UIControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8C1F484DE58637A709C7953766455 /* UIControl+Chainable.swift */; };
-		ED8D03B47378A00A4922A638E35AE2D5 /* CAGradientLayer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55FFFD49F80AA0FDFF75F2A14E4075D /* CAGradientLayer+Chainable.swift */; };
-		F2C848D9C8E9B5D969E01F61CB73F3E2 /* UIImageView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63E939CEDAE1B253D5ED9D2C243881 /* UIImageView+Chainable.swift */; };
-		F3D64EE46156C2BAF707811AD3132A21 /* UICollectionView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB8AAA51B1AA1FFFDAB113D43D7908 /* UICollectionView+Chainable.swift */; };
-		F64DC0379E12086D0619D35A0C92E116 /* UIDatePicker+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E5606B9A47415F73767E8FC3C79992 /* UIDatePicker+Chainable.swift */; };
-		F72891D2E8EA86DB9371F9054A292C29 /* Pods-EGChainable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60889E5402A426C64BE695194569F83D /* Pods-EGChainable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA093BA4AA4A60AECFE1D63C1082AD05 /* UISlider+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C861167B35F92DC4E232759D3DC70 /* UISlider+Chainable.swift */; };
+		006F1247F58A9604D5D02A3B98A9B58E /* Pods-EGChainable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D87855269A1C930320401B2B30E591 /* Pods-EGChainable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0572258CA02882257FCDE40E5D781C79 /* CAGradientLayer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487BEB5BB6C3F0EDD5B09785EF839F0 /* CAGradientLayer+Chainable.swift */; };
+		0CAE94F061520A8F85909475BD79B816 /* UIPinchGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566A9229292E3CCD619BC4B24BB73AE /* UIPinchGestureRecognizer+Chainable.swift */; };
+		161D7EF9F8FA9724B2194D2DE4599594 /* UIButton+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118038AA61B2EFFDE2DC7C6346ACD881 /* UIButton+Chainable.swift */; };
+		1730C30D932FABAE32AAE4429BF617CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66D8B1F801369E466BF442EF696E028 /* Foundation.framework */; };
+		2466D1896A3932A3F84F68EC74A425DE /* UIImageView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C5F2980413016AB2A8DC806F680EB /* UIImageView+Chainable.swift */; };
+		24784F78E0139E66B5F8CD6B52AE88E7 /* UIPanGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84BC5B745B960A76C7568C03216B00 /* UIPanGestureRecognizer+Chainable.swift */; };
+		2D49805E9F5D66D34638FFF3A5E1BBA6 /* UITextView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A5667B0C5D09B1636048DFFE8C1A9 /* UITextView+Chainable.swift */; };
+		2D8D3197B043749868E9362CA2BA0EA4 /* UIGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DF102F1AAD51E2FB8A3C17235146A /* UIGestureRecognizer+Chainable.swift */; };
+		2DAA0211FAC596CA0074FB18117C5DF6 /* Pods-EGChainable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5EFE10C5E80623DC06E7E3C4D5E99 /* Pods-EGChainable_Example-dummy.m */; };
+		33C658AD2498B6542C4C4374C235C703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66D8B1F801369E466BF442EF696E028 /* Foundation.framework */; };
+		341A87E92B423E3D10921B0DF1FAE9A2 /* EGChainable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B43360A12DFCAD489081AE1046B202D /* EGChainable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		349B5563E85BD7C4820F1702CAA68519 /* UITableView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806A87D3BA03F8E7047BC2B29BD67EC /* UITableView+Chainable.swift */; };
+		382D9C34E0F4B4C75086CDC28F1F9511 /* UIToolbar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87739D3635EFFBA6F0E245771E7654 /* UIToolbar+Chainable.swift */; };
+		4077798F15746AE26FCAEAE68099A7AA /* UIStackView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4AA924ED60D1F69D411B1937FD20F /* UIStackView+Chainable.swift */; };
+		4C8BBB05C4EEF7FD8AFA830EEE2002E0 /* UILabel+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D7032D336727053A196A1276D07DA5 /* UILabel+Chainable.swift */; };
+		4D6158C8925F0702BA6990E133C245B7 /* UIBarItem+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E322F5953B4CF26E17EB3B678FA979 /* UIBarItem+Chainable.swift */; };
+		4F7CC7755C58B0468AB2592395C1ED5C /* UITabBarController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C812E8CEF0E94FB5FD6973D732C472 /* UITabBarController+Chainable.swift */; };
+		6023AF875CA99FF1071AD232A90F184A /* AVPlayer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B962D21A15D4CC544D1493306A906D1C /* AVPlayer+Chainable.swift */; };
+		663BEC6E5969C1DAFEA9840E1900E833 /* UICollectionViewFlowLayout+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73C64A4689B30D45B3E71C9A505976E /* UICollectionViewFlowLayout+Chainable.swift */; };
+		681B5B78410B3FD5BBE1B208AC7F6517 /* WKWebViewConfiguration+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05300C21A823929516FC3A918AF3CBF /* WKWebViewConfiguration+Chainable.swift */; };
+		6BDDB1078C21757D1DF0F5D346E69AE6 /* UIMenu+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0581E4F2F19BE140229AE56A1AB94C /* UIMenu+Chainable.swift */; };
+		6C43475D420A17DE439F9033DB0D8899 /* UITabBarAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DAD7105CD076DDCAE87FD7ED2B5E7 /* UITabBarAppearance+Chainable.swift */; };
+		6CEC7F982073B32912BD6C0FA455A25E /* CALayer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5085A330F473007BB21E1799C06923 /* CALayer+Chainable.swift */; };
+		6DA81D6075D22E96EE7E6C346D8456A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DFC4E92EBB1D2DA35FD3161EA897E0 /* AVFoundation.framework */; };
+		6EFD050DA722681FA2798610E6E51716 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCABC32C16AACA4C93DF1F25AC06421 /* UIKit.framework */; };
+		72BE138A2655D928CD29DD7E351C9FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66D8B1F801369E466BF442EF696E028 /* Foundation.framework */; };
+		78F4C07275894C73D55E7D01BBCEBA94 /* Pods-EGChainable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60889E5402A426C64BE695194569F83D /* Pods-EGChainable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A3894FF64DFA7C095A2397BEB19C327 /* UIProgressView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C528E28406CD51ABAA71F8137FB22C /* UIProgressView+Chainable.swift */; };
+		7A837CB5D652835EE579B2BAC3C085EF /* UIBezierPath+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F225ABED8DAE31D1A6DCCDA06185B5 /* UIBezierPath+Chainable.swift */; };
+		7EBC18629A2A1563ABA831280B875F7B /* CAShapeLayer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28803B1B28070777E35308BC63018B /* CAShapeLayer+Chainable.swift */; };
+		7FADCC19F3BC1345F83E1E786EDDFB55 /* UICollectionView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE79EEB8A502EE98C3D6770ABD213CFA /* UICollectionView+Chainable.swift */; };
+		880FE0A2FFF95E01A4689EB9FE07782C /* UISwitch+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42596F1E52CF21E3A56B77B1906C1872 /* UISwitch+Chainable.swift */; };
+		8A3E55A7E1B1D59ECF7F629D20BE2617 /* UISearchBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC55AEB7C3DC4B3D1F2FBD355EF1B108 /* UISearchBar+Chainable.swift */; };
+		8C6BFF89A2E3D29EBBF71E4227D1C983 /* NSAttributedString+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCE56F81AAF446E9F99B836FA16AF80 /* NSAttributedString+Chainable.swift */; };
+		920E8F8C9D256E253A390D130D1CD627 /* Pods-EGChainable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF630622D30954E92E9774D9B60E96 /* Pods-EGChainable_Tests-dummy.m */; };
+		9A0F675BB64BCF5280E33F3AC2DE9E6F /* UICollectionViewLayout+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817140D3DD522CCB18290BF3548C67B /* UICollectionViewLayout+Chainable.swift */; };
+		A073A7ADC3BC440F6C58CCCC3A4FD9AF /* UITabBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5227F3D69069043F74C7E1CD7BD78F /* UITabBar+Chainable.swift */; };
+		A158D03F9D26ED50CB603D2E7116F2D2 /* UISwipeActionsConfiguration+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574C16E5D071DA339D4B3D115FCD8A4 /* UISwipeActionsConfiguration+Chainable.swift */; };
+		A1E609DA950792F91AB0BED318ACFB99 /* UISwipeGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE5A9FE284455B2803008F6594331DC /* UISwipeGestureRecognizer+Chainable.swift */; };
+		AA81BDBA62CE8A7EECBF045CD4D7BB16 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25E5B53BB9CB148F56605C378A57A80 /* QuartzCore.framework */; };
+		AE33B223AA556E70D68FEE8F56E1A6C0 /* WKWebView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622854DC4D8E34F77D72FFA94DA5ED43 /* WKWebView+Chainable.swift */; };
+		AFD9BC0F80AC79B4BBBA899B2571126B /* UIStepper+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A58DFA3431AF6B5906AEF5089358E6 /* UIStepper+Chainable.swift */; };
+		B1864AE5775743005773F49BBA54980C /* UIDatePicker+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8555CCE2543B23CA5D9B19F66CF0F7 /* UIDatePicker+Chainable.swift */; };
+		B3F1A69EA3B0D852F546ACDC7F7D170D /* UIMenuElement+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7BCB6A95B3C425267BC5A5168714B /* UIMenuElement+Chainable.swift */; };
+		C6B1AB2B78F5C45DA5D9FC6A05AB00D6 /* UIView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707ED852E508821956959E545C87DD1 /* UIView+Chainable.swift */; };
+		CF7E25DD5953B88DF05BBE7A1C106F3B /* UIBarAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67596D30EFB6FDC4917E45BA832EE082 /* UIBarAppearance+Chainable.swift */; };
+		D75DF10BF35E8C3EE0D951890C3C3425 /* UILongPressGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210697B86184B2107F428A0663CA4E4 /* UILongPressGestureRecognizer+Chainable.swift */; };
+		DBAD6A9252D006BC778B98E39AB2ECFB /* UITabBarItem+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EFFB36679758F8799BE63E971646A8 /* UITabBarItem+Chainable.swift */; };
+		DDB38C1E4BEFE7DC3285E5BD5C89F49B /* UISlider+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9099AAE6FB6C6E49A57DD1B8C46525FC /* UISlider+Chainable.swift */; };
+		E3FC3316F08A094AEC14E39406574A4A /* UITapGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13556F5A95BC01ACA6E2C815FA6C2C7 /* UITapGestureRecognizer+Chainable.swift */; };
+		E5AF9A27A1BD826B2F91A9E390B622A0 /* UIControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A7268F23561CD586CB8EC1DCCF16B2 /* UIControl+Chainable.swift */; };
+		E73D1E0CBFA8916B78AFB281AC78790C /* UISegmentedControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477C365F3DCB01F20FC94EDE2155C2F6 /* UISegmentedControl+Chainable.swift */; };
+		E8EDF3D67779182F645174A1D1575C6C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DE920D4792E232808CF5A59CDE0898 /* WebKit.framework */; };
+		F3EFB8508BE7297C8A1208D872CA5C24 /* EGChainable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DEE9E6234BA93B4B3488032CE673EF /* EGChainable-dummy.m */; };
+		FA53730307E763CCD0324828BF015541 /* UIRotationGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A6B3E96A7FE9B00A3AF6EBE710880 /* UIRotationGestureRecognizer+Chainable.swift */; };
+		FE00A0639FDDD9F8A72367E0295E2968 /* UIScrollView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CE8BA8F943F98AEB44ACF7A8BA9C2 /* UIScrollView+Chainable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		70EC4390CC73E45D9064EECD80123B94 /* PBXContainerItemProxy */ = {
+		7393B4D48DC63BCDC6E8A7D863D119B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 14C66C0A0EF4BB503EC6B6F3C5AD9C32;
 			remoteInfo = EGChainable;
 		};
-		DBB32929BFFC3B164AE0F07CBA6DDF0E /* PBXContainerItemProxy */ = {
+		A568A2F1CAE60D28D03904CF56D10E99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -82,246 +84,257 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C594CBFF18058F735055CF42AC412E /* UIRotationGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIRotationGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UIRotationGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
-		042521C7706A28B1E21D0511D36CD084 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0285D95B54C91730A1C65165E31A3A91 /* EGChainable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGChainable.release.xcconfig; sourceTree = "<group>"; };
 		04E04828EE51733141B19559E3297831 /* Pods-EGChainable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EGChainable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		05AA68F7990984317121146F9005001E /* EGChainable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EGChainable.modulemap; sourceTree = "<group>"; };
-		088012AEFDF2DBCF28363E18CE44EC7C /* UIBezierPath+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+Chainable.swift"; path = "EGChainable/Classes/Generated/UIBezierPath+Chainable.swift"; sourceTree = "<group>"; };
-		08A7CE9F26E6998468C9C837B61485E2 /* UIButton+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Chainable.swift"; path = "EGChainable/Classes/Generated/UIButton+Chainable.swift"; sourceTree = "<group>"; };
-		0A98F5356101100B883E0FB578E8404C /* UILongPressGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILongPressGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UILongPressGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
+		0574C16E5D071DA339D4B3D115FCD8A4 /* UISwipeActionsConfiguration+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwipeActionsConfiguration+Chainable.swift"; path = "EGChainable/Classes/Generated/UISwipeActionsConfiguration+Chainable.swift"; sourceTree = "<group>"; };
 		0BCBA484349379DB8E553A4EBF5DF928 /* Pods-EGChainable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EGChainable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0E421C0A2BB3461338623D71CE7D02A3 /* UICollectionViewFlowLayout+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionViewFlowLayout+Chainable.swift"; path = "EGChainable/Classes/Generated/UICollectionViewFlowLayout+Chainable.swift"; sourceTree = "<group>"; };
-		0E63E939CEDAE1B253D5ED9D2C243881 /* UIImageView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIImageView+Chainable.swift"; sourceTree = "<group>"; };
+		0E0DAD7105CD076DDCAE87FD7ED2B5E7 /* UITabBarAppearance+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarAppearance+Chainable.swift"; path = "EGChainable/Classes/Generated/UITabBarAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		118038AA61B2EFFDE2DC7C6346ACD881 /* UIButton+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Chainable.swift"; path = "EGChainable/Classes/Generated/UIButton+Chainable.swift"; sourceTree = "<group>"; };
+		13DFC4E92EBB1D2DA35FD3161EA897E0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		14EFFB36679758F8799BE63E971646A8 /* UITabBarItem+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarItem+Chainable.swift"; path = "EGChainable/Classes/Generated/UITabBarItem+Chainable.swift"; sourceTree = "<group>"; };
 		1BA305403DEA534603E6EE742654D9BB /* Pods-EGChainable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EGChainable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2062BBEC4D071327D1544F523ABB5D29 /* UILabel+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Chainable.swift"; path = "EGChainable/Classes/Generated/UILabel+Chainable.swift"; sourceTree = "<group>"; };
-		254674B788ABEF8F2D71E453DBD468F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2BE421D5B9B42CC74BF3EDC640A5818D /* UIStackView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIStackView+Chainable.swift"; sourceTree = "<group>"; };
-		3449FBABA0BA6D5ADF4AA16EF5F192D1 /* UITapGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITapGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UITapGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
-		3565CA23E93EAC48E8D700A9C636BCFB /* UIGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UIGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
-		35F7527C889A42258DC933952B1F0632 /* CAShapeLayer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+Chainable.swift"; path = "EGChainable/Classes/Generated/CAShapeLayer+Chainable.swift"; sourceTree = "<group>"; };
-		3917D56C9A2E4E8C791344695A2EECF2 /* UICollectionViewLayout+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionViewLayout+Chainable.swift"; path = "EGChainable/Classes/Generated/UICollectionViewLayout+Chainable.swift"; sourceTree = "<group>"; };
-		39C48739CB9084393C761F6DD12FCF22 /* EGChainable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGChainable.debug.xcconfig; sourceTree = "<group>"; };
-		3BD22FBDFD6FD435C26080959D378E6F /* WKWebView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebView+Chainable.swift"; path = "EGChainable/Classes/Generated/WKWebView+Chainable.swift"; sourceTree = "<group>"; };
+		1FA2ECABD1945E4BFB48F4D5F0683B85 /* EGChainable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EGChainable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25A7268F23561CD586CB8EC1DCCF16B2 /* UIControl+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+Chainable.swift"; path = "EGChainable/Classes/Generated/UIControl+Chainable.swift"; sourceTree = "<group>"; };
+		2AE309C9AF7F1B829C7AB5227CDF59CA /* EGChainable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGChainable.debug.xcconfig; sourceTree = "<group>"; };
+		2EE5A9FE284455B2803008F6594331DC /* UISwipeGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwipeGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UISwipeGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
+		3C8555CCE2543B23CA5D9B19F66CF0F7 /* UIDatePicker+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDatePicker+Chainable.swift"; path = "EGChainable/Classes/Generated/UIDatePicker+Chainable.swift"; sourceTree = "<group>"; };
 		3DF5EFE10C5E80623DC06E7E3C4D5E99 /* Pods-EGChainable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EGChainable_Example-dummy.m"; sourceTree = "<group>"; };
 		40222854EF95FE8D118D225D8BFF7CF5 /* Pods-EGChainable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EGChainable_Tests.modulemap"; sourceTree = "<group>"; };
-		476964CDC881F43B5E142496ABFA3F82 /* Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chainable.swift; path = EGChainable/Classes/Chainable.swift; sourceTree = "<group>"; };
-		515C861167B35F92DC4E232759D3DC70 /* UISlider+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Chainable.swift"; path = "EGChainable/Classes/Generated/UISlider+Chainable.swift"; sourceTree = "<group>"; };
-		54433B352A615C6515DD24908777CB2D /* UIView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIView+Chainable.swift"; sourceTree = "<group>"; };
+		42596F1E52CF21E3A56B77B1906C1872 /* UISwitch+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwitch+Chainable.swift"; path = "EGChainable/Classes/Generated/UISwitch+Chainable.swift"; sourceTree = "<group>"; };
+		477C365F3DCB01F20FC94EDE2155C2F6 /* UISegmentedControl+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISegmentedControl+Chainable.swift"; path = "EGChainable/Classes/Generated/UISegmentedControl+Chainable.swift"; sourceTree = "<group>"; };
+		4817140D3DD522CCB18290BF3548C67B /* UICollectionViewLayout+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionViewLayout+Chainable.swift"; path = "EGChainable/Classes/Generated/UICollectionViewLayout+Chainable.swift"; sourceTree = "<group>"; };
+		4D0CE79C9B337BE3DE4EA7CBCF7BBA03 /* EGChainable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGChainable-prefix.pch"; sourceTree = "<group>"; };
+		56C812E8CEF0E94FB5FD6973D732C472 /* UITabBarController+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarController+Chainable.swift"; path = "EGChainable/Classes/Generated/UITabBarController+Chainable.swift"; sourceTree = "<group>"; };
 		56D1A52305C91E7A3E290A2CAF11F7A1 /* Pods-EGChainable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EGChainable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5ACAA643FD67773715683F67AB79C583 /* UISwipeActionsConfiguration+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwipeActionsConfiguration+Chainable.swift"; path = "EGChainable/Classes/Generated/UISwipeActionsConfiguration+Chainable.swift"; sourceTree = "<group>"; };
-		5B7E0BC27EDE86C9E6964F1A7C37B720 /* UISwitch+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwitch+Chainable.swift"; path = "EGChainable/Classes/Generated/UISwitch+Chainable.swift"; sourceTree = "<group>"; };
-		5F1BF5546010886D639B27CE9417DAC1 /* EGChainable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGChainable-umbrella.h"; sourceTree = "<group>"; };
 		60889E5402A426C64BE695194569F83D /* Pods-EGChainable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EGChainable_Example-umbrella.h"; sourceTree = "<group>"; };
-		61EED21E8C24C4167EDA3E79E948EE01 /* UIScrollView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIScrollView+Chainable.swift"; sourceTree = "<group>"; };
-		63210C612794709B6E38C0B2DC9C595A /* UITableView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Chainable.swift"; path = "EGChainable/Classes/Generated/UITableView+Chainable.swift"; sourceTree = "<group>"; };
-		672B91074CE7FD6D9A16C825B5DCF3DE /* EGChainable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EGChainable-Info.plist"; sourceTree = "<group>"; };
-		68E5606B9A47415F73767E8FC3C79992 /* UIDatePicker+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDatePicker+Chainable.swift"; path = "EGChainable/Classes/Generated/UIDatePicker+Chainable.swift"; sourceTree = "<group>"; };
+		60F225ABED8DAE31D1A6DCCDA06185B5 /* UIBezierPath+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+Chainable.swift"; path = "EGChainable/Classes/Generated/UIBezierPath+Chainable.swift"; sourceTree = "<group>"; };
+		622854DC4D8E34F77D72FFA94DA5ED43 /* WKWebView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebView+Chainable.swift"; path = "EGChainable/Classes/Generated/WKWebView+Chainable.swift"; sourceTree = "<group>"; };
+		64633C2724FDB1BA50A69CACD11C5C82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6487BEB5BB6C3F0EDD5B09785EF839F0 /* CAGradientLayer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAGradientLayer+Chainable.swift"; path = "EGChainable/Classes/Generated/CAGradientLayer+Chainable.swift"; sourceTree = "<group>"; };
+		67596D30EFB6FDC4917E45BA832EE082 /* UIBarAppearance+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBarAppearance+Chainable.swift"; path = "EGChainable/Classes/Generated/UIBarAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		67C528E28406CD51ABAA71F8137FB22C /* UIProgressView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIProgressView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIProgressView+Chainable.swift"; sourceTree = "<group>"; };
+		68D7032D336727053A196A1276D07DA5 /* UILabel+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Chainable.swift"; path = "EGChainable/Classes/Generated/UILabel+Chainable.swift"; sourceTree = "<group>"; };
 		6BCF630622D30954E92E9774D9B60E96 /* Pods-EGChainable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EGChainable_Tests-dummy.m"; sourceTree = "<group>"; };
+		6EC4AA924ED60D1F69D411B1937FD20F /* UIStackView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIStackView+Chainable.swift"; sourceTree = "<group>"; };
 		718F8B6C02E6A78ACD1A567073D333F7 /* Pods-EGChainable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EGChainable_Tests-Info.plist"; sourceTree = "<group>"; };
-		786ED436A5942AF4779E5ACE6668748E /* CALayer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Chainable.swift"; path = "EGChainable/Classes/Generated/CALayer+Chainable.swift"; sourceTree = "<group>"; };
+		7469963E4BD2A186BD3BE3BC309303E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7902DDB751A63A041A57F9F2845E99DD /* Pods-EGChainable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EGChainable_Example.modulemap"; sourceTree = "<group>"; };
+		7A1A5667B0C5D09B1636048DFFE8C1A9 /* UITextView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Chainable.swift"; path = "EGChainable/Classes/Generated/UITextView+Chainable.swift"; sourceTree = "<group>"; };
+		7B43360A12DFCAD489081AE1046B202D /* EGChainable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGChainable-umbrella.h"; sourceTree = "<group>"; };
+		7B5227F3D69069043F74C7E1CD7BD78F /* UITabBar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBar+Chainable.swift"; path = "EGChainable/Classes/Generated/UITabBar+Chainable.swift"; sourceTree = "<group>"; };
 		7C32F4EF64C86D1C72BDCCD5269DD4A6 /* EGChainable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EGChainable; path = EGChainable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D94A9634062AD94FF91F7249CF3CBC6 /* UITextView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Chainable.swift"; path = "EGChainable/Classes/Generated/UITextView+Chainable.swift"; sourceTree = "<group>"; };
-		7F3D2B7FA0ECC352E923E9AC5B947601 /* UITabBarController+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarController+Chainable.swift"; path = "EGChainable/Classes/Generated/UITabBarController+Chainable.swift"; sourceTree = "<group>"; };
-		8DCF541F6173FCC67A15C23308D008B9 /* UISwipeGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwipeGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UISwipeGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
-		90714D46AAAED1AD94230563E0F894D6 /* EGChainable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGChainable-prefix.pch"; sourceTree = "<group>"; };
-		90880EB3FFB6F1849CB7F709B6A8668C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		88DE920D4792E232808CF5A59CDE0898 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		9099AAE6FB6C6E49A57DD1B8C46525FC /* UISlider+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Chainable.swift"; path = "EGChainable/Classes/Generated/UISlider+Chainable.swift"; sourceTree = "<group>"; };
 		934878FEF3DDD259CBA46D9285FBBDE2 /* Pods-EGChainable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EGChainable_Example-Info.plist"; sourceTree = "<group>"; };
-		95D44D3889167B9A656AF04179DAF411 /* UISearchBar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchBar+Chainable.swift"; path = "EGChainable/Classes/Generated/UISearchBar+Chainable.swift"; sourceTree = "<group>"; };
-		96D3D3E2FE3ABF469AA47B70C4D59450 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		98D4F9691BA1B4CB199A12D137BA1CD6 /* UIMenu+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIMenu+Chainable.swift"; path = "EGChainable/Classes/Generated/UIMenu+Chainable.swift"; sourceTree = "<group>"; };
+		9B87739D3635EFFBA6F0E245771E7654 /* UIToolbar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIToolbar+Chainable.swift"; path = "EGChainable/Classes/Generated/UIToolbar+Chainable.swift"; sourceTree = "<group>"; };
 		9BE4C7279AFC8A64A1EF636000AA6CAC /* Pods-EGChainable_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EGChainable_Example"; path = Pods_EGChainable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DA662B0DF37917F07C1EEEDC196283A /* EGChainable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EGChainable-dummy.m"; sourceTree = "<group>"; };
-		9F3E2F7FE8772F4ADFA99C3E2A1D94DA /* UIStepper+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStepper+Chainable.swift"; path = "EGChainable/Classes/Generated/UIStepper+Chainable.swift"; sourceTree = "<group>"; };
-		A2F5E61575CBE197EB9F52D54A1D9329 /* UIPinchGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPinchGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UIPinchGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
-		A2FA832FF06A1BF1D267EC71A2ACA42E /* UIPanGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPanGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UIPanGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
-		A8BB8AAA51B1AA1FFFDAB113D43D7908 /* UICollectionView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Chainable.swift"; path = "EGChainable/Classes/Generated/UICollectionView+Chainable.swift"; sourceTree = "<group>"; };
+		9F7A6B3E96A7FE9B00A3AF6EBE710880 /* UIRotationGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIRotationGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UIRotationGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
+		A65DF102F1AAD51E2FB8A3C17235146A /* UIGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UIGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
 		A9D0BBB83C275C321D801FCFB3D35C59 /* Pods-EGChainable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EGChainable_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AA5931B33B564E180FDFEAEFD2CB31EB /* EGChainable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EGChainable.modulemap; sourceTree = "<group>"; };
 		ABC71D980F3E46A5DCD575657B17349F /* Pods-EGChainable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EGChainable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AC55AEB7C3DC4B3D1F2FBD355EF1B108 /* UISearchBar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchBar+Chainable.swift"; path = "EGChainable/Classes/Generated/UISearchBar+Chainable.swift"; sourceTree = "<group>"; };
 		AEAB075692EBF0A02E7474C78AAE2F1F /* Pods-EGChainable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EGChainable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AF5A459C409D02618BD8F2A49054DFAF /* NSAttributedString+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Chainable.swift"; path = "EGChainable/Classes/Generated/NSAttributedString+Chainable.swift"; sourceTree = "<group>"; };
 		B1307094AC61C1404CFF5D20A17393BB /* Pods-EGChainable_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EGChainable_Tests"; path = Pods_EGChainable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13556F5A95BC01ACA6E2C815FA6C2C7 /* UITapGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITapGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UITapGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
 		B2D87855269A1C930320401B2B30E591 /* Pods-EGChainable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EGChainable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B43A687A5E76F0E8757CB9895787D108 /* Pods-EGChainable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EGChainable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B524F40F3AEF19200FC560B1DBE61FBC /* WKWebViewConfiguration+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebViewConfiguration+Chainable.swift"; path = "EGChainable/Classes/Generated/WKWebViewConfiguration+Chainable.swift"; sourceTree = "<group>"; };
-		B7E0CD07E94FFD1DB2D34C808B0BAC63 /* UITabBar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBar+Chainable.swift"; path = "EGChainable/Classes/Generated/UITabBar+Chainable.swift"; sourceTree = "<group>"; };
-		BD7C6B88CDB92A55BD33D9B93ED02E60 /* UITabBarItem+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarItem+Chainable.swift"; path = "EGChainable/Classes/Generated/UITabBarItem+Chainable.swift"; sourceTree = "<group>"; };
-		C12860FA6CD8B5284AF38140FBBCB4CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C4DF64FDF6439BF66A2DC23C2B958615 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		CFC8C1F484DE58637A709C7953766455 /* UIControl+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+Chainable.swift"; path = "EGChainable/Classes/Generated/UIControl+Chainable.swift"; sourceTree = "<group>"; };
-		D0088C0C53C4397F75ACB4BFD658839B /* UIToolbar+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIToolbar+Chainable.swift"; path = "EGChainable/Classes/Generated/UIToolbar+Chainable.swift"; sourceTree = "<group>"; };
-		DBCDE4EB69166EAB615D0CB8FBCDE92D /* UITabBarAppearance+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarAppearance+Chainable.swift"; path = "EGChainable/Classes/Generated/UITabBarAppearance+Chainable.swift"; sourceTree = "<group>"; };
-		E6D1B4BB028DCCEC16226673F627B389 /* AVPlayer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVPlayer+Chainable.swift"; path = "EGChainable/Classes/Generated/AVPlayer+Chainable.swift"; sourceTree = "<group>"; };
-		EB2E8DB4A203746198F2278A680BEABB /* EGChainable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EGChainable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F156D2A884A52D9FA0F40869D35B8B7C /* EGChainable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGChainable.release.xcconfig; sourceTree = "<group>"; };
-		F3C71B2DD2C05C4569B91A238F5513F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		F55FFFD49F80AA0FDFF75F2A14E4075D /* CAGradientLayer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAGradientLayer+Chainable.swift"; path = "EGChainable/Classes/Generated/CAGradientLayer+Chainable.swift"; sourceTree = "<group>"; };
-		F5F6E9E35054828998BA77C989B0A965 /* UIProgressView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIProgressView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIProgressView+Chainable.swift"; sourceTree = "<group>"; };
+		B66D8B1F801369E466BF442EF696E028 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B962D21A15D4CC544D1493306A906D1C /* AVPlayer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVPlayer+Chainable.swift"; path = "EGChainable/Classes/Generated/AVPlayer+Chainable.swift"; sourceTree = "<group>"; };
+		BC84BC5B745B960A76C7568C03216B00 /* UIPanGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPanGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UIPanGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
+		D05DBF75DA9A773CFA867E368EE86889 /* EGChainable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EGChainable-Info.plist"; sourceTree = "<group>"; };
+		D210697B86184B2107F428A0663CA4E4 /* UILongPressGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILongPressGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UILongPressGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
+		D28CE8BA8F943F98AEB44ACF7A8BA9C2 /* UIScrollView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIScrollView+Chainable.swift"; sourceTree = "<group>"; };
+		D2A58DFA3431AF6B5906AEF5089358E6 /* UIStepper+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStepper+Chainable.swift"; path = "EGChainable/Classes/Generated/UIStepper+Chainable.swift"; sourceTree = "<group>"; };
+		D2E322F5953B4CF26E17EB3B678FA979 /* UIBarItem+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBarItem+Chainable.swift"; path = "EGChainable/Classes/Generated/UIBarItem+Chainable.swift"; sourceTree = "<group>"; };
+		D6A7BCB6A95B3C425267BC5A5168714B /* UIMenuElement+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIMenuElement+Chainable.swift"; path = "EGChainable/Classes/Generated/UIMenuElement+Chainable.swift"; sourceTree = "<group>"; };
+		D707ED852E508821956959E545C87DD1 /* UIView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIView+Chainable.swift"; sourceTree = "<group>"; };
+		DB28803B1B28070777E35308BC63018B /* CAShapeLayer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+Chainable.swift"; path = "EGChainable/Classes/Generated/CAShapeLayer+Chainable.swift"; sourceTree = "<group>"; };
+		DE1C5F2980413016AB2A8DC806F680EB /* UIImageView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Chainable.swift"; path = "EGChainable/Classes/Generated/UIImageView+Chainable.swift"; sourceTree = "<group>"; };
+		DF5085A330F473007BB21E1799C06923 /* CALayer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Chainable.swift"; path = "EGChainable/Classes/Generated/CALayer+Chainable.swift"; sourceTree = "<group>"; };
+		E7DEE9E6234BA93B4B3488032CE673EF /* EGChainable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EGChainable-dummy.m"; sourceTree = "<group>"; };
+		E806A87D3BA03F8E7047BC2B29BD67EC /* UITableView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Chainable.swift"; path = "EGChainable/Classes/Generated/UITableView+Chainable.swift"; sourceTree = "<group>"; };
+		EC0581E4F2F19BE140229AE56A1AB94C /* UIMenu+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIMenu+Chainable.swift"; path = "EGChainable/Classes/Generated/UIMenu+Chainable.swift"; sourceTree = "<group>"; };
+		ECCE56F81AAF446E9F99B836FA16AF80 /* NSAttributedString+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Chainable.swift"; path = "EGChainable/Classes/Generated/NSAttributedString+Chainable.swift"; sourceTree = "<group>"; };
+		F05300C21A823929516FC3A918AF3CBF /* WKWebViewConfiguration+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebViewConfiguration+Chainable.swift"; path = "EGChainable/Classes/Generated/WKWebViewConfiguration+Chainable.swift"; sourceTree = "<group>"; };
+		F25E5B53BB9CB148F56605C378A57A80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F566A9229292E3CCD619BC4B24BB73AE /* UIPinchGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPinchGestureRecognizer+Chainable.swift"; path = "EGChainable/Classes/Generated/UIPinchGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
+		F73C64A4689B30D45B3E71C9A505976E /* UICollectionViewFlowLayout+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionViewFlowLayout+Chainable.swift"; path = "EGChainable/Classes/Generated/UICollectionViewFlowLayout+Chainable.swift"; sourceTree = "<group>"; };
 		FA58BCBA20150C42F958E2879C698139 /* Pods-EGChainable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EGChainable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FC4E02C68C549E9900AE2DA69CF749AF /* UISegmentedControl+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISegmentedControl+Chainable.swift"; path = "EGChainable/Classes/Generated/UISegmentedControl+Chainable.swift"; sourceTree = "<group>"; };
+		FDCABC32C16AACA4C93DF1F25AC06421 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FE79EEB8A502EE98C3D6770ABD213CFA /* UICollectionView+Chainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Chainable.swift"; path = "EGChainable/Classes/Generated/UICollectionView+Chainable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5CF3D9CE10275BA6F3756A8A8F3F7723 /* Frameworks */ = {
+		10EA33A465960962B8A5D3E5C9BDA117 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D29CD9D5AD1EFE6E4383454DFCD0C26 /* AVFoundation.framework in Frameworks */,
-				791D7D3CAA0042D8C07494EED8B97463 /* Foundation.framework in Frameworks */,
-				DB5ABB07AC96A369246B8453AC95AF85 /* QuartzCore.framework in Frameworks */,
-				29B264847D63EA191FFCEECF6CC6BD37 /* UIKit.framework in Frameworks */,
-				DF44122A4118D5E6C4A4304AE136C7CF /* WebKit.framework in Frameworks */,
+				33C658AD2498B6542C4C4374C235C703 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97E5BCC9B0F85465807DC68B886BCF79 /* Frameworks */ = {
+		6AE79366E71B2F84808EBF7FE9CFC51A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC90F098826FDF7F2CBE58E3DE9E77D1 /* Foundation.framework in Frameworks */,
+				72BE138A2655D928CD29DD7E351C9FC9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF10CE50053C3D1A95B39EB5D106C021 /* Frameworks */ = {
+		EDBC23FE8FA9DCF5D9C933A1592C17A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E6AD87250B0F93D4849EB198648EA86 /* Foundation.framework in Frameworks */,
+				6DA81D6075D22E96EE7E6C346D8456A9 /* AVFoundation.framework in Frameworks */,
+				1730C30D932FABAE32AAE4429BF617CC /* Foundation.framework in Frameworks */,
+				AA81BDBA62CE8A7EECBF045CD4D7BB16 /* QuartzCore.framework in Frameworks */,
+				6EFD050DA722681FA2798610E6E51716 /* UIKit.framework in Frameworks */,
+				E8EDF3D67779182F645174A1D1575C6C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03B14A3D0C0CF03AF5EA626BF8A7841D /* UIPanGestureRecognizer */ = {
+		03D3B2E81826C7074F7FFAD2C4D5075C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2FA832FF06A1BF1D267EC71A2ACA42E /* UIPanGestureRecognizer+Chainable.swift */,
+				AA5931B33B564E180FDFEAEFD2CB31EB /* EGChainable.modulemap */,
+				E7DEE9E6234BA93B4B3488032CE673EF /* EGChainable-dummy.m */,
+				D05DBF75DA9A773CFA867E368EE86889 /* EGChainable-Info.plist */,
+				4D0CE79C9B337BE3DE4EA7CBCF7BBA03 /* EGChainable-prefix.pch */,
+				7B43360A12DFCAD489081AE1046B202D /* EGChainable-umbrella.h */,
+				2AE309C9AF7F1B829C7AB5227CDF59CA /* EGChainable.debug.xcconfig */,
+				0285D95B54C91730A1C65165E31A3A91 /* EGChainable.release.xcconfig */,
 			);
-			name = UIPanGestureRecognizer;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EGChainable";
 			sourceTree = "<group>";
 		};
-		04167959514B6A26C9A0714543336D6F /* UITabBar */ = {
+		1B269AE31E286598FD575E2BFCD6CB6A /* CALayer */ = {
 			isa = PBXGroup;
 			children = (
-				B7E0CD07E94FFD1DB2D34C808B0BAC63 /* UITabBar+Chainable.swift */,
+				DF5085A330F473007BB21E1799C06923 /* CALayer+Chainable.swift */,
 			);
-			name = UITabBar;
+			name = CALayer;
 			sourceTree = "<group>";
 		};
-		0884F47F59857E254904195D9064B41F /* UICollectionViewLayout */ = {
+		1F0DE747190D70F807A38BA01AD9C986 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				3917D56C9A2E4E8C791344695A2EECF2 /* UICollectionViewLayout+Chainable.swift */,
+				D707ED852E508821956959E545C87DD1 /* UIView+Chainable.swift */,
 			);
-			name = UICollectionViewLayout;
+			name = UIView;
 			sourceTree = "<group>";
 		};
-		130443E9CAA322F03C2EAD4ADCEAEDA7 /* UISlider */ = {
+		2A943F04E686B5610DA3933BB993575B /* UIMenuElement */ = {
 			isa = PBXGroup;
 			children = (
-				515C861167B35F92DC4E232759D3DC70 /* UISlider+Chainable.swift */,
+				D6A7BCB6A95B3C425267BC5A5168714B /* UIMenuElement+Chainable.swift */,
 			);
-			name = UISlider;
+			name = UIMenuElement;
 			sourceTree = "<group>";
 		};
-		156CD5CF422CAD8426A4FB2BF22AC3A0 /* CAGradientLayer */ = {
+		2F3154FFDA5256DB68BD034963D23359 /* UIMenu */ = {
 			isa = PBXGroup;
 			children = (
-				F55FFFD49F80AA0FDFF75F2A14E4075D /* CAGradientLayer+Chainable.swift */,
+				EC0581E4F2F19BE140229AE56A1AB94C /* UIMenu+Chainable.swift */,
 			);
-			name = CAGradientLayer;
+			name = UIMenu;
 			sourceTree = "<group>";
 		};
-		1E6452F8B062863010E485143F7A0008 /* UITapGestureRecognizer */ = {
+		310B9C7D7CC07C0B8C0B97B5D444A047 /* UITapGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				3449FBABA0BA6D5ADF4AA16EF5F192D1 /* UITapGestureRecognizer+Chainable.swift */,
+				B13556F5A95BC01ACA6E2C815FA6C2C7 /* UITapGestureRecognizer+Chainable.swift */,
 			);
 			name = UITapGestureRecognizer;
 			sourceTree = "<group>";
 		};
-		1F61BD12DB08E42F860FC21EC50D40E7 /* Pod */ = {
+		384B25CF5F1677662A20A7E783F745BE /* UIStepper */ = {
 			isa = PBXGroup;
 			children = (
-				EB2E8DB4A203746198F2278A680BEABB /* EGChainable.podspec */,
-				042521C7706A28B1E21D0511D36CD084 /* LICENSE */,
-				C12860FA6CD8B5284AF38140FBBCB4CC /* README.md */,
+				D2A58DFA3431AF6B5906AEF5089358E6 /* UIStepper+Chainable.swift */,
 			);
-			name = Pod;
+			name = UIStepper;
 			sourceTree = "<group>";
 		};
-		224AD80752A068B4B74492864719B26C /* UITabBarItem */ = {
+		3E5DBAAF9A5EC1817BA7C20A049673D9 /* UITabBar */ = {
 			isa = PBXGroup;
 			children = (
-				BD7C6B88CDB92A55BD33D9B93ED02E60 /* UITabBarItem+Chainable.swift */,
+				7B5227F3D69069043F74C7E1CD7BD78F /* UITabBar+Chainable.swift */,
 			);
-			name = UITabBarItem;
+			name = UITabBar;
 			sourceTree = "<group>";
 		};
-		3139A5C7E13378AE1C550AFA46E31BF3 /* UICollectionView */ = {
+		40CFAC599F9C868441C4562DE4867C0C /* UIStackView */ = {
 			isa = PBXGroup;
 			children = (
-				A8BB8AAA51B1AA1FFFDAB113D43D7908 /* UICollectionView+Chainable.swift */,
+				6EC4AA924ED60D1F69D411B1937FD20F /* UIStackView+Chainable.swift */,
 			);
-			name = UICollectionView;
+			name = UIStackView;
 			sourceTree = "<group>";
 		};
-		330148C091FEE2F28D12AECC2339F56A /* WKWebViewConfiguration */ = {
+		4393C7AE081C1892357793191C52CF67 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				B524F40F3AEF19200FC560B1DBE61FBC /* WKWebViewConfiguration+Chainable.swift */,
+				68D7032D336727053A196A1276D07DA5 /* UILabel+Chainable.swift */,
 			);
-			name = WKWebViewConfiguration;
+			name = UILabel;
 			sourceTree = "<group>";
 		};
-		3561ED4CC93BBBE6D9EF838FA01508EE /* UILongPressGestureRecognizer */ = {
+		451EFC4E7ADB16C391A69096524D5CA0 /* UIBarAppearance */ = {
 			isa = PBXGroup;
 			children = (
-				0A98F5356101100B883E0FB578E8404C /* UILongPressGestureRecognizer+Chainable.swift */,
+				67596D30EFB6FDC4917E45BA832EE082 /* UIBarAppearance+Chainable.swift */,
 			);
-			name = UILongPressGestureRecognizer;
+			name = UIBarAppearance;
 			sourceTree = "<group>";
 		};
-		375F2F2BD60AC151018E8A3DC5D810F3 /* UIDatePicker */ = {
+		47416E29733BE9FAF56E3CD388419E6B /* UIDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				68E5606B9A47415F73767E8FC3C79992 /* UIDatePicker+Chainable.swift */,
+				3C8555CCE2543B23CA5D9B19F66CF0F7 /* UIDatePicker+Chainable.swift */,
 			);
 			name = UIDatePicker;
 			sourceTree = "<group>";
 		};
-		3982F3B3DED6138ABD6E0A68467F4CEF /* UISwitch */ = {
+		48FF530D09668531BAE76DE51C18FEFD /* UIToolbar */ = {
 			isa = PBXGroup;
 			children = (
-				5B7E0BC27EDE86C9E6964F1A7C37B720 /* UISwitch+Chainable.swift */,
+				9B87739D3635EFFBA6F0E245771E7654 /* UIToolbar+Chainable.swift */,
 			);
-			name = UISwitch;
+			name = UIToolbar;
 			sourceTree = "<group>";
 		};
-		3FC0FD104DC628C6755FABE1497BAA87 /* AVPlayer */ = {
+		4BE4AB4902F8B85A215AD0344AD8CD17 /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
-				E6D1B4BB028DCCEC16226673F627B389 /* AVPlayer+Chainable.swift */,
+				622854DC4D8E34F77D72FFA94DA5ED43 /* WKWebView+Chainable.swift */,
 			);
-			name = AVPlayer;
+			name = WKWebView;
 			sourceTree = "<group>";
 		};
-		3FEE141D8446D10B93AB262292E271CB /* UIProgressView */ = {
+		4D6A48580FF47B420526D57B7B1BD1AA /* CAGradientLayer */ = {
 			isa = PBXGroup;
 			children = (
-				F5F6E9E35054828998BA77C989B0A965 /* UIProgressView+Chainable.swift */,
+				6487BEB5BB6C3F0EDD5B09785EF839F0 /* CAGradientLayer+Chainable.swift */,
 			);
-			name = UIProgressView;
+			name = CAGradientLayer;
 			sourceTree = "<group>";
 		};
-		47F930C0FEA9AECB47C773DEDC05977F /* UIGestureRecognizer */ = {
+		4FC4AF97388734D09EC775A7E2C98C8B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3565CA23E93EAC48E8D700A9C636BCFB /* UIGestureRecognizer+Chainable.swift */,
+				13DFC4E92EBB1D2DA35FD3161EA897E0 /* AVFoundation.framework */,
+				B66D8B1F801369E466BF442EF696E028 /* Foundation.framework */,
+				F25E5B53BB9CB148F56605C378A57A80 /* QuartzCore.framework */,
+				FDCABC32C16AACA4C93DF1F25AC06421 /* UIKit.framework */,
+				88DE920D4792E232808CF5A59CDE0898 /* WebKit.framework */,
 			);
-			name = UIGestureRecognizer;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5011BD9DC6023BA03007F720BEDB1382 /* Pods-EGChainable_Example */ = {
@@ -341,156 +354,94 @@
 			path = "Target Support Files/Pods-EGChainable_Example";
 			sourceTree = "<group>";
 		};
-		53A4CCEC627E1BDE10E11D028CB2EEE5 /* EGChainable */ = {
+		526EABAE684CF7A70A6E0305851B7FF3 /* UICollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
-				3FC0FD104DC628C6755FABE1497BAA87 /* AVPlayer */,
-				156CD5CF422CAD8426A4FB2BF22AC3A0 /* CAGradientLayer */,
-				5E84E7D48F9864B517755DDAA2813BE9 /* CALayer */,
-				648F19860FAEEE7889D3A454D89FB3A4 /* CAShapeLayer */,
-				C334FD25C8BB4E09FDE68412B3FD324A /* Core */,
-				827B8B5D5F60DAA4D5E79E653581B3F1 /* NSAttributedString */,
-				1F61BD12DB08E42F860FC21EC50D40E7 /* Pod */,
-				D5E03C6A903C6A86FC096BFF01B79E8A /* Support Files */,
-				BFA8DC7F63C8FE7147EE9BCF9AB443A7 /* UIBezierPath */,
-				92655FB7FC3B69EB56D02DCA91106668 /* UIButton */,
-				3139A5C7E13378AE1C550AFA46E31BF3 /* UICollectionView */,
-				7AFCA6844F0CE5F3CDD478E65B434811 /* UICollectionViewFlowLayout */,
-				0884F47F59857E254904195D9064B41F /* UICollectionViewLayout */,
-				DECFC52F5C59DB53E7C0FA6F6B994877 /* UIControl */,
-				375F2F2BD60AC151018E8A3DC5D810F3 /* UIDatePicker */,
-				47F930C0FEA9AECB47C773DEDC05977F /* UIGestureRecognizer */,
-				70BDA4CC3F8534A7F9EDF43EAB1708D1 /* UIImageView */,
-				ACCA1F109B7FCA702FC10C7CDE6956A4 /* UILabel */,
-				3561ED4CC93BBBE6D9EF838FA01508EE /* UILongPressGestureRecognizer */,
-				5F0D8AFF9E05F57026623DA0BA278D13 /* UIMenu */,
-				03B14A3D0C0CF03AF5EA626BF8A7841D /* UIPanGestureRecognizer */,
-				D2CBCA65831E059EFB6B22C7CE497A2B /* UIPinchGestureRecognizer */,
-				3FEE141D8446D10B93AB262292E271CB /* UIProgressView */,
-				822404B02179883347123F1E6A316E76 /* UIRotationGestureRecognizer */,
-				7454F9DCCD0A4CD565AEA7B94A52C91F /* UIScrollView */,
-				8E8826737508B4D49CBF9F0397A923C8 /* UISearchBar */,
-				88013BABCC81C6F7E9E39569961DA7A9 /* UISegmentedControl */,
-				130443E9CAA322F03C2EAD4ADCEAEDA7 /* UISlider */,
-				E376B5D5F7C3FEC2F0A8D94DAC1D37D8 /* UIStackView */,
-				6EEC0F7DCB1D8FD207ADAC72C0BF8603 /* UIStepper */,
-				BE6637EDB219FBF4BDA73F358F6266FD /* UISwipeActionsConfiguration */,
-				CDCBD0B9AB2B6D2A213B1980E4FF6F01 /* UISwipeGestureRecognizer */,
-				3982F3B3DED6138ABD6E0A68467F4CEF /* UISwitch */,
-				04167959514B6A26C9A0714543336D6F /* UITabBar */,
-				F26A0A142F0562FC9BC41D828EB47FCF /* UITabBarAppearance */,
-				8AFAF435108630D9FC4C6BDAA778937C /* UITabBarController */,
-				224AD80752A068B4B74492864719B26C /* UITabBarItem */,
-				FBBFC24E8118360AB7E713956800BF68 /* UITableView */,
-				1E6452F8B062863010E485143F7A0008 /* UITapGestureRecognizer */,
-				EB3D5A6697A1E88054A2926ADC3458BC /* UITextView */,
-				7A5827D97CC1602E9A9FF3B444B3999C /* UIToolbar */,
-				EBAD2FEFD580E6444DCC164AC8FB01BC /* UIView */,
-				951F48E2FECBFE7B239C53CBC404B998 /* WKWebView */,
-				330148C091FEE2F28D12AECC2339F56A /* WKWebViewConfiguration */,
+				4817140D3DD522CCB18290BF3548C67B /* UICollectionViewLayout+Chainable.swift */,
 			);
-			name = EGChainable;
-			path = ../..;
+			name = UICollectionViewLayout;
 			sourceTree = "<group>";
 		};
-		5E84E7D48F9864B517755DDAA2813BE9 /* CALayer */ = {
+		5396B6ECD818E10A72ED23D3F43875E7 /* WKWebViewConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				786ED436A5942AF4779E5ACE6668748E /* CALayer+Chainable.swift */,
+				F05300C21A823929516FC3A918AF3CBF /* WKWebViewConfiguration+Chainable.swift */,
 			);
-			name = CALayer;
+			name = WKWebViewConfiguration;
 			sourceTree = "<group>";
 		};
-		5F0D8AFF9E05F57026623DA0BA278D13 /* UIMenu */ = {
+		55D4FC84CE22EB04048AD543F8525093 /* UIPinchGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				98D4F9691BA1B4CB199A12D137BA1CD6 /* UIMenu+Chainable.swift */,
+				F566A9229292E3CCD619BC4B24BB73AE /* UIPinchGestureRecognizer+Chainable.swift */,
 			);
-			name = UIMenu;
+			name = UIPinchGestureRecognizer;
 			sourceTree = "<group>";
 		};
-		648F19860FAEEE7889D3A454D89FB3A4 /* CAShapeLayer */ = {
+		571FCCA93F9E0BFDB164FE866AD466D8 /* UISwipeActionsConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				35F7527C889A42258DC933952B1F0632 /* CAShapeLayer+Chainable.swift */,
+				0574C16E5D071DA339D4B3D115FCD8A4 /* UISwipeActionsConfiguration+Chainable.swift */,
 			);
-			name = CAShapeLayer;
+			name = UISwipeActionsConfiguration;
 			sourceTree = "<group>";
 		};
-		6EEC0F7DCB1D8FD207ADAC72C0BF8603 /* UIStepper */ = {
+		5DAE0CC1E42D13EE2D56542A2EAE23BB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9F3E2F7FE8772F4ADFA99C3E2A1D94DA /* UIStepper+Chainable.swift */,
+				1FA2ECABD1945E4BFB48F4D5F0683B85 /* EGChainable.podspec */,
+				64633C2724FDB1BA50A69CACD11C5C82 /* LICENSE */,
+				7469963E4BD2A186BD3BE3BC309303E7 /* README.md */,
 			);
-			name = UIStepper;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		70BDA4CC3F8534A7F9EDF43EAB1708D1 /* UIImageView */ = {
+		68D2D92F60AEF4D7FCF3E517521A7288 /* UITabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				0E63E939CEDAE1B253D5ED9D2C243881 /* UIImageView+Chainable.swift */,
+				56C812E8CEF0E94FB5FD6973D732C472 /* UITabBarController+Chainable.swift */,
 			);
-			name = UIImageView;
+			name = UITabBarController;
 			sourceTree = "<group>";
 		};
-		726E2205C69154A46064261226BBA581 /* iOS */ = {
+		6D012712D4F3AE7CE887F9FEB9BDEEE9 /* UILongPressGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				F3C71B2DD2C05C4569B91A238F5513F7 /* AVFoundation.framework */,
-				254674B788ABEF8F2D71E453DBD468F2 /* Foundation.framework */,
-				96D3D3E2FE3ABF469AA47B70C4D59450 /* QuartzCore.framework */,
-				C4DF64FDF6439BF66A2DC23C2B958615 /* UIKit.framework */,
-				90880EB3FFB6F1849CB7F709B6A8668C /* WebKit.framework */,
+				D210697B86184B2107F428A0663CA4E4 /* UILongPressGestureRecognizer+Chainable.swift */,
 			);
-			name = iOS;
+			name = UILongPressGestureRecognizer;
 			sourceTree = "<group>";
 		};
-		7454F9DCCD0A4CD565AEA7B94A52C91F /* UIScrollView */ = {
+		7441F78572C2077602C48CAF62313FDC /* AVPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				61EED21E8C24C4167EDA3E79E948EE01 /* UIScrollView+Chainable.swift */,
+				B962D21A15D4CC544D1493306A906D1C /* AVPlayer+Chainable.swift */,
 			);
-			name = UIScrollView;
+			name = AVPlayer;
 			sourceTree = "<group>";
 		};
-		7A5827D97CC1602E9A9FF3B444B3999C /* UIToolbar */ = {
+		7B58020A02CB2DE970ED952AA9A4512A /* UISwipeGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				D0088C0C53C4397F75ACB4BFD658839B /* UIToolbar+Chainable.swift */,
+				2EE5A9FE284455B2803008F6594331DC /* UISwipeGestureRecognizer+Chainable.swift */,
 			);
-			name = UIToolbar;
+			name = UISwipeGestureRecognizer;
 			sourceTree = "<group>";
 		};
-		7AFCA6844F0CE5F3CDD478E65B434811 /* UICollectionViewFlowLayout */ = {
+		8055DDF5F833688A0C64820D848E1280 /* UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				0E421C0A2BB3461338623D71CE7D02A3 /* UICollectionViewFlowLayout+Chainable.swift */,
+				FE79EEB8A502EE98C3D6770ABD213CFA /* UICollectionView+Chainable.swift */,
 			);
-			name = UICollectionViewFlowLayout;
+			name = UICollectionView;
 			sourceTree = "<group>";
 		};
-		822404B02179883347123F1E6A316E76 /* UIRotationGestureRecognizer */ = {
+		87BB5F5D9B95C51A2F1E2D5C2AC721DC /* UIPanGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				03C594CBFF18058F735055CF42AC412E /* UIRotationGestureRecognizer+Chainable.swift */,
+				BC84BC5B745B960A76C7568C03216B00 /* UIPanGestureRecognizer+Chainable.swift */,
 			);
-			name = UIRotationGestureRecognizer;
-			sourceTree = "<group>";
-		};
-		827B8B5D5F60DAA4D5E79E653581B3F1 /* NSAttributedString */ = {
-			isa = PBXGroup;
-			children = (
-				AF5A459C409D02618BD8F2A49054DFAF /* NSAttributedString+Chainable.swift */,
-			);
-			name = NSAttributedString;
-			sourceTree = "<group>";
-		};
-		88013BABCC81C6F7E9E39569961DA7A9 /* UISegmentedControl */ = {
-			isa = PBXGroup;
-			children = (
-				FC4E02C68C549E9900AE2DA69CF749AF /* UISegmentedControl+Chainable.swift */,
-			);
-			name = UISegmentedControl;
+			name = UIPanGestureRecognizer;
 			sourceTree = "<group>";
 		};
 		883996552E06D297C4CE1769AAAF400C /* Products */ = {
@@ -503,76 +454,116 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8AFAF435108630D9FC4C6BDAA778937C /* UITabBarController */ = {
+		8B181F9CFF4A9811B7C79113E74EFC32 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
-				7F3D2B7FA0ECC352E923E9AC5B947601 /* UITabBarController+Chainable.swift */,
+				E806A87D3BA03F8E7047BC2B29BD67EC /* UITableView+Chainable.swift */,
 			);
-			name = UITabBarController;
+			name = UITableView;
 			sourceTree = "<group>";
 		};
-		8E8826737508B4D49CBF9F0397A923C8 /* UISearchBar */ = {
+		902DD559091D40BF4A944CB12981C545 /* UICollectionViewFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				95D44D3889167B9A656AF04179DAF411 /* UISearchBar+Chainable.swift */,
+				F73C64A4689B30D45B3E71C9A505976E /* UICollectionViewFlowLayout+Chainable.swift */,
 			);
-			name = UISearchBar;
+			name = UICollectionViewFlowLayout;
 			sourceTree = "<group>";
 		};
-		92655FB7FC3B69EB56D02DCA91106668 /* UIButton */ = {
+		9055900C76BAB48E8AA7D99305CE3C4B /* UIBarItem */ = {
 			isa = PBXGroup;
 			children = (
-				08A7CE9F26E6998468C9C837B61485E2 /* UIButton+Chainable.swift */,
+				D2E322F5953B4CF26E17EB3B678FA979 /* UIBarItem+Chainable.swift */,
+			);
+			name = UIBarItem;
+			sourceTree = "<group>";
+		};
+		922F79F2E3679528AF7C72F9F919B80A /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				118038AA61B2EFFDE2DC7C6346ACD881 /* UIButton+Chainable.swift */,
 			);
 			name = UIButton;
 			sourceTree = "<group>";
 		};
-		951F48E2FECBFE7B239C53CBC404B998 /* WKWebView */ = {
+		927E7FEF09B0087CFBECEBE4BCD04EF6 /* UIBezierPath */ = {
 			isa = PBXGroup;
 			children = (
-				3BD22FBDFD6FD435C26080959D378E6F /* WKWebView+Chainable.swift */,
+				60F225ABED8DAE31D1A6DCCDA06185B5 /* UIBezierPath+Chainable.swift */,
 			);
-			name = WKWebView;
+			name = UIBezierPath;
 			sourceTree = "<group>";
 		};
-		ACCA1F109B7FCA702FC10C7CDE6956A4 /* UILabel */ = {
+		935F120D1137C2B1C50C1EFDCF54859E /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
-				2062BBEC4D071327D1544F523ABB5D29 /* UILabel+Chainable.swift */,
+				7A1A5667B0C5D09B1636048DFFE8C1A9 /* UITextView+Chainable.swift */,
 			);
-			name = UILabel;
+			name = UITextView;
+			sourceTree = "<group>";
+		};
+		994990EFC6D5A63D1CBF1790FE401049 /* UISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				AC55AEB7C3DC4B3D1F2FBD355EF1B108 /* UISearchBar+Chainable.swift */,
+			);
+			name = UISearchBar;
+			sourceTree = "<group>";
+		};
+		99F33B361F7CE8F9979CC641FAD24DFC /* CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DB28803B1B28070777E35308BC63018B /* CAShapeLayer+Chainable.swift */,
+			);
+			name = CAShapeLayer;
+			sourceTree = "<group>";
+		};
+		A49854208ED0F5090C57D56BCC47B5C0 /* UISlider */ = {
+			isa = PBXGroup;
+			children = (
+				9099AAE6FB6C6E49A57DD1B8C46525FC /* UISlider+Chainable.swift */,
+			);
+			name = UISlider;
+			sourceTree = "<group>";
+		};
+		A92FAF6CDE9D80E405A1D773CD67DCC8 /* UIRotationGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				9F7A6B3E96A7FE9B00A3AF6EBE710880 /* UIRotationGestureRecognizer+Chainable.swift */,
+			);
+			name = UIRotationGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		B056218419C2240C54C58BA4EAD64565 /* UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				A65DF102F1AAD51E2FB8A3C17235146A /* UIGestureRecognizer+Chainable.swift */,
+			);
+			name = UIGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		B4F1118BDF285E5EED7F7A3A761ACDAB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD41932C8FCF479B21424D65FBFE80E5 /* EGChainable */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				726E2205C69154A46064261226BBA581 /* iOS */,
+				4FC4AF97388734D09EC775A7E2C98C8B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE6637EDB219FBF4BDA73F358F6266FD /* UISwipeActionsConfiguration */ = {
+		BAB52F77C9A18BC0B836598EE60C087E /* UISegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				5ACAA643FD67773715683F67AB79C583 /* UISwipeActionsConfiguration+Chainable.swift */,
+				477C365F3DCB01F20FC94EDE2155C2F6 /* UISegmentedControl+Chainable.swift */,
 			);
-			name = UISwipeActionsConfiguration;
-			sourceTree = "<group>";
-		};
-		BFA8DC7F63C8FE7147EE9BCF9AB443A7 /* UIBezierPath */ = {
-			isa = PBXGroup;
-			children = (
-				088012AEFDF2DBCF28363E18CE44EC7C /* UIBezierPath+Chainable.swift */,
-			);
-			name = UIBezierPath;
-			sourceTree = "<group>";
-		};
-		C334FD25C8BB4E09FDE68412B3FD324A /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				476964CDC881F43B5E142496ABFA3F82 /* Chainable.swift */,
-			);
-			name = Core;
+			name = UISegmentedControl;
 			sourceTree = "<group>";
 		};
 		C81C40204D04C239CDEC5B31EAB8587A /* Targets Support Files */ = {
@@ -584,78 +575,109 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CDCBD0B9AB2B6D2A213B1980E4FF6F01 /* UISwipeGestureRecognizer */ = {
+		CB6D8C85BF5DF01874F372C9926CE484 /* UITabBarAppearance */ = {
 			isa = PBXGroup;
 			children = (
-				8DCF541F6173FCC67A15C23308D008B9 /* UISwipeGestureRecognizer+Chainable.swift */,
+				0E0DAD7105CD076DDCAE87FD7ED2B5E7 /* UITabBarAppearance+Chainable.swift */,
 			);
-			name = UISwipeGestureRecognizer;
+			name = UITabBarAppearance;
+			sourceTree = "<group>";
+		};
+		CD41932C8FCF479B21424D65FBFE80E5 /* EGChainable */ = {
+			isa = PBXGroup;
+			children = (
+				7441F78572C2077602C48CAF62313FDC /* AVPlayer */,
+				4D6A48580FF47B420526D57B7B1BD1AA /* CAGradientLayer */,
+				1B269AE31E286598FD575E2BFCD6CB6A /* CALayer */,
+				99F33B361F7CE8F9979CC641FAD24DFC /* CAShapeLayer */,
+				D343BA118D64643BD07FD8DB8DB10FC9 /* NSAttributedString */,
+				5DAE0CC1E42D13EE2D56542A2EAE23BB /* Pod */,
+				03D3B2E81826C7074F7FFAD2C4D5075C /* Support Files */,
+				451EFC4E7ADB16C391A69096524D5CA0 /* UIBarAppearance */,
+				9055900C76BAB48E8AA7D99305CE3C4B /* UIBarItem */,
+				927E7FEF09B0087CFBECEBE4BCD04EF6 /* UIBezierPath */,
+				922F79F2E3679528AF7C72F9F919B80A /* UIButton */,
+				8055DDF5F833688A0C64820D848E1280 /* UICollectionView */,
+				902DD559091D40BF4A944CB12981C545 /* UICollectionViewFlowLayout */,
+				526EABAE684CF7A70A6E0305851B7FF3 /* UICollectionViewLayout */,
+				FAE9638246A9E175955FA26F9C90824C /* UIControl */,
+				47416E29733BE9FAF56E3CD388419E6B /* UIDatePicker */,
+				B056218419C2240C54C58BA4EAD64565 /* UIGestureRecognizer */,
+				FCDB72B836E7A806CB3769D50F1E67BA /* UIImageView */,
+				4393C7AE081C1892357793191C52CF67 /* UILabel */,
+				6D012712D4F3AE7CE887F9FEB9BDEEE9 /* UILongPressGestureRecognizer */,
+				2F3154FFDA5256DB68BD034963D23359 /* UIMenu */,
+				2A943F04E686B5610DA3933BB993575B /* UIMenuElement */,
+				87BB5F5D9B95C51A2F1E2D5C2AC721DC /* UIPanGestureRecognizer */,
+				55D4FC84CE22EB04048AD543F8525093 /* UIPinchGestureRecognizer */,
+				F57F60CE60D8BDF0F3407419B37FA20E /* UIProgressView */,
+				A92FAF6CDE9D80E405A1D773CD67DCC8 /* UIRotationGestureRecognizer */,
+				EA121244FCE5F4FBF6A31B1966D7D509 /* UIScrollView */,
+				994990EFC6D5A63D1CBF1790FE401049 /* UISearchBar */,
+				BAB52F77C9A18BC0B836598EE60C087E /* UISegmentedControl */,
+				A49854208ED0F5090C57D56BCC47B5C0 /* UISlider */,
+				40CFAC599F9C868441C4562DE4867C0C /* UIStackView */,
+				384B25CF5F1677662A20A7E783F745BE /* UIStepper */,
+				571FCCA93F9E0BFDB164FE866AD466D8 /* UISwipeActionsConfiguration */,
+				7B58020A02CB2DE970ED952AA9A4512A /* UISwipeGestureRecognizer */,
+				E0511874F0EB8EDAFA7ACD1D70980A7E /* UISwitch */,
+				3E5DBAAF9A5EC1817BA7C20A049673D9 /* UITabBar */,
+				CB6D8C85BF5DF01874F372C9926CE484 /* UITabBarAppearance */,
+				68D2D92F60AEF4D7FCF3E517521A7288 /* UITabBarController */,
+				E165068FDCB9E184840B57B36CEBA3E6 /* UITabBarItem */,
+				8B181F9CFF4A9811B7C79113E74EFC32 /* UITableView */,
+				310B9C7D7CC07C0B8C0B97B5D444A047 /* UITapGestureRecognizer */,
+				935F120D1137C2B1C50C1EFDCF54859E /* UITextView */,
+				48FF530D09668531BAE76DE51C18FEFD /* UIToolbar */,
+				1F0DE747190D70F807A38BA01AD9C986 /* UIView */,
+				4BE4AB4902F8B85A215AD0344AD8CD17 /* WKWebView */,
+				5396B6ECD818E10A72ED23D3F43875E7 /* WKWebViewConfiguration */,
+			);
+			name = EGChainable;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D2C30293B08B083A93C392C5BD9A8159 /* Development Pods */,
+				B4F1118BDF285E5EED7F7A3A761ACDAB /* Development Pods */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				883996552E06D297C4CE1769AAAF400C /* Products */,
 				C81C40204D04C239CDEC5B31EAB8587A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D2C30293B08B083A93C392C5BD9A8159 /* Development Pods */ = {
+		D343BA118D64643BD07FD8DB8DB10FC9 /* NSAttributedString */ = {
 			isa = PBXGroup;
 			children = (
-				53A4CCEC627E1BDE10E11D028CB2EEE5 /* EGChainable */,
+				ECCE56F81AAF446E9F99B836FA16AF80 /* NSAttributedString+Chainable.swift */,
 			);
-			name = "Development Pods";
+			name = NSAttributedString;
 			sourceTree = "<group>";
 		};
-		D2CBCA65831E059EFB6B22C7CE497A2B /* UIPinchGestureRecognizer */ = {
+		E0511874F0EB8EDAFA7ACD1D70980A7E /* UISwitch */ = {
 			isa = PBXGroup;
 			children = (
-				A2F5E61575CBE197EB9F52D54A1D9329 /* UIPinchGestureRecognizer+Chainable.swift */,
+				42596F1E52CF21E3A56B77B1906C1872 /* UISwitch+Chainable.swift */,
 			);
-			name = UIPinchGestureRecognizer;
+			name = UISwitch;
 			sourceTree = "<group>";
 		};
-		D5E03C6A903C6A86FC096BFF01B79E8A /* Support Files */ = {
+		E165068FDCB9E184840B57B36CEBA3E6 /* UITabBarItem */ = {
 			isa = PBXGroup;
 			children = (
-				05AA68F7990984317121146F9005001E /* EGChainable.modulemap */,
-				9DA662B0DF37917F07C1EEEDC196283A /* EGChainable-dummy.m */,
-				672B91074CE7FD6D9A16C825B5DCF3DE /* EGChainable-Info.plist */,
-				90714D46AAAED1AD94230563E0F894D6 /* EGChainable-prefix.pch */,
-				5F1BF5546010886D639B27CE9417DAC1 /* EGChainable-umbrella.h */,
-				39C48739CB9084393C761F6DD12FCF22 /* EGChainable.debug.xcconfig */,
-				F156D2A884A52D9FA0F40869D35B8B7C /* EGChainable.release.xcconfig */,
+				14EFFB36679758F8799BE63E971646A8 /* UITabBarItem+Chainable.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EGChainable";
+			name = UITabBarItem;
 			sourceTree = "<group>";
 		};
-		DECFC52F5C59DB53E7C0FA6F6B994877 /* UIControl */ = {
+		EA121244FCE5F4FBF6A31B1966D7D509 /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				CFC8C1F484DE58637A709C7953766455 /* UIControl+Chainable.swift */,
+				D28CE8BA8F943F98AEB44ACF7A8BA9C2 /* UIScrollView+Chainable.swift */,
 			);
-			name = UIControl;
-			sourceTree = "<group>";
-		};
-		E376B5D5F7C3FEC2F0A8D94DAC1D37D8 /* UIStackView */ = {
-			isa = PBXGroup;
-			children = (
-				2BE421D5B9B42CC74BF3EDC640A5818D /* UIStackView+Chainable.swift */,
-			);
-			name = UIStackView;
-			sourceTree = "<group>";
-		};
-		EB3D5A6697A1E88054A2926ADC3458BC /* UITextView */ = {
-			isa = PBXGroup;
-			children = (
-				7D94A9634062AD94FF91F7249CF3CBC6 /* UITextView+Chainable.swift */,
-			);
-			name = UITextView;
+			name = UIScrollView;
 			sourceTree = "<group>";
 		};
 		EB7C0EAD97B5F1D2601D7C13D39F19D6 /* Pods-EGChainable_Tests */ = {
@@ -674,54 +696,54 @@
 			path = "Target Support Files/Pods-EGChainable_Tests";
 			sourceTree = "<group>";
 		};
-		EBAD2FEFD580E6444DCC164AC8FB01BC /* UIView */ = {
+		F57F60CE60D8BDF0F3407419B37FA20E /* UIProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				54433B352A615C6515DD24908777CB2D /* UIView+Chainable.swift */,
+				67C528E28406CD51ABAA71F8137FB22C /* UIProgressView+Chainable.swift */,
 			);
-			name = UIView;
+			name = UIProgressView;
 			sourceTree = "<group>";
 		};
-		F26A0A142F0562FC9BC41D828EB47FCF /* UITabBarAppearance */ = {
+		FAE9638246A9E175955FA26F9C90824C /* UIControl */ = {
 			isa = PBXGroup;
 			children = (
-				DBCDE4EB69166EAB615D0CB8FBCDE92D /* UITabBarAppearance+Chainable.swift */,
+				25A7268F23561CD586CB8EC1DCCF16B2 /* UIControl+Chainable.swift */,
 			);
-			name = UITabBarAppearance;
+			name = UIControl;
 			sourceTree = "<group>";
 		};
-		FBBFC24E8118360AB7E713956800BF68 /* UITableView */ = {
+		FCDB72B836E7A806CB3769D50F1E67BA /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
-				63210C612794709B6E38C0B2DC9C595A /* UITableView+Chainable.swift */,
+				DE1C5F2980413016AB2A8DC806F680EB /* UIImageView+Chainable.swift */,
 			);
-			name = UITableView;
+			name = UIImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A3435E7A5301D54FB10B79D3A8B7613 /* Headers */ = {
+		146E0BEE8B0A612A095441B5CB586AF6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72891D2E8EA86DB9371F9054A292C29 /* Pods-EGChainable_Example-umbrella.h in Headers */,
+				341A87E92B423E3D10921B0DF1FAE9A2 /* EGChainable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3D8032D8C00DD57C5AD5708F54B27F4 /* Headers */ = {
+		5BBAFF3BD596A8FE4A39DA7F7A97B3E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A38B1F84F84A7FEC0B9964549783E43D /* Pods-EGChainable_Tests-umbrella.h in Headers */,
+				006F1247F58A9604D5D02A3B98A9B58E /* Pods-EGChainable_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E815864EA9598F3F2374A640E60E627F /* Headers */ = {
+		6460DE4E70819F74676E7D8B58154B1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06F5D5B5C693F35C542145EF2063AA7A /* EGChainable-umbrella.h in Headers */,
+				78F4C07275894C73D55E7D01BBCEBA94 /* Pods-EGChainable_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,12 +752,12 @@
 /* Begin PBXNativeTarget section */
 		14C66C0A0EF4BB503EC6B6F3C5AD9C32 /* EGChainable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2D5D52988E9A2288D9404BC6B498E65 /* Build configuration list for PBXNativeTarget "EGChainable" */;
+			buildConfigurationList = F4A2103B439D3A04A82269420B3425F2 /* Build configuration list for PBXNativeTarget "EGChainable" */;
 			buildPhases = (
-				E815864EA9598F3F2374A640E60E627F /* Headers */,
-				1C833E019A2470DA9663876AA5D7FBD3 /* Sources */,
-				5CF3D9CE10275BA6F3756A8A8F3F7723 /* Frameworks */,
-				038D57D5748183254125EF1F5E442B87 /* Resources */,
+				146E0BEE8B0A612A095441B5CB586AF6 /* Headers */,
+				C8260344CDE273D497112C33CBFDF480 /* Sources */,
+				EDBC23FE8FA9DCF5D9C933A1592C17A2 /* Frameworks */,
+				D9EC7EE26A1771D5347405FFB2043DFD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -748,17 +770,17 @@
 		};
 		A04E9491708E9BDE68AFC3AA95859871 /* Pods-EGChainable_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E3A0E34E3AD6ED6F76724F8D847CC65 /* Build configuration list for PBXNativeTarget "Pods-EGChainable_Example" */;
+			buildConfigurationList = 462B5003CEC3EDB2F6535DE9D614D852 /* Build configuration list for PBXNativeTarget "Pods-EGChainable_Example" */;
 			buildPhases = (
-				1A3435E7A5301D54FB10B79D3A8B7613 /* Headers */,
-				6B564F9CC5CDB1822CC05A73F50B9FCB /* Sources */,
-				CF10CE50053C3D1A95B39EB5D106C021 /* Frameworks */,
-				0201F771943B99DE8EC34FE96E75EBDE /* Resources */,
+				6460DE4E70819F74676E7D8B58154B1E /* Headers */,
+				499CCF12C219C1DEA8D6286E752057EC /* Sources */,
+				6AE79366E71B2F84808EBF7FE9CFC51A /* Frameworks */,
+				24E2E3EF3803A458C1D0F06FDB6D2D58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C9A0572DBC562FA7F7651A3AECCEC03C /* PBXTargetDependency */,
+				0E26A272D711DD66A36BEDB3A8ABFA5F /* PBXTargetDependency */,
 			);
 			name = "Pods-EGChainable_Example";
 			productName = Pods_EGChainable_Example;
@@ -767,17 +789,17 @@
 		};
 		D75F85C43B59721B28832C4A7C5E4CD6 /* Pods-EGChainable_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 856FA0D1ED55B365C8B46EED5460C8B8 /* Build configuration list for PBXNativeTarget "Pods-EGChainable_Tests" */;
+			buildConfigurationList = D964B087540F9E0BB19BB9F174924A4D /* Build configuration list for PBXNativeTarget "Pods-EGChainable_Tests" */;
 			buildPhases = (
-				E3D8032D8C00DD57C5AD5708F54B27F4 /* Headers */,
-				7E4AB8EAD441DCEA5A6888C6F8582BA9 /* Sources */,
-				97E5BCC9B0F85465807DC68B886BCF79 /* Frameworks */,
-				D393630BD81C0965006FDA7AC7FEFF1A /* Resources */,
+				5BBAFF3BD596A8FE4A39DA7F7A97B3E8 /* Headers */,
+				7ECD698BE2FE65093AD86E9198FAF587 /* Sources */,
+				10EA33A465960962B8A5D3E5C9BDA117 /* Frameworks */,
+				48D9BEDE959D62BD7784E6ACA67A41B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0CF369DFC54ECF194F796307CC261CF1 /* PBXTargetDependency */,
+				FDD2E9B678F7B6AB6B9B041C13C786F6 /* PBXTargetDependency */,
 			);
 			name = "Pods-EGChainable_Tests";
 			productName = Pods_EGChainable_Tests;
@@ -790,8 +812,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -802,6 +824,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
 			productRefGroup = 883996552E06D297C4CE1769AAAF400C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -814,21 +838,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0201F771943B99DE8EC34FE96E75EBDE /* Resources */ = {
+		24E2E3EF3803A458C1D0F06FDB6D2D58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		038D57D5748183254125EF1F5E442B87 /* Resources */ = {
+		48D9BEDE959D62BD7784E6ACA67A41B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D393630BD81C0965006FDA7AC7FEFF1A /* Resources */ = {
+		D9EC7EE26A1771D5347405FFB2043DFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -838,123 +862,93 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C833E019A2470DA9663876AA5D7FBD3 /* Sources */ = {
+		499CCF12C219C1DEA8D6286E752057EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A618B04C5CE71D031C329279604560 /* AVPlayer+Chainable.swift in Sources */,
-				ED8D03B47378A00A4922A638E35AE2D5 /* CAGradientLayer+Chainable.swift in Sources */,
-				BD1F41287A7D8BF5BF5D76C8F5DF9158 /* CALayer+Chainable.swift in Sources */,
-				AE5E9985221561FB815B5869F7FC1ADC /* CAShapeLayer+Chainable.swift in Sources */,
-				55798C0107A2A676AF029377FFAFA894 /* Chainable.swift in Sources */,
-				2D98213D22F85C7ACC7C5C25EC8B0B61 /* EGChainable-dummy.m in Sources */,
-				1B4C28FF436A7A4E422554B77D7121AF /* NSAttributedString+Chainable.swift in Sources */,
-				8646BF6A7448147AE0CE0B0CCDA6A9C7 /* UIBezierPath+Chainable.swift in Sources */,
-				6B85D0C21FA4EDBA27562408BE4E6FC8 /* UIButton+Chainable.swift in Sources */,
-				F3D64EE46156C2BAF707811AD3132A21 /* UICollectionView+Chainable.swift in Sources */,
-				7CD4A399D159031760B818E8B4CDEB40 /* UICollectionViewFlowLayout+Chainable.swift in Sources */,
-				CB65C135AC203EAC50E5F34CF38049E4 /* UICollectionViewLayout+Chainable.swift in Sources */,
-				E6CA9F2BD12C6B28CE6166A5B31A7327 /* UIControl+Chainable.swift in Sources */,
-				F64DC0379E12086D0619D35A0C92E116 /* UIDatePicker+Chainable.swift in Sources */,
-				C1DCBA0E4717A436387A16C60B21C932 /* UIGestureRecognizer+Chainable.swift in Sources */,
-				F2C848D9C8E9B5D969E01F61CB73F3E2 /* UIImageView+Chainable.swift in Sources */,
-				C408DC03DF69DA93A61F7943A85427B4 /* UILabel+Chainable.swift in Sources */,
-				2E45AFE09FCA956F2EE7787E8B4B2380 /* UILongPressGestureRecognizer+Chainable.swift in Sources */,
-				7D1FA6F5F9E93368BDA24D0984B5AB99 /* UIMenu+Chainable.swift in Sources */,
-				B3F212DA70D5E211D7D3E3F0E0C65A34 /* UIPanGestureRecognizer+Chainable.swift in Sources */,
-				B0D7463A5C287B10A57E81E97C683BB8 /* UIPinchGestureRecognizer+Chainable.swift in Sources */,
-				AD30F8AE11A352F59F6787F82187FA03 /* UIProgressView+Chainable.swift in Sources */,
-				37F6CB9C18926BD08C6FCFEFB6B3672D /* UIRotationGestureRecognizer+Chainable.swift in Sources */,
-				AFBEA6DDCAD139B0966B172CB23CE5E9 /* UIScrollView+Chainable.swift in Sources */,
-				56674E9A7A466BD49587CA5A2B8DF5C1 /* UISearchBar+Chainable.swift in Sources */,
-				92A76B2C4CAD149DD89DEEF73AF00F1F /* UISegmentedControl+Chainable.swift in Sources */,
-				FA093BA4AA4A60AECFE1D63C1082AD05 /* UISlider+Chainable.swift in Sources */,
-				113AECD3D25B184EA0F51F9D18EA0D25 /* UIStackView+Chainable.swift in Sources */,
-				0DD74412DB07F942B5B561433A517BBE /* UIStepper+Chainable.swift in Sources */,
-				E10058E0DE8526E2087C2B685CACB4DF /* UISwipeActionsConfiguration+Chainable.swift in Sources */,
-				684E4AFE7CC6A8495F5EA0B7581CF16A /* UISwipeGestureRecognizer+Chainable.swift in Sources */,
-				A8C6CB2F0CDA714A3AB60A55E16E0ABA /* UISwitch+Chainable.swift in Sources */,
-				903751B0BEF1E4F9E47457B31A507545 /* UITabBar+Chainable.swift in Sources */,
-				B05A9864BE214ABCD2A02E9048A31480 /* UITabBarAppearance+Chainable.swift in Sources */,
-				DF01CEC1263AE3FBE9922CB9B4B8FCA5 /* UITabBarController+Chainable.swift in Sources */,
-				86B2A271C9C9CA8EC73198BFFA20EE1B /* UITabBarItem+Chainable.swift in Sources */,
-				C17BA5C17E1A8A8190C12CCB9D796DE1 /* UITableView+Chainable.swift in Sources */,
-				A87315E90290DC9196DC0D1FCA310424 /* UITapGestureRecognizer+Chainable.swift in Sources */,
-				9095B4BAAAE3CAC3CF43A33AED8E44EF /* UITextView+Chainable.swift in Sources */,
-				3278116ABB90518F016E7575C7A2E009 /* UIToolbar+Chainable.swift in Sources */,
-				22CD01BC8417FD43EC3320D24BAA4A00 /* UIView+Chainable.swift in Sources */,
-				71087BA52C10E82C78B362DDB54C20B2 /* WKWebView+Chainable.swift in Sources */,
-				2600892C4A939627270D99ADFB4BFC7E /* WKWebViewConfiguration+Chainable.swift in Sources */,
+				2DAA0211FAC596CA0074FB18117C5DF6 /* Pods-EGChainable_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B564F9CC5CDB1822CC05A73F50B9FCB /* Sources */ = {
+		7ECD698BE2FE65093AD86E9198FAF587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2329BE33A5D48EB7522A9BF851426A /* Pods-EGChainable_Example-dummy.m in Sources */,
+				920E8F8C9D256E253A390D130D1CD627 /* Pods-EGChainable_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E4AB8EAD441DCEA5A6888C6F8582BA9 /* Sources */ = {
+		C8260344CDE273D497112C33CBFDF480 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25324280EA4B3385827EB958C0B8658F /* Pods-EGChainable_Tests-dummy.m in Sources */,
+				6023AF875CA99FF1071AD232A90F184A /* AVPlayer+Chainable.swift in Sources */,
+				0572258CA02882257FCDE40E5D781C79 /* CAGradientLayer+Chainable.swift in Sources */,
+				6CEC7F982073B32912BD6C0FA455A25E /* CALayer+Chainable.swift in Sources */,
+				7EBC18629A2A1563ABA831280B875F7B /* CAShapeLayer+Chainable.swift in Sources */,
+				F3EFB8508BE7297C8A1208D872CA5C24 /* EGChainable-dummy.m in Sources */,
+				8C6BFF89A2E3D29EBBF71E4227D1C983 /* NSAttributedString+Chainable.swift in Sources */,
+				CF7E25DD5953B88DF05BBE7A1C106F3B /* UIBarAppearance+Chainable.swift in Sources */,
+				4D6158C8925F0702BA6990E133C245B7 /* UIBarItem+Chainable.swift in Sources */,
+				7A837CB5D652835EE579B2BAC3C085EF /* UIBezierPath+Chainable.swift in Sources */,
+				161D7EF9F8FA9724B2194D2DE4599594 /* UIButton+Chainable.swift in Sources */,
+				7FADCC19F3BC1345F83E1E786EDDFB55 /* UICollectionView+Chainable.swift in Sources */,
+				663BEC6E5969C1DAFEA9840E1900E833 /* UICollectionViewFlowLayout+Chainable.swift in Sources */,
+				9A0F675BB64BCF5280E33F3AC2DE9E6F /* UICollectionViewLayout+Chainable.swift in Sources */,
+				E5AF9A27A1BD826B2F91A9E390B622A0 /* UIControl+Chainable.swift in Sources */,
+				B1864AE5775743005773F49BBA54980C /* UIDatePicker+Chainable.swift in Sources */,
+				2D8D3197B043749868E9362CA2BA0EA4 /* UIGestureRecognizer+Chainable.swift in Sources */,
+				2466D1896A3932A3F84F68EC74A425DE /* UIImageView+Chainable.swift in Sources */,
+				4C8BBB05C4EEF7FD8AFA830EEE2002E0 /* UILabel+Chainable.swift in Sources */,
+				D75DF10BF35E8C3EE0D951890C3C3425 /* UILongPressGestureRecognizer+Chainable.swift in Sources */,
+				6BDDB1078C21757D1DF0F5D346E69AE6 /* UIMenu+Chainable.swift in Sources */,
+				B3F1A69EA3B0D852F546ACDC7F7D170D /* UIMenuElement+Chainable.swift in Sources */,
+				24784F78E0139E66B5F8CD6B52AE88E7 /* UIPanGestureRecognizer+Chainable.swift in Sources */,
+				0CAE94F061520A8F85909475BD79B816 /* UIPinchGestureRecognizer+Chainable.swift in Sources */,
+				7A3894FF64DFA7C095A2397BEB19C327 /* UIProgressView+Chainable.swift in Sources */,
+				FA53730307E763CCD0324828BF015541 /* UIRotationGestureRecognizer+Chainable.swift in Sources */,
+				FE00A0639FDDD9F8A72367E0295E2968 /* UIScrollView+Chainable.swift in Sources */,
+				8A3E55A7E1B1D59ECF7F629D20BE2617 /* UISearchBar+Chainable.swift in Sources */,
+				E73D1E0CBFA8916B78AFB281AC78790C /* UISegmentedControl+Chainable.swift in Sources */,
+				DDB38C1E4BEFE7DC3285E5BD5C89F49B /* UISlider+Chainable.swift in Sources */,
+				4077798F15746AE26FCAEAE68099A7AA /* UIStackView+Chainable.swift in Sources */,
+				AFD9BC0F80AC79B4BBBA899B2571126B /* UIStepper+Chainable.swift in Sources */,
+				A158D03F9D26ED50CB603D2E7116F2D2 /* UISwipeActionsConfiguration+Chainable.swift in Sources */,
+				A1E609DA950792F91AB0BED318ACFB99 /* UISwipeGestureRecognizer+Chainable.swift in Sources */,
+				880FE0A2FFF95E01A4689EB9FE07782C /* UISwitch+Chainable.swift in Sources */,
+				A073A7ADC3BC440F6C58CCCC3A4FD9AF /* UITabBar+Chainable.swift in Sources */,
+				6C43475D420A17DE439F9033DB0D8899 /* UITabBarAppearance+Chainable.swift in Sources */,
+				4F7CC7755C58B0468AB2592395C1ED5C /* UITabBarController+Chainable.swift in Sources */,
+				DBAD6A9252D006BC778B98E39AB2ECFB /* UITabBarItem+Chainable.swift in Sources */,
+				349B5563E85BD7C4820F1702CAA68519 /* UITableView+Chainable.swift in Sources */,
+				E3FC3316F08A094AEC14E39406574A4A /* UITapGestureRecognizer+Chainable.swift in Sources */,
+				2D49805E9F5D66D34638FFF3A5E1BBA6 /* UITextView+Chainable.swift in Sources */,
+				382D9C34E0F4B4C75086CDC28F1F9511 /* UIToolbar+Chainable.swift in Sources */,
+				C6B1AB2B78F5C45DA5D9FC6A05AB00D6 /* UIView+Chainable.swift in Sources */,
+				AE33B223AA556E70D68FEE8F56E1A6C0 /* WKWebView+Chainable.swift in Sources */,
+				681B5B78410B3FD5BBE1B208AC7F6517 /* WKWebViewConfiguration+Chainable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0CF369DFC54ECF194F796307CC261CF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-EGChainable_Example";
-			target = A04E9491708E9BDE68AFC3AA95859871 /* Pods-EGChainable_Example */;
-			targetProxy = DBB32929BFFC3B164AE0F07CBA6DDF0E /* PBXContainerItemProxy */;
-		};
-		C9A0572DBC562FA7F7651A3AECCEC03C /* PBXTargetDependency */ = {
+		0E26A272D711DD66A36BEDB3A8ABFA5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EGChainable;
 			target = 14C66C0A0EF4BB503EC6B6F3C5AD9C32 /* EGChainable */;
-			targetProxy = 70EC4390CC73E45D9064EECD80123B94 /* PBXContainerItemProxy */;
+			targetProxy = 7393B4D48DC63BCDC6E8A7D863D119B1 /* PBXContainerItemProxy */;
+		};
+		FDD2E9B678F7B6AB6B9B041C13C786F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EGChainable_Example";
+			target = A04E9491708E9BDE68AFC3AA95859871 /* Pods-EGChainable_Example */;
+			targetProxy = A568A2F1CAE60D28D03904CF56D10E99 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3C5FE08B47909B143C977251EF5A708F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F156D2A884A52D9FA0F40869D35B8B7C /* EGChainable.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EGChainable/EGChainable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EGChainable/EGChainable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EGChainable/EGChainable.modulemap";
-				PRODUCT_MODULE_NAME = EGChainable;
-				PRODUCT_NAME = EGChainable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4192940C734309D196FE91B1DBC365B8 /* Release */ = {
+		0C3659D2D11446B3FCD2F617AB9A8965 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9D0BBB83C275C321D801FCFB3D35C59 /* Pods-EGChainable_Example.release.xcconfig */;
 			buildSettings = {
@@ -968,6 +962,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-EGChainable_Example/Pods-EGChainable_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -988,7 +984,7 @@
 			};
 			name = Release;
 		};
-		6A79E2FA47F1248228325715969D5D3D /* Debug */ = {
+		3DF83A8B9B22D5C9DDA7EEB5CD914F2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BA305403DEA534603E6EE742654D9BB /* Pods-EGChainable_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -1002,6 +998,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-EGChainable_Tests/Pods-EGChainable_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1015,6 +1013,76 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CF067EDD589078232D0DEDFFB277A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC71D980F3E46A5DCD575657B17349F /* Pods-EGChainable_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-EGChainable_Example/Pods-EGChainable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EGChainable_Example/Pods-EGChainable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DF0A3104430319AC78757860A343311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE309C9AF7F1B829C7AB5227CDF59CA /* EGChainable.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/EGChainable/EGChainable-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/EGChainable/EGChainable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EGChainable/EGChainable.modulemap";
+				PRODUCT_MODULE_NAME = EGChainable;
+				PRODUCT_NAME = EGChainable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1083,9 +1151,45 @@
 			};
 			name = Release;
 		};
-		B87EFC510F060B2B041D6DFD7737204F /* Debug */ = {
+		87FA6DC2D7A4DAD113713786937C43DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABC71D980F3E46A5DCD575657B17349F /* Pods-EGChainable_Example.debug.xcconfig */;
+			baseConfigurationReference = 0285D95B54C91730A1C65165E31A3A91 /* EGChainable.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/EGChainable/EGChainable-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/EGChainable/EGChainable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EGChainable/EGChainable.modulemap";
+				PRODUCT_MODULE_NAME = EGChainable;
+				PRODUCT_NAME = EGChainable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB1DBE7486F1E15654B1A6EA18056CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43A687A5E76F0E8757CB9895787D108 /* Pods-EGChainable_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1097,12 +1201,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EGChainable_Example/Pods-EGChainable_Example-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-EGChainable_Tests/Pods-EGChainable_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EGChainable_Example/Pods-EGChainable_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-EGChainable_Tests/Pods-EGChainable_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1111,10 +1217,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1182,79 +1289,14 @@
 			};
 			name = Debug;
 		};
-		DCCE36D3244E95FCA7C553B91E352CEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39C48739CB9084393C761F6DD12FCF22 /* EGChainable.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EGChainable/EGChainable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EGChainable/EGChainable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EGChainable/EGChainable.modulemap";
-				PRODUCT_MODULE_NAME = EGChainable;
-				PRODUCT_NAME = EGChainable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E44D58557DDFFAE1733FB89882C6C86B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B43A687A5E76F0E8757CB9895787D108 /* Pods-EGChainable_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EGChainable_Tests/Pods-EGChainable_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EGChainable_Tests/Pods-EGChainable_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E3A0E34E3AD6ED6F76724F8D847CC65 /* Build configuration list for PBXNativeTarget "Pods-EGChainable_Example" */ = {
+		462B5003CEC3EDB2F6535DE9D614D852 /* Build configuration list for PBXNativeTarget "Pods-EGChainable_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B87EFC510F060B2B041D6DFD7737204F /* Debug */,
-				4192940C734309D196FE91B1DBC365B8 /* Release */,
+				5CF067EDD589078232D0DEDFFB277A5B /* Debug */,
+				0C3659D2D11446B3FCD2F617AB9A8965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1268,20 +1310,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		856FA0D1ED55B365C8B46EED5460C8B8 /* Build configuration list for PBXNativeTarget "Pods-EGChainable_Tests" */ = {
+		D964B087540F9E0BB19BB9F174924A4D /* Build configuration list for PBXNativeTarget "Pods-EGChainable_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A79E2FA47F1248228325715969D5D3D /* Debug */,
-				E44D58557DDFFAE1733FB89882C6C86B /* Release */,
+				3DF83A8B9B22D5C9DDA7EEB5CD914F2C /* Debug */,
+				CB1DBE7486F1E15654B1A6EA18056CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2D5D52988E9A2288D9404BC6B498E65 /* Build configuration list for PBXNativeTarget "EGChainable" */ = {
+		F4A2103B439D3A04A82269420B3425F2 /* Build configuration list for PBXNativeTarget "EGChainable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCCE36D3244E95FCA7C553B91E352CEA /* Debug */,
-				3C5FE08B47909B143C977251EF5A708F /* Release */,
+				6DF0A3104430319AC78757860A343311 /* Debug */,
+				87FA6DC2D7A4DAD113713786937C43DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
