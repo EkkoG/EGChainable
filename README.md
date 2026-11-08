@@ -67,14 +67,18 @@ This version removes the wrapper API. It has no compatibility aliases.
 
 General commands such as `reloadData()` and `stopLoading()` keep their native return type. Adding methods with the same parameters and a different return type would make ordinary UIKit calls ambiguous. Use native assignment for custom properties, or DeclarativeUIKit's typed `set(_:to:)` method when that library is installed.
 
-Static configuration does not manage reactive subscriptions. Use DeclarativeUIKit's optional Rx or Combine module for bindings.
+Static configuration does not manage reactive subscriptions. Use DeclarativeUIKit's Rx or Combine integration for bindings.
 
 ## Checks
 
 ```sh
 bash generator.sh --check
 python3 -B scripts/test_generate.py
-pod install --project-directory=Example --deployment
+xcodebuild build \
+  -project Example/EGChainable.xcodeproj \
+  -scheme EGChainable-Example \
+  -destination 'generic/platform=iOS Simulator' \
+  CODE_SIGNING_ALLOWED=NO SWIFT_VERSION=5.0
 ```
 
 All generated classes are compiled for an iOS 15 target. Runtime tests for object identity, mixed static/reactive calls, builders, layout, and binding lifetime run in the sibling DeclarativeUIKit project. An iOS 15 compile check is not an iOS 15 device test.
