@@ -16,7 +16,7 @@ let button = UIButton(type: .system)
     .title("Selected", for: .selected)
     .isEnabled(true)
 
-// Add the EGChainable/UITextField subspec for this example.
+// CocoaPods: add EGChainable/UITextField. SPM includes all classes.
 let email = UITextField().placeholder("Email").keyboardType(.emailAddress).accessibilityLabel("Email")
 let controller = UIViewController().title("Profile").hidesBottomBarWhenPushed(true)
 ```
@@ -28,6 +28,14 @@ let controller = UIViewController().title("Profile").hidesBottomBarWhenPushed(tr
 - Swift 6 strict concurrency mode is not supported by this revision.
 
 ## Installation
+
+### Swift Package Manager
+
+In Xcode, add `https://github.com/EkkoG/EGChainable.git` and select the `EGChainable` product. It includes all 166 generated types; SPM does not require class selection. Import `EGChainable` as shown above. Library users compile the committed Swift sources and do not run the generator.
+
+Use a revision that contains `Package.swift`. This support has not been published yet; older tags do not contain the package manifest.
+
+### CocoaPods
 
 Install EGChainable with CocoaPods:
 
