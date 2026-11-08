@@ -248,24 +248,6 @@ def static_sources(classes, props, methods, selected):
     return result
 
 
-def podspec(classes, relations, selected):
-    names = {symbol["identifier"]["precise"]: name for name, symbol in classes.items()}
-    parents = {r["source"]: r["target"] for r in relations if r["kind"] == "inheritsFrom"}
-    lines = []
-    for name, module in selected.items():
-        lines += [f"  s.subspec '{name}' do |ss|",
-                  f"    ss.source_files = 'EGChainable/Classes/Generated/{name}+Chainable.swift'",
-                  f"    ss.frameworks = '{module}'"]
-        parent = parents.get(classes[name]["identifier"]["precise"])
-        while parent and names.get(parent) not in selected:
-            parent = parents.get(parent)
-        if parent:
-            lines.append(f"    ss.dependency 'EGChainable/{names[parent]}'")
-        lines += ["  end", ""]
-    template = (ROOT / "scripts/EGChainable.podspec.template").read_text()
-    return template.replace("__SUBSPECS__", block(lines).rstrip())
-
-
 def reactive_properties(classes, props, relations):
     parents = {r["source"]: r["target"] for r in relations if r["kind"] == "inheritsFrom"}
     names = {symbol["identifier"]["precise"]: name for name, symbol in classes.items()}
@@ -356,7 +338,7 @@ def main():
     parser.add_argument("--check", action="store_true", help="Compile and check without changing generated files")
     args = parser.parse_args()
     sdk = run("xcrun", "--sdk", "iphonesimulator", "--show-sdk-path")
-    target = f"{platform.machine()}-apple-ios10.0-simulator"
+    target = f"{platform.machine()}-apple-ios15.0-simulator"
     with tempfile.TemporaryDirectory(prefix="egchainable-") as temporary:
         work = Path(temporary)
         graphs = args.symbols or work / "symbols"
@@ -400,13 +382,6 @@ def main():
         # Check every output before any write in check mode.
         for directory, content in outputs:
             install(directory, content, args.check)
-        specification = podspec(classes, relations, selected)
-        spec_path = ROOT / "EGChainable.podspec"
-        if args.check:
-            if spec_path.read_text() != specification:
-                raise ValueError("EGChainable.podspec differs from the generated specification")
-        else:
-            spec_path.write_text(specification)
         print("Generated sources are current." if args.check else "Generated sources updated.")
 
 

@@ -16,7 +16,6 @@ let button = UIButton(type: .system)
     .title("Selected", for: .selected)
     .isEnabled(true)
 
-// CocoaPods: add EGChainable/UITextField. SPM includes all classes.
 let email = UITextField().placeholder("Email").keyboardType(.emailAddress).accessibilityLabel("Email")
 let controller = UIViewController().title("Profile").hidesBottomBarWhenPushed(true)
 ```
@@ -24,30 +23,16 @@ let controller = UIViewController().title("Profile").hidesBottomBarWhenPushed(tr
 ## Requirements
 
 - Xcode 26.5, Swift 5 language mode.
-- iOS 10 or later. New SDK properties retain their system version requirements.
+- iOS 15 or later. New SDK properties retain their system version requirements.
 - Swift 6 strict concurrency mode is not supported by this revision.
 
 ## Installation
 
-### Swift Package Manager
+In Xcode, add `https://github.com/EkkoG/EGChainable.git` and select the `EGChainable` product. It includes all 166 generated types; no class selection is required. Import `EGChainable` as shown above. Library users compile the committed Swift sources and do not run the generator.
 
-In Xcode, add `https://github.com/EkkoG/EGChainable.git` and select the `EGChainable` product. It includes all 166 generated types; SPM does not require class selection. Import `EGChainable` as shown above. Library users compile the committed Swift sources and do not run the generator.
+New versions use Swift Package Manager only. Use an older release if you need CocoaPods. This support has not been published yet; select a revision that contains this `Package.swift`, with an iOS 15 minimum and Swift 5 mode.
 
-Use a revision that contains `Package.swift`. This support has not been published yet; older tags do not contain the package manifest.
-
-### CocoaPods
-
-Install EGChainable with CocoaPods:
-
-```ruby
-pod 'EGChainable'
-# Or select a class. Parent subspecs are included when needed.
-# pod 'EGChainable/UILabel'
-```
-
-Import `EGChainable` in files that use these methods. The default subspecs retain the existing selection of common views, layers, WebKit, and AVPlayer. Other generated classes remain available as individual subspecs; their parent subspecs provide inherited methods. For example, add `pod 'EGChainable/UITextField'` for text field methods.
-
-These source changes have not been published to CocoaPods yet. The repository example uses a local path to test them before release; local checkout paths are not required for normal installation.
+For local development, open `Example/EGChainable.xcodeproj`. It references this repository as a local Swift package and does not require CocoaPods.
 
 ## Generation
 
@@ -64,7 +49,7 @@ Python 3 and Xcode are needed to generate code. Library users only compile the c
 
 UIKit's NSObject category properties, including accessibility properties, are exposed on UIResponder and its subclasses. The generator does not add methods to NSObject itself. Read-only, unavailable, and obsoleted properties are excluded. The generator compiles all static output and `scripts/Client.swift` before it replaces files. `--check` reports a difference without writing generated files. Missing symbols and compiler errors stop generation before replacement.
 
-`EGChainable/Classes/Generated/manifest.json` records the toolchain, selection rules, static and reactive properties, method aliases, and excluded properties. Inherited setters are not repeated when the parent provides the same method. Writable overrides remain when the parent has no generated setter. The generated podspec includes parent subspec dependencies.
+`EGChainable/Classes/Generated/manifest.json` records the toolchain, selection rules, static and reactive properties, method aliases, and excluded properties. Inherited setters are not repeated when the parent provides the same method. Writable overrides remain when the parent has no generated setter. The SPM product includes the selected classes and their required parents.
 
 For repeated local checks, `--symbols /path/to/graphs` reuses Symbol Graph files extracted by the same toolchain. Do not use graphs from another SDK. Reactive output is opt-in and targets only the path supplied by `--declarative-root`. It uses the same writable properties for all selected UIView classes: 47 classes and 657 property methods per framework, plus the five UIButton state methods. Optional source overloads do not count as extra properties. Controllers have static methods only. Run DeclarativeUIKit's integration tests after a reactive change.
 
@@ -92,7 +77,7 @@ python3 -B scripts/test_generate.py
 pod install --project-directory=Example --deployment
 ```
 
-All generated classes are compiled for an iOS 10 target. Runtime tests for object identity, mixed static/reactive calls, builders, layout, and binding lifetime run in the sibling DeclarativeUIKit project. An iOS 10 compile check is not an iOS 10 device test.
+All generated classes are compiled for an iOS 15 target. Runtime tests for object identity, mixed static/reactive calls, builders, layout, and binding lifetime run in the sibling DeclarativeUIKit project. An iOS 15 compile check is not an iOS 15 device test.
 
 ## License
 
