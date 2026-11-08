@@ -16,6 +16,7 @@ let button = UIButton(type: .system)
     .title("Selected", for: .selected)
     .isEnabled(true)
 
+// Add the EGChainable/UITextField subspec for this example.
 let email = UITextField().placeholder("Email").keyboardType(.emailAddress).accessibilityLabel("Email")
 let controller = UIViewController().title("Profile").hidesBottomBarWhenPushed(true)
 ```
@@ -28,15 +29,17 @@ let controller = UIViewController().title("Profile").hidesBottomBarWhenPushed(tr
 
 ## Installation
 
-This is the local 0.3 API revision. It must be published before a registry install can use it.
+Install EGChainable with CocoaPods:
 
 ```ruby
-pod 'EGChainable', :path => '../EGChainable'
+pod 'EGChainable'
 # Or select a class. Parent subspecs are included when needed.
-# pod 'EGChainable/UILabel', :path => '../EGChainable'
+# pod 'EGChainable/UILabel'
 ```
 
-Import `EGChainable` in files that use these methods. The default install includes all 166 generated classes. You can still select individual class subspecs; their parent subspecs provide inherited methods.
+Import `EGChainable` in files that use these methods. The default subspecs retain the existing selection of common views, layers, WebKit, and AVPlayer. Other generated classes remain available as individual subspecs; their parent subspecs provide inherited methods. For example, add `pod 'EGChainable/UITextField'` for text field methods.
+
+These source changes have not been published to CocoaPods yet. The repository example uses a local path to test them before release; local checkout paths are not required for normal installation.
 
 ## Generation
 

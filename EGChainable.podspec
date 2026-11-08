@@ -971,6 +971,7 @@ Direct UIKit configuration methods generated from Swift compiler symbol graphs.
     ss.frameworks = 'WebKit'
   end
 
+  s.default_subspec = 'UIButton', 'UIImageView', 'UILabel', 'UITableView', 'UITapGestureRecognizer', 'UISwipeActionsConfiguration', 'UISwipeGestureRecognizer', 'UIRotationGestureRecognizer', 'UIPanGestureRecognizer', 'UIPinchGestureRecognizer', 'UIGestureRecognizer', 'UILongPressGestureRecognizer', 'UICollectionView', 'UICollectionViewFlowLayout', 'UICollectionViewLayout', 'UIScrollView', 'UISlider', 'UIStackView', 'UIStepper', 'UISwitch', 'UITextView', 'UIBezierPath', 'UIControl', 'UISegmentedControl', 'UIView', 'UIToolbar', 'UITabBar', 'UITabBarAppearance', 'UITabBarController', 'UITabBarItem', 'UIDatePicker', 'UIProgressView', 'UISearchBar', 'NSAttributedString', 'CALayer', 'CAShapeLayer', 'CAGradientLayer', 'WKWebView', 'WKWebViewConfiguration', 'AVPlayer'
   # s.resource_bundles = {
   #   'EGChainable' => ['EGChainable/Assets/*.png']
   # }
