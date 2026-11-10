@@ -14,8 +14,8 @@ To generate code, run script generator.sh on a Mac with Xcode installed.
 
 ## Requirement
 
-- Xcode 13.2.1 and above
-- Target iOS 10+
+- CocoaPods: Xcode 13.2.1 and above, iOS 10+.
+- Swift Package Manager: iOS 15+, Xcode 26.5, Swift 5 language mode.
 
 ## Usage
 
@@ -29,6 +29,14 @@ For class appear at [Chainable.swift](https://github.com/EkkoG/EGChainable/blob/
 For all supported method, you can visit [EGChainable/Classes/Generated](https://github.com/EkkoG/EGChainable/tree/main/EGChainable/Classes/Generated)
 
 ## Installation
+
+### Swift Package Manager
+
+Add `https://github.com/EkkoG/EGChainable.git` in Xcode, select the `codex/spm-backport` branch, and add the `EGChainable` product. Import `EGChainable` as usual. The product includes the original wrapper and all 131 generated types. It retains `.chainable`, `.apply`, `.asBase()`, property setters, and chainable operation methods.
+
+This branch adds SPM to the original API. It must be pushed before remote installation can work. It is also the matching dependency for DeclarativeUIKit's `codex/spm-backport` branch. The existing CocoaPods configuration, example, and Sourcery generator remain in place. Users compile the committed Swift sources and do not need to run the generator.
+
+### CocoaPods
 
 EGChainable is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
